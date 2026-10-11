@@ -125,7 +125,7 @@ cleared the gate by 41–83×, P1-D5).
 - LAFA, "A Framework for Reproducible Longitudinal Assessment of Protein Function Annotation Models," 2026 — a temporal/longitudinal function-annotation benchmark; reinforces that temporal validation is not itself novel, the leakage control is.
 - "Deciphering enzymatic potential in metagenomic reads through DNA language models" (REMME/REBEAN), *Nucleic Acids Research* 2025 — a genomic-FM metagenomic annotator (reference-free EC annotation, not calibrated novelty).
 
-Full source list: blueprint §12 (`Microbial_Dark_Matter_Blueprint_Updated.pdf`, repo root).
+Full source list: blueprint §12 (`Microbial_Dark_Matter_Blueprint_Updated.pdf`, kept locally and not part of the public repository).
 Every non-obvious design decision referencing these sources — snapshot boundary,
 scorer family, immune-layer design, and every result above — is logged with its
 reasoning in `docs/problems_and_decisions.md`.
