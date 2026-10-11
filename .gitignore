@@ -1,6 +1,7 @@
 # Reference papers — copyright; cite in ACKNOWLEDGEMENTS.md instead
 Paper/
 paper_draft/
+paper_draft/ICAESIS/
 
 # Local AWS credentials/keys for the Genos-m cloud run — never commit
 .aws-genos-m/
