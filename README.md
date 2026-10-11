@@ -287,7 +287,7 @@ Obscuron/
 The fastest path to seeing the core pipeline load, no cloud account and no GPU required:
 
 ```bash
-git clone https://github.com/Ganglet/Obscuron.git
+git clone https://github.com/Angshuman1211/Obscuron.git
 cd Obscuron
 uv sync
 uv run python scripts/smoke_test.py --skip-genos-m   # ESM-2 only — verifies the backend loads and embeds
