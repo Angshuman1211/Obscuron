@@ -6,8 +6,9 @@ are cited here in place of vendoring them into the repository.
 
 ## Foundation models (embeddings)
 
-**Genos-m** — genomic foundation model for human-associated microbial genomes
-BGI-Research & Zhejiang Lab, bioRxiv preprint, May 2026.
+**Genos-m** — "Genos-m: a foundation model for human-associated microbial genomes"
+Genos Team (BGI-Research & Zhejiang Lab), bioRxiv preprint, 2026,
+doi:10.64898/2026.05.21.726868.
 Primary genome-context embedding arm. **Not yet peer-reviewed** — all reported
 specifications and performance figures are treated as preliminary and benchmarked
 independently rather than cited from the developers, and its GTDB R220 pretraining
@@ -115,16 +116,16 @@ cleared the gate by 41–83×, P1-D5).
 
 ## Closest prior art (literature search, P1-D11 + pre-submission re-run P4-D3)
 
-- Ayres, Munsamy et al., "Annotating the microbial dark matter with HiFi-NN," *iScience* 2025 (PMC12148589) — closest by target; annotates dark matter to EC numbers over ESM-2 650M embeddings with a heuristic kNN confidence. Obscuron differs: open-set **novelty** (not annotation) with formal EVT calibration and a leakage-controlled retrospective benchmark.
+- Ayres, Munsamy et al., "Annotating the microbial dark matter with HiFi-NN," *iScience* 28(6):112480, 2025 (PMC12148589) — closest by target; annotates dark matter to EC numbers over ESM-2 650M embeddings with a heuristic kNN confidence. Obscuron differs: open-set **novelty** (not annotation) with formal EVT calibration and a leakage-controlled retrospective benchmark.
 - "DeepVirus" / "Illuminating the Virosphere's Dark Matter using Hierarchical Deep Learning," *bioRxiv* 2025 — open-set recognition + protein FM + genome context for novel viral groups. Obscuron differs: microbial **functional** dark matter (not viral lineage), EVT calibration (not hypothesis testing).
-- Ma et al., "Predicting functions of uncharacterized gene products from microbial communities" (FUGAsseM), *Nature Biotechnology* 2025 — genomic-context function prediction with temporal-holdout validation. Establishes retrospective validation is *not itself novel*; Obscuron's retrospective contribution is the leakage control (P1-D7).
+- Zhang et al., "Predicting functions of uncharacterized gene products from microbial communities" (FUGAsseM), *Nature Biotechnology* 2025 — genomic-context function prediction with temporal-holdout validation. Establishes retrospective validation is *not itself novel*; Obscuron's retrospective contribution is the leakage control (P1-D7).
 
 **Added by the pre-submission re-run (P4-D3):**
-- "Functional protein mining with conformal guarantees," *Nature Communications* 2024, and CPEC (conformal, FDR-controlled EC annotation), *PLOS Computational Biology* 2024 — establish conformal-calibrated protein **annotation**. Obscuron differs by calibrating open-set **novelty** (distance beyond known space), not the annotation decision — so the "not annotation" distinction is load-bearing.
+- Boger et al., "Functional protein mining with conformal guarantees," *Nature Communications* 16:85, 2025, and Ding, Luo & Luo, "Leveraging conformal prediction to annotate enzyme function space with limited false positives" (CPEC), *PLOS Computational Biology* 20(5):e1012135, 2024 — establish conformal-calibrated protein **annotation**. Obscuron differs by calibrating open-set **novelty** (distance beyond known space), not the annotation decision — so the "not annotation" distinction is load-bearing.
 - LAFA, "A Framework for Reproducible Longitudinal Assessment of Protein Function Annotation Models," 2026 — a temporal/longitudinal function-annotation benchmark; reinforces that temporal validation is not itself novel, the leakage control is.
 - "Deciphering enzymatic potential in metagenomic reads through DNA language models" (REMME/REBEAN), *Nucleic Acids Research* 2025 — a genomic-FM metagenomic annotator (reference-free EC annotation, not calibrated novelty).
 
-Full source list: blueprint §12 (`Microbial_Dark_Matter_Blueprint_Updated.pdf`, repo root).
+Full source list: blueprint §12 (`Microbial_Dark_Matter_Blueprint_Updated.pdf`, kept locally and not part of the public repository).
 Every non-obvious design decision referencing these sources — snapshot boundary,
 scorer family, immune-layer design, and every result above — is logged with its
 reasoning in `docs/problems_and_decisions.md`.

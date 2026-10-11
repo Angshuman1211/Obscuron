@@ -1,6 +1,7 @@
 # Reference papers — copyright; cite in ACKNOWLEDGEMENTS.md instead
 Paper/
 paper_draft/
+paper_draft/ICAESIS/
 
 # Local AWS credentials/keys for the Genos-m cloud run — never commit
 .aws-genos-m/
@@ -30,7 +31,7 @@ tools/
 
 # Model checkpoints, cached embeddings, and run outputs
 checkpoints/
-embeddings/
+/embeddings/
 outputs/
 runs/
 models_cache/
@@ -88,5 +89,5 @@ figures/*.svg
 # Nemotr
 Run NVIDIA Nemotron 3 Ultra FREE in Your Terminal.docx
 
-# Dark Matter Files
-Microbial_Dark_Matter_Blueprint_Updated.pdf
+# Local-only documents (blueprint, interim reports, review decks): all kept in private_docs/
+private_docs/
