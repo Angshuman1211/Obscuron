@@ -1,0 +1,46 @@
+{
+  "n_scanned": 37138,
+  "evalue_cutoff": 0.001,
+  "n_new_families_pfam37": 2383,
+  "control_characterised": {
+    "n": 3000,
+    "frac_margin35_ge0": 1.0
+  },
+  "positive": {
+    "n": 4138,
+    "frac_no_pfam35_hit_at_E1e-3": 0.7672788786853553,
+    "frac_pfam35_margin_ge0_by_sequence_score": 0.0,
+    "frac_pfam35_within_minus10_of_GA": 0.21604639922667956,
+    "frac_pfam35_subthreshold_hit": 0.23272112131464476,
+    "frac_new_family_hit_margin_ge0": 1.0,
+    "frac_new_family_hit_subthreshold": 0.0,
+    "frac_new_family_within_minus10_below_GA": 0.0
+  },
+  "still_dark": {
+    "n": 30000,
+    "frac_no_pfam35_hit_at_E1e-3": 0.8489333333333333,
+    "frac_pfam35_margin_ge0_by_sequence_score": 0.0,
+    "frac_pfam35_within_minus10_of_GA": 0.13533333333333333,
+    "frac_pfam35_subthreshold_hit": 0.15106666666666665,
+    "frac_new_family_hit_margin_ge0": 0.0,
+    "frac_new_family_hit_subthreshold": 0.009066666666666667,
+    "frac_new_family_within_minus10_below_GA": 0.007466666666666667
+  },
+  "positive_new_family_margin": {
+    "n": 4138,
+    "median": 48.838924407958984,
+    "p10": 4.340751266479493,
+    "frac_margin_lt_5_bits": 0.10995650072498792,
+    "frac_margin_lt_10_bits": 0.1889801836636056
+  },
+  "positive_new_families": {
+    "n_distinct_families": 543,
+    "frac_proteins_in_clan_that_already_existed_in_pfam35": 0.7131464475592073,
+    "frac_proteins_in_any_clan": 0.7728371193813437,
+    "frac_proteins_duf_or_upf": 0.2578540357660706
+  },
+  "stringent": {
+    "positives": 2691,
+    "negatives": 25814
+  }
+}
