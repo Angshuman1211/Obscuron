@@ -142,12 +142,12 @@ Annotation pipelines assign gene function by similarity search, so a gene with n
 | Last hidden layer (raw) | 0.786 | 0.815 | 903 |
 | Layer 22 (raw) | **0.962** | **0.985** | 903 |
 
-GPD tail fit: ξ = 0.0998, β = 0.00586, KS goodness-of-fit p = 0.984.
+GPD tail fit (last-layer run, 29,862 references): ξ = 0.0998, β = 0.00586, naive KS p = 0.984. At layer 22 on the 11,527 evaluation proteins: ξ = −0.014 (95% bootstrap interval −0.066 to 0.038), parametric-bootstrap KS p = 0.12, false-flag rates 0.0093 / 0.0197 / 0.0486 / 0.0983 / 0.1989 at α = 0.01 / 0.02 / 0.05 / 0.10 / 0.20. See [`docs/reviewer_response.md`](docs/reviewer_response.md).
 
 ![Held-out-family AUROC distribution](results/figures/esm2_heldout_auroc_distribution.png)
 ![Calibration reliability](results/figures/esm2_heldout_calibration.png)
 
-> **Honest scope:** Precision@K lift is *below* 1 at every K tested (0.0× at K=50/100, 0.23× at K=500, 0.50× at K=1000) — this is an expected inversion, not a bug. Positives are near-known genes with intentionally *low* novelty scores, so novelty rank anti-predicts near-term characterisation. Held-out-family AUROC is the certified validation metric; Precision@K is a reported field-level finding, not a pass/fail check. Details: [`docs/problems_and_decisions.md` § P2-D6](docs/problems_and_decisions.md).
+> **Honest scope:** the Precision@K figures below are the last-layer run on the 34,138-query set (base rate 12.1%). On the same set and 29,862 references, layer 22 gives AUROC 0.470 and last layer 0.568 for positives against still-dark proteins, and protein length alone gives 0.618 (`results/reviewer/common_set.json`). Precision@K lift is *below* 1 at every K tested (0.0× at K=50/100, 0.23× at K=500, 0.50× at K=1000) — this is an expected inversion, not a bug. Positives are near-known genes with intentionally *low* novelty scores, so novelty rank anti-predicts near-term characterisation. Held-out-family AUROC is the certified validation metric; Precision@K is a reported field-level finding, not a pass/fail check. Details: [`docs/problems_and_decisions.md` § P2-D6](docs/problems_and_decisions.md).
 
 ### 3. Genome-vs-protein comparison — done at full scale, ESM-2 clearly leads
 
@@ -194,7 +194,7 @@ Five novelty axes of different kinds — Layer-1 EVT embedding novelty, an embed
 | composition ~ ProstT5 | **+0.64** | **not independent** (restates composition) |
 | genos-m ~ ProstT5 | −0.43 | moderate, negative |
 
-The first three axes are largely independent, so their convergence is genuine multi-evidence, not one signal restated. The 3-way convergent set is **108 genes = 3.4× more than chance would give** under independence, and evt/context/composition all *deplete* the near-known positives (lifts 1.00×/0.68×/0.26×) — consistent with novelty anti-predicting near-term characterisation.
+The first three axes are largely independent, so their convergence is genuine multi-evidence, not one signal restated. The 3-way convergent set has 108 genes. That is 3.4× the 31.7 expected under exactly independent 10% axes, but only 1.4× the 75 expected when the measured correlations are kept (Gaussian-copula null, p = 0.0025), and its positive rate (6.5%) is below the 12.1% base. No intersection of axes is significantly enriched for positives (`results/reviewer/corroboration_stats.json`). Also, evt/context/composition all *deplete* the near-known positives (lifts 1.00×/0.68×/0.26×) — consistent with novelty anti-predicting near-term characterisation.
 
 **Genos-m breaks that pattern: its top-10% novelty *enriches* for positives (lift 1.30×)** — the only axis in the whole project that points this direction.
 
@@ -217,7 +217,7 @@ The dark matter carries genuine reading-frame structure, i.e. these are real ORF
 
 ![Layer 5 coding-structure vs nulls](results/figures/layer5_coding_structure_summary.png)
 
-**True-intergenic control (P4-D9):** streaming real genome assemblies and extracting the sequence between gene calls (44 panel genomes, 81,286 segments) gives a harder, more realistic negative than the artificial nulls: intergenic codon-position bias has median 0.031 (vs 0.011 for shuffle/Markov-1), and coding-vs-true-intergenic AUROC is **0.78**. That is the more trustworthy number to quote; 0.94 is against artificial nulls.
+**True-intergenic control (P4-D9):** streaming real genome assemblies and extracting the sequence between gene calls (44 panel genomes, 81,286 segments) gives a harder, more realistic negative than the artificial nulls: intergenic codon-position bias has median 0.031 (vs 0.011 for shuffle/Markov-1), and coding-vs-true-intergenic AUROC is **0.78** raw and **0.91 when matched on length** (intergenic segments are shorter, median 168 nt against 471 nt for genes; `results/reviewer/coding_structure.json`). 0.94 is against artificial nulls and is a paired control, not a prediction on independent data.
 
 > **Honest scope:** the intergenic control covers 44 of 502 panel genomes (a bounded-cost sample), not the full panel. Details: [`docs/problems_and_decisions.md` § P4-D5, P4-D9](docs/problems_and_decisions.md).
 
@@ -287,7 +287,7 @@ Obscuron/
 The fastest path to seeing the core pipeline load, no cloud account and no GPU required:
 
 ```bash
-git clone https://github.com/Ganglet/Obscuron.git
+git clone https://github.com/Angshuman1211/Obscuron.git
 cd Obscuron
 uv sync
 uv run python scripts/smoke_test.py --skip-genos-m   # ESM-2 only — verifies the backend loads and embeds
@@ -380,6 +380,7 @@ The Genos-m comparison used a rented cloud GPU (AWS A10G): the 300-family matche
 ## Documentation index
 
 - [`docs/problems_and_decisions.md`](docs/problems_and_decisions.md) — full numbered decision log, every design choice and result
+- [`docs/reviewer_response.md`](docs/reviewer_response.md) — answers to the Review II comments: dataset accounting, label audit, layer-choice validation, tail diagnostics, significance tests
 - [`docs/Track1_phase1_benchmark_scope.md`](docs/Track1_phase1_benchmark_scope.md) — Phase 1 working record
 - [`docs/Track1_phase2_scorer_design.md`](docs/Track1_phase2_scorer_design.md) — Layer 1 EVT scorer design spec
 - [`docs/Track1_phase3_immune_design.md`](docs/Track1_phase3_immune_design.md) — Layer 3 immune design spec and cross-track hand-offs

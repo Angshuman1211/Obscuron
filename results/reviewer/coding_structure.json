@@ -1,0 +1,285 @@
+{
+  "null_repeats": {
+    "n_genes": 4000,
+    "runs": [
+      {
+        "seed": 100,
+        "real_vs_shuffle": 0.9402096875,
+        "real_vs_markov1": 0.944679625,
+        "paired_wins_shuffle": 0.95225,
+        "paired_wins_markov1": 0.958
+      },
+      {
+        "seed": 101,
+        "real_vs_shuffle": 0.942725375,
+        "real_vs_markov1": 0.9442266875,
+        "paired_wins_shuffle": 0.949,
+        "paired_wins_markov1": 0.9565
+      },
+      {
+        "seed": 102,
+        "real_vs_shuffle": 0.94057525,
+        "real_vs_markov1": 0.944467875,
+        "paired_wins_shuffle": 0.94925,
+        "paired_wins_markov1": 0.956
+      },
+      {
+        "seed": 103,
+        "real_vs_shuffle": 0.9435955625,
+        "real_vs_markov1": 0.9435978125,
+        "paired_wins_shuffle": 0.947,
+        "paired_wins_markov1": 0.95275
+      },
+      {
+        "seed": 104,
+        "real_vs_shuffle": 0.9418093125,
+        "real_vs_markov1": 0.9430618125,
+        "paired_wins_shuffle": 0.95125,
+        "paired_wins_markov1": 0.95325
+      }
+    ],
+    "real_vs_shuffle_mean": 0.9417830374999999,
+    "real_vs_markov1_mean": 0.9440067624999999,
+    "bootstrap_ci_real_vs_shuffle_last_seed": [
+      0.9369806171875,
+      0.9465573703125
+    ],
+    "bootstrap_ci_real_vs_markov1_last_seed": [
+      0.9385881890625001,
+      0.9472718921875
+    ]
+  },
+  "cpbb_by_length_quartile": [
+    {
+      "nt_len_range": [
+        63.0,
+        258.0
+      ],
+      "real_median": 0.08130726089722419,
+      "shuffle_median": 0.03144992654852662
+    },
+    {
+      "nt_len_range": [
+        258.0,
+        465.0
+      ],
+      "real_median": 0.07084823378026213,
+      "shuffle_median": 0.015234532052713868
+    },
+    {
+      "nt_len_range": [
+        465.0,
+        828.75
+      ],
+      "real_median": 0.06793867706001781,
+      "shuffle_median": 0.008627284871133964
+    },
+    {
+      "nt_len_range": [
+        828.75,
+        7749.0
+      ],
+      "real_median": 0.06637817821138178,
+      "shuffle_median": 0.0040844429930162705
+    }
+  ],
+  "intergenic_plain": {
+    "n_genes": 34138,
+    "n_segments": 81286,
+    "auroc": 0.7816149580132333,
+    "median_gene_nt": 471.0,
+    "median_segment_nt": 168.0,
+    "bootstrap_ci95": [
+      0.7789323297629283,
+      0.7840963303428496
+    ]
+  },
+  "intergenic_length_matched": {
+    "bins": [
+      {
+        "nt_range": [
+          0.0,
+          168.0
+        ],
+        "n_genes": 3445,
+        "n_segments": 40706,
+        "auroc": 0.7359095669702608
+      },
+      {
+        "nt_range": [
+          168.0,
+          231.0
+        ],
+        "n_genes": 3500,
+        "n_segments": 13095,
+        "auroc": 0.8647146893579883
+      },
+      {
+        "nt_range": [
+          231.0,
+          294.0
+        ],
+        "n_genes": 3334,
+        "n_segments": 8208,
+        "auroc": 0.908642138531358
+      },
+      {
+        "nt_range": [
+          294.0,
+          378.0
+        ],
+        "n_genes": 3411,
+        "n_segments": 6628,
+        "auroc": 0.9381739949225295
+      },
+      {
+        "nt_range": [
+          378.0,
+          471.0
+        ],
+        "n_genes": 3480,
+        "n_segments": 4437,
+        "auroc": 0.9518142889339644
+      },
+      {
+        "nt_range": [
+          471.0,
+          579.0
+        ],
+        "n_genes": 3326,
+        "n_segments": 3031,
+        "auroc": 0.9596241721890435
+      },
+      {
+        "nt_range": [
+          579.0,
+          726.0
+        ],
+        "n_genes": 3404,
+        "n_segments": 2229,
+        "auroc": 0.9657607311800067
+      },
+      {
+        "nt_range": [
+          726.0,
+          948.0
+        ],
+        "n_genes": 3418,
+        "n_segments": 1575,
+        "auroc": 0.9617349791486713
+      },
+      {
+        "nt_range": [
+          948.0,
+          1311.0
+        ],
+        "n_genes": 3410,
+        "n_segments": 828,
+        "auroc": 0.9612545511213113
+      },
+      {
+        "nt_range": [
+          1311.0,
+          1000000000.0
+        ],
+        "n_genes": 3410,
+        "n_segments": 549,
+        "auroc": 0.9530562099044384
+      }
+    ],
+    "weighted_mean_auroc": 0.9061038822169397,
+    "min_bin_auroc": 0.7359095669702608,
+    "max_bin_auroc": 0.9657607311800067
+  },
+  "intergenic_within_genome": {
+    "n_genomes_evaluated": 44,
+    "median": 0.765634109264761,
+    "q1": 0.7044162719578987,
+    "q3": 0.8228665326654969,
+    "min": 0.5395870206489676,
+    "max": 0.9418064275537349,
+    "n_genomes_above_0.5": 44,
+    "spearman_auroc_vs_gc": 0.4816067653276955
+  },
+  "representativeness": {
+    "n_panel_genomes": 502,
+    "n_44": 44,
+    "n_phyla_panel": 189,
+    "n_phyla_44": 21,
+    "top_phyla_panel_vs_44": {
+      "Bacteroidota": [
+        30,
+        3
+      ],
+      "Proteobacteria": [
+        30,
+        4
+      ],
+      "Firmicutes_A": [
+        30,
+        3
+      ],
+      "Actinobacteriota": [
+        29,
+        7
+      ],
+      "Firmicutes": [
+        16,
+        7
+      ],
+      "Patescibacteria": [
+        10,
+        0
+      ],
+      "Cyanobacteria": [
+        5,
+        1
+      ],
+      "Chloroflexota": [
+        5,
+        0
+      ]
+    },
+    "fisher_like_chi2_p_phylum": 0.035393593838352486,
+    "share_of_dark_queries_in_44_genomes": 0.10264221688441033,
+    "coding_gc": {
+      "panel_median": 0.4837304085371115,
+      "panel_iqr": [
+        0.41126521330507876,
+        0.59447157269788
+      ],
+      "in44_median": 0.432633727303511,
+      "in44_iqr": [
+        0.3856869948837859,
+        0.5713793759010307
+      ],
+      "ks_pvalue_44_vs_rest": 0.065223144187574
+    }
+  },
+  "characterised_control": {
+    "n": 3000,
+    "real_median": 0.07035242697856177,
+    "real_vs_shuffle": 0.9920011111111111,
+    "dark_vs_characterised_cpbb_auroc": 0.5030423379616068,
+    "dark_median": 0.07210331524885845
+  },
+  "cpbb_positive_vs_still_dark": {
+    "n_pos": 4138,
+    "n_neg": 30000,
+    "auroc": 0.5117500563879491,
+    "ci95": [
+      0.5022383500483325,
+      0.5199378973336556
+    ],
+    "mannwhitney_p": 0.014108540773856811,
+    "median_pos": 0.0730833171091965,
+    "median_neg": 0.07194573443577235
+  },
+  "aa_entropy_positive_vs_still_dark": {
+    "auroc": 0.621282729176736,
+    "ci95": [
+      0.611746047104076,
+      0.6282180494804253
+    ]
+  }
+}

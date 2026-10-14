@@ -1,0 +1,752 @@
+{
+  "per_signal_34138": {
+    "set": "34,138 dark queries; primary scorer = ESM-2 last layer (L33)",
+    "esm2_L33": {
+      "n": 34138,
+      "n_pos": 4138,
+      "auroc": 0.567969212179797,
+      "ci95": [
+        0.5588800832312704,
+        0.5771939642935799
+      ],
+      "mannwhitney_p": 9.399512422762993e-46
+    },
+    "composition": {
+      "n": 34138,
+      "n_pos": 4138,
+      "auroc": 0.33444372482680845,
+      "ci95": [
+        0.3255746708854058,
+        0.34245713859336563
+      ],
+      "mannwhitney_p": 4.5003353097914324e-262,
+      "vs_primary": {
+        "diff": -0.23352548735298856,
+        "ci95": [
+          -0.24510958690029883,
+          -0.22278977855714735
+        ],
+        "p_boot": 0.0
+      },
+      "note": "orientation: higher value scored as more novel (cpbb and aa_entropy_k3: higher = more coding-like)"
+    },
+    "prostt5_structure": {
+      "n": 34138,
+      "n_pos": 4138,
+      "auroc": 0.3514257370710488,
+      "ci95": [
+        0.3433028160031532,
+        0.3600747634029331
+      ],
+      "mannwhitney_p": 1.7668852608531632e-211,
+      "vs_primary": {
+        "diff": -0.21654347510874822,
+        "ci95": [
+          -0.22871275830105167,
+          -0.20468483988658695
+        ],
+        "p_boot": 0.0
+      },
+      "note": "orientation: higher value scored as more novel (cpbb and aa_entropy_k3: higher = more coding-like)"
+    },
+    "genos_m": {
+      "n": 34138,
+      "n_pos": 4138,
+      "auroc": 0.54261141453198,
+      "ci95": [
+        0.5332479110825149,
+        0.5514547870497175
+      ],
+      "mannwhitney_p": 5.526195723979314e-19,
+      "vs_primary": {
+        "diff": -0.025357797647816982,
+        "ci95": [
+          -0.03661686338583443,
+          -0.013863197437514152
+        ],
+        "p_boot": 0.0
+      },
+      "note": "orientation: higher value scored as more novel (cpbb and aa_entropy_k3: higher = more coding-like)"
+    },
+    "context": {
+      "n": 31712,
+      "n_pos": 3843,
+      "auroc": 0.4388466869647852,
+      "ci95": [
+        0.429530100293829,
+        0.4475259288097696
+      ],
+      "mannwhitney_p": 3.299432088265491e-35,
+      "vs_primary": {
+        "diff": -0.13213486535510127,
+        "ci95": [
+          -0.14449917180043864,
+          -0.11853518628914012
+        ],
+        "p_boot": 0.0
+      },
+      "note": "orientation: higher value scored as more novel (cpbb and aa_entropy_k3: higher = more coding-like)"
+    },
+    "cpbb": {
+      "n": 34138,
+      "n_pos": 4138,
+      "auroc": 0.5117500563879491,
+      "ci95": [
+        0.501769117404199,
+        0.5220161599905371
+      ],
+      "mannwhitney_p": 0.014108540773856811,
+      "vs_primary": {
+        "diff": -0.056219155791847886,
+        "ci95": [
+          -0.06830638393310433,
+          -0.045571404697001085
+        ],
+        "p_boot": 0.0
+      },
+      "note": "orientation: higher value scored as more novel (cpbb and aa_entropy_k3: higher = more coding-like)"
+    },
+    "aa_entropy_k3": {
+      "n": 34138,
+      "n_pos": 4138,
+      "auroc": 0.621282729176736,
+      "ci95": [
+        0.6131923265390822,
+        0.6295354553990347
+      ],
+      "mannwhitney_p": 1.316330277915316e-141,
+      "vs_primary": {
+        "diff": 0.05331351699693898,
+        "ci95": [
+          0.04048009828434925,
+          0.06731647116991504
+        ],
+        "p_boot": 0.0
+      },
+      "note": "orientation: higher value scored as more novel (cpbb and aa_entropy_k3: higher = more coding-like)"
+    }
+  },
+  "per_signal_14138": {
+    "set": "14,138 dark queries; primary scorer = ESM-2 layer 22 (headline layer)",
+    "esm2_L22_novelty": {
+      "n": 14138,
+      "n_pos": 4138,
+      "auroc": 0.5425086877718704,
+      "ci95": [
+        0.5314015577859637,
+        0.5531930055382804
+      ],
+      "mannwhitney_p": 1.6355780431691639e-15
+    },
+    "immune_nonself_score": {
+      "n": 14138,
+      "n_pos": 4138,
+      "auroc": 0.5752845335911068,
+      "ci95": [
+        0.5648659707562794,
+        0.584830086548389
+      ],
+      "mannwhitney_p": 6.428073299659727e-54,
+      "vs_primary": {
+        "diff": 0.032775845819236316,
+        "ci95": [
+          0.022732114312130656,
+          0.04278077394282925
+        ],
+        "p_boot": 0.0
+      }
+    },
+    "esm2_L22_raw_distance": {
+      "n": 14138,
+      "n_pos": 4138,
+      "auroc": 0.4950112856452392,
+      "ci95": [
+        0.484289325720606,
+        0.505428322394899
+      ],
+      "mannwhitney_p": 0.3498410076640025
+    },
+    "composition": {
+      "n": 14138,
+      "n_pos": 4138,
+      "auroc": 0.3395404784920251,
+      "ci95": [
+        0.33019557321396154,
+        0.348825981157599
+      ],
+      "mannwhitney_p": 1.1748647303718743e-198,
+      "vs_primary": {
+        "diff": -0.1554708071532141,
+        "ci95": [
+          -0.17008563311772273,
+          -0.14224742308988184
+        ],
+        "p_boot": 0.0
+      }
+    },
+    "prostt5_structure": {
+      "n": 14138,
+      "n_pos": 4138,
+      "auroc": 0.3571586998550024,
+      "ci95": [
+        0.3475947279664375,
+        0.36652907692012204
+      ],
+      "mannwhitney_p": 7.444154095281623e-158,
+      "vs_primary": {
+        "diff": -0.1378525857902368,
+        "ci95": [
+          -0.14965466131765454,
+          -0.12572411451018714
+        ],
+        "p_boot": 0.0
+      }
+    },
+    "cpbb": {
+      "n": 14138,
+      "n_pos": 4138,
+      "auroc": 0.5122893185113582,
+      "ci95": [
+        0.5020138463101881,
+        0.5221437050363087
+      ],
+      "mannwhitney_p": 0.02127587326977763,
+      "vs_primary": {
+        "diff": 0.017278032866118953,
+        "ci95": [
+          0.0025905997877934683,
+          0.03259950485105125
+        ],
+        "p_boot": 0.016
+      }
+    }
+  },
+  "immune_flag": {
+    "table_rows_positive_then_still_dark_cols_flagged_then_not": [
+      [
+        831,
+        3307
+      ],
+      [
+        858,
+        9142
+      ]
+    ],
+    "flag_rate_positive": 0.20082165297245047,
+    "flag_rate_still_dark": 0.0858,
+    "fisher_odds_ratio": 2.677446230817867,
+    "fisher_p": 7.185958159760969e-76,
+    "cmh_stratified_by_layer1_decile": {
+      "chi2": 238.89930328643206,
+      "p": 6.834532145212347e-54,
+      "common_odds_ratio": 2.41037336986695
+    },
+    "spearman_score_vs_layer1": 0.4853398692305625
+  },
+  "prostt5_vs_esm2_heldout": {
+    "n_families": 300,
+    "n_proteins": 6907,
+    "prostt5_centered_mean": 0.9444800288199606,
+    "esm2_L22_mean": 0.9877845445784847,
+    "mean_difference_esm2_minus_prostt5": 0.04330451575852385,
+    "wilcoxon_p": 3.1430653240892876e-43,
+    "frac_families_esm2_better": 0.9233333333333333
+  },
+  "convergence": {
+    "n_queries_all_signals": 31712,
+    "base_rate": 0.12118440968718466,
+    "spearman": [
+      [
+        1.0,
+        -0.08225471218607092,
+        0.2834656104094235,
+        0.22849549122159046,
+        0.08688593404891858
+      ],
+      [
+        -0.08225471218607092,
+        1.0,
+        0.012564382430922814,
+        -0.05222444070272533,
+        0.06412125192023638
+      ],
+      [
+        0.2834656104094235,
+        0.012564382430922815,
+        1.0,
+        -0.31653174289060365,
+        0.6353403116517722
+      ],
+      [
+        0.2284954912215904,
+        -0.05222444070272533,
+        -0.31653174289060365,
+        1.0,
+        -0.4339591627858235
+      ],
+      [
+        0.08688593404891858,
+        0.06412125192023638,
+        0.6353403116517723,
+        -0.43395916278582347,
+        1.0
+      ]
+    ],
+    "axes": [
+      "evt",
+      "context",
+      "composition",
+      "genos-m",
+      "prostt5"
+    ],
+    "top_set_share_per_axis": [
+      0.10002522704339051,
+      0.13319878910191726,
+      0.10002522704339051,
+      0.10002522704339051,
+      0.10002522704339051
+    ],
+    "n_copula_sims": 400,
+    "intersections": [
+      {
+        "axes": [
+          "evt",
+          "context"
+        ],
+        "observed_n": 325,
+        "expected_n_independent": 422.50655903128154,
+        "copula_null_mean": 325.6875,
+        "copula_null_p95": 356.0,
+        "copula_null_p_ge_obs": 0.5261845386533666,
+        "positives": 35,
+        "positive_rate": 0.1076923076923077,
+        "lift": 0.8886647050581478,
+        "hypergeom_p_enrichment": 0.7962626613330468,
+        "hypergeom_p_depletion": 0.25727011482052553
+      },
+      {
+        "axes": [
+          "evt",
+          "composition"
+        ],
+        "observed_n": 870,
+        "expected_n_independent": 317.2800201816347,
+        "copula_null_mean": 679.385,
+        "copula_null_p95": 722.0999999999999,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 38,
+        "positive_rate": 0.04367816091954023,
+        "lift": 0.3604272284882799,
+        "hypergeom_p_enrichment": 0.9999999999999998,
+        "hypergeom_p_depletion": 9.820153902674272e-16
+      },
+      {
+        "axes": [
+          "evt",
+          "genos-m"
+        ],
+        "observed_n": 913,
+        "expected_n_independent": 317.2800201816347,
+        "copula_null_mean": 597.86,
+        "copula_null_p95": 637.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 111,
+        "positive_rate": 0.12157721796276014,
+        "lift": 1.0032414093247592,
+        "hypergeom_p_enrichment": 0.5009117772139369,
+        "hypergeom_p_depletion": 0.5400266331992374
+      },
+      {
+        "axes": [
+          "evt",
+          "prostt5"
+        ],
+        "observed_n": 653,
+        "expected_n_independent": 317.2800201816347,
+        "copula_null_mean": 413.1025,
+        "copula_null_p95": 445.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 29,
+        "positive_rate": 0.0444104134762634,
+        "lift": 0.3664696935100871,
+        "hypergeom_p_enrichment": 0.9999999999977833,
+        "hypergeom_p_depletion": 6.805884573735818e-12
+      },
+      {
+        "axes": [
+          "context",
+          "composition"
+        ],
+        "observed_n": 445,
+        "expected_n_independent": 422.50655903128154,
+        "copula_null_mean": 436.1825,
+        "copula_null_p95": 467.04999999999995,
+        "copula_null_p_ge_obs": 0.33665835411471323,
+        "positives": 15,
+        "positive_rate": 0.033707865168539325,
+        "lift": 0.27815347911129823,
+        "hypergeom_p_enrichment": 0.9999999999889203,
+        "hypergeom_p_depletion": 4.5408673273510906e-11
+      },
+      {
+        "axes": [
+          "context",
+          "genos-m"
+        ],
+        "observed_n": 310,
+        "expected_n_independent": 422.50655903128154,
+        "copula_null_mean": 358.685,
+        "copula_null_p95": 390.0,
+        "copula_null_p_ge_obs": 0.9975062344139651,
+        "positives": 36,
+        "positive_rate": 0.11612903225806452,
+        "lift": 0.9582835990027952,
+        "hypergeom_p_enrichment": 0.6339860147954426,
+        "hypergeom_p_depletion": 0.4342617549610252
+      },
+      {
+        "axes": [
+          "context",
+          "prostt5"
+        ],
+        "observed_n": 457,
+        "expected_n_independent": 422.50655903128154,
+        "copula_null_mean": 505.8375,
+        "copula_null_p95": 540.0,
+        "copula_null_p_ge_obs": 0.9825436408977556,
+        "positives": 17,
+        "positive_rate": 0.037199124726477024,
+        "lift": 0.30696295688941955,
+        "hypergeom_p_enrichment": 0.9999999999445065,
+        "hypergeom_p_depletion": 2.0536852130577794e-10
+      },
+      {
+        "axes": [
+          "composition",
+          "genos-m"
+        ],
+        "observed_n": 388,
+        "expected_n_independent": 317.2800201816347,
+        "copula_null_mean": 80.215,
+        "copula_null_p95": 94.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 18,
+        "positive_rate": 0.04639175257731959,
+        "lift": 0.3828194789830754,
+        "hypergeom_p_enrichment": 0.9999998955310311,
+        "hypergeom_p_depletion": 3.084087858608432e-07
+      },
+      {
+        "axes": [
+          "composition",
+          "prostt5"
+        ],
+        "observed_n": 1493,
+        "expected_n_independent": 317.2800201816347,
+        "copula_null_mean": 1364.5675,
+        "copula_null_p95": 1425.05,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 25,
+        "positive_rate": 0.016744809109176157,
+        "lift": 0.13817626501956656,
+        "hypergeom_p_enrichment": 1.0,
+        "hypergeom_p_depletion": 1.7260303724512292e-53
+      },
+      {
+        "axes": [
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 209,
+        "expected_n_independent": 317.2800201816347,
+        "copula_null_mean": 35.7175,
+        "copula_null_p95": 46.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 17,
+        "positive_rate": 0.08133971291866028,
+        "lift": 0.6712060827677738,
+        "hypergeom_p_enrichment": 0.9749646548888974,
+        "hypergeom_p_depletion": 0.04259743059025615
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition"
+        ],
+        "observed_n": 108,
+        "expected_n_independent": 42.26131449442561,
+        "copula_null_mean": 75.0425,
+        "copula_null_p95": 90.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 7,
+        "positive_rate": 0.06481481481481481,
+        "lift": 0.5348444984146259,
+        "hypergeom_p_enrichment": 0.981542535765112,
+        "hypergeom_p_depletion": 0.04142934830397889
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "genos-m"
+        ],
+        "observed_n": 81,
+        "expected_n_independent": 42.26131449442561,
+        "copula_null_mean": 55.3625,
+        "copula_null_p95": 68.0,
+        "copula_null_p_ge_obs": 0.004987531172069825,
+        "positives": 10,
+        "positive_rate": 0.12345679012345678,
+        "lift": 1.0187514255516683,
+        "hypergeom_p_enrichment": 0.5257051743885277,
+        "hypergeom_p_depletion": 0.6078179305097423
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "prostt5"
+        ],
+        "observed_n": 97,
+        "expected_n_independent": 42.26131449442561,
+        "copula_null_mean": 52.0175,
+        "copula_null_p95": 64.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 9,
+        "positive_rate": 0.09278350515463918,
+        "lift": 0.7656389579661508,
+        "hypergeom_p_enrichment": 0.8456023689644939,
+        "hypergeom_p_depletion": 0.24753851729826978
+      },
+      {
+        "axes": [
+          "evt",
+          "composition",
+          "genos-m"
+        ],
+        "observed_n": 275,
+        "expected_n_independent": 31.736006054999535,
+        "copula_null_mean": 41.45,
+        "copula_null_p95": 53.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 9,
+        "positive_rate": 0.03272727272727273,
+        "lift": 0.2700617415371514,
+        "hypergeom_p_enrichment": 0.9999999589694749,
+        "hypergeom_p_depletion": 1.7499733175892122e-07
+      },
+      {
+        "axes": [
+          "evt",
+          "composition",
+          "prostt5"
+        ],
+        "observed_n": 397,
+        "expected_n_independent": 31.736006054999535,
+        "copula_null_mean": 260.1775,
+        "copula_null_p95": 287.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 11,
+        "positive_rate": 0.027707808564231738,
+        "lift": 0.22864169273716287,
+        "hypergeom_p_enrichment": 0.9999999999968773,
+        "hypergeom_p_depletion": 1.5676613462417703e-11
+      },
+      {
+        "axes": [
+          "evt",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 159,
+        "expected_n_independent": 31.736006054999535,
+        "copula_null_mean": 12.9575,
+        "copula_null_p95": 19.049999999999955,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 12,
+        "positive_rate": 0.07547169811320754,
+        "lift": 0.6227838903372463,
+        "hypergeom_p_enrichment": 0.9768475259425242,
+        "hypergeom_p_depletion": 0.04325727981200945
+      },
+      {
+        "axes": [
+          "context",
+          "composition",
+          "genos-m"
+        ],
+        "observed_n": 53,
+        "expected_n_independent": 42.26131449442561,
+        "copula_null_mean": 8.8175,
+        "copula_null_p95": 14.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 7,
+        "positive_rate": 0.1320754716981132,
+        "lift": 1.089871808090181,
+        "hypergeom_p_enrichment": 0.4655774878676926,
+        "hypergeom_p_depletion": 0.6899180145923995
+      },
+      {
+        "axes": [
+          "context",
+          "composition",
+          "prostt5"
+        ],
+        "observed_n": 221,
+        "expected_n_independent": 42.26131449442561,
+        "copula_null_mean": 208.54,
+        "copula_null_p95": 232.04999999999995,
+        "copula_null_p_ge_obs": 0.2119700748129676,
+        "positives": 7,
+        "positive_rate": 0.03167420814479638,
+        "lift": 0.2613719720759258,
+        "hypergeom_p_enrichment": 0.9999995176372959,
+        "hypergeom_p_depletion": 2.1424664911693536e-06
+      },
+      {
+        "axes": [
+          "context",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 32,
+        "expected_n_independent": 42.26131449442561,
+        "copula_null_mean": 5.055,
+        "copula_null_p95": 9.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 5,
+        "positive_rate": 0.15625,
+        "lift": 1.2893572729638303,
+        "hypergeom_p_enrichment": 0.34542928781896254,
+        "hypergeom_p_depletion": 0.8155143047585761
+      },
+      {
+        "axes": [
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 110,
+        "expected_n_independent": 31.736006054999535,
+        "copula_null_mean": 11.405,
+        "copula_null_p95": 18.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 8,
+        "positive_rate": 0.07272727272727272,
+        "lift": 0.6001372034158919,
+        "hypergeom_p_enrichment": 0.9639769479892694,
+        "hypergeom_p_depletion": 0.07202106050612014
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition",
+          "genos-m"
+        ],
+        "observed_n": 35,
+        "expected_n_independent": 4.227197577457051,
+        "copula_null_mean": 4.01,
+        "copula_null_p95": 7.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 4,
+        "positive_rate": 0.11428571428571428,
+        "lift": 0.943072748224973,
+        "hypergeom_p_enrichment": 0.627094243466154,
+        "hypergeom_p_depletion": 0.5788934322356054
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition",
+          "prostt5"
+        ],
+        "observed_n": 64,
+        "expected_n_independent": 4.227197577457051,
+        "copula_null_mean": 32.3425,
+        "copula_null_p95": 42.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 5,
+        "positive_rate": 0.078125,
+        "lift": 0.6446786364819151,
+        "hypergeom_p_enrichment": 0.9008447926136277,
+        "hypergeom_p_depletion": 0.19670542742139652
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 29,
+        "expected_n_independent": 4.227197577457051,
+        "copula_null_mean": 1.5575,
+        "copula_null_p95": 4.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 5,
+        "positive_rate": 0.1724137931034483,
+        "lift": 1.4227390598221576,
+        "hypergeom_p_enrichment": 0.27078406698726376,
+        "hypergeom_p_depletion": 0.8690331904663373
+      },
+      {
+        "axes": [
+          "evt",
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 98,
+        "expected_n_independent": 3.174401211101744,
+        "copula_null_mean": 5.8875,
+        "copula_null_p95": 10.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 6,
+        "positive_rate": 0.061224489795918366,
+        "lift": 0.5052175436919498,
+        "hypergeom_p_enrichment": 0.983615502783914,
+        "hypergeom_p_depletion": 0.039277564649598334
+      },
+      {
+        "axes": [
+          "context",
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 21,
+        "expected_n_independent": 4.227197577457051,
+        "copula_null_mean": 1.4575,
+        "copula_null_p95": 4.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 3,
+        "positive_rate": 0.14285714285714285,
+        "lift": 1.1788409352812161,
+        "hypergeom_p_enrichment": 0.47659122816887767,
+        "hypergeom_p_depletion": 0.754883798097101
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed_n": 20,
+        "expected_n_independent": 0.4228263974424119,
+        "copula_null_mean": 0.6875,
+        "copula_null_p95": 2.0,
+        "copula_null_p_ge_obs": 0.0024937655860349127,
+        "positives": 3,
+        "positive_rate": 0.15,
+        "lift": 1.237782982045277,
+        "hypergeom_p_enrichment": 0.4435233672737381,
+        "hypergeom_p_depletion": 0.7822385128401722
+      }
+    ]
+  }
+}
