@@ -119,3 +119,9 @@ Entries start once there's a result worth recording (Phase 2 onward).
 - Config: scripts/genosm_leakage_relift.py, top-decile (quantile=0.90) on genos_m_novelty, same 34,138-query set as P4-D8, positive label swapped from panel_protein_labels.csv (35->37) to panel_protein_labels_36_37.csv (36->37)
 - Result: 2385/34138 queries positive under 36-37 (vs 4138 under 35-37); main-boundary lift recomputed 1.32x (matches P4-D8's reported 1.30x); leakage-tightened lift 1.26x -- only a ~5% relative drop despite the positive set shrinking 43%; all 2385 leakage-tightened positives are a subset of the main-boundary positives (clean consistency check)
 - Next: the enrichment surviving this tightening weakens (does not confirm) the pure-leakage explanation for the genos-m axis inversion -- update manuscript's Layer 4/Discussion framing from "plausibly leakage" to "leading, not confirmed, hypothesis"
+
+## 2026-10-14 -- Review II re-analysis (docs/reviewer_response.md)
+- Commit: see git log (scripts/reviewer_*.py, label_audit.py, layer_sweep_esm2.py, layer_selection_validation.py, embed_full_query_reference.py)
+- Config: ESM-2 650M fp32 weights with TF32 matmuls on the RTX 4060; all 34 layers for the 11,527 held-out evaluation proteins; layers 22 and 33 for the remaining 34,502 sample proteins; Pfam 35 and 37 rescans at E <= 1e-3
+- Result: layers 22 and 33 match the saved embeddings (cosine >= 0.99994); layer 22 = 0.962, plateau 18-28 (0.959-0.964), layer picked on development families scores 0.9638 on test families; on the common 34,138-query set the dark-query AUROC is 0.470 (layer 22) and 0.568 (layer 33), protein length alone 0.618; 3-way convergent set is 1.4x its correlated null (not 3.4x) and not enriched; length-matched Layer 5 AUROC vs intergenic 0.91; 15.1% of still-dark and 23.3% of positives have a sub-threshold Pfam 35 hit
+- Next: nothing blocking; the Review II report (v3) and the paper's wording on Precision@K may cite these numbers
