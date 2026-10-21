@@ -28,7 +28,7 @@ from pathlib import Path
 
 import requests
 
-from darkmatter.data.download import download
+from darkmatter.data.download import download, read_md5_list, verify_md5
 
 BASE_URL = "https://data.gtdb.ecogenomic.org/releases"
 
@@ -53,12 +53,18 @@ def _fetch_files(release: str, out_dir: Path, base: str, templates: list[str]) -
     for template in templates:
         fname = template.format(n=_release_number(release))
         dest = out_dir / f"gtdb_{release}" / fname
-        if dest.exists():
-            fetched.append(dest)
-            continue
-        download(f"{base}/{fname}", dest)
+        if not dest.exists():
+            download(f"{base}/{fname}", dest)
+        _verify(dest)
         fetched.append(dest)
     return fetched
+
+
+def _verify(dest: Path) -> None:
+    """Check a fetched file against the release's own MD5SUM.txt, when that list is present."""
+    sums = dest.parent / "MD5SUM.txt"
+    if sums.exists() and dest.name != "MD5SUM.txt":
+        verify_md5(dest, read_md5_list(sums))
 
 
 def _fetch_with_ext_fallback(release: str, out_dir: Path, base: str, basename_template: str, exts: list[str]) -> Path:
@@ -69,9 +75,11 @@ def _fetch_with_ext_fallback(release: str, out_dir: Path, base: str, basename_te
         fname = basename + ext
         dest = out_dir / f"gtdb_{release}" / fname
         if dest.exists():
+            _verify(dest)
             return dest
         try:
             download(f"{base}/{fname}", dest)
+            _verify(dest)
             return dest
         except requests.exceptions.HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
