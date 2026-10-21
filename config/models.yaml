@@ -4,6 +4,10 @@
 
 genos_m:
   hf_repo: "BGI-HangzhouAI/Genos-m"
+  # Pinned commit: this repo is loaded with trust_remote_code, i.e. it runs Python from the
+  # model repo. Pinning stops a later push to that repo from running here unreviewed.
+  # Commit taken from the local Hugging Face cache used for the reported runs (2026-10-21).
+  revision: "665aac90a05ebadfc78a3098a45375c738550eec"
   # Full bf16 weights are ~9GB — over budget on 8GB-class GPUs (RTX 4060 laptop).
   #
   # KNOWN ISSUE (found during Phase 1 hardware validation, see
@@ -26,6 +30,7 @@ esm2:
   # Genos-m/ESM-2 comparison should run — now that the pipeline is validated
   # on both hardware targets (see docs/reproducibility.md).
   hf_repo: "facebook/esm2_t33_650M_UR50D"
+  revision: "08e4846e537177426273712802403f7ba8261b6c"   # pinned for reproducibility
   vram_bf16_gb: 2.6
   quantize_below_vram_gb: 0.0   # comfortably fits 8GB unquantized
   max_tokens: 1024
@@ -35,7 +40,9 @@ prostt5:
   # used encoder-only so its footprint is ~half the full enc-dec checkpoint. The
   # light substitute for ESMFold — no 3-D folding, runs like a normal embedder.
   hf_repo: "Rostlab/ProstT5"          # tokenizer + config
+  revision: "d7d097d5bf9a993ab8f68488b4681d6ca70db9e5"
   weights_repo: "Rostlab/ProstT5_fp16"  # fp16 pytorch_model.bin (~5.5GB); transformers v5
+  weights_revision: "07a6547d51de603f1be84fd9f2db4680ee535a86"
   weights_file: "pytorch_model.bin"     #   is safetensors-only, so we load the .bin manually
   vram_bf16_gb: 2.5              # encoder-only, fp16
   quantize_below_vram_gb: 0.0   # fits unquantized on the M1 / 4060

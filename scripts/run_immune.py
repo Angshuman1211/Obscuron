@@ -56,7 +56,7 @@ def main() -> None:
         D = {**D, "n_detectors": 500}
         E = {**E, "eval_families": 8, "eval_n_detectors": 300}
 
-    d = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
+    d = np.load(PROC / "esm2_reembed_L33_22.npz")
     X = d[f"L{cfg['arm']['layer']}"].astype(np.float64)
     fams = np.array([str(x) for x in d["families"]])
 

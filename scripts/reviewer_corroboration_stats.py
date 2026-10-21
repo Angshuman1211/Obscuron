@@ -135,8 +135,8 @@ def main() -> None:
     T["immune_nonself_score"] = summarize("immune_score", y, im.layer3_nonself_score.to_numpy(),
                                           ref=im.layer1_novelty.to_numpy())
     # layer-22 raw distance, to avoid the tied novelty = 1 values
-    qry = np.load(PROC / "esm2_reembed_queries_L33_22.npz", allow_pickle=True)
-    ref = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
+    qry = np.load(PROC / "esm2_reembed_queries_L33_22.npz")
+    ref = np.load(PROC / "esm2_reembed_L33_22.npz")
     from darkmatter.scoring.knn import knn_distance
     d22 = knn_distance(l2_normalize(qry["L22"].astype(np.float64)), l2_normalize(ref["L22"].astype(np.float64)), k=5)
     T["esm2_L22_raw_distance"] = summarize("esm2_L22_raw", qry["is_positive"].astype(int), d22)
@@ -162,7 +162,7 @@ def main() -> None:
     }
 
     # ---- 3. ProstT5 vs ESM-2 on held-out families (same proteins) ----
-    pr = np.load(PROC / "prostt5_reference.npz", allow_pickle=True)
+    pr = np.load(PROC / "prostt5_reference.npz")
     ids_p = np.array([str(i) for i in pr["ids"]]); fam_p = np.array([str(i) for i in pr["families"]])
     ix = {s: i for i, s in enumerate(np.array([str(i) for i in ref["ids"]]))}
     rows = np.array([ix[s] for s in ids_p])

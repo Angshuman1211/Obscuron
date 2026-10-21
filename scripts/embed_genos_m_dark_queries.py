@@ -35,7 +35,7 @@ K = 5  # matches config/scorer.yaml's headline k (P2-D5)
 def _load_checkpoint(ckpt_path: Path) -> tuple[list[np.ndarray], list[str]]:
     if not ckpt_path.exists():
         return [], []
-    d = np.load(ckpt_path, allow_pickle=True)
+    d = np.load(ckpt_path)
     done_ids = [str(x) for x in d["ids"]]
     print(f"resuming from checkpoint: {len(done_ids)} sequences already embedded", flush=True)
     return [d["emb"]], done_ids
@@ -137,7 +137,7 @@ def main() -> None:
 
     emb = embed_checkpointed(ids, seq_by_id, args.layer, args.batch_size, ckpt_path, args.chunk_size)
 
-    ref_d = np.load(args.reference_npz, allow_pickle=True)
+    ref_d = np.load(args.reference_npz)
     reference = ref_d[f"L{args.layer}"].astype(np.float64)
     print(f"scoring novelty vs {len(reference)}-point reference (k={K})...", flush=True)
     novelty_dist = knn_novelty(emb, reference, K)

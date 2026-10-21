@@ -37,12 +37,13 @@ class ProstT5Embedder(Embedder):
 
     def __init__(self, hf_repo: str, vram_bf16_gb: float, quantize_below_vram_gb: float,
                 max_tokens: int = 1024, weights_repo: str | None = None,
-                weights_file: str = "pytorch_model.bin"):
+                weights_file: str = "pytorch_model.bin", revision: str | None = None,
+                weights_revision: str | None = None):
         self.plan = plan_for_model(vram_bf16_gb, quantize_below_vram_gb)
         self.max_tokens = max_tokens
 
-        self.tokenizer = T5Tokenizer.from_pretrained(hf_repo, do_lower_case=False)
-        config = T5Config.from_pretrained(hf_repo)
+        self.tokenizer = T5Tokenizer.from_pretrained(hf_repo, do_lower_case=False, revision=revision)
+        config = T5Config.from_pretrained(hf_repo, revision=revision)
         target_dtype = torch.float16 if not self.plan.quantized else torch.float32
         target_device = self.plan.device
         # Build directly on the target device in the target dtype -- never
@@ -55,7 +56,8 @@ class ProstT5Embedder(Embedder):
         self.model = self.model.to_empty(device=target_device).to(target_dtype)
 
         weights_src = weights_repo or hf_repo
-        weights_path = hf_hub_download(repo_id=weights_src, filename=weights_file)
+        weights_path = hf_hub_download(repo_id=weights_src, filename=weights_file,
+                                       revision=weights_revision if weights_repo else revision)
         state_dict = torch.load(weights_path, map_location=target_device, weights_only=True)
         # the checkpoint is the full seq2seq model; keep only the encoder's weights
         encoder_state = {k[len("encoder."):]: v.to(target_dtype)

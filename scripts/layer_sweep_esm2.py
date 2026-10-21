@@ -39,7 +39,7 @@ def main() -> None:
     # several times faster on this card; the check against the saved fp32 embeddings is printed at the end
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
-    ref = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
+    ref = np.load(PROC / "esm2_reembed_L33_22.npz")
     ids_all = np.array([str(x) for x in ref["ids"]])
     fam_all = np.array([str(x) for x in ref["families"]])
     size = pd.Series(fam_all).groupby(fam_all).transform("size").to_numpy()

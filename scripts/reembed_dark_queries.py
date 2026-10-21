@@ -29,7 +29,7 @@ SEQ_DIR, SUFFIX = "panel_proteins", "_protein.faa"
 def _load_checkpoint(ckpt_path: Path, want_layers: list[int]) -> tuple[dict[int, list], list[str]]:
     if not ckpt_path.exists():
         return {li: [] for li in want_layers}, []
-    d = np.load(ckpt_path, allow_pickle=True)
+    d = np.load(ckpt_path)
     done_ids = [str(x) for x in d["ids"]]
     acc = {li: [d[f"L{li}"]] for li in want_layers}
     print(f"resuming from checkpoint: {len(done_ids)} sequences already embedded", flush=True)

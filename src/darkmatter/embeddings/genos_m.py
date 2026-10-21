@@ -39,14 +39,17 @@ class GenosMEmbedder(Embedder):
         quantize_below_vram_gb: float,
         max_tokens: int = 8192,
         layer: int | None = None,
+        revision: str | None = None,
     ):
         self.plan = plan_for_model(vram_bf16_gb, quantize_below_vram_gb)
         self.max_tokens = max_tokens
         self.layer = layer
 
-        self.tokenizer = AutoTokenizer.from_pretrained(hf_repo, trust_remote_code=True)
+        # trust_remote_code runs the repo's own Python, so it is pinned to a reviewed commit
+        # (config/models.yaml revision) rather than whatever the repo's main branch holds today
+        self.tokenizer = AutoTokenizer.from_pretrained(hf_repo, trust_remote_code=True, revision=revision)
 
-        load_kwargs = {"trust_remote_code": True, **from_pretrained_kwargs(self.plan)}
+        load_kwargs = {"trust_remote_code": True, "revision": revision, **from_pretrained_kwargs(self.plan)}
         self.model = AutoModel.from_pretrained(hf_repo, **load_kwargs)
         if not self.plan.quantized:
             self.model.to(self.plan.device)

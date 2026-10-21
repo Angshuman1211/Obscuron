@@ -19,13 +19,14 @@ from darkmatter.embeddings.base import Embedder
 class ESM2Embedder(Embedder):
     name = "esm2"
 
-    def __init__(self, hf_repo: str, vram_bf16_gb: float, quantize_below_vram_gb: float, max_tokens: int = 1024):
+    def __init__(self, hf_repo: str, vram_bf16_gb: float, quantize_below_vram_gb: float, max_tokens: int = 1024,
+                 revision: str | None = None):
         self.plan = plan_for_model(vram_bf16_gb, quantize_below_vram_gb)
         self.max_tokens = max_tokens
 
-        self.tokenizer = AutoTokenizer.from_pretrained(hf_repo)
+        self.tokenizer = AutoTokenizer.from_pretrained(hf_repo, revision=revision)
 
-        self.model = AutoModel.from_pretrained(hf_repo, **from_pretrained_kwargs(self.plan))
+        self.model = AutoModel.from_pretrained(hf_repo, revision=revision, **from_pretrained_kwargs(self.plan))
         if not self.plan.quantized:
             self.model.to(self.plan.device)
         self.model.eval()

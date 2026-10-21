@@ -208,7 +208,7 @@ def main() -> None:
     npz_path = PROC / f"{args.model}_reembed_L{'_'.join(map(str, want))}.npz"
 
     if args.eval_only:
-        d = np.load(npz_path, allow_pickle=True)
+        d = np.load(npz_path)
         layers = {li: d[f"L{li}"] for li in want}
         families = [str(x) for x in d["families"]]
         if args.max_families:

@@ -49,8 +49,8 @@ def main() -> None:
     aud = pd.read_csv(ROOT / "results" / "reviewer" / "label_audit_hits.csv").set_index("protein_id")
     lens = pd.read_csv(ROOT / "results" / "scorer_esm2_ranked.csv").set_index("protein_id")
     es = pd.read_csv(PROC / "esm2_novelty_scores.csv").set_index("protein_id")
-    qry = np.load(PROC / "esm2_reembed_queries_L33_22.npz", allow_pickle=True)
-    ref = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
+    qry = np.load(PROC / "esm2_reembed_queries_L33_22.npz")
+    ref = np.load(PROC / "esm2_reembed_L33_22.npz")
     ids = [str(i) for i in qry["ids"]]
     y = qry["is_positive"].astype(int)
     d = pd.DataFrame({"y": y, "length": lens.loc[ids, "length_aa"].to_numpy()}, index=ids)

@@ -35,9 +35,9 @@ def auc(y, s):
 
 def main() -> None:
     samp = pd.read_csv(PROC / "embedding_sample.csv")
-    ref1 = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
-    q1 = np.load(PROC / "esm2_reembed_queries_L33_22.npz", allow_pickle=True)
-    rem = np.load(PROC / "esm2_L22_L33_remaining.npz", allow_pickle=True)
+    ref1 = np.load(PROC / "esm2_reembed_L33_22.npz")
+    q1 = np.load(PROC / "esm2_reembed_queries_L33_22.npz")
+    rem = np.load(PROC / "esm2_L22_L33_remaining.npz")
     ids = {"ref": [str(i) for i in ref1["ids"]], "q": [str(i) for i in q1["ids"]], "rem": [str(i) for i in rem["ids"]]}
     cat = samp.set_index("protein_id").category
     allids = ids["ref"] + ids["q"] + ids["rem"]
