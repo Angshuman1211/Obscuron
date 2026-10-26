@@ -1,0 +1,133 @@
+{
+  "JAFGCY010000054.1_11": {
+    "rank_layer22": -1,
+    "distance_layer22": NaN,
+    "phylum": null,
+    "length": 194,
+    "mean_plddt": 96.90546417236328,
+    "fold_seconds": 290.6,
+    "foldseek": {
+      "ticket": "g_DRlBdAdVGRrDyghsiwxlDvnntmfPL4iY2HgQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A9D5VPB9-F1-model_v6 dTTP/UTP pyrophosphatase",
+            "prob": 1,
+            "eval": 8.91e-24,
+            "score": 896,
+            "seqId": 43.5,
+            "alnLength": 193,
+            "qStartPos": 2,
+            "qEndPos": 194,
+            "taxName": "Desulfobacterales bacterium"
+          },
+          {
+            "target": "AF-A0A962SC73-F1-model_v6 dTTP/UTP pyrophosphatase",
+            "prob": 1,
+            "eval": 1.555e-23,
+            "score": 870,
+            "seqId": 48.1,
+            "alnLength": 189,
+            "qStartPos": 3,
+            "qEndPos": 191,
+            "taxName": "Gammaproteobacteria bacterium"
+          },
+          {
+            "target": "AF-A0A7C6LAI2-F1-model_v6 dTTP/UTP pyrophosphatase",
+            "prob": 1,
+            "eval": 2.118e-23,
+            "score": 884,
+            "seqId": 48.4,
+            "alnLength": 194,
+            "qStartPos": 2,
+            "qEndPos": 194,
+            "taxName": "Bacillota bacterium"
+          },
+          {
+            "target": "AF-E5BH73-F1-model_v6 dTTP/UTP pyrophosphatase",
+            "prob": 1,
+            "eval": 2.397e-23,
+            "score": 871,
+            "seqId": 39.4,
+            "alnLength": 190,
+            "qStartPos": 1,
+            "qEndPos": 190,
+            "taxName": "Fusobacterium gonidiaformans 3-1-5R"
+          },
+          {
+            "target": "AF-A0A1G1FT32-F1-model_v6 dTTP/UTP pyrophosphatase",
+            "prob": 1,
+            "eval": 4.182e-23,
+            "score": 867,
+            "seqId": 46.3,
+            "alnLength": 190,
+            "qStartPos": 2,
+            "qEndPos": 191,
+            "taxName": "Nitrospirae bacterium GWD2_57_9"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 143,
+        "top": [
+          {
+            "target": "4heb-assembly1.cif.gz_A The Crystal structure of Maf protein of Bacillus subtilis",
+            "prob": 1,
+            "eval": 3.069e-23,
+            "score": 833,
+            "seqId": 45.2,
+            "alnLength": 188,
+            "qStartPos": 1,
+            "qEndPos": 188,
+            "taxName": "Bacillus subtilis"
+          },
+          {
+            "target": "4heb-assembly1.cif.gz_B The Crystal structure of Maf protein of Bacillus subtilis",
+            "prob": 1,
+            "eval": 4.182e-23,
+            "score": 831,
+            "seqId": 44.2,
+            "alnLength": 190,
+            "qStartPos": 1,
+            "qEndPos": 190,
+            "taxName": "Bacillus subtilis"
+          },
+          {
+            "target": "1exc-assembly1.cif.gz_A CRYSTAL STRUCTURE OF B. SUBTILIS MAF PROTEIN COMPLEXED WITH D-(UTP)",
+            "prob": 1,
+            "eval": 6.358e-22,
+            "score": 790,
+            "seqId": 44.7,
+            "alnLength": 190,
+            "qStartPos": 1,
+            "qEndPos": 188,
+            "taxName": "Bacillus subtilis"
+          },
+          {
+            "target": "4p0e-assembly1.cif.gz_A YhdE E33A (p212121 space group)",
+            "prob": 1,
+            "eval": 2.33e-21,
+            "score": 745,
+            "seqId": 41,
+            "alnLength": 195,
+            "qStartPos": 1,
+            "qEndPos": 190,
+            "taxName": "Escherichia coli K-12"
+          },
+          {
+            "target": "2p5x-assembly2.cif.gz_B Crystal structure of Maf domain of human N-acetylserotonin O-methyltransferase-like protein",
+            "prob": 1,
+            "eval": 6.576e-20,
+            "score": 594,
+            "seqId": 37.6,
+            "alnLength": 199,
+            "qStartPos": 2,
+            "qEndPos": 189,
+            "taxName": "Homo sapiens"
+          }
+        ]
+      }
+    }
+  }
+}
