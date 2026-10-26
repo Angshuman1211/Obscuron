@@ -1,0 +1,46 @@
+{
+  "dark_fraction_panel_unweighted": 0.22205502945343375,
+  "dark_fraction_weighted_by_r207_phylum_share": 0.21367314831710832,
+  "n_phyla_panel": 189,
+  "r207_share_covered_by_panel_phyla": 1.0,
+  "largest_phyla": {
+    "Proteobacteria": {
+      "r207_share": 0.2640670897828105,
+      "panel_dark_fraction": 0.16188961315742964
+    },
+    "Bacteroidota": {
+      "r207_share": 0.1307094044411975,
+      "panel_dark_fraction": 0.22219045459474915
+    },
+    "Firmicutes_A": {
+      "r207_share": 0.1254585026558909,
+      "panel_dark_fraction": 0.19686469855688227
+    },
+    "Actinobacteriota": {
+      "r207_share": 0.11153219792094729,
+      "panel_dark_fraction": 0.19486510149815164
+    },
+    "Firmicutes": {
+      "r207_share": 0.06416754181696421,
+      "panel_dark_fraction": 0.20806514530914766
+    },
+    "Patescibacteria": {
+      "r207_share": 0.03782171285938237,
+      "panel_dark_fraction": 0.3365307753796962
+    }
+  },
+  "panel_genome_quality": {
+    "completeness_median": 91.01,
+    "completeness_min": 51.5,
+    "completeness_p5": 63.2065,
+    "contamination_median": 1.1949999999999998,
+    "contamination_max": 8.92,
+    "share_metagenome_derived": 0.7749003984063745,
+    "share_single_cell": 0.0099601593625498
+  },
+  "truncation": {
+    "dark_queries_over_1024": 235,
+    "dark_queries": 34138,
+    "share": 0.006883824477122268
+  }
+}
