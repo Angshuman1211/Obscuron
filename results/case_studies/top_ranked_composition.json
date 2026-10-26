@@ -1,0 +1,22 @@
+{
+  "n": 34138,
+  "n_top": 341,
+  "entropy": {
+    "top1pct_median": 3.7798815908511694,
+    "rest_median": 3.9631973685122937,
+    "mannwhitney_p": 2.892418131307229e-47,
+    "spearman_with_distance": -0.1388002419855969
+  },
+  "charged": {
+    "top1pct_median": 0.2402745995423341,
+    "rest_median": 0.2571428571428571,
+    "mannwhitney_p": 0.0016833541431627342,
+    "spearman_with_distance": -0.10283394902557265
+  },
+  "disorder_promoting": {
+    "top1pct_median": 0.5192307692307693,
+    "rest_median": 0.4773662551440329,
+    "mannwhitney_p": 3.725375394502308e-15,
+    "spearman_with_distance": 0.05112774548333084
+  }
+}

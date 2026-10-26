@@ -67,7 +67,7 @@ def main() -> None:
                        jitter_scale=D.get("jitter_scale", 3.0), max_candidate_mult=D["max_candidate_mult"])
     seed = D["seed"]
 
-    d = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
+    d = np.load(PROC / "esm2_reembed_L33_22.npz")
     X = d["L22"].astype(np.float64)
     fams = np.array([str(x) for x in d["families"]])
     sizes = dict(zip(*np.unique(fams, return_counts=True)))

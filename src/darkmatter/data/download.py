@@ -37,3 +37,33 @@ def download(url: str, dest: Path, max_retries: int = 5) -> None:
         wait = min(5 * attempt, 30)
         print(f"  {dest.name}: got {written}/{total} bytes, retrying in {wait}s...", flush=True)
         time.sleep(wait)
+
+
+def md5_of(path: Path, chunk: int = 1 << 20) -> str:
+    import hashlib
+    h = hashlib.md5()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(chunk), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def read_md5_list(path: Path) -> dict[str, str]:
+    """Parse an `md5sum`-style list ('<hash>  ./name' or '<hash>  name') into {name: hash}."""
+    out = {}
+    for line in Path(path).read_text().splitlines():
+        parts = line.split()
+        if len(parts) >= 2 and len(parts[0]) == 32:
+            out[parts[-1].lstrip("*").removeprefix("./")] = parts[0].lower()
+    return out
+
+
+def verify_md5(path: Path, expected: dict[str, str]) -> None:
+    """Raise if `path` is listed in `expected` and its MD5 differs. Files the publisher
+    does not list are left alone (nothing to compare against)."""
+    want = expected.get(path.name)
+    if want is None:
+        return
+    got = md5_of(path)
+    if got != want:
+        raise IOError(f"checksum mismatch for {path}: expected {want}, got {got}; delete the file and fetch again")

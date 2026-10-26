@@ -90,7 +90,7 @@ def heldout_family_auroc(X: np.ndarray, fams: np.ndarray, *, pca_dims: int, seed
 
 
 def load_reference(min_members: int) -> tuple[np.ndarray, np.ndarray]:
-    d = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
+    d = np.load(PROC / "esm2_reembed_L33_22.npz")
     X = d["L22"].astype(np.float64)
     fams = np.array([str(x) for x in d["families"]])
     sizes = dict(zip(*np.unique(fams, return_counts=True)))
@@ -99,7 +99,7 @@ def load_reference(min_members: int) -> tuple[np.ndarray, np.ndarray]:
 
 
 def load_queries() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    d = np.load(PROC / "esm2_reembed_queries_L33_22.npz", allow_pickle=True)
+    d = np.load(PROC / "esm2_reembed_queries_L33_22.npz")
     return d["L22"].astype(np.float64), d["is_positive"].astype(bool), np.array([str(x) for x in d["ids"]])
 
 

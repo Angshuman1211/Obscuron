@@ -69,7 +69,7 @@ def main() -> None:
     ap.add_argument("--model", choices=["esm2", "genos-m"], default="esm2")
     args = ap.parse_args()
 
-    d = np.load(PROC / f"{args.model}_layer_diagnostic.npz", allow_pickle=True)
+    d = np.load(PROC / f"{args.model}_layer_diagnostic.npz")
     layers, labels = d["layers"], d["labels"]
     print(f"{args.model}: {layers.shape[0]} layers, {layers.shape[1]} seqs, "
           f"{len(np.unique(labels))} families (k={K})\n")

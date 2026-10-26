@@ -33,8 +33,8 @@ def main() -> None:
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
     samp = pd.read_csv(PROC / "embedding_sample.csv")
-    have = set(str(i) for i in np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)["ids"])
-    have |= set(str(i) for i in np.load(PROC / "esm2_reembed_queries_L33_22.npz", allow_pickle=True)["ids"])
+    have = set(str(i) for i in np.load(PROC / "esm2_reembed_L33_22.npz")["ids"])
+    have |= set(str(i) for i in np.load(PROC / "esm2_reembed_queries_L33_22.npz")["ids"])
     todo = samp[~samp.protein_id.isin(have)].reset_index(drop=True)
     print(f"{len(todo)} proteins to embed: {todo.category.value_counts().to_dict()}", flush=True)
 

@@ -114,7 +114,7 @@ def main() -> None:
         return embedder
 
     if args.eval_only:
-        d = np.load(NPZ, allow_pickle=True)
+        d = np.load(NPZ)
         vecs = d["emb"]; families = [str(x) for x in d["families"]]
     else:
         emb = get_embedder()

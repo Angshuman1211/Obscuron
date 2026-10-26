@@ -63,8 +63,8 @@ def wilson(k, n, z=1.96):
 
 def main() -> None:
     res: dict = {}
-    ref = np.load(PROC / "esm2_reembed_L33_22.npz", allow_pickle=True)
-    qry = np.load(PROC / "esm2_reembed_queries_L33_22.npz", allow_pickle=True)
+    ref = np.load(PROC / "esm2_reembed_L33_22.npz")
+    qry = np.load(PROC / "esm2_reembed_queries_L33_22.npz")
     fam_all = np.array([str(x) for x in ref["families"]])
     y = qry["is_positive"].astype(int)
     lens = pd.read_csv(ROOT / "results" / "scorer_esm2_ranked.csv").set_index("protein_id")["length_aa"]

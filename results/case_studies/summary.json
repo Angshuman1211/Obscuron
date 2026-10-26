@@ -1,0 +1,59 @@
+{
+  "WVXK01000002.1_48": {
+    "rank_layer22": 1,
+    "distance_layer22": 0.2421365494675427,
+    "phylum": "Desulfobacterota_E",
+    "length": 246,
+    "mean_plddt": 33.52146530151367,
+    "fold_seconds": 519.7,
+    "foldseek": {
+      "ticket": "Df0zOYJkSCTRPsUADYCx-sDWzcQqSoIX5JN9Pw",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "NZ_FCNU01000032.1_94": {
+    "rank_layer22": 2,
+    "distance_layer22": 0.2375141907987589,
+    "phylum": "Chlamydiota",
+    "length": 208,
+    "mean_plddt": 40.39702606201172,
+    "fold_seconds": 323.5,
+    "foldseek": {
+      "ticket": "0DP-o0P2GKfHjpP0J-Rd5I7Iyv-23T-ptI8K9A",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "PLDF01000208.1_2": {
+    "rank_layer22": 4,
+    "distance_layer22": 0.2261286010865702,
+    "phylum": "Acidobacteriota",
+    "length": 365,
+    "mean_plddt": 25.687984466552734,
+    "fold_seconds": 1215.8,
+    "foldseek": {
+      "ticket": "c3dT89KAPe8FxZOLslyf2e-gugFWsZzMV4nkSw",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  }
+}
