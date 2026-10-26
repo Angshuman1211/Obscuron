@@ -1,0 +1,967 @@
+{
+  "convergence": {
+    "n": 31712,
+    "kendall_tau": [
+      [
+        1.0,
+        -0.05739160767398284,
+        0.1938434257450078,
+        0.1577049970269363,
+        0.061600988652642207
+      ],
+      [
+        -0.05739160767398284,
+        1.0,
+        0.008810372149035878,
+        -0.0365196223551276,
+        0.04478611598793809
+      ],
+      [
+        0.1938434257450078,
+        0.008810372149035878,
+        1.0,
+        -0.2164589422925184,
+        0.45175795410372677
+      ],
+      [
+        0.1577049970269363,
+        -0.0365196223551276,
+        -0.2164589422925184,
+        1.0,
+        -0.30340564296769634
+      ],
+      [
+        0.061600988652642207,
+        0.04478611598793809,
+        0.45175795410372677,
+        -0.30340564296769634,
+        1.0
+      ]
+    ],
+    "axes": [
+      "evt",
+      "context",
+      "composition",
+      "genos-m",
+      "prostt5"
+    ],
+    "rows": [
+      {
+        "axes": [
+          "evt",
+          "context"
+        ],
+        "observed": 325,
+        "positives": 35,
+        "p_enrichment": 0.7962626613330468,
+        "permutation_mean": 421.8425,
+        "permutation_p": 1.0,
+        "gaussian_mean": 321.6725,
+        "gaussian_p": 0.4513715710723192,
+        "t4_mean": 525.6,
+        "t4_p": 1.0,
+        "permutation_p_bh": 1.0,
+        "gaussian_p_bh": 0.4889858686616791,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "composition"
+        ],
+        "observed": 870,
+        "positives": 38,
+        "p_enrichment": 0.9999999999999998,
+        "permutation_mean": 317.0225,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 686.655,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 892.2,
+        "t4_p": 0.7805486284289277,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "genos-m"
+        ],
+        "observed": 913,
+        "positives": 111,
+        "p_enrichment": 0.5009117772139369,
+        "permutation_mean": 315.5,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 607.71,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 814.8675,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "prostt5"
+        ],
+        "observed": 653,
+        "positives": 29,
+        "p_enrichment": 0.9999999999977833,
+        "permutation_mean": 317.12,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 419.8475,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 625.4525,
+        "t4_p": 0.12967581047381546,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.3371571072319202,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "composition"
+        ],
+        "observed": 445,
+        "positives": 15,
+        "p_enrichment": 0.9999999999889203,
+        "permutation_mean": 422.445,
+        "permutation_p": 0.10972568578553615,
+        "gaussian_mean": 440.26,
+        "gaussian_p": 0.43640897755610975,
+        "t4_mean": 651.68,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.12967581047381546,
+        "gaussian_p_bh": 0.4889858686616791,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "genos-m"
+        ],
+        "observed": 310,
+        "positives": 36,
+        "p_enrichment": 0.6339860147954426,
+        "permutation_mean": 421.695,
+        "permutation_p": 1.0,
+        "gaussian_mean": 356.9175,
+        "gaussian_p": 0.9950124688279302,
+        "t4_mean": 563.91,
+        "t4_p": 1.0,
+        "permutation_p_bh": 1.0,
+        "gaussian_p_bh": 0.9975062344139651,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "prostt5"
+        ],
+        "observed": 457,
+        "positives": 17,
+        "p_enrichment": 0.9999999999445065,
+        "permutation_mean": 421.555,
+        "permutation_p": 0.032418952618453865,
+        "gaussian_mean": 510.6975,
+        "gaussian_p": 0.9975062344139651,
+        "t4_mean": 724.985,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.04214463840399003,
+        "gaussian_p_bh": 0.9975062344139651,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "composition",
+          "genos-m"
+        ],
+        "observed": 388,
+        "positives": 18,
+        "p_enrichment": 0.9999998955310311,
+        "permutation_mean": 316.2375,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 78.995,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 221.835,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "composition",
+          "prostt5"
+        ],
+        "observed": 1493,
+        "positives": 25,
+        "p_enrichment": 1.0,
+        "permutation_mean": 317.4075,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 1360.9975,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 1527.735,
+        "t4_p": 0.8329177057356608,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 209,
+        "positives": 17,
+        "p_enrichment": 0.9749646548888974,
+        "permutation_mean": 317.1675,
+        "permutation_p": 1.0,
+        "gaussian_mean": 33.6125,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 142.75,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 1.0,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition"
+        ],
+        "observed": 108,
+        "positives": 7,
+        "p_enrichment": 0.981542535765112,
+        "permutation_mean": 41.995,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 75.9625,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 183.5075,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "genos-m"
+        ],
+        "observed": 81,
+        "positives": 10,
+        "p_enrichment": 0.5257051743885277,
+        "permutation_mean": 42.21,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 55.4,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 150.3175,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "prostt5"
+        ],
+        "observed": 97,
+        "positives": 9,
+        "p_enrichment": 0.8456023689644939,
+        "permutation_mean": 41.8925,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 52.595,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 144.9825,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "composition",
+          "genos-m"
+        ],
+        "observed": 275,
+        "positives": 9,
+        "p_enrichment": 0.9999999589694749,
+        "permutation_mean": 31.91,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 41.75,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 134.1775,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "composition",
+          "prostt5"
+        ],
+        "observed": 397,
+        "positives": 11,
+        "p_enrichment": 0.9999999999968773,
+        "permutation_mean": 31.8675,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 264.7675,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 428.1525,
+        "t4_p": 0.9551122194513716,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 159,
+        "positives": 12,
+        "p_enrichment": 0.9768475259425242,
+        "permutation_mean": 31.59,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 12.83,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 72.0775,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "composition",
+          "genos-m"
+        ],
+        "observed": 53,
+        "positives": 7,
+        "p_enrichment": 0.4655774878676926,
+        "permutation_mean": 42.525,
+        "permutation_p": 0.0798004987531172,
+        "gaussian_mean": 8.585,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 55.05,
+        "t4_p": 0.6159600997506235,
+        "permutation_p_bh": 0.0988006175038594,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "composition",
+          "prostt5"
+        ],
+        "observed": 221,
+        "positives": 7,
+        "p_enrichment": 0.9999995176372959,
+        "permutation_mean": 42.715,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 210.39,
+        "gaussian_p": 0.24937655860349128,
+        "t4_mean": 363.21,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.29471775107685333,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 32,
+        "positives": 5,
+        "p_enrichment": 0.34542928781896254,
+        "permutation_mean": 41.855,
+        "permutation_p": 0.9625935162094763,
+        "gaussian_mean": 4.7,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 42.0275,
+        "t4_p": 0.9526184538653366,
+        "permutation_p_bh": 1.0,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 110,
+        "positives": 8,
+        "p_enrichment": 0.9639769479892694,
+        "permutation_mean": 32.1775,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 10.9175,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 67.85,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition",
+          "genos-m"
+        ],
+        "observed": 35,
+        "positives": 4,
+        "p_enrichment": 0.627094243466154,
+        "permutation_mean": 4.265,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 3.9175,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 31.835,
+        "t4_p": 0.2967581047381546,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.7014282475629109,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition",
+          "prostt5"
+        ],
+        "observed": 64,
+        "positives": 5,
+        "p_enrichment": 0.9008447926136277,
+        "permutation_mean": 4.385,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 33.1,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 101.3525,
+        "t4_p": 1.0,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 1.0,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 29,
+        "positives": 5,
+        "p_enrichment": 0.27078406698726376,
+        "permutation_mean": 4.11,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 1.4525,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 19.8525,
+        "t4_p": 0.029925187032418952,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.08645054031587697,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 98,
+        "positives": 6,
+        "p_enrichment": 0.983615502783914,
+        "permutation_mean": 3.27,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 5.9075,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 42.9475,
+        "t4_p": 0.0024937655860349127,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.009262557890986818,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "context",
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 21,
+        "positives": 3,
+        "p_enrichment": 0.47659122816887767,
+        "permutation_mean": 4.3325,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 1.4575,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 19.905,
+        "t4_p": 0.4114713216957606,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.8915211970074813,
+        "p_enrichment_bh": 1.0
+      },
+      {
+        "axes": [
+          "evt",
+          "context",
+          "composition",
+          "genos-m",
+          "prostt5"
+        ],
+        "observed": 20,
+        "positives": 3,
+        "p_enrichment": 0.4435233672737381,
+        "permutation_mean": 0.49,
+        "permutation_p": 0.0024937655860349127,
+        "gaussian_mean": 0.68,
+        "gaussian_p": 0.0024937655860349127,
+        "t4_mean": 12.0075,
+        "t4_p": 0.022443890274314215,
+        "permutation_p_bh": 0.0034125213282583016,
+        "gaussian_p_bh": 0.0030875192969956064,
+        "t4_p_bh": 0.07294264339152119,
+        "p_enrichment_bh": 1.0
+      }
+    ]
+  },
+  "multiple_testing": {
+    "method": "Benjamini-Hochberg over all reported tests",
+    "n_tests": 78,
+    "n_significant_raw_0.05": 46,
+    "n_significant_bh_0.05": 46,
+    "tests": [
+      {
+        "test": "per_signal_34138:esm2_L33:mannwhitney",
+        "p": 9.399512422762993e-46,
+        "q_bh": 8.146244099727927e-45
+      },
+      {
+        "test": "per_signal_34138:composition:mannwhitney",
+        "p": 4.5003353097914324e-262,
+        "q_bh": 3.510261541637317e-260
+      },
+      {
+        "test": "per_signal_34138:composition:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_34138:prostt5_structure:mannwhitney",
+        "p": 1.7668852608531632e-211,
+        "q_bh": 6.890852517327337e-210
+      },
+      {
+        "test": "per_signal_34138:prostt5_structure:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_34138:genos_m:mannwhitney",
+        "p": 5.526195723979314e-19,
+        "q_bh": 3.592027220586555e-18
+      },
+      {
+        "test": "per_signal_34138:genos_m:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_34138:context:mannwhitney",
+        "p": 3.299432088265491e-35,
+        "q_bh": 2.3395972989518937e-34
+      },
+      {
+        "test": "per_signal_34138:context:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_34138:cpbb:mannwhitney",
+        "p": 0.014108540773856811,
+        "q_bh": 0.02501059500820071
+      },
+      {
+        "test": "per_signal_34138:cpbb:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_34138:aa_entropy_k3:mannwhitney",
+        "p": 1.316330277915316e-141,
+        "q_bh": 2.053475233547893e-140
+      },
+      {
+        "test": "per_signal_34138:aa_entropy_k3:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_14138:esm2_L22_novelty:mannwhitney",
+        "p": 1.6355780431691639e-15,
+        "q_bh": 9.813468259014984e-15
+      },
+      {
+        "test": "per_signal_14138:immune_nonself_score:mannwhitney",
+        "p": 6.428073299659727e-54,
+        "q_bh": 6.663668841582039e-53
+      },
+      {
+        "test": "per_signal_14138:immune_nonself_score:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_14138:esm2_L22_raw_distance:mannwhitney",
+        "p": 0.3498410076640025,
+        "q_bh": 0.5457519719558439
+      },
+      {
+        "test": "per_signal_14138:composition:mannwhitney",
+        "p": 1.1748647303718743e-198,
+        "q_bh": 3.054648298966873e-197
+      },
+      {
+        "test": "per_signal_14138:composition:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_14138:prostt5_structure:mannwhitney",
+        "p": 7.444154095281623e-158,
+        "q_bh": 1.4516100485799166e-156
+      },
+      {
+        "test": "per_signal_14138:prostt5_structure:paired_vs_primary",
+        "p": 0.000999000999000999,
+        "q_bh": 0.0035419126328217238
+      },
+      {
+        "test": "per_signal_14138:cpbb:mannwhitney",
+        "p": 0.02127587326977763,
+        "q_bh": 0.036076480761796856
+      },
+      {
+        "test": "per_signal_14138:cpbb:paired_vs_primary",
+        "p": 0.016,
+        "q_bh": 0.027733333333333332
+      },
+      {
+        "test": "immune:fisher",
+        "p": 7.185958159760969e-76,
+        "q_bh": 9.34174560768926e-75
+      },
+      {
+        "test": "immune:cmh",
+        "p": 6.834532145212347e-54,
+        "q_bh": 6.663668841582039e-53
+      },
+      {
+        "test": "prostt5_vs_esm2:wilcoxon",
+        "p": 3.1430653240892876e-43,
+        "q_bh": 2.4515909527896446e-42
+      },
+      {
+        "test": "convergence:evt+context:gaussian_excess",
+        "p": 0.4513715710723192,
+        "q_bh": 0.6642826895026585
+      },
+      {
+        "test": "convergence:evt+context:enrichment",
+        "p": 0.7962626613330468,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+composition:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+composition:enrichment",
+        "p": 0.9999999999999998,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+genos-m:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+genos-m:enrichment",
+        "p": 0.5009117772139369,
+        "q_bh": 0.6976985468336977
+      },
+      {
+        "test": "convergence:evt+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+prostt5:enrichment",
+        "p": 0.9999999999977833,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+composition:gaussian_excess",
+        "p": 0.43640897755610975,
+        "q_bh": 0.6642826895026585
+      },
+      {
+        "test": "convergence:context+composition:enrichment",
+        "p": 0.9999999999889203,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+genos-m:gaussian_excess",
+        "p": 0.9950124688279302,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+genos-m:enrichment",
+        "p": 0.6339860147954426,
+        "q_bh": 0.8381510026109241
+      },
+      {
+        "test": "convergence:context+prostt5:gaussian_excess",
+        "p": 0.9975062344139651,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+prostt5:enrichment",
+        "p": 0.9999999999445065,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:composition+genos-m:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:composition+genos-m:enrichment",
+        "p": 0.9999998955310311,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:composition+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:composition+prostt5:enrichment",
+        "p": 1.0,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:genos-m+prostt5:enrichment",
+        "p": 0.9749646548888974,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+context+composition:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+composition:enrichment",
+        "p": 0.981542535765112,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+context+genos-m:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+genos-m:enrichment",
+        "p": 0.5257051743885277,
+        "q_bh": 0.7193860281106168
+      },
+      {
+        "test": "convergence:evt+context+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+prostt5:enrichment",
+        "p": 0.8456023689644939,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+composition+genos-m:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+composition+genos-m:enrichment",
+        "p": 0.9999999589694749,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+composition+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+composition+prostt5:enrichment",
+        "p": 0.9999999999968773,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+genos-m+prostt5:enrichment",
+        "p": 0.9768475259425242,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+composition+genos-m:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:context+composition+genos-m:enrichment",
+        "p": 0.4655774878676926,
+        "q_bh": 0.6725008158088893
+      },
+      {
+        "test": "convergence:context+composition+prostt5:gaussian_excess",
+        "p": 0.24937655860349128,
+        "q_bh": 0.41385896959728347
+      },
+      {
+        "test": "convergence:context+composition+prostt5:enrichment",
+        "p": 0.9999995176372959,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:context+genos-m+prostt5:enrichment",
+        "p": 0.34542928781896254,
+        "q_bh": 0.5457519719558439
+      },
+      {
+        "test": "convergence:composition+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:composition+genos-m+prostt5:enrichment",
+        "p": 0.9639769479892694,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+context+composition+genos-m:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+composition+genos-m:enrichment",
+        "p": 0.627094243466154,
+        "q_bh": 0.8381510026109241
+      },
+      {
+        "test": "convergence:evt+context+composition+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+composition+prostt5:enrichment",
+        "p": 0.9008447926136277,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:evt+context+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+genos-m+prostt5:enrichment",
+        "p": 0.27078406698726376,
+        "q_bh": 0.4400241088543036
+      },
+      {
+        "test": "convergence:evt+composition+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+composition+genos-m+prostt5:enrichment",
+        "p": 0.983615502783914,
+        "q_bh": 1.0
+      },
+      {
+        "test": "convergence:context+composition+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:context+composition+genos-m+prostt5:enrichment",
+        "p": 0.47659122816887767,
+        "q_bh": 0.6758930144940446
+      },
+      {
+        "test": "convergence:evt+context+composition+genos-m+prostt5:gaussian_excess",
+        "p": 0.0024937655860349127,
+        "q_bh": 0.004523574783970307
+      },
+      {
+        "test": "convergence:evt+context+composition+genos-m+prostt5:enrichment",
+        "p": 0.4435233672737381,
+        "q_bh": 0.6642826895026585
+      }
+    ],
+    "significant_raw_but_not_after_bh": []
+  }
+}
