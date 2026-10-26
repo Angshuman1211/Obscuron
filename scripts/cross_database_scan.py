@@ -47,9 +47,21 @@ def queries() -> DigitalSequenceBlock:
 
 def hmm_files(lib: str) -> list[Path]:
     root = EXT / lib / "unpacked"
-    files = sorted(p for p in root.rglob("*") if p.is_file() and p.suffix.lower() in (".hmm", ".lib"))
-    if not files:  # some archives hold one profile per extension-less file
-        files = sorted(p for p in root.rglob("*") if p.is_file() and p.stat().st_size > 0 and p.read_bytes()[:6] == b"HMMER3")
+    if not root.exists():
+        return []
+    if lib == "antifam":  # AntiFam.hmm holds every profile; the per-kingdom files are subsets of it
+        f = root / "AntiFam.hmm"
+        return [f] if f.exists() else []
+    files = sorted(p for p in root.rglob("*") if p.is_file() and p.suffix.lower() in (".hmm", ".lib")
+                   and p.name != "combined.hmm")
+    if len(files) > 50:
+        # one profile per file (NCBIfam): concatenate once, so hmmsearch can spread profiles over threads
+        combined = EXT / lib / "combined.hmm"
+        if not combined.exists():
+            with open(combined, "wb") as out:
+                for f in files:
+                    out.write(f.read_bytes())
+        return [combined]
     return files
 
 
