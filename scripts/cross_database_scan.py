@@ -48,7 +48,9 @@ def queries() -> DigitalSequenceBlock:
 def hmm_files(lib: str) -> list[Path]:
     root = EXT / lib / "unpacked"
     if not root.exists():
-        return []
+        # the unpacked profiles may have been deleted to save space once combined.hmm was built
+        combined = EXT / lib / "combined.hmm"
+        return [combined] if combined.exists() else []
     if lib == "antifam":  # AntiFam.hmm holds every profile; the per-kingdom files are subsets of it
         f = root / "AntiFam.hmm"
         return [f] if f.exists() else []
