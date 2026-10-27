@@ -1,0 +1,23 @@
+{
+  "ncbifam": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/hmm/current/hmm_PGAP.HMM.tgz",
+    "file": "hmm_PGAP.HMM.tgz",
+    "bytes": 443960501,
+    "sha256": "dda5bf4a12916704374b04254e296ded647a89429d26d5bba6d16b149d7e50cc",
+    "n_hmm_files": 18950
+  },
+  "antifam": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/AntiFam/current/Antifam.tar.gz",
+    "file": "Antifam.tar.gz",
+    "bytes": 5654689,
+    "sha256": "e06a17b4a46be27de0c5f532ab0a2e149f95d2f4119a851d19a2fe715ad077bb",
+    "n_hmm_files": 5
+  },
+  "nmpfams": {
+    "url": "https://bib.fleming.gr/NMPFamsDB/download_files/pHMMs_all.tgz",
+    "file": "pHMMs_all.tgz",
+    "bytes": 1150894985,
+    "sha256": "ebc59b81152eb2b4cc203544bf170f54e61fc36fb7018bebe2594986cad2f69e",
+    "n_hmm_files": 106198
+  }
+}
