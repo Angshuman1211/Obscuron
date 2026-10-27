@@ -34,13 +34,16 @@ def fetch(name: str, url: str) -> dict:
     d.mkdir(parents=True, exist_ok=True)
     arch = d / url.rsplit("/", 1)[-1]
     if not arch.exists():
-        h = hashlib.sha256()
-        with requests.get(url, stream=True, timeout=(15, 600)) as r:
+        part = arch.with_suffix(arch.suffix + ".part")
+        done = part.stat().st_size if part.exists() else 0
+        headers = {"Range": f"bytes={done}-"} if done else {}
+        with requests.get(url, stream=True, timeout=(15, 600), headers=headers) as r:
             r.raise_for_status()
-            with open(arch.with_suffix(arch.suffix + ".part"), "wb") as fh:
+            mode = "ab" if done and r.status_code == 206 else "wb"  # resume only if the server honours Range
+            with open(part, mode) as fh:
                 for chunk in r.iter_content(1 << 20):
-                    fh.write(chunk); h.update(chunk)
-        arch.with_suffix(arch.suffix + ".part").rename(arch)
+                    fh.write(chunk)
+        part.rename(arch)
     h = hashlib.sha256()
     with open(arch, "rb") as fh:
         for chunk in iter(lambda: fh.read(1 << 20), b""):

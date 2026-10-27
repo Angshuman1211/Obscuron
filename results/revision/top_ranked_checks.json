@@ -1,0 +1,126 @@
+{
+  "n": 34138,
+  "n_top1pct": 341,
+  "thresholds_from_characterised": {
+    "entropy_p5": 3.7853737704794685,
+    "disorder_p95": 0.5708088714938029,
+    "cpbb_p5": 0.02779290171660616,
+    "characterised_partial_share": 0.09
+  },
+  "top1pct_vs_rest": {
+    "length": {
+      "top_median": 123.0,
+      "rest_median": 155.0,
+      "mannwhitney_p": 0.00011365665717769781
+    },
+    "entropy": {
+      "top_median": 3.7798815908511694,
+      "rest_median": 3.9631973685122937,
+      "mannwhitney_p": 2.892418131307229e-47
+    },
+    "disorder": {
+      "top_median": 0.5192307692307693,
+      "rest_median": 0.4773662551440329,
+      "mannwhitney_p": 3.725375394502308e-15
+    },
+    "cpbb": {
+      "top_median": 0.11346163138946687,
+      "rest_median": 0.07181772184557612,
+      "mannwhitney_p": 3.218633884745341e-26
+    },
+    "complete_share": {
+      "top": 0.8914956011730205,
+      "rest": 0.8559931354853981
+    },
+    "antifam_share": {
+      "top": 0.026392961876832845,
+      "rest": 0.0010651833002929254
+    },
+    "ncbifam_share": {
+      "top": 0.04105571847507331,
+      "rest": 0.05373257981477646
+    },
+    "nmpfams_share": {
+      "top": 0.0,
+      "rest": 0.0
+    },
+    "short_lt_100_share": {
+      "top": 0.3519061583577713,
+      "rest": 0.31141817321063997
+    }
+  },
+  "filter": {
+    "pass_all": 0.4770050969594001,
+    "pass_top1pct": 0.2844574780058651,
+    "failed_by": {
+      "incomplete_gene": 0.10850439882697947,
+      "length": 0.3519061583577713,
+      "low_complexity": 0.5131964809384164,
+      "disorder": 0.31671554252199413,
+      "weak_frame_signal": 0.02346041055718475,
+      "antifam": 0.026392961876832845
+    }
+  },
+  "filtered_top10": [
+    {
+      "protein_id": "DCUM01000125.1_2",
+      "rank": 5,
+      "length": 547,
+      "phylum": "KSB1"
+    },
+    {
+      "protein_id": "DCHV01000033.1_3",
+      "rank": 10,
+      "length": 348,
+      "phylum": "Bacteroidota"
+    },
+    {
+      "protein_id": "DF820458.1_623",
+      "rank": 17,
+      "length": 164,
+      "phylum": "Moduliflexota"
+    },
+    {
+      "protein_id": "DF820462.1_146",
+      "rank": 19,
+      "length": 129,
+      "phylum": "Moduliflexota"
+    },
+    {
+      "protein_id": "LMZT01000101.1_20",
+      "rank": 20,
+      "length": 221,
+      "phylum": "OLB16"
+    },
+    {
+      "protein_id": "KI543214.1_56",
+      "rank": 24,
+      "length": 282,
+      "phylum": "Halobacteriota"
+    },
+    {
+      "protein_id": "WVXK01000111.1_8",
+      "rank": 27,
+      "length": 276,
+      "phylum": "Desulfobacterota_E"
+    },
+    {
+      "protein_id": "DLYX01000357.1_5",
+      "rank": 28,
+      "length": 149,
+      "phylum": "Desulfobacterota_B"
+    },
+    {
+      "protein_id": "DEYK01000070.1_19",
+      "rank": 29,
+      "length": 168,
+      "phylum": "Planctomycetota"
+    },
+    {
+      "protein_id": "DCUM01000151.1_7",
+      "rank": 30,
+      "length": 335,
+      "phylum": "KSB1"
+    }
+  ]
+}
