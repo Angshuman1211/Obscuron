@@ -177,6 +177,22 @@ def _foldseek(pid: str) -> dict:
     return summary
 
 
+def select(ranked, n, filtered=None, mid_ranked=False, control=None) -> pd.DataFrame:
+    """the proteins of one case-study set (also used by scripts/aws_structure_run.py)"""
+    t = pd.read_csv(ranked)
+    pick = t[(t.cat == "dark_negative") & t.len.between(100, 400)].head(n)
+    if filtered:
+        f = pd.read_csv(filtered).rename(columns={"protein_id": "pid", "length": "len"})
+        pick = f[f.len.between(100, 300)].head(n)
+    if mid_ranked:
+        # comparison set: random still-dark proteins of 100-300 residues from the middle of the ranking
+        mid = t[(t.cat == "dark_negative") & t.len.between(100, 300) & t["rank"].between(15000, 20000)]
+        pick = mid.sample(n, random_state=42)
+    if control:
+        pick = pd.DataFrame([{"pid": control, "d22": float("nan"), "cat": "control", "rank": -1, "phylum": None}])
+    return pick
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ranked", required=True, help="CSV with pid, d22, cat, len, rank (layer-22 ranking of dark queries)")
@@ -188,17 +204,7 @@ def main():
                     help="fold --n random still-dark proteins from ranks 15,000 to 20,000 as a comparison set")
     ap.add_argument("--out", default=None, help="summary file name (default depends on the mode)")
     args = ap.parse_args()
-    t = pd.read_csv(args.ranked)
-    pick = t[(t.cat == "dark_negative") & t.len.between(100, 400)].head(args.n)
-    if args.filtered:
-        f = pd.read_csv(args.filtered).rename(columns={"protein_id": "pid", "length": "len"})
-        pick = f[f.len.between(100, 300)].head(args.n)
-    if args.mid_ranked:
-        # comparison set: random still-dark proteins of 100-300 residues from the middle of the ranking
-        mid = t[(t.cat == "dark_negative") & t.len.between(100, 300) & t["rank"].between(15000, 20000)]
-        pick = mid.sample(args.n, random_state=42)
-    if args.control:
-        pick = pd.DataFrame([{"pid": args.control, "d22": float("nan"), "cat": "control", "rank": -1, "phylum": None}])
+    pick = select(args.ranked, args.n, filtered=args.filtered, mid_ranked=args.mid_ranked, control=args.control)
     seqs = {p: sequence(p) for p in pick.pid}
     todo = {p: q for p, q in seqs.items() if not (OUT / f"{p}.pdb").exists()}
     folded = fold(todo) if todo else {}
