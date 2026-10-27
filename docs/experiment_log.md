@@ -143,3 +143,9 @@ Entries start once there's a result worth recording (Phase 2 onward).
 - Config: filtered top 30 of 100-300 residues (ranks 17-112) vs 30 random still-dark proteins of 100-300 residues from ranks 15,000-20,000 (seed 42); ESMFold as before on the local RTX 4060; Foldseek afdb50 + pdb100; hits at E <= 1e-3; resumable runner, 4 launches (one session teardown, one deliberate kill test), no protein refolded
 - Result: median pLDDT 33.6 vs 70.7 (Mann-Whitney p = 5e-9); pLDDT >= 70 in 0/30 vs 16/30 (Fisher p = 2e-6); AFDB hit 1/30 vs 21/30 (p = 6e-8); PDB hit 0/30 vs 2/30 (p = 0.49); median length 146 vs 160 (p = 0.18). The one filtered hit (NZ_RXLO01000006.1_211, rank 110) is an uncharacterised AFDB protein at 67% identity. The AWS GPU path (scripts/aws_structure_run.py) was prepared but not used: the new account's G-instance quota was 0 and the laptop finished first
 - Next: compile on Overleaf and check the length
+
+## 2026-10-27 -- ESM-independent disorder check (scripts/disorder_check.py)
+- Commit: see git log
+- Config: Uversky charge-hydropathy rule and FoldIndex (51-residue windows), pure Python; metapredict was the first choice but has no Windows wheel and needs a C++ tool chain. Sets: filtered top 30 vs mid-ranked 30; top 1% (341) vs 3,000 random others (seed 42), before and after the artefact filter
+- Result: filtered top vs mid-ranked: Uversky-unfolded 1/30 vs 3/30 (p = 0.61), median disordered share 0.19 vs 0.13 (p = 0.78); 23/30 filtered proteins have pLDDT < 50 but < 30% disordered residues; Spearman FoldIndex vs pLDDT 0.13. Top 1% vs rest: unfolded 18.8% vs 14.4% (p = 0.04), gone after the filter (4.1% vs 7.1%, p = 0.41). Low ESMFold confidence at the filtered top is not mainly disorder
+- Next: alignment-based prediction (ColabFold) on about 10 per group would separate ESM-2 blind spots from new folds
