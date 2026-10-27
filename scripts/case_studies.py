@@ -91,7 +91,14 @@ def plddt_from_pdb(pid: str) -> float:
 
 
 def foldseek(pid: str) -> dict:
-    return _retry(lambda: _foldseek(pid))
+    """search once per protein; results are cached so an interrupted run does not repeat searches"""
+    cache = OUT / "foldseek" / f"{pid}.json"
+    if cache.exists():
+        return json.loads(cache.read_text())
+    fs = _retry(lambda: _foldseek(pid))
+    cache.parent.mkdir(exist_ok=True)
+    cache.write_text(json.dumps(fs, indent=1))
+    return fs
 
 
 def _foldseek(pid: str) -> dict:
@@ -130,6 +137,7 @@ def main():
                     help="filtered ranking CSV (results/revision/filtered_ranking.csv): fold its top --n proteins of 100-300 residues")
     ap.add_argument("--mid-ranked", action="store_true",
                     help="fold --n random still-dark proteins from ranks 15,000 to 20,000 as a comparison set")
+    ap.add_argument("--out", default=None, help="summary file name (default depends on the mode)")
     args = ap.parse_args()
     t = pd.read_csv(args.ranked)
     pick = t[(t.cat == "dark_negative") & t.len.between(100, 400)].head(args.n)
@@ -153,8 +161,8 @@ def main():
         summary[r.pid] = {"rank_layer22": int(r["rank"]), "distance_layer22": float(r.d22), "phylum": r.get("phylum"),
                           **folded[r.pid], "foldseek": fs}
         print(r.pid, json.dumps(fs)[:400], flush=True)
-    name = ("control.json" if args.control else "filtered_summary.json" if args.filtered
-            else "mid_ranked_summary.json" if args.mid_ranked else "summary.json")
+    name = args.out or ("control.json" if args.control else "filtered_summary.json" if args.filtered
+                        else "mid_ranked_summary.json" if args.mid_ranked else "summary.json")
     (OUT / name).write_text(json.dumps(summary, indent=2, default=str))
 
 

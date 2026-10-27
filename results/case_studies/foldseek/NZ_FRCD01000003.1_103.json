@@ -1,0 +1,123 @@
+{
+ "ticket": "kKMBFRijJSEloYi5rJkEsRm5iKRuFP_GPJlw1Q",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A841NKB2-F1-model_v6 Lipoprotein",
+    "prob": 1,
+    "eval": 1.99e-11,
+    "score": 310,
+    "seqId": 75.7,
+    "alnLength": 157,
+    "qStartPos": 1,
+    "qEndPos": 157,
+    "taxName": "Chryseobacterium shigense"
+   },
+   {
+    "target": "AF-A0A086AZG8-F1-model_v6 Lipoprotein",
+    "prob": 1,
+    "eval": 3.262e-11,
+    "score": 317,
+    "seqId": 84.5,
+    "alnLength": 142,
+    "qStartPos": 16,
+    "qEndPos": 157,
+    "taxName": "Chryseobacterium sp. JM1"
+   },
+   {
+    "target": "AF-A0A0G3M2P6-F1-model_v6 Lipoprotein",
+    "prob": 1,
+    "eval": 9.339e-08,
+    "score": 240,
+    "seqId": 44.3,
+    "alnLength": 158,
+    "qStartPos": 10,
+    "qEndPos": 157,
+    "taxName": "Chryseobacterium gallinarum"
+   },
+   {
+    "target": "AF-A0AA95FF91-F1-model_v6 Lipoprotein",
+    "prob": 1,
+    "eval": 2.957e-07,
+    "score": 230,
+    "seqId": 49.3,
+    "alnLength": 146,
+    "qStartPos": 13,
+    "qEndPos": 157,
+    "taxName": "Chryseobacterium sp."
+   },
+   {
+    "target": "AF-A0A936KWW4-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 8.442e-05,
+    "score": 168,
+    "seqId": 23.4,
+    "alnLength": 158,
+    "qStartPos": 18,
+    "qEndPos": 154,
+    "taxName": "Bacteroidales bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 172,
+  "top": [
+   {
+    "target": "8d9y-assembly4.cif.gz_H Crystal structure of Taipan alpha-neurotoxin in complex with Centi-3FTX-D09 antibody",
+    "prob": 0.106,
+    "eval": 0.9186,
+    "score": 32,
+    "seqId": 7.7,
+    "alnLength": 142,
+    "qStartPos": 33,
+    "qEndPos": 156,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "1fne-assembly1.cif.gz_B HISTOCOMPATIBILITY ANTIGEN",
+    "prob": 0.214,
+    "eval": 1.083,
+    "score": 40,
+    "seqId": 6.1,
+    "alnLength": 131,
+    "qStartPos": 31,
+    "qEndPos": 152,
+    "taxName": "Mus musculus"
+   },
+   {
+    "target": "1ldp-assembly1.cif.gz_H CRYSTAL STRUCTURE OF MURINE MHC CLASS I H-2LD WITH A MIXTURE OF BOUND PEPTIDES",
+    "prob": 0.164,
+    "eval": 1.425,
+    "score": 37,
+    "seqId": 4.2,
+    "alnLength": 117,
+    "qStartPos": 38,
+    "qEndPos": 150,
+    "taxName": "Mus musculus"
+   },
+   {
+    "target": "7zqj-assembly1.cif.gz_A MHC class I from a wild bird in complex with a nonameric peptide P3",
+    "prob": 0.106,
+    "eval": 2.093,
+    "score": 32,
+    "seqId": 7,
+    "alnLength": 127,
+    "qStartPos": 38,
+    "qEndPos": 157,
+    "taxName": "Acrocephalus arundinaceus"
+   },
+   {
+    "target": "6dfx-assembly2.cif.gz_E human diabetogenic TCR T1D3 in complex with DQ8-p8E9E peptide",
+    "prob": 0.069,
+    "eval": 2.093,
+    "score": 27,
+    "seqId": 8.2,
+    "alnLength": 207,
+    "qStartPos": 22,
+    "qEndPos": 152,
+    "taxName": "Homo sapiens"
+   }
+  ]
+ }
+}

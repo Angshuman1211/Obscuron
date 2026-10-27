@@ -1,0 +1,123 @@
+{
+ "ticket": "b0mV108JkVPU2NWjGxFI9A1yLigE4n0Gy4a06Q",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A7T7XL14-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 2.619e-17,
+    "score": 935,
+    "seqId": 41.5,
+    "alnLength": 272,
+    "qStartPos": 1,
+    "qEndPos": 272,
+    "taxName": "Breznakiella homolactica"
+   },
+   {
+    "target": "AF-A0A3B9GFH7-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 3.194e-13,
+    "score": 711,
+    "seqId": 33.4,
+    "alnLength": 275,
+    "qStartPos": 1,
+    "qEndPos": 272,
+    "taxName": "Spirochaetaceae bacterium"
+   },
+   {
+    "target": "AF-A0A6C1QPP2-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 4e-13,
+    "score": 695,
+    "seqId": 32.8,
+    "alnLength": 271,
+    "qStartPos": 1,
+    "qEndPos": 271,
+    "taxName": "Spirochaetaceae bacterium"
+   },
+   {
+    "target": "AF-A0AAE3JHV1-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 1.767e-12,
+    "score": 677,
+    "seqId": 30.2,
+    "alnLength": 271,
+    "qStartPos": 1,
+    "qEndPos": 271,
+    "taxName": "Teretinema zuelzerae"
+   },
+   {
+    "target": "AF-A0A949JW97-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 2.516e-11,
+    "score": 601,
+    "seqId": 29.6,
+    "alnLength": 266,
+    "qStartPos": 1,
+    "qEndPos": 266,
+    "taxName": "Spirochaetales bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 464,
+  "top": [
+   {
+    "target": "6c95-assembly1.cif.gz_A The Human NatA (Naa10/Naa15) amino-terminal acetyltransferase complex bound to HYPK",
+    "prob": 1,
+    "eval": 0.01329,
+    "score": 123,
+    "seqId": 15.9,
+    "alnLength": 188,
+    "qStartPos": 64,
+    "qEndPos": 231,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6c9m-assembly2.cif.gz_C The Human NatA (Naa10/Naa15) amino-terminal acetyltransferase complex",
+    "prob": 1,
+    "eval": 0.0139,
+    "score": 121,
+    "seqId": 15.7,
+    "alnLength": 216,
+    "qStartPos": 64,
+    "qEndPos": 271,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6voa-assembly1.cif.gz_F Cryo-EM structure of the BBSome-ARL6 complex",
+    "prob": 1,
+    "eval": 0.01821,
+    "score": 117,
+    "seqId": 12.6,
+    "alnLength": 198,
+    "qStartPos": 74,
+    "qEndPos": 270,
+    "taxName": "Bos taurus"
+   },
+   {
+    "target": "8qca-assembly1.cif.gz_B CryoEM structure of a S. Cerevisiae Ski2387 complex in the closed state bound to RNA",
+    "prob": 0.999,
+    "eval": 0.01821,
+    "score": 98,
+    "seqId": 14.6,
+    "alnLength": 259,
+    "qStartPos": 67,
+    "qEndPos": 266,
+    "taxName": "Saccharomyces cerevisiae"
+   },
+   {
+    "target": "5a31-assembly1.cif.gz_F Structure of the human APC-Cdh1-Hsl1-UbcH10 complex.",
+    "prob": 1,
+    "eval": 0.02281,
+    "score": 121,
+    "seqId": 12.7,
+    "alnLength": 212,
+    "qStartPos": 66,
+    "qEndPos": 270,
+    "taxName": "Homo sapiens"
+   }
+  ]
+ }
+}

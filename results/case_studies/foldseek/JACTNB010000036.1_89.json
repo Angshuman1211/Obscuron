@@ -1,0 +1,123 @@
+{
+ "ticket": "1S1_Fw-jpJOieGOFg-5jhpbtSCtar5rcNGwA1g",
+ "afdb50": {
+  "n_hits": 643,
+  "top": [
+   {
+    "target": "AF-A0A954ED22-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 8.781e-12,
+    "score": 288,
+    "seqId": 64.2,
+    "alnLength": 165,
+    "qStartPos": 1,
+    "qEndPos": 153,
+    "taxName": "Planctomycetaceae bacterium"
+   },
+   {
+    "target": "AF-A0A517SB50-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 7.313e-09,
+    "score": 282,
+    "seqId": 49.6,
+    "alnLength": 125,
+    "qStartPos": 1,
+    "qEndPos": 125,
+    "taxName": "Caulifigura coniformis"
+   },
+   {
+    "target": "AF-A0A1P8WFJ6-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 1.999e-08,
+    "score": 222,
+    "seqId": 43.4,
+    "alnLength": 161,
+    "qStartPos": 1,
+    "qEndPos": 153,
+    "taxName": "Fuerstiella marisgermanici"
+   },
+   {
+    "target": "AF-A0A954LQQ5-F1-model_v6 TIGR02300 family protein",
+    "prob": 1,
+    "eval": 2.57e-08,
+    "score": 217,
+    "seqId": 43.5,
+    "alnLength": 156,
+    "qStartPos": 10,
+    "qEndPos": 153,
+    "taxName": "Planctomycetaceae bacterium"
+   },
+   {
+    "target": "AF-A0A142WS21-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 3.104e-08,
+    "score": 243,
+    "seqId": 43.4,
+    "alnLength": 122,
+    "qStartPos": 1,
+    "qEndPos": 122,
+    "taxName": "Planctomyces sp. SH-PL14"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 42,
+  "top": [
+   {
+    "target": "1k25-assembly2.cif.gz_B PBP2x from a Highly Penicillin-resistant Streptococcus pneumoniae Clinical Isolate",
+    "prob": 0.09,
+    "eval": 1.921,
+    "score": 30,
+    "seqId": 11.5,
+    "alnLength": 52,
+    "qStartPos": 53,
+    "qEndPos": 101,
+    "taxName": "Streptococcus pneumoniae"
+   },
+   {
+    "target": "1ywl-assembly1.cif.gz_A Solution NMR structure of the protein EF2693 from E. faecalis: Northeast Structural Genomics Consortium target EFR36",
+    "prob": 0.09,
+    "eval": 2.045,
+    "score": 30,
+    "seqId": 11.1,
+    "alnLength": 72,
+    "qStartPos": 51,
+    "qEndPos": 111,
+    "taxName": "Enterococcus faecalis"
+   },
+   {
+    "target": "8e8m-assembly1.cif.gz_D Mycobacterium tuberculosis RNAP paused elongation complex",
+    "prob": 0.138,
+    "eval": 2.8,
+    "score": 35,
+    "seqId": 20.3,
+    "alnLength": 54,
+    "qStartPos": 53,
+    "qEndPos": 103,
+    "taxName": "Mycobacterium tuberculosis"
+   },
+   {
+    "target": "7b70-assembly1.cif.gz_E TRAPPCore plus C8 (355-596) and C11 (1-718) from MiniTRAPPIII",
+    "prob": 0.106,
+    "eval": 2.8,
+    "score": 32,
+    "seqId": 19.5,
+    "alnLength": 41,
+    "qStartPos": 53,
+    "qEndPos": 88,
+    "taxName": "Drosophila melanogaster"
+   },
+   {
+    "target": "3isy-assembly1.cif.gz_A Crystal structure of an intracellular proteinase inhibitor (ipi, bsu11130) from bacillus subtilis at 2.61 A resolution",
+    "prob": 0.051,
+    "eval": 3.175,
+    "score": 24,
+    "seqId": 14.2,
+    "alnLength": 49,
+    "qStartPos": 54,
+    "qEndPos": 102,
+    "taxName": "Bacillus subtilis"
+   }
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "ticket": "kna7RMfmknibe_gMrqmzZu6BOPYG-3rk8-5l5A",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A9D5RC43-F1-model_v6 Copper amine oxidase-like N-terminal domain-containing protein",
+    "prob": 1,
+    "eval": 1.891e-13,
+    "score": 350,
+    "seqId": 27.1,
+    "alnLength": 258,
+    "qStartPos": 1,
+    "qEndPos": 224,
+    "taxName": "Clostridiales bacterium"
+   },
+   {
+    "target": "AF-A0A239QNK8-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 6.539e-12,
+    "score": 299,
+    "seqId": 21.1,
+    "alnLength": 288,
+    "qStartPos": 1,
+    "qEndPos": 228,
+    "taxName": "Clostridiales bacterium"
+   },
+   {
+    "target": "AF-A0A3M1H3L0-F1-model_v6 Lipocalin-like domain-containing protein",
+    "prob": 1,
+    "eval": 9.076e-11,
+    "score": 237,
+    "seqId": 15.3,
+    "alnLength": 273,
+    "qStartPos": 16,
+    "qEndPos": 274,
+    "taxName": "Planctomycetota bacterium"
+   },
+   {
+    "target": "AF-A0A939Y8U5-F1-model_v6 Lipocalin family protein",
+    "prob": 1,
+    "eval": 4.305e-10,
+    "score": 234,
+    "seqId": 15.8,
+    "alnLength": 291,
+    "qStartPos": 1,
+    "qEndPos": 252,
+    "taxName": "Lachnospiraceae bacterium"
+   },
+   {
+    "target": "AF-A0A1G6A9S9-F1-model_v6 Lipocalin-like domain-containing protein",
+    "prob": 1,
+    "eval": 1.834e-09,
+    "score": 221,
+    "seqId": 15.5,
+    "alnLength": 277,
+    "qStartPos": 16,
+    "qEndPos": 252,
+    "taxName": "Ruminococcaceae bacterium FB2012"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 261,
+  "top": [
+   {
+    "target": "2z4h-assembly1.cif.gz_A Crystal structure of the Cpx pathway activator NlpE from Escherichia coli",
+    "prob": 0.967,
+    "eval": 0.001498,
+    "score": 75,
+    "seqId": 15,
+    "alnLength": 213,
+    "qStartPos": 40,
+    "qEndPos": 227,
+    "taxName": "Escherichia coli"
+   },
+   {
+    "target": "4gzv-assembly2.cif.gz_H Crystal structure of a lipocalin family protein (BACOVA_00364) from Bacteroides ovatus ATCC 8483 at 1.95 A resolution",
+    "prob": 0.999,
+    "eval": 0.006383,
+    "score": 97,
+    "seqId": 12.6,
+    "alnLength": 150,
+    "qStartPos": 159,
+    "qEndPos": 277,
+    "taxName": "Bacteroides ovatus ATCC 8483"
+   },
+   {
+    "target": "4n7c-assembly1.cif.gz_A Structural re-examination of native Bla g 4",
+    "prob": 0.994,
+    "eval": 0.008808,
+    "score": 87,
+    "seqId": 12.5,
+    "alnLength": 175,
+    "qStartPos": 155,
+    "qEndPos": 299,
+    "taxName": "Blattella germanica"
+   },
+   {
+    "target": "4gzv-assembly1.cif.gz_C Crystal structure of a lipocalin family protein (BACOVA_00364) from Bacteroides ovatus ATCC 8483 at 1.95 A resolution",
+    "prob": 0.998,
+    "eval": 0.009807,
+    "score": 93,
+    "seqId": 13,
+    "alnLength": 153,
+    "qStartPos": 159,
+    "qEndPos": 277,
+    "taxName": "Bacteroides ovatus ATCC 8483"
+   },
+   {
+    "target": "4qrl-assembly1.cif.gz_A Crystal structure of a lipocalin-like protein (BACUNI_01346) from Bacteroides uniformis ATCC 8492 at 1.79 A resolution",
+    "prob": 1,
+    "eval": 0.01216,
+    "score": 104,
+    "seqId": 10.4,
+    "alnLength": 124,
+    "qStartPos": 161,
+    "qEndPos": 254,
+    "taxName": "Bacteroides uniformis ATCC 8492"
+   }
+  ]
+ }
+}
