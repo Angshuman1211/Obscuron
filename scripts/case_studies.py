@@ -103,9 +103,14 @@ def main():
     ap.add_argument("--ranked", required=True, help="CSV with pid, d22, cat, len, rank (layer-22 ranking of dark queries)")
     ap.add_argument("--n", type=int, default=3)
     ap.add_argument("--control", default=None, help="a characterised protein run through the same steps as a positive control")
+    ap.add_argument("--filtered", default=None,
+                    help="filtered ranking CSV (results/revision/filtered_ranking.csv): fold its top --n proteins of 100-300 residues")
     args = ap.parse_args()
     t = pd.read_csv(args.ranked)
     pick = t[(t.cat == "dark_negative") & t.len.between(100, 400)].head(args.n)
+    if args.filtered:
+        f = pd.read_csv(args.filtered).rename(columns={"protein_id": "pid", "length": "len"})
+        pick = f[f.len.between(100, 300)].head(args.n)
     if args.control:
         pick = pd.DataFrame([{"pid": args.control, "d22": float("nan"), "cat": "control", "rank": -1, "phylum": None}])
     seqs = {p: sequence(p) for p in pick.pid}
@@ -116,7 +121,7 @@ def main():
         summary[r.pid] = {"rank_layer22": int(r["rank"]), "distance_layer22": float(r.d22), "phylum": r.get("phylum"),
                           **folded[r.pid], "foldseek": fs}
         print(r.pid, json.dumps(fs)[:400], flush=True)
-    name = "control.json" if args.control else "summary.json"
+    name = "control.json" if args.control else ("filtered_summary.json" if args.filtered else "summary.json")
     (OUT / name).write_text(json.dumps(summary, indent=2, default=str))
 
 
