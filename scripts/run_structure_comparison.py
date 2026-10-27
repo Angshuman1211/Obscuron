@@ -42,18 +42,25 @@ LOG = RUN / "runner.log"
 STARTUP = Path(os.environ.get("APPDATA", "")) / "Microsoft" / "Windows" / "Start Menu" / "Programs" / "Startup"
 AUTOSTART = STARTUP / "obscuron_structure_resume.cmd"
 RANKED = "results/case_studies/dark_ranked_layer22.csv"
-N = 30
+N = 30  # proteins per set; --n changes it, and the summary files are named after it
 ATTEMPTS = 5  # per stage and launch; the next launch starts the count again
 
-STAGES = [
-    ("filtered_30", CASES / "filtered_30.json",
-     ["scripts/case_studies.py", "--ranked", RANKED, "--filtered", "results/revision/filtered_ranking.csv",
-      "--n", str(N), "--out", "filtered_30.json"]),
-    ("mid_ranked_30", CASES / "mid_ranked_30.json",
-     ["scripts/case_studies.py", "--ranked", RANKED, "--mid-ranked", "--n", str(N), "--out", "mid_ranked_30.json"]),
-    ("compare", ROOT / "results" / "revision" / "structure_comparison.json",
-     ["scripts/structure_comparison.py", "--filtered", "filtered_30.json", "--mid", "mid_ranked_30.json"]),
-]
+
+def stages(n: int) -> list:
+    comp = "structure_comparison.json" if n == 30 else f"structure_comparison_{n}.json"
+    return [
+        (f"filtered_{n}", CASES / f"filtered_{n}.json",
+         ["scripts/case_studies.py", "--ranked", RANKED, "--filtered", "results/revision/filtered_ranking.csv",
+          "--n", str(n), "--out", f"filtered_{n}.json"]),
+        (f"mid_ranked_{n}", CASES / f"mid_ranked_{n}.json",
+         ["scripts/case_studies.py", "--ranked", RANKED, "--mid-ranked", "--n", str(n), "--out", f"mid_ranked_{n}.json"]),
+        ("compare" if n == 30 else f"compare_{n}", ROOT / "results" / "revision" / comp,
+         ["scripts/structure_comparison.py", "--filtered", f"filtered_{n}.json", "--mid", f"mid_ranked_{n}.json",
+          "--out", comp]),
+    ]
+
+
+STAGES = stages(N)
 
 
 def log(msg: str):
@@ -119,7 +126,10 @@ def main():
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--install-autostart", action="store_true")
     ap.add_argument("--remove-autostart", action="store_true")
+    ap.add_argument("--n", type=int, default=N, help="proteins per set (default 30)")
     args = ap.parse_args()
+    global STAGES
+    STAGES = stages(args.n)
     RUN.mkdir(parents=True, exist_ok=True)
     if args.status:
         print(json.dumps({"progress": progress(), "state": load_state(), "autostart": AUTOSTART.exists()}, indent=1))

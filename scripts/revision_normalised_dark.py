@@ -2,7 +2,8 @@
 """Density-normalised score on the retrospective task (34,138 dark queries, 29,862 references, layer 22).
 
     PYTHONPATH=src .venv/Scripts/python.exe scripts/revision_normalised_dark.py
-Writes results/revision/normalised_dark.json.
+Writes results/revision/normalised_dark.json and the per-protein scores in
+results/revision/dark_scores.csv.gz.
 """
 from __future__ import annotations
 
@@ -44,4 +45,6 @@ res = {"auroc_normalised": auc(y, nu), "ci95": [float(np.percentile(v, 2.5)), fl
        "auroc_distance": auc(y, d), "spearman_normalised_vs_distance": float(stats.spearmanr(nu, d)[0]),
        "precision_at_k": {str(k): float(y[order[:k]].mean()) for k in (100, 500, 1000)}, "base_rate": float(y.mean())}
 (ROOT / "results" / "revision" / "normalised_dark.json").write_text(json.dumps(res, indent=2))
+pd.DataFrame({"protein_id": ids[np.isin(c, ["positive", "dark_negative"])], "positive": y, "distance": d,
+              "normalised": nu}).to_csv(ROOT / "results" / "revision" / "dark_scores.csv.gz", index=False)
 print(res)

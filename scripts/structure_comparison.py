@@ -62,6 +62,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--filtered", default="filtered_30.json")
     ap.add_argument("--mid", default="mid_ranked_30.json")
+    ap.add_argument("--out", default="structure_comparison.json", help="file name in results/revision/")
     args = ap.parse_args()
     top, mid = load(args.filtered), load(args.mid)
     res = {"e_value_cutoff": E_MAX, "filtered_top": describe(top), "mid_ranked": describe(mid), "tests": {
@@ -73,7 +74,7 @@ def main():
     # within the filtered top: do the few confident folds have structural neighbours?
     res["filtered_top_hits"] = top[top.afdb50_best_e <= E_MAX][["pid", "rank", "length", "plddt", "afdb50_best_e"]]\
         .to_dict("records")
-    out = ROOT / "results" / "revision" / "structure_comparison.json"
+    out = ROOT / "results" / "revision" / args.out
     tmp = out.with_suffix(".tmp")
     tmp.write_text(json.dumps(res, indent=2, default=str))
     tmp.replace(out)

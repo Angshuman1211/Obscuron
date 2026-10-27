@@ -116,15 +116,17 @@ def plddt_from_pdb(pid: str) -> float:
     return v * 100 if v <= 1 else v
 
 
-def foldseek(pid: str) -> dict:
-    """search once per protein; results are cached so an interrupted run does not repeat searches"""
-    cache = OUT / "foldseek" / f"{pid}.json"
+def foldseek(pid: str, pdb: Path | None = None, cache_dir: Path | None = None) -> dict:
+    """search once per protein; results are cached so an interrupted run does not repeat searches.
+    pdb and cache_dir default to the ESMFold model and results/case_studies/foldseek/."""
+    cache_dir = cache_dir or OUT / "foldseek"
+    cache = cache_dir / f"{pid}.json"
     if cache.exists():
         return json.loads(cache.read_text())
-    cache.parent.mkdir(exist_ok=True)
-    fs = _retry(lambda: _foldseek(pid))
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    fs = _retry(lambda: _foldseek(pid, pdb or OUT / f"{pid}.pdb", cache_dir))
     atomic_write(cache, json.dumps(fs, indent=1))
-    (OUT / "foldseek" / f"{pid}.ticket").unlink(missing_ok=True)
+    (cache_dir / f"{pid}.ticket").unlink(missing_ok=True)
     return fs
 
 
@@ -136,16 +138,16 @@ def _status(tid: str) -> str:
     return r.json().get("status", "UNKNOWN")
 
 
-def _foldseek(pid: str) -> dict:
+def _foldseek(pid: str, pdb_path: Path, cache_dir: Path) -> dict:
     # the ticket of a submitted search is kept on disk, so after an interruption the same search is
     # polled again instead of being submitted twice
-    tfile = OUT / "foldseek" / f"{pid}.ticket"
+    tfile = cache_dir / f"{pid}.ticket"
     tid = tfile.read_text().strip() if tfile.exists() else None
     if tid and _status(tid) in ("ERROR", "UNKNOWN"):
         tfile.unlink(missing_ok=True)
         tid = None
     if not tid:
-        pdb = (OUT / f"{pid}.pdb").read_bytes()
+        pdb = pdb_path.read_bytes()
         r = requests.post(f"{FOLDSEEK}/ticket", files={"q": (f"{pid}.pdb", pdb)},
                           data=[("mode", "3diaa"), ("database[]", "afdb50"), ("database[]", "pdb100")], timeout=60)
         r.raise_for_status()

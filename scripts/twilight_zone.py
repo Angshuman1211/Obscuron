@@ -54,12 +54,8 @@ def percentile_vs(neg, s):
     return (np.searchsorted(neg, s, "left") + np.searchsorted(neg, s, "right")) / 2 / len(neg)
 
 
-def main():
-    ref = np.load(PROC / "esm2_reembed_L33_22.npz")
-    ids_all = np.array([str(i) for i in ref["ids"]]); fam_all = np.array([str(f) for f in ref["families"]])
-    keep = pd.Series(fam_all).groupby(fam_all).transform("size").to_numpy() >= 5
-    ids, fams = ids_all[keep], fam_all[keep]
-    X = l2_normalize(ref["L22"].astype(np.float64)[keep])
+def analyse(X, ids, fams) -> dict:
+    """the twilight-zone comparison for one embedding X (rows aligned with ids and fams)"""
     idx, sim = _topm_neighbors(X, 500)
     ph = pd.read_csv(ROOT / "results" / "baselines" / "heldout_phmmer_hits.csv.gz")
     ph["tfam"] = ph.target.map(dict(zip(ids, fams)))
@@ -100,6 +96,15 @@ def main():
            "auroc": {sub: {m: {"mean": float(np.nanmean(v)), "median": float(np.nanmedian(v)), "n_families": int(np.sum(~np.isnan(v)))}
                            for m, v in d.items()} for sub, d in auc.items()},
            "detection_by_best_hit": by_bin}
+    return res
+
+
+def main():
+    ref = np.load(PROC / "esm2_reembed_L33_22.npz")
+    ids_all = np.array([str(i) for i in ref["ids"]]); fam_all = np.array([str(f) for f in ref["families"]])
+    keep = pd.Series(fam_all).groupby(fam_all).transform("size").to_numpy() >= 5
+    ids, fams = ids_all[keep], fam_all[keep]
+    res = analyse(l2_normalize(ref["L22"].astype(np.float64)[keep]), ids, fams)
     out = ROOT / "results" / "revision" / "twilight_zone.json"
     out.write_text(json.dumps(res, indent=2))
     print(json.dumps(res, indent=1))
