@@ -1,0 +1,123 @@
+{
+ "ticket": "y2s5-l9i5tir7x6ZpGoUK7geKY7XYR9p0jVlhA",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A6L5YUI1-F1-model_v6 Glycosyltransferase family 4 protein",
+    "prob": 1,
+    "eval": 3.726e-16,
+    "score": 527,
+    "seqId": 56.4,
+    "alnLength": 147,
+    "qStartPos": 2,
+    "qEndPos": 146,
+    "taxName": "Roseburia porci"
+   },
+   {
+    "target": "AF-A0AAE3EHD0-F1-model_v6 Glycosyltransferase",
+    "prob": 1,
+    "eval": 4.718e-10,
+    "score": 375,
+    "seqId": 38.5,
+    "alnLength": 127,
+    "qStartPos": 2,
+    "qEndPos": 128,
+    "taxName": "Teretinema zuelzerae"
+   },
+   {
+    "target": "AF-A0AAE9PQ26-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 9.043e-10,
+    "score": 337,
+    "seqId": 59.8,
+    "alnLength": 107,
+    "qStartPos": 22,
+    "qEndPos": 128,
+    "taxName": "Paenibacillus polymyxa"
+   },
+   {
+    "target": "AF-A0A840SC49-F1-model_v6 Glycosyltransferase family 1 protein",
+    "prob": 1,
+    "eval": 5.105e-08,
+    "score": 287,
+    "seqId": 21.6,
+    "alnLength": 134,
+    "qStartPos": 2,
+    "qEndPos": 128,
+    "taxName": "Treponema rectale"
+   },
+   {
+    "target": "AF-A0A089HVF7-F1-model_v6 Glycosyl transferase family 1 domain-containing protein",
+    "prob": 1,
+    "eval": 6.622e-08,
+    "score": 261,
+    "seqId": 56.4,
+    "alnLength": 124,
+    "qStartPos": 22,
+    "qEndPos": 140,
+    "taxName": "Paenibacillus durus"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 789,
+  "top": [
+   {
+    "target": "5ahw-assembly2.cif.gz_D Crystal structure of universal stress protein MSMEG_3811 in complex with cAMP",
+    "prob": 0.996,
+    "eval": 0.0005054,
+    "score": 89,
+    "seqId": 16.1,
+    "alnLength": 142,
+    "qStartPos": 2,
+    "qEndPos": 127,
+    "taxName": "Mycolicibacterium smegmatis MC2 155"
+   },
+   {
+    "target": "5ahw-assembly1.cif.gz_B Crystal structure of universal stress protein MSMEG_3811 in complex with cAMP",
+    "prob": 0.986,
+    "eval": 0.001981,
+    "score": 81,
+    "seqId": 16.6,
+    "alnLength": 138,
+    "qStartPos": 2,
+    "qEndPos": 124,
+    "taxName": "Mycolicibacterium smegmatis MC2 155"
+   },
+   {
+    "target": "3idf-assembly1.cif.gz_B The Crystal Structure of a USP-like protein from Wolinella succinogenes to 2.0A",
+    "prob": 0.998,
+    "eval": 0.002114,
+    "score": 95,
+    "seqId": 11.4,
+    "alnLength": 149,
+    "qStartPos": 3,
+    "qEndPos": 125,
+    "taxName": "Wolinella succinogenes"
+   },
+   {
+    "target": "3ot5-assembly6.cif.gz_B-3 2.2 Angstrom Resolution Crystal Structure of putative UDP-N-acetylglucosamine 2-epimerase from Listeria monocytogenes",
+    "prob": 0.998,
+    "eval": 0.002257,
+    "score": 95,
+    "seqId": 15.3,
+    "alnLength": 111,
+    "qStartPos": 1,
+    "qEndPos": 106,
+    "taxName": "Listeria monocytogenes EGD-e"
+   },
+   {
+    "target": "2z09-assembly1.cif.gz_A Crystal structure of uncharacterized conserved protein from Thermus thermophilus HB8",
+    "prob": 0.975,
+    "eval": 0.002257,
+    "score": 77,
+    "seqId": 12.1,
+    "alnLength": 140,
+    "qStartPos": 1,
+    "qEndPos": 125,
+    "taxName": "Thermus thermophilus"
+   }
+  ]
+ }
+}

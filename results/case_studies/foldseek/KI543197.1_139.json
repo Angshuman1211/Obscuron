@@ -1,0 +1,23 @@
+{
+ "ticket": "XdaAhNQfOd9zQTRwAzoR6mTqxAhoDJHPIZt9mA",
+ "afdb50": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "AF-A0A7J7KQU9-F1-model_v6 Uncharacterized protein",
+    "prob": 0.09,
+    "eval": 7.946,
+    "score": 30,
+    "seqId": 7.7,
+    "alnLength": 155,
+    "qStartPos": 18,
+    "qEndPos": 162,
+    "taxName": "Bugula neritina"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "ticket": "ZvnD52LT4kSKn75DxZG79EAtqdQkxpTTgT_zMQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A946PLK1-F1-model_v6 DoxX-like family protein",
+    "prob": 1,
+    "eval": 3.446e-11,
+    "score": 551,
+    "seqId": 63.9,
+    "alnLength": 122,
+    "qStartPos": 1,
+    "qEndPos": 122,
+    "taxName": "Actinomycetota bacterium"
+   },
+   {
+    "target": "AF-A0A353E2K5-F1-model_v6 DoxX family membrane protein",
+    "prob": 1,
+    "eval": 3.4e-07,
+    "score": 366,
+    "seqId": 36.2,
+    "alnLength": 124,
+    "qStartPos": 1,
+    "qEndPos": 123,
+    "taxName": "Verrucomicrobiales bacterium"
+   },
+   {
+    "target": "AF-A0A2E3JQU7-F1-model_v6 Methylamine utilisation protein MauE domain-containing protein",
+    "prob": 1,
+    "eval": 5.164e-07,
+    "score": 371,
+    "seqId": 37.5,
+    "alnLength": 120,
+    "qStartPos": 1,
+    "qEndPos": 119,
+    "taxName": "Actinomycetota bacterium"
+   },
+   {
+    "target": "AF-A0A519DPF9-F1-model_v6 DoxX family protein",
+    "prob": 1,
+    "eval": 1.255e-06,
+    "score": 359,
+    "seqId": 34.7,
+    "alnLength": 118,
+    "qStartPos": 3,
+    "qEndPos": 119,
+    "taxName": "Methanobacteriota archaeon"
+   },
+   {
+    "target": "AF-A0A2E3DWV7-F1-model_v6 DoxX family protein",
+    "prob": 1,
+    "eval": 2.35e-06,
+    "score": 339,
+    "seqId": 36.3,
+    "alnLength": 121,
+    "qStartPos": 3,
+    "qEndPos": 122,
+    "taxName": "Chloroflexota bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 11,
+  "top": [
+   {
+    "target": "6wvg-assembly1.cif.gz_A human CD53",
+    "prob": 0.196,
+    "eval": 2.791,
+    "score": 39,
+    "seqId": 16.3,
+    "alnLength": 98,
+    "qStartPos": 1,
+    "qEndPos": 86,
+    "taxName": "Aequorea victoria"
+   },
+   {
+    "target": "6wvg-assembly2.cif.gz_B human CD53",
+    "prob": 0.164,
+    "eval": 3.44,
+    "score": 37,
+    "seqId": 16.3,
+    "alnLength": 98,
+    "qStartPos": 1,
+    "qEndPos": 86,
+    "taxName": "Aequorea victoria"
+   },
+   {
+    "target": "6c3p-assembly1.cif.gz_H Cryo-EM structure of human KATP bound to ATP and ADP in propeller form",
+    "prob": 0.106,
+    "eval": 3.624,
+    "score": 32,
+    "seqId": 12.1,
+    "alnLength": 123,
+    "qStartPos": 2,
+    "qEndPos": 120,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6wk3-assembly1.cif.gz_B Engineered carbene transferase RmaNOD Q52V, putative nitric oxide dioxygenase from Rhodothermus marinus",
+    "prob": 0.063,
+    "eval": 5.8,
+    "score": 26,
+    "seqId": 12.1,
+    "alnLength": 140,
+    "qStartPos": 1,
+    "qEndPos": 118,
+    "taxName": "Rhodothermus marinus DSM 4252"
+   },
+   {
+    "target": "6pza-assembly1.cif.gz_C Cryo-EM structure of the pancreatic beta-cell SUR1 bound to ATP and glibenclamide",
+    "prob": 0.098,
+    "eval": 7.149,
+    "score": 31,
+    "seqId": 11.4,
+    "alnLength": 122,
+    "qStartPos": 4,
+    "qEndPos": 118,
+    "taxName": "Cricetus cricetus"
+   }
+  ]
+ }
+}

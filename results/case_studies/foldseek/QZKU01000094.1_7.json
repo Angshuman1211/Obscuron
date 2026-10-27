@@ -1,0 +1,67 @@
+{
+ "ticket": "vyJAoxeOgYuuXw370ewdScpVs9e7nb44_HHLKw",
+ "afdb50": {
+  "n_hits": 5,
+  "top": [
+   {
+    "target": "AF-A0AAD3Y926-F1-model_v6 Uncharacterized protein",
+    "prob": 0.164,
+    "eval": 1.899,
+    "score": 37,
+    "seqId": 22.5,
+    "alnLength": 111,
+    "qStartPos": 12,
+    "qEndPos": 118,
+    "taxName": "Cutaneotrichosporon spelunceum"
+   },
+   {
+    "target": "AF-A0A699SEU7-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 0.09,
+    "eval": 7.908,
+    "score": 30,
+    "seqId": 12.5,
+    "alnLength": 136,
+    "qStartPos": 8,
+    "qEndPos": 123,
+    "taxName": "Tanacetum cinerariifolium"
+   },
+   {
+    "target": "AF-A0A9R1JMK3-F1-model_v6 LOB domain-containing protein",
+    "prob": 0.098,
+    "eval": 8.561,
+    "score": 31,
+    "seqId": 16.3,
+    "alnLength": 110,
+    "qStartPos": 23,
+    "qEndPos": 123,
+    "taxName": "Triticum aestivum"
+   },
+   {
+    "target": "AF-A0A9P6ENF5-F1-model_v6 Uncharacterized protein",
+    "prob": 0.098,
+    "eval": 8.561,
+    "score": 31,
+    "seqId": 17.9,
+    "alnLength": 117,
+    "qStartPos": 8,
+    "qEndPos": 121,
+    "taxName": "Crepidotus variabilis"
+   },
+   {
+    "target": "AF-A0A967UJK2-F1-model_v6 Uncharacterized protein",
+    "prob": 0.082,
+    "eval": 9.267,
+    "score": 29,
+    "seqId": 21.2,
+    "alnLength": 108,
+    "qStartPos": 27,
+    "qEndPos": 123,
+    "taxName": "Desulfuromonadales bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

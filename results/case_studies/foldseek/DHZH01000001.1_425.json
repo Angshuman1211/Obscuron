@@ -1,0 +1,123 @@
+{
+ "ticket": "BwA5_a5gpnKZDvzdhJzhGa-ZGVHS4WKeBYK7wQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A3D3LTB1-F1-model_v6 EamA domain-containing protein",
+    "prob": 1,
+    "eval": 1.367e-11,
+    "score": 591,
+    "seqId": 39.7,
+    "alnLength": 191,
+    "qStartPos": 5,
+    "qEndPos": 194,
+    "taxName": "Bacteroidota bacterium"
+   },
+   {
+    "target": "AF-A0A1W1UDE1-F1-model_v6 DUF308 domain-containing protein",
+    "prob": 1,
+    "eval": 2.317e-11,
+    "score": 580,
+    "seqId": 42.2,
+    "alnLength": 187,
+    "qStartPos": 2,
+    "qEndPos": 188,
+    "taxName": "Hymenobacter roseosalivarius DSM 11622"
+   },
+   {
+    "target": "AF-A0A0G1FFS1-F1-model_v6 DUF308 domain-containing protein",
+    "prob": 1,
+    "eval": 3.568e-11,
+    "score": 561,
+    "seqId": 44.9,
+    "alnLength": 178,
+    "qStartPos": 11,
+    "qEndPos": 185,
+    "taxName": "Parcubacteria group bacterium GW2011_GWE1_43_8"
+   },
+   {
+    "target": "AF-A0A502HH03-F1-model_v6 DUF308 domain-containing protein",
+    "prob": 1,
+    "eval": 6.658e-11,
+    "score": 562,
+    "seqId": 40.5,
+    "alnLength": 180,
+    "qStartPos": 11,
+    "qEndPos": 190,
+    "taxName": "Hymenobacter nivis"
+   },
+   {
+    "target": "AF-A0A7Y5N4Q0-F1-model_v6 Zf-HC2 domain-containing protein",
+    "prob": 1,
+    "eval": 6.658e-11,
+    "score": 531,
+    "seqId": 41.1,
+    "alnLength": 197,
+    "qStartPos": 2,
+    "qEndPos": 194,
+    "taxName": "bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 56,
+  "top": [
+   {
+    "target": "8p3u-assembly1.cif.gz_H Homomeric GluA1 in tandem with TARP gamma-3, desensitized conformation 2",
+    "prob": 0.632,
+    "eval": 0.658,
+    "score": 55,
+    "seqId": 10.8,
+    "alnLength": 129,
+    "qStartPos": 72,
+    "qEndPos": 194,
+    "taxName": "Rattus norvegicus"
+   },
+   {
+    "target": "8piv-assembly1.cif.gz_H Homomeric GluA2 flip R/G-unedited Q/R-edited F231A mutant in tandem with TARP gamma-2, desensitized conformation 1",
+    "prob": 0.817,
+    "eval": 0.966,
+    "score": 62,
+    "seqId": 7.6,
+    "alnLength": 104,
+    "qStartPos": 98,
+    "qEndPos": 194,
+    "taxName": "Rattus norvegicus"
+   },
+   {
+    "target": "8p3u-assembly1.cif.gz_F Homomeric GluA1 in tandem with TARP gamma-3, desensitized conformation 2",
+    "prob": 0.505,
+    "eval": 1.063,
+    "score": 51,
+    "seqId": 11,
+    "alnLength": 118,
+    "qStartPos": 83,
+    "qEndPos": 192,
+    "taxName": "Rattus norvegicus"
+   },
+   {
+    "target": "8p3y-assembly1.cif.gz_H Homomeric GluA2 flip R/G-edited Q/R-edited F231A mutant in tandem with TARP gamma-2, desensitized conformation 3",
+    "prob": 0.837,
+    "eval": 1.17,
+    "score": 63,
+    "seqId": 6.7,
+    "alnLength": 103,
+    "qStartPos": 98,
+    "qEndPos": 194,
+    "taxName": "Rattus norvegicus"
+   },
+   {
+    "target": "8p3s-assembly1.cif.gz_F Homomeric GluA2 flip R/G-unedited Q/R-edited F231A mutant in tandem with TARP gamma-2, desensitized conformation 2",
+    "prob": 0.795,
+    "eval": 1.17,
+    "score": 61,
+    "seqId": 7.7,
+    "alnLength": 103,
+    "qStartPos": 99,
+    "qEndPos": 194,
+    "taxName": "Rattus norvegicus"
+   }
+  ]
+ }
+}

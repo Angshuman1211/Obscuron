@@ -1,0 +1,34 @@
+{
+ "ticket": "_IB164fKUQlfx_pDKZvXyKCtCxhAlD-49OgyYw",
+ "afdb50": {
+  "n_hits": 2,
+  "top": [
+   {
+    "target": "AF-W8C6T4-F1-model_v6 Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase",
+    "prob": 0.164,
+    "eval": 6.429,
+    "score": 37,
+    "seqId": 18.8,
+    "alnLength": 69,
+    "qStartPos": 58,
+    "qEndPos": 123,
+    "taxName": "Ceratitis capitata"
+   },
+   {
+    "target": "AF-A0A920DJC4-F1-model_v6 Gfo/Idh/MocA-like oxidoreductase N-terminal domain-containing protein",
+    "prob": 0.106,
+    "eval": 8.948,
+    "score": 32,
+    "seqId": 23.1,
+    "alnLength": 69,
+    "qStartPos": 58,
+    "qEndPos": 123,
+    "taxName": "Rhodospirillaceae bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "ticket": "E-dG-w-nf4pMfAqGeJLg48h3qRltZKHX9yQzlA",
+ "afdb50": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "AF-A0AAD9PNW1-F1-model_v6 Bifunctional Phosphatidylinositol 3--4-kinase",
+    "prob": 0.214,
+    "eval": 9.097,
+    "score": 40,
+    "seqId": 17.3,
+    "alnLength": 115,
+    "qStartPos": 11,
+    "qEndPos": 117,
+    "taxName": "Babesia duncani"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

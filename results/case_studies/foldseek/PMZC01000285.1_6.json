@@ -1,0 +1,123 @@
+{
+ "ticket": "SnTve02eg-yV8_BiQ4qGOnxExw55mpLpskfwsA",
+ "afdb50": {
+  "n_hits": 35,
+  "top": [
+   {
+    "target": "AF-A0A539EC61-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 7.496e-16,
+    "score": 541,
+    "seqId": 57.7,
+    "alnLength": 227,
+    "qStartPos": 2,
+    "qEndPos": 228,
+    "taxName": "bacterium"
+   },
+   {
+    "target": "AF-A0A6H9LM93-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 7.722e-15,
+    "score": 501,
+    "seqId": 57,
+    "alnLength": 226,
+    "qStartPos": 3,
+    "qEndPos": 228,
+    "taxName": "Calditrichota bacterium"
+   },
+   {
+    "target": "AF-A0A954T665-F1-model_v6 Thaumarchaeosortase",
+    "prob": 1,
+    "eval": 8.844e-14,
+    "score": 463,
+    "seqId": 49.3,
+    "alnLength": 235,
+    "qStartPos": 3,
+    "qEndPos": 228,
+    "taxName": "Planctomycetaceae bacterium"
+   },
+   {
+    "target": "AF-A0A935QAJ8-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 3.901e-13,
+    "score": 466,
+    "seqId": 43.4,
+    "alnLength": 237,
+    "qStartPos": 3,
+    "qEndPos": 228,
+    "taxName": "bacterium"
+   },
+   {
+    "target": "AF-A0A7V6TG27-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 8.639e-13,
+    "score": 440,
+    "seqId": 43.1,
+    "alnLength": 232,
+    "qStartPos": 3,
+    "qEndPos": 226,
+    "taxName": "Candidatus Cloacimonadota bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 17,
+  "top": [
+   {
+    "target": "3k6b-assembly1.cif.gz_A X-ray crystal structure of the E2 domain of APL-1 from C. elegans, in complex with sucrose octasulfate (SOS)",
+    "prob": 0.301,
+    "eval": 1.458,
+    "score": 44,
+    "seqId": 9.1,
+    "alnLength": 186,
+    "qStartPos": 42,
+    "qEndPos": 222,
+    "taxName": "Caenorhabditis elegans"
+   },
+   {
+    "target": "8e12-assembly1.cif.gz_C Homotrimeric variant of tcTRP9, BGL14",
+    "prob": 0.326,
+    "eval": 2.904,
+    "score": 45,
+    "seqId": 15,
+    "alnLength": 106,
+    "qStartPos": 115,
+    "qEndPos": 220,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "6cnn-assembly1.cif.gz_A Cryo-EM structure of the human SK4/calmodulin channel complex in the Ca2+ bound state I",
+    "prob": 0.164,
+    "eval": 3.405,
+    "score": 37,
+    "seqId": 12,
+    "alnLength": 158,
+    "qStartPos": 56,
+    "qEndPos": 205,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6s1k-assembly1.cif.gz_I E. coli Core Signaling Unit, carrying QQQQ receptor mutation",
+    "prob": 0.116,
+    "eval": 3.405,
+    "score": 33,
+    "seqId": 12.6,
+    "alnLength": 119,
+    "qStartPos": 104,
+    "qEndPos": 220,
+    "taxName": "Escherichia coli str. K-12 substr. MG1655star"
+   },
+   {
+    "target": "7fiy-assembly1.cif.gz_R Cryo-EM structure of the tirzepatide-bound human GIPR-Gs complex",
+    "prob": 0.106,
+    "eval": 3.785,
+    "score": 32,
+    "seqId": 12.6,
+    "alnLength": 158,
+    "qStartPos": 69,
+    "qEndPos": 213,
+    "taxName": "Homo sapiens"
+   }
+  ]
+ }
+}

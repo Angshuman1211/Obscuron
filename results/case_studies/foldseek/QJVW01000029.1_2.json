@@ -1,0 +1,123 @@
+{
+ "ticket": "S8ON4UyXjKejhzOo-YLDDqUisxXhVsdf3aNt3A",
+ "afdb50": {
+  "n_hits": 26,
+  "top": [
+   {
+    "target": "AF-A0AAV5L571-F1-model_v6 Uncharacterized protein",
+    "prob": 0.138,
+    "eval": 1.535,
+    "score": 35,
+    "seqId": 13.3,
+    "alnLength": 142,
+    "qStartPos": 83,
+    "qEndPos": 220,
+    "taxName": "Rubroshorea leprosula"
+   },
+   {
+    "target": "AF-A0AA95HW77-F1-model_v6 DUF4221 family protein",
+    "prob": 0.411,
+    "eval": 2.255,
+    "score": 48,
+    "seqId": 17.7,
+    "alnLength": 45,
+    "qStartPos": 180,
+    "qEndPos": 222,
+    "taxName": "Phocaeicola dorei"
+   },
+   {
+    "target": "AF-A0A8C9FWG7-F1-model_v6 Uncharacterized protein",
+    "prob": 0.277,
+    "eval": 4.014,
+    "score": 43,
+    "seqId": 18.1,
+    "alnLength": 55,
+    "qStartPos": 171,
+    "qEndPos": 224,
+    "taxName": "Pavo cristatus"
+   },
+   {
+    "target": "AF-A0A946LJ37-F1-model_v6 Uncharacterized protein",
+    "prob": 0.301,
+    "eval": 4.279,
+    "score": 44,
+    "seqId": 15.3,
+    "alnLength": 52,
+    "qStartPos": 176,
+    "qEndPos": 226,
+    "taxName": "Anaerolineae bacterium"
+   },
+   {
+    "target": "AF-A0A443S7S6-F1-model_v6 Type III intermediate filament-like protein (Fragment)",
+    "prob": 0.233,
+    "eval": 4.562,
+    "score": 41,
+    "seqId": 16,
+    "alnLength": 50,
+    "qStartPos": 180,
+    "qEndPos": 225,
+    "taxName": "Leptotrombidium deliense"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 47,
+  "top": [
+   {
+    "target": "3q54-assembly1.cif.gz_A Crystal structure of Escherichia coli BamB",
+    "prob": 0.196,
+    "eval": 1.745,
+    "score": 39,
+    "seqId": 17.9,
+    "alnLength": 39,
+    "qStartPos": 174,
+    "qEndPos": 211,
+    "taxName": "Escherichia coli DH1"
+   },
+   {
+    "target": "6qk7-assembly1.cif.gz_A Elongator catalytic subcomplex Elp123 lobe",
+    "prob": 0.214,
+    "eval": 2.404,
+    "score": 40,
+    "seqId": 25.7,
+    "alnLength": 35,
+    "qStartPos": 178,
+    "qEndPos": 212,
+    "taxName": "Saccharomyces cerevisiae S288C"
+   },
+   {
+    "target": "7eq5-assembly1.cif.gz_A Plant growth-promoting factor YxaL mutant from Bacillus velezensis - T175W/W215G",
+    "prob": 0.138,
+    "eval": 2.914,
+    "score": 35,
+    "seqId": 24.2,
+    "alnLength": 33,
+    "qStartPos": 185,
+    "qEndPos": 216,
+    "taxName": "Bacillus velezensis FZB42"
+   },
+   {
+    "target": "7owg-assembly1.cif.gz_Y-2 human DEPTOR in a complex with mutant human mTORC1 A1459P",
+    "prob": 0.138,
+    "eval": 2.914,
+    "score": 35,
+    "seqId": 7.6,
+    "alnLength": 26,
+    "qStartPos": 187,
+    "qEndPos": 212,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "3q7o-assembly1.cif.gz_A The crystal structure of BamB from the BAM complex in spacegroup P213",
+    "prob": 0.098,
+    "eval": 3.312,
+    "score": 31,
+    "seqId": 21.4,
+    "alnLength": 42,
+    "qStartPos": 172,
+    "qEndPos": 212,
+    "taxName": "Escherichia coli"
+   }
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "ticket": "-O6RPx-J-c_xVS8-speWAQmZOReeb7XwtYTvZQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A4R6WRP7-F1-model_v6 Hpt domain-containing protein",
+    "prob": 1,
+    "eval": 1.233e-06,
+    "score": 324,
+    "seqId": 23.8,
+    "alnLength": 151,
+    "qStartPos": 1,
+    "qEndPos": 149,
+    "taxName": "Dongia mobilis"
+   },
+   {
+    "target": "AF-A0A935Y7C2-F1-model_v6 HPt domain-containing protein",
+    "prob": 1,
+    "eval": 1.457e-06,
+    "score": 321,
+    "seqId": 30.7,
+    "alnLength": 140,
+    "qStartPos": 21,
+    "qEndPos": 149,
+    "taxName": "Rhodospirillaceae bacterium"
+   },
+   {
+    "target": "AF-A0A7Y8MPX1-F1-model_v6 Hpt domain-containing protein",
+    "prob": 1,
+    "eval": 1.541e-06,
+    "score": 287,
+    "seqId": 28.8,
+    "alnLength": 149,
+    "qStartPos": 1,
+    "qEndPos": 147,
+    "taxName": "Alphaproteobacteria bacterium"
+   },
+   {
+    "target": "AF-A0A2Z4ULP4-F1-model_v6 Hpt domain protein",
+    "prob": 1,
+    "eval": 1.723e-06,
+    "score": 295,
+    "seqId": 22.6,
+    "alnLength": 146,
+    "qStartPos": 6,
+    "qEndPos": 150,
+    "taxName": "Rhodobiaceae bacterium"
+   },
+   {
+    "target": "AF-A0A2E6GIE5-F1-model_v6 HPt domain-containing protein",
+    "prob": 1,
+    "eval": 2.407e-06,
+    "score": 286,
+    "seqId": 20.7,
+    "alnLength": 159,
+    "qStartPos": 7,
+    "qEndPos": 150,
+    "taxName": "Rhodospirillaceae bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 110,
+  "top": [
+   {
+    "target": "1i5n-assembly3.cif.gz_C Crystal structure of the P1 domain of CheA from Salmonella typhimurium",
+    "prob": 1,
+    "eval": 0.005866,
+    "score": 142,
+    "seqId": 18.4,
+    "alnLength": 125,
+    "qStartPos": 32,
+    "qEndPos": 150,
+    "taxName": "Salmonella enterica subsp. enterica serovar Typhimurium"
+   },
+   {
+    "target": "8c5v-assembly1.cif.gz_D Chemotaxis core signalling unit from E protein lysed E. coli cells",
+    "prob": 1,
+    "eval": 0.006934,
+    "score": 142,
+    "seqId": 19.6,
+    "alnLength": 122,
+    "qStartPos": 31,
+    "qEndPos": 145,
+    "taxName": "Escherichia coli"
+   },
+   {
+    "target": "8c5v-assembly1.cif.gz_C Chemotaxis core signalling unit from E protein lysed E. coli cells",
+    "prob": 1,
+    "eval": 0.01083,
+    "score": 137,
+    "seqId": 17.6,
+    "alnLength": 125,
+    "qStartPos": 31,
+    "qEndPos": 149,
+    "taxName": "Escherichia coli"
+   },
+   {
+    "target": "1i5n-assembly2.cif.gz_B Crystal structure of the P1 domain of CheA from Salmonella typhimurium",
+    "prob": 1,
+    "eval": 0.01354,
+    "score": 127,
+    "seqId": 16.1,
+    "alnLength": 124,
+    "qStartPos": 32,
+    "qEndPos": 149,
+    "taxName": "Salmonella enterica subsp. enterica serovar Typhimurium"
+   },
+   {
+    "target": "2lp4-assembly1.cif.gz_A Solution structure of P1-CheY/P2 complex in bacterial chemotaxis",
+    "prob": 1,
+    "eval": 0.01601,
+    "score": 131,
+    "seqId": 17.6,
+    "alnLength": 125,
+    "qStartPos": 31,
+    "qEndPos": 149,
+    "taxName": "Escherichia coli K-12"
+   }
+  ]
+ }
+}

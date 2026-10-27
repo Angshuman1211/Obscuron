@@ -1,0 +1,123 @@
+{
+ "ticket": "GD7yJTe81cAB6PmYMNJ41qOJ6mcJo96rBIC7ZQ",
+ "afdb50": {
+  "n_hits": 298,
+  "top": [
+   {
+    "target": "AF-E4XGY9-F1-model_v6 F-box domain-containing protein",
+    "prob": 0.601,
+    "eval": 0.2598,
+    "score": 54,
+    "seqId": 13.7,
+    "alnLength": 116,
+    "qStartPos": 5,
+    "qEndPos": 108,
+    "taxName": "Oikopleura dioica"
+   },
+   {
+    "target": "AF-A0AA38J3A7-F1-model_v6 Uncharacterized protein",
+    "prob": 0.663,
+    "eval": 0.2927,
+    "score": 56,
+    "seqId": 15.2,
+    "alnLength": 131,
+    "qStartPos": 1,
+    "qEndPos": 117,
+    "taxName": "Zophobas morio"
+   },
+   {
+    "target": "AF-A0A922SCD9-F1-model_v6 F-box associated domain-containing protein",
+    "prob": 0.632,
+    "eval": 0.5007,
+    "score": 55,
+    "seqId": 8.7,
+    "alnLength": 91,
+    "qStartPos": 8,
+    "qEndPos": 97,
+    "taxName": "Spodoptera exigua"
+   },
+   {
+    "target": "AF-A0A8T4TVG6-F1-model_v6 Uncharacterized protein",
+    "prob": 0.442,
+    "eval": 0.5641,
+    "score": 49,
+    "seqId": 16.1,
+    "alnLength": 130,
+    "qStartPos": 1,
+    "qEndPos": 117,
+    "taxName": "Candidatus Woesearchaeota archaeon"
+   },
+   {
+    "target": "AF-A0A6I1ZQ21-F1-model_v6 Lipocalin-like domain-containing protein (Fragment)",
+    "prob": 0.872,
+    "eval": 0.8068,
+    "score": 65,
+    "seqId": 12.8,
+    "alnLength": 101,
+    "qStartPos": 9,
+    "qEndPos": 109,
+    "taxName": "Calditrichota bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 57,
+  "top": [
+   {
+    "target": "5z1o-assembly1.cif.gz_B Crystal structure of an OspA mutant",
+    "prob": 0.098,
+    "eval": 1.85,
+    "score": 31,
+    "seqId": 13.7,
+    "alnLength": 102,
+    "qStartPos": 4,
+    "qEndPos": 103,
+    "taxName": "Borreliella burgdorferi"
+   },
+   {
+    "target": "7wb4-assembly1.cif.gz_C Cryo-EM structure of the NR subunit from X. laevis NPC",
+    "prob": 0.069,
+    "eval": 2.213,
+    "score": 27,
+    "seqId": 9,
+    "alnLength": 110,
+    "qStartPos": 6,
+    "qEndPos": 90,
+    "taxName": "Xenopus laevis"
+   },
+   {
+    "target": "1fj1-assembly1.cif.gz_F LYME DISEASE ANTIGEN OSPA IN COMPLEX WITH NEUTRALIZING ANTIBODY FAB LA-2",
+    "prob": 0.069,
+    "eval": 2.646,
+    "score": 27,
+    "seqId": 13.6,
+    "alnLength": 110,
+    "qStartPos": 4,
+    "qEndPos": 109,
+    "taxName": "Borreliella burgdorferi B31"
+   },
+   {
+    "target": "3hav-assembly3.cif.gz_C Structure of the streptomycin-ATP-APH(2\")-IIa ternary complex",
+    "prob": 0.138,
+    "eval": 3.165,
+    "score": 35,
+    "seqId": 19.3,
+    "alnLength": 31,
+    "qStartPos": 62,
+    "qEndPos": 90,
+    "taxName": "Enterococcus faecium"
+   },
+   {
+    "target": "3cka-assembly1.cif.gz_A The crystal structure of OspA mutant",
+    "prob": 0.063,
+    "eval": 3.165,
+    "score": 26,
+    "seqId": 13.6,
+    "alnLength": 88,
+    "qStartPos": 7,
+    "qEndPos": 93,
+    "taxName": "Borreliella burgdorferi"
+   }
+  ]
+ }
+}

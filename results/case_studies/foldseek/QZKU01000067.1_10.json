@@ -1,0 +1,46 @@
+{
+ "ticket": "iqlKBJ1vN0LBqUQbltrJMJ8IIuHGUsKFgN4uWg",
+ "afdb50": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "AF-C1G4E3-F1-model_v6 Uncharacterized protein",
+    "prob": 0.069,
+    "eval": 8.005,
+    "score": 27,
+    "seqId": 12.9,
+    "alnLength": 108,
+    "qStartPos": 1,
+    "qEndPos": 88,
+    "taxName": "Paracoccidioides brasiliensis Pb18"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 2,
+  "top": [
+   {
+    "target": "1ztr-assembly1.cif.gz_A Solution structure of Engrailed homeodomain L16A mutant",
+    "prob": 0.034,
+    "eval": 5.978,
+    "score": 21,
+    "seqId": 21.7,
+    "alnLength": 69,
+    "qStartPos": 17,
+    "qEndPos": 85,
+    "taxName": "Drosophila melanogaster"
+   },
+   {
+    "target": "5mrc-assembly1.cif.gz_EE Structure of the yeast mitochondrial ribosome - Class A",
+    "prob": 0.024,
+    "eval": 9.641,
+    "score": 19,
+    "seqId": 18.6,
+    "alnLength": 43,
+    "qStartPos": 60,
+    "qEndPos": 100,
+    "taxName": "Saccharomyces cerevisiae"
+   }
+  ]
+ }
+}

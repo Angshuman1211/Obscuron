@@ -1,0 +1,123 @@
+{
+ "ticket": "ePCRuAFnZ9vbYDh3PuslqOx6gehKdTEtqlTvfw",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A8A4TS98-F1-model_v6 Hpr(Ser) kinase/phosphatase",
+    "prob": 1,
+    "eval": 1.2e-19,
+    "score": 667,
+    "seqId": 20.7,
+    "alnLength": 285,
+    "qStartPos": 1,
+    "qEndPos": 269,
+    "taxName": "Sulfidibacter corallicola"
+   },
+   {
+    "target": "AF-A0A7H0LKZ1-F1-model_v6 Serine kinase",
+    "prob": 1,
+    "eval": 2.409e-19,
+    "score": 632,
+    "seqId": 24,
+    "alnLength": 279,
+    "qStartPos": 1,
+    "qEndPos": 272,
+    "taxName": "Sphingomonas alpina"
+   },
+   {
+    "target": "AF-A0A931U2C7-F1-model_v6 Serine kinase",
+    "prob": 1,
+    "eval": 2.553e-19,
+    "score": 698,
+    "seqId": 21.2,
+    "alnLength": 287,
+    "qStartPos": 1,
+    "qEndPos": 276,
+    "taxName": "Chloroflexota bacterium"
+   },
+   {
+    "target": "AF-A0A7C4FZN2-F1-model_v6 HPr kinase/phosphorylase C-terminal domain-containing protein",
+    "prob": 1,
+    "eval": 2.867e-19,
+    "score": 653,
+    "seqId": 26.6,
+    "alnLength": 270,
+    "qStartPos": 20,
+    "qEndPos": 279,
+    "taxName": "Bryobacteraceae bacterium"
+   },
+   {
+    "target": "AF-A0A950KXT0-F1-model_v6 Serine kinase",
+    "prob": 1,
+    "eval": 2.867e-19,
+    "score": 649,
+    "seqId": 21.8,
+    "alnLength": 284,
+    "qStartPos": 1,
+    "qEndPos": 272,
+    "taxName": "Deltaproteobacteria bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 103,
+  "top": [
+   {
+    "target": "6asn-assembly1.cif.gz_A E. coli phosphoenolpyruvate carboxykinase K212I F216V mutant bound to methanesulfonate",
+    "prob": 1,
+    "eval": 5.317e-06,
+    "score": 157,
+    "seqId": 12.4,
+    "alnLength": 281,
+    "qStartPos": 37,
+    "qEndPos": 265,
+    "taxName": "Escherichia coli K-12"
+   },
+   {
+    "target": "1ylh-assembly1.cif.gz_A Crystal Structure of Phosphoenolpyruvate Carboxykinase from Actinobaccilus succinogenes in Complex with Manganese and Pyruvate",
+    "prob": 1,
+    "eval": 6.708e-06,
+    "score": 152,
+    "seqId": 13.4,
+    "alnLength": 245,
+    "qStartPos": 69,
+    "qEndPos": 265,
+    "taxName": "Actinobacillus succinogenes"
+   },
+   {
+    "target": "1oen-assembly1.cif.gz_A PHOSPHOENOLPYRUVATE CARBOXYKINASE",
+    "prob": 1,
+    "eval": 8.462e-06,
+    "score": 149,
+    "seqId": 14.6,
+    "alnLength": 287,
+    "qStartPos": 37,
+    "qEndPos": 270,
+    "taxName": "Escherichia coli K-12"
+   },
+   {
+    "target": "1kkl-assembly1.cif.gz_C L.casei HprK/P in complex with B.subtilis HPr",
+    "prob": 1,
+    "eval": 1.007e-05,
+    "score": 154,
+    "seqId": 15.5,
+    "alnLength": 200,
+    "qStartPos": 78,
+    "qEndPos": 274,
+    "taxName": "Lacticaseibacillus casei"
+   },
+   {
+    "target": "2pc9-assembly3.cif.gz_C Crystal Structure Of ATP-Dependent Phosphoenolpyruvate Carboxykinase From Thermus thermophilus HB8",
+    "prob": 1,
+    "eval": 1.427e-05,
+    "score": 149,
+    "seqId": 15.8,
+    "alnLength": 297,
+    "qStartPos": 31,
+    "qEndPos": 270,
+    "taxName": "Thermus thermophilus HB8"
+   }
+  ]
+ }
+}

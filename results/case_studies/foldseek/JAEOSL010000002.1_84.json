@@ -1,0 +1,123 @@
+{
+ "ticket": "usHlxgVQc8QlEMUmSPg81wkMxZK6zZj0bnDNEQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A524FN74-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 2.421e-14,
+    "score": 467,
+    "seqId": 86.6,
+    "alnLength": 105,
+    "qStartPos": 1,
+    "qEndPos": 105,
+    "taxName": "Candidatus Thorarchaeota archaeon"
+   },
+   {
+    "target": "AF-A0A8T4EGE7-F1-model_v6 Thioredoxin domain-containing protein",
+    "prob": 1,
+    "eval": 5.255e-05,
+    "score": 177,
+    "seqId": 29.7,
+    "alnLength": 111,
+    "qStartPos": 1,
+    "qEndPos": 104,
+    "taxName": "Candidatus Thorarchaeota archaeon"
+   },
+   {
+    "target": "AF-A0A494YVW1-F1-model_v6 Spore coat protein GerQ",
+    "prob": 1,
+    "eval": 0.005174,
+    "score": 123,
+    "seqId": 10.7,
+    "alnLength": 102,
+    "qStartPos": 3,
+    "qEndPos": 101,
+    "taxName": "Ureibacillus endophyticus"
+   },
+   {
+    "target": "AF-A0A432LD10-F1-model_v6 Spore coat protein GerQ",
+    "prob": 1,
+    "eval": 0.006998,
+    "score": 110,
+    "seqId": 12.8,
+    "alnLength": 101,
+    "qStartPos": 1,
+    "qEndPos": 100,
+    "taxName": "Lysinibacillus antri"
+   },
+   {
+    "target": "AF-A0A398BBB8-F1-model_v6 Spore coat protein GerQ",
+    "prob": 1,
+    "eval": 0.008388,
+    "score": 111,
+    "seqId": 19.1,
+    "alnLength": 99,
+    "qStartPos": 11,
+    "qEndPos": 101,
+    "taxName": "Peribacillus asahii"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 463,
+  "top": [
+   {
+    "target": "6gwk-assembly1.cif.gz_C The crystal structure of Hfq from Caulobacter crescentus",
+    "prob": 0.999,
+    "eval": 0.02112,
+    "score": 99,
+    "seqId": 12.3,
+    "alnLength": 81,
+    "qStartPos": 17,
+    "qEndPos": 97,
+    "taxName": "Caulobacter vibrioides CB15"
+   },
+   {
+    "target": "7ur7-assembly1.cif.gz_A 17_bp_sh3, a small beta-barrel de novo designed protein",
+    "prob": 0.999,
+    "eval": 0.02857,
+    "score": 99,
+    "seqId": 16,
+    "alnLength": 75,
+    "qStartPos": 12,
+    "qEndPos": 86,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "7ogm-assembly1.cif.gz_D A cooperative PNPase-Hfq-RNA carrier complex facilitates bacterial riboregulation. PNPase-3'ETS(leuZ)-Hfq",
+    "prob": 0.998,
+    "eval": 0.03035,
+    "score": 95,
+    "seqId": 12.5,
+    "alnLength": 80,
+    "qStartPos": 18,
+    "qEndPos": 97,
+    "taxName": "Escherichia coli"
+   },
+   {
+    "target": "4noy-assembly1.cif.gz_A Crystal structure of Listeria monocytogenes Hfq F43W",
+    "prob": 0.997,
+    "eval": 0.03864,
+    "score": 91,
+    "seqId": 10.1,
+    "alnLength": 89,
+    "qStartPos": 11,
+    "qEndPos": 95,
+    "taxName": "Listeria monocytogenes"
+   },
+   {
+    "target": "3hfo-assembly1.cif.gz_B Crystal Structure of an Hfq protein from Synechocystis sp.",
+    "prob": 1,
+    "eval": 0.0492,
+    "score": 100,
+    "seqId": 16.1,
+    "alnLength": 68,
+    "qStartPos": 17,
+    "qEndPos": 84,
+    "taxName": "Synechocystis sp. PCC 6803"
+   }
+  ]
+ }
+}
