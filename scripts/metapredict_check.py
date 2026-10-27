@@ -27,11 +27,11 @@ CASES = ROOT / "results" / "case_studies"
 WORK = ROOT / ".cache" / "metapredict"
 IMAGE = "python:3.11"
 OPTS = "-q --root-user-action=ignore --timeout 120 --retries 10"
-# build tools first, then CPU torch from the PyTorch index, then metapredict built against them
-# (no isolated build environment, so the build does not have to fetch Cython again)
-PIP = (f"pip install {OPTS} 'cython>=3' setuptools wheel numpy && "
-       f"pip install {OPTS} --index-url https://download.pytorch.org/whl/cpu 'torch==2.5.1+cpu' && "
-       f"pip install {OPTS} --no-build-isolation 'metapredict==3.1.1'")
+# CPU torch from the PyTorch index first, then metapredict from source (its build fetches Cython and
+# the version tooling itself); the install is retried, and the pip cache volume keeps what earlier
+# attempts downloaded
+PIP = (f"pip install {OPTS} --index-url https://download.pytorch.org/whl/cpu 'torch==2.5.1+cpu' && "
+       f"pip install {OPTS} 'metapredict==3.1.1'")
 
 
 def summary(d: pd.DataFrame) -> dict:
@@ -62,7 +62,8 @@ def main():
         (WORK / "in.fasta").write_text("".join(f">{p}\n{s}\n" for p, s in seqs.items()))
         cmd = ["docker", "run", "--rm", "-v", f"{WORK}:/work", "-v", f"{ROOT / 'scripts'}:/scripts:ro",
                "-v", "obscuron-pip-cache:/root/.cache/pip", IMAGE, "bash", "-c",
-               f"{PIP} && python /scripts/metapredict_container.py /work/in.fasta /work/out.tmp && mv /work/out.tmp /work/out.csv"]
+               f"for i in 1 2 3 4 5 6; do ({PIP}) && break; echo install attempt $i failed; sleep 30; done; "
+               f"python /scripts/metapredict_container.py /work/in.fasta /work/out.tmp && mv /work/out.tmp /work/out.csv"]
         subprocess.run(cmd, check=True)
     mp = pd.read_csv(out_csv)
     res = {"metapredict_version": str(mp.metapredict_version.iloc[0]), "cutoff": 0.5}
