@@ -74,7 +74,9 @@ def main():
     res["filtered_top_hits"] = top[top.afdb50_best_e <= E_MAX][["pid", "rank", "length", "plddt", "afdb50_best_e"]]\
         .to_dict("records")
     out = ROOT / "results" / "revision" / "structure_comparison.json"
-    out.write_text(json.dumps(res, indent=2, default=str))
+    tmp = out.with_suffix(".tmp")
+    tmp.write_text(json.dumps(res, indent=2, default=str))
+    tmp.replace(out)
     print(json.dumps(res, indent=1, default=str))
 
 

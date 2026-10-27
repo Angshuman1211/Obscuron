@@ -9,11 +9,17 @@ in 3Di+AA mode. Only public GTDB protein sequences are sent.
 
     PYTHONPATH=src .venv/Scripts/python.exe scripts/case_studies.py --ranked results/case_studies/dark_ranked_layer22.csv [--n 3] [--control <protein id>]
 Writes results/case_studies/{<protein>.pdb, summary.json}.
+
+The run is resumable: proteins whose PDB file exists are not folded again, Foldseek results are
+cached per protein in results/case_studies/foldseek/, and all files are written atomically. Network
+errors pause the run (capped back-off, up to NET_WAIT) instead of ending it. For a long run use
+scripts/run_structure_comparison.py, which also restarts after a crash or reboot.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import time
 from pathlib import Path
 
@@ -33,6 +39,22 @@ ESMFOLD_DIR = ROOT / ".cache" / "esmfold_v1_75a3841"
 # facebook/esmfold_v1), not pytorch_model.bin: torch < 2.6 cannot load .bin files safely
 # (CVE-2025-32434), and safetensors needs no pickle at all.
 FOLDSEEK = "https://search.foldseek.com/api"
+NET_WAIT = 6 * 3600  # how long a lost connection or busy server may pause the run before it gives up
+
+
+class FoldseekPending(Exception):
+    """a submitted search has not finished or has failed on the server; retried like a network error"""
+
+
+NET_ERRORS = (requests.RequestException, ValueError, FoldseekPending)
+
+
+def atomic_write(path: Path, text: str):
+    """write via a temporary file and rename, so a crash or power cut never leaves a half-written file
+    that a later run would take as finished"""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text)
+    os.replace(tmp, path)
 
 
 def sequence(pid: str) -> str:
@@ -63,7 +85,7 @@ def fold(seqs: dict[str, str]) -> dict[str, dict]:
             o = model(ids)
         pdb = model.output_to_pdb(o)[0]
         plddt = o["plddt"][0, :, 1].float().cpu().numpy()  # CA atom
-        (OUT / f"{pid}.pdb").write_text(pdb)
+        atomic_write(OUT / f"{pid}.pdb", pdb)
         out[pid] = {"length": len(s), "mean_plddt": float(plddt.mean() * (100 if plddt.max() <= 1 else 1)),
                     "fold_seconds": round(time.time() - t0, 1)}
         print(pid, out[pid], flush=True)
@@ -71,15 +93,19 @@ def fold(seqs: dict[str, str]) -> dict[str, dict]:
     return out
 
 
-def _retry(fn, tries=5):
-    """the public Foldseek server occasionally drops connections; retry with back-off"""
-    for i in range(tries):
+def _retry(fn, max_wait=NET_WAIT):
+    """retry network calls with capped back-off, so a dropped Wi-Fi connection or a busy server
+    pauses the run instead of ending it"""
+    t0, delay = time.time(), 15
+    while True:
         try:
             return fn()
-        except (requests.RequestException, ValueError):
-            if i == tries - 1:
+        except NET_ERRORS as e:
+            if time.time() - t0 > max_wait:
                 raise
-            time.sleep(15 * (i + 1))
+            print(f"network or server problem ({type(e).__name__}: {str(e)[:120]}); retrying in {delay} s", flush=True)
+            time.sleep(delay)
+            delay = min(delay * 2, 300)
 
 
 def plddt_from_pdb(pid: str) -> float:
@@ -95,26 +121,49 @@ def foldseek(pid: str) -> dict:
     cache = OUT / "foldseek" / f"{pid}.json"
     if cache.exists():
         return json.loads(cache.read_text())
-    fs = _retry(lambda: _foldseek(pid))
     cache.parent.mkdir(exist_ok=True)
-    cache.write_text(json.dumps(fs, indent=1))
+    fs = _retry(lambda: _foldseek(pid))
+    atomic_write(cache, json.dumps(fs, indent=1))
+    (OUT / "foldseek" / f"{pid}.ticket").unlink(missing_ok=True)
     return fs
 
 
-def _foldseek(pid: str) -> dict:
-    pdb = (OUT / f"{pid}.pdb").read_bytes()
-    r = requests.post(f"{FOLDSEEK}/ticket", files={"q": (f"{pid}.pdb", pdb)},
-                      data=[("mode", "3diaa"), ("database[]", "afdb50"), ("database[]", "pdb100")], timeout=60)
+def _status(tid: str) -> str:
+    r = requests.get(f"{FOLDSEEK}/ticket/{tid}", timeout=30)
+    if r.status_code == 404:
+        return "UNKNOWN"
     r.raise_for_status()
-    tid = r.json()["id"]
+    return r.json().get("status", "UNKNOWN")
+
+
+def _foldseek(pid: str) -> dict:
+    # the ticket of a submitted search is kept on disk, so after an interruption the same search is
+    # polled again instead of being submitted twice
+    tfile = OUT / "foldseek" / f"{pid}.ticket"
+    tid = tfile.read_text().strip() if tfile.exists() else None
+    if tid and _status(tid) in ("ERROR", "UNKNOWN"):
+        tfile.unlink(missing_ok=True)
+        tid = None
+    if not tid:
+        pdb = (OUT / f"{pid}.pdb").read_bytes()
+        r = requests.post(f"{FOLDSEEK}/ticket", files={"q": (f"{pid}.pdb", pdb)},
+                          data=[("mode", "3diaa"), ("database[]", "afdb50"), ("database[]", "pdb100")], timeout=60)
+        r.raise_for_status()
+        tid = r.json()["id"]
+        atomic_write(tfile, tid)
     for _ in range(120):
-        st = requests.get(f"{FOLDSEEK}/ticket/{tid}", timeout=30).json().get("status")
+        st = _status(tid)
         if st == "COMPLETE":
             break
-        if st == "ERROR":
-            raise RuntimeError(f"foldseek error for {pid}")
+        if st in ("ERROR", "UNKNOWN"):
+            tfile.unlink(missing_ok=True)
+            raise FoldseekPending(f"search {st.lower()} for {pid}; resubmitting")
         time.sleep(10)
-    res = requests.get(f"{FOLDSEEK}/result/{tid}/0", timeout=60).json()
+    else:
+        raise FoldseekPending(f"search for {pid} still running after 20 min")
+    r = requests.get(f"{FOLDSEEK}/result/{tid}/0", timeout=60)
+    r.raise_for_status()
+    res = r.json()
     summary = {"ticket": tid}
     for db in res.get("results", []):
         name = db.get("db")
@@ -163,7 +212,7 @@ def main():
         print(r.pid, json.dumps(fs)[:400], flush=True)
     name = args.out or ("control.json" if args.control else "filtered_summary.json" if args.filtered
                         else "mid_ranked_summary.json" if args.mid_ranked else "summary.json")
-    (OUT / name).write_text(json.dumps(summary, indent=2, default=str))
+    atomic_write(OUT / name, json.dumps(summary, indent=2, default=str))
 
 
 if __name__ == "__main__":
