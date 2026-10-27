@@ -71,7 +71,30 @@ def fold(seqs: dict[str, str]) -> dict[str, dict]:
     return out
 
 
+def _retry(fn, tries=5):
+    """the public Foldseek server occasionally drops connections; retry with back-off"""
+    for i in range(tries):
+        try:
+            return fn()
+        except (requests.RequestException, ValueError):
+            if i == tries - 1:
+                raise
+            time.sleep(15 * (i + 1))
+
+
+def plddt_from_pdb(pid: str) -> float:
+    """ESMFold writes per-atom pLDDT into the B-factor column; mean over C-alpha atoms."""
+    vals = [float(l[60:66]) for l in (OUT / f"{pid}.pdb").read_text().splitlines()
+            if l.startswith("ATOM") and l[12:16].strip() == "CA"]
+    v = float(np.mean(vals))
+    return v * 100 if v <= 1 else v
+
+
 def foldseek(pid: str) -> dict:
+    return _retry(lambda: _foldseek(pid))
+
+
+def _foldseek(pid: str) -> dict:
     pdb = (OUT / f"{pid}.pdb").read_bytes()
     r = requests.post(f"{FOLDSEEK}/ticket", files={"q": (f"{pid}.pdb", pdb)},
                       data=[("mode", "3diaa"), ("database[]", "afdb50"), ("database[]", "pdb100")], timeout=60)
@@ -105,23 +128,33 @@ def main():
     ap.add_argument("--control", default=None, help="a characterised protein run through the same steps as a positive control")
     ap.add_argument("--filtered", default=None,
                     help="filtered ranking CSV (results/revision/filtered_ranking.csv): fold its top --n proteins of 100-300 residues")
+    ap.add_argument("--mid-ranked", action="store_true",
+                    help="fold --n random still-dark proteins from ranks 15,000 to 20,000 as a comparison set")
     args = ap.parse_args()
     t = pd.read_csv(args.ranked)
     pick = t[(t.cat == "dark_negative") & t.len.between(100, 400)].head(args.n)
     if args.filtered:
         f = pd.read_csv(args.filtered).rename(columns={"protein_id": "pid", "length": "len"})
         pick = f[f.len.between(100, 300)].head(args.n)
+    if args.mid_ranked:
+        # comparison set: random still-dark proteins of 100-300 residues from the middle of the ranking
+        mid = t[(t.cat == "dark_negative") & t.len.between(100, 300) & t["rank"].between(15000, 20000)]
+        pick = mid.sample(args.n, random_state=42)
     if args.control:
         pick = pd.DataFrame([{"pid": args.control, "d22": float("nan"), "cat": "control", "rank": -1, "phylum": None}])
     seqs = {p: sequence(p) for p in pick.pid}
-    folded = fold(seqs)
+    todo = {p: q for p, q in seqs.items() if not (OUT / f"{p}.pdb").exists()}
+    folded = fold(todo) if todo else {}
+    for p in seqs:  # structures already on disk are reused; pLDDT is read back from the PDB file
+        folded.setdefault(p, {"length": len(seqs[p]), "mean_plddt": plddt_from_pdb(p), "fold_seconds": None})
     summary = {}
     for _, r in pick.iterrows():
         fs = foldseek(r.pid)
         summary[r.pid] = {"rank_layer22": int(r["rank"]), "distance_layer22": float(r.d22), "phylum": r.get("phylum"),
                           **folded[r.pid], "foldseek": fs}
         print(r.pid, json.dumps(fs)[:400], flush=True)
-    name = "control.json" if args.control else ("filtered_summary.json" if args.filtered else "summary.json")
+    name = ("control.json" if args.control else "filtered_summary.json" if args.filtered
+            else "mid_ranked_summary.json" if args.mid_ranked else "summary.json")
     (OUT / name).write_text(json.dumps(summary, indent=2, default=str))
 
 
