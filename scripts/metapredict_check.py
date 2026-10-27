@@ -26,8 +26,12 @@ from disorder_check import sequences  # noqa: E402
 CASES = ROOT / "results" / "case_studies"
 WORK = ROOT / ".cache" / "metapredict"
 IMAGE = "python:3.11"
-PIP = ("pip install -q --root-user-action=ignore --extra-index-url https://download.pytorch.org/whl/cpu "
-       "'torch==2.5.1+cpu' 'metapredict==3.1.1'")
+OPTS = "-q --root-user-action=ignore --timeout 120 --retries 10"
+# build tools first, then CPU torch from the PyTorch index, then metapredict built against them
+# (no isolated build environment, so the build does not have to fetch Cython again)
+PIP = (f"pip install {OPTS} 'cython>=3' setuptools wheel numpy && "
+       f"pip install {OPTS} --index-url https://download.pytorch.org/whl/cpu 'torch==2.5.1+cpu' && "
+       f"pip install {OPTS} --no-build-isolation 'metapredict==3.1.1'")
 
 
 def summary(d: pd.DataFrame) -> dict:
