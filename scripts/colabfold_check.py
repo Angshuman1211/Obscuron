@@ -78,7 +78,11 @@ def main():
         if not dst.exists():
             shutil.copy(MSA / f"{r.pid}.a3m", dst)
     if len(list((WORK / "out").glob("*.done.txt"))) < len(J):
-        subprocess.run(["docker", "run", "--rm", "--gpus", "all", "-v", "obscuron-colabfold-cache:/cache",
+        # the image lets JAX spill into host memory (unified memory) for large proteins; inside Docker
+        # Desktop's memory-limited VM that allocation fails, and 100-300 residues fit on the GPU anyway
+        subprocess.run(["docker", "run", "--rm", "--gpus", "all", "-e", "TF_FORCE_UNIFIED_MEMORY=0",
+                        "-e", "XLA_PYTHON_CLIENT_MEM_FRACTION=0.85", "-e", "XLA_PYTHON_CLIENT_PREALLOCATE=false",
+                        "-v", "obscuron-colabfold-cache:/cache",
                         "-v", f"{WORK}:/work", IMAGE, "bash", "-c",
                         "python -m colabfold.download >/dev/null && colabfold_batch --num-models 5 "
                         "/work/in /work/out"], check=True)

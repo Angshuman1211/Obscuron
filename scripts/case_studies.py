@@ -60,11 +60,20 @@ def atomic_write(path: Path, text: str):
 def sequence(pid: str) -> str:
     samp = pd.read_csv(PROC / "embedding_sample.csv").set_index("protein_id")
     acc = samp.loc[pid, "genome_accession"]
-    from Bio import SeqIO
-    for rec in SeqIO.parse(PROC / "panel_proteins" / f"{acc}_protein.faa", "fasta"):
-        if rec.id == pid:
-            return str(rec.seq).rstrip("*")
-    raise KeyError(pid)
+    # plain FASTA reading (record id = first word of the header, as in Biopython): Biopython's
+    # compiled modules can be blocked by Windows Smart App Control on this machine
+    name, seq = None, []
+    with open(PROC / "panel_proteins" / f"{acc}_protein.faa") as fh:
+        for line in fh:
+            if line.startswith(">"):
+                if name == pid:
+                    break
+                name, seq = line[1:].split()[0], []
+            elif name == pid:
+                seq.append(line.strip())
+    if name != pid:
+        raise KeyError(pid)
+    return "".join(seq).rstrip("*")
 
 
 def fold(seqs: dict[str, str]) -> dict[str, dict]:
