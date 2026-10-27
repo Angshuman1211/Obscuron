@@ -1,0 +1,545 @@
+{
+  "window": 51,
+  "structure_sets": {
+    "filtered_top": {
+      "n": 30,
+      "foldindex_median": 0.14610148881275653,
+      "uversky_unfolded_share": 0.03333333333333333,
+      "disorder_share_median": 0.1857834368094286,
+      "mostly_disordered_share": 0.13333333333333333
+    },
+    "mid_ranked": {
+      "n": 30,
+      "foldindex_median": 0.16550180111618495,
+      "uversky_unfolded_share": 0.1,
+      "disorder_share_median": 0.1338013838013838,
+      "mostly_disordered_share": 0.13333333333333333
+    },
+    "foldindex_mannwhitney_p": 0.6308762921617199,
+    "disorder_share_mannwhitney_p": 0.7762971312937242,
+    "uversky_fisher_p": 0.6119536128456737,
+    "spearman_foldindex_plddt_all60": 0.12725757154765216,
+    "spearman_foldindex_plddt_filtered_top": 0.16618464961067853,
+    "filtered_top_low_plddt_not_disordered": 23,
+    "per_protein": [
+      {
+        "pid": "DF820458.1_623",
+        "set": "filtered_top",
+        "plddt": 37.7134,
+        "foldindex": 0.0919,
+        "disorder_share": 0.1829,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DF820462.1_146",
+        "set": "filtered_top",
+        "plddt": 33.8062,
+        "foldindex": 0.0052,
+        "disorder_share": 0.6434,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "LMZT01000101.1_20",
+        "set": "filtered_top",
+        "plddt": 29.1267,
+        "foldindex": 0.0945,
+        "disorder_share": 0.1855,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "KI543214.1_56",
+        "set": "filtered_top",
+        "plddt": 31.5248,
+        "foldindex": 0.0304,
+        "disorder_share": 0.5532,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "WVXK01000111.1_8",
+        "set": "filtered_top",
+        "plddt": 28.5455,
+        "foldindex": 0.1296,
+        "disorder_share": 0.2873,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DLYX01000357.1_5",
+        "set": "filtered_top",
+        "plddt": 36.5302,
+        "foldindex": -0.0515,
+        "disorder_share": 0.8792,
+        "uversky_unfolded": true
+      },
+      {
+        "pid": "DEYK01000070.1_19",
+        "set": "filtered_top",
+        "plddt": 31.631,
+        "foldindex": 0.2884,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "PLDF01000151.1_65",
+        "set": "filtered_top",
+        "plddt": 33.2275,
+        "foldindex": 0.1485,
+        "disorder_share": 0.1257,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "KI543185.1_2",
+        "set": "filtered_top",
+        "plddt": 29.6898,
+        "foldindex": 0.1731,
+        "disorder_share": 0.2407,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_FKIP01001010.1_5",
+        "set": "filtered_top",
+        "plddt": 29.3876,
+        "foldindex": 0.0854,
+        "disorder_share": 0.186,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "LIUI01000071.1_17",
+        "set": "filtered_top",
+        "plddt": 33.4579,
+        "foldindex": 0.1287,
+        "disorder_share": 0.2979,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "PMZC01000394.1_3",
+        "set": "filtered_top",
+        "plddt": 35.7333,
+        "foldindex": 0.1466,
+        "disorder_share": 0.3604,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DF820456.1_950",
+        "set": "filtered_top",
+        "plddt": 34.852,
+        "foldindex": 0.0155,
+        "disorder_share": 0.578,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "QZKU01000067.1_10",
+        "set": "filtered_top",
+        "plddt": 34.4137,
+        "foldindex": 0.1972,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DDGC01000028.1_108",
+        "set": "filtered_top",
+        "plddt": 34.5846,
+        "foldindex": 0.0812,
+        "disorder_share": 0.2735,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "KI543199.1_28",
+        "set": "filtered_top",
+        "plddt": 31.2024,
+        "foldindex": 0.2289,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DF820455.1_247",
+        "set": "filtered_top",
+        "plddt": 35.5743,
+        "foldindex": 0.1747,
+        "disorder_share": 0.0062,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DDWC01000237.1_7",
+        "set": "filtered_top",
+        "plddt": 33.3646,
+        "foldindex": 0.1456,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "KI543197.1_139",
+        "set": "filtered_top",
+        "plddt": 30.0285,
+        "foldindex": 0.1228,
+        "disorder_share": 0.2471,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "PUNC01000155.1_3",
+        "set": "filtered_top",
+        "plddt": 35.3999,
+        "foldindex": 0.2803,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "MGQK01000032.1_13",
+        "set": "filtered_top",
+        "plddt": 29.6437,
+        "foldindex": 0.109,
+        "disorder_share": 0.2479,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_BNCD01000003.1_115",
+        "set": "filtered_top",
+        "plddt": 29.2812,
+        "foldindex": 0.1503,
+        "disorder_share": 0.0342,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "PFND01000062.1_16",
+        "set": "filtered_top",
+        "plddt": 34.7906,
+        "foldindex": 0.1917,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "MFAF01000117.1_9",
+        "set": "filtered_top",
+        "plddt": 33.1705,
+        "foldindex": 0.0975,
+        "disorder_share": 0.2477,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DCHV01000032.1_42",
+        "set": "filtered_top",
+        "plddt": 37.4664,
+        "foldindex": 0.314,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DCHV01000087.1_16",
+        "set": "filtered_top",
+        "plddt": 31.9737,
+        "foldindex": 0.4268,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DCHV01000085.1_1",
+        "set": "filtered_top",
+        "plddt": 35.3065,
+        "foldindex": 0.2684,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_JABFHO010000001.1_1986",
+        "set": "filtered_top",
+        "plddt": 45.483,
+        "foldindex": 0.1916,
+        "disorder_share": 0.3357,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_RXLO01000006.1_211",
+        "set": "filtered_top",
+        "plddt": 59.8929,
+        "foldindex": 0.1443,
+        "disorder_share": 0.3065,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_RZMY01000003.1_437",
+        "set": "filtered_top",
+        "plddt": 46.0024,
+        "foldindex": 0.265,
+        "disorder_share": 0.1635,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JACTNB010000036.1_89",
+        "set": "mid_ranked",
+        "plddt": 66.0131,
+        "foldindex": -0.1731,
+        "disorder_share": 0.9542,
+        "uversky_unfolded": true
+      },
+      {
+        "pid": "JAGCDY010000113.1_4",
+        "set": "mid_ranked",
+        "plddt": 49.0756,
+        "foldindex": 0.0333,
+        "disorder_share": 0.4286,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JAFUYQ010000017.1_56",
+        "set": "mid_ranked",
+        "plddt": 41.1752,
+        "foldindex": 0.1934,
+        "disorder_share": 0.0983,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_PTQW01000003.1_179",
+        "set": "mid_ranked",
+        "plddt": 96.239,
+        "foldindex": 0.2902,
+        "disorder_share": 0.0846,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "CADBLV010000138.1_5",
+        "set": "mid_ranked",
+        "plddt": 80.786,
+        "foldindex": 0.1764,
+        "disorder_share": 0.0502,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_FRCD01000003.1_103",
+        "set": "mid_ranked",
+        "plddt": 50.0892,
+        "foldindex": 0.1144,
+        "disorder_share": 0.2293,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "SBHG01000018.1_3",
+        "set": "mid_ranked",
+        "plddt": 85.5467,
+        "foldindex": 0.1636,
+        "disorder_share": 0.2667,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "CACKFQ010000015.1_11",
+        "set": "mid_ranked",
+        "plddt": 87.1545,
+        "foldindex": 0.4561,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NZ_LMKQ01000001.1_2704",
+        "set": "mid_ranked",
+        "plddt": 77.3525,
+        "foldindex": 0.0883,
+        "disorder_share": 0.041,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "WAQR01000278.1_21",
+        "set": "mid_ranked",
+        "plddt": 68.7816,
+        "foldindex": 0.2579,
+        "disorder_share": 0.3851,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JACRJN010000144.1_41",
+        "set": "mid_ranked",
+        "plddt": 73.2169,
+        "foldindex": 0.2409,
+        "disorder_share": 0.1693,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JAGYNK010000052.1_12",
+        "set": "mid_ranked",
+        "plddt": 53.2774,
+        "foldindex": 0.1911,
+        "disorder_share": 0.0645,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JAFGBE010000087.1_3",
+        "set": "mid_ranked",
+        "plddt": 82.0363,
+        "foldindex": 0.0397,
+        "disorder_share": 0.5855,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "QZKU01000094.1_7",
+        "set": "mid_ranked",
+        "plddt": 52.6625,
+        "foldindex": 0.112,
+        "disorder_share": 0.4634,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JAHJSD010000044.1_1",
+        "set": "mid_ranked",
+        "plddt": 43.0897,
+        "foldindex": 0.2016,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "PMZC01000285.1_6",
+        "set": "mid_ranked",
+        "plddt": 80.504,
+        "foldindex": 0.4628,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "MGPE01000005.1_153",
+        "set": "mid_ranked",
+        "plddt": 33.0308,
+        "foldindex": 0.1508,
+        "disorder_share": 0.0233,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "NC_011661.1_346",
+        "set": "mid_ranked",
+        "plddt": 90.0777,
+        "foldindex": 0.0471,
+        "disorder_share": 0.637,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "CAIVGN010000008.1_37",
+        "set": "mid_ranked",
+        "plddt": 43.9352,
+        "foldindex": 0.1634,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "LIUI01000131.1_4",
+        "set": "mid_ranked",
+        "plddt": 86.8936,
+        "foldindex": 0.6334,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DHZH01000001.1_425",
+        "set": "mid_ranked",
+        "plddt": 91.6075,
+        "foldindex": 0.574,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "QJVW01000029.1_2",
+        "set": "mid_ranked",
+        "plddt": 32.8396,
+        "foldindex": 0.2193,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JAEOSL010000002.1_84",
+        "set": "mid_ranked",
+        "plddt": 59.8139,
+        "foldindex": 0.0224,
+        "disorder_share": 0.2735,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JAHJDO010000151.1_5",
+        "set": "mid_ranked",
+        "plddt": 84.3116,
+        "foldindex": 0.2404,
+        "disorder_share": 0.0,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "JACPAV010000005.1_111",
+        "set": "mid_ranked",
+        "plddt": 84.2503,
+        "foldindex": -0.0057,
+        "disorder_share": 0.6321,
+        "uversky_unfolded": true
+      },
+      {
+        "pid": "DIWJ01000074.1_70",
+        "set": "mid_ranked",
+        "plddt": 87.0239,
+        "foldindex": -0.0048,
+        "disorder_share": 0.4436,
+        "uversky_unfolded": true
+      },
+      {
+        "pid": "CAJUJZ010000111.1_1",
+        "set": "mid_ranked",
+        "plddt": 71.0312,
+        "foldindex": 0.1435,
+        "disorder_share": 0.2653,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "DFGE01000022.1_69",
+        "set": "mid_ranked",
+        "plddt": 45.9224,
+        "foldindex": 0.06,
+        "disorder_share": 0.3641,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "CACGSI010000007.1_27",
+        "set": "mid_ranked",
+        "plddt": 64.6457,
+        "foldindex": 0.1976,
+        "disorder_share": 0.3786,
+        "uversky_unfolded": false
+      },
+      {
+        "pid": "CAISUK010000294.1_3",
+        "set": "mid_ranked",
+        "plddt": 70.4033,
+        "foldindex": 0.1674,
+        "disorder_share": 0.0034,
+        "uversky_unfolded": false
+      }
+    ]
+  },
+  "ranking": {
+    "top1pct": {
+      "n": 341,
+      "foldindex_median": 0.14562715179968722,
+      "uversky_unfolded_share": 0.187683284457478,
+      "disorder_share_median": 0.11811023622047244,
+      "mostly_disordered_share": 0.22287390029325513
+    },
+    "rest_sample": {
+      "n": 3000,
+      "foldindex_median": 0.13265702852989913,
+      "uversky_unfolded_share": 0.14433333333333334,
+      "disorder_share_median": 0.1496821116087227,
+      "mostly_disordered_share": 0.18066666666666667
+    },
+    "foldindex_mannwhitney_p": 0.5552778334059401,
+    "disorder_share_mannwhitney_p": 0.49802085991249645,
+    "uversky_fisher_p": 0.03671831313664825
+  },
+  "ranking_after_filter": {
+    "top1pct": {
+      "n": 97,
+      "foldindex_median": 0.17305092592592586,
+      "uversky_unfolded_share": 0.041237113402061855,
+      "disorder_share_median": 0.13043478260869565,
+      "mostly_disordered_share": 0.10309278350515463
+    },
+    "rest_sample": {
+      "n": 1445,
+      "foldindex_median": 0.14257192982456157,
+      "uversky_unfolded_share": 0.07128027681660899,
+      "disorder_share_median": 0.17464114832535885,
+      "mostly_disordered_share": 0.11764705882352941
+    },
+    "foldindex_mannwhitney_p": 0.04638942430841614,
+    "disorder_share_mannwhitney_p": 0.056571529843754666,
+    "uversky_fisher_p": 0.4052556781435126
+  }
+}
