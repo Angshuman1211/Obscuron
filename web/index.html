@@ -306,7 +306,7 @@
       </div>
       <div class="hero-stats">
         <div class="hs"><span class="n" style="color:var(--accent)">0.962</span><span class="l">Held-out AUROC</span></div>
-        <div class="hs"><span class="n">4,138</span><span class="l">Validated positives</span></div>
+        <div class="hs"><span class="n">4,138</span><span class="l">Retrospective positives</span></div>
         <div class="hs"><span class="n">22.2%</span><span class="l">Genes dark at T&#8320;</span></div>
         <div class="hs"><span class="n">5</span><span class="l">Evidence layers</span></div>
       </div>
@@ -396,19 +396,19 @@
         <div class="lnum">2</div>
         <div><h4>Structure-aware embedding</h4>
           <p>A ProstT5 structural encoder as the lightweight fold substitute. A strong family separator, complementary to sequence rather than superior to it.</p></div>
-        <div class="lmetric"><div class="mv">0.960</div><div class="ml">AUROC &middot; 60 fam</div></div>
+        <div class="lmetric"><div class="mv">0.944</div><div class="ml">AUROC &middot; 300 fam</div></div>
       </div>
       <div class="layer">
         <div class="lnum">3</div>
         <div><h4>Immune self / non-self</h4>
-          <p>Calibrated negative selection: self-tolerance holds at 0.024, and the coarse detector converges with the sequence score rather than beating it. A supporting narrative, reported honestly.</p></div>
+          <p>Calibrated negative selection: self-tolerance holds at 0.023, and the coarse detector converges with the sequence score rather than beating it. A supporting narrative, reported honestly.</p></div>
         <div class="lmetric"><div class="mv">+0.49</div><div class="ml">Convergence &middot; Spearman</div></div>
       </div>
       <div class="layer">
         <div class="lnum">4</div>
         <div><h4>Multi-signal convergence</h4>
-          <p>Three independent axes: embedding, genomic context and composition. A 108-gene triple-convergent set sits 3.4&times; beyond chance agreement.</p></div>
-        <div class="lmetric"><div class="mv">3.4&times;</div><div class="ml">Beyond chance</div></div>
+          <p>Three independent axes: embedding, genomic context and composition. Their 108-gene triple-convergent set is 1.4&times; the 75 expected once the axes&rsquo; measured correlations are kept (p&nbsp;=&nbsp;0.0025), and it is not enriched for later-characterised genes.</p></div>
+        <div class="lmetric"><div class="mv">1.4&times;</div><div class="ml">Vs correlated null</div></div>
       </div>
       <div class="layer">
         <div class="lnum">5</div>
@@ -426,7 +426,7 @@
     <div class="sec-head reveal">
       <span class="eyebrow">Live instrument</span>
       <h2>Score a sequence against the known.</h2>
-      <p>Paste an amino-acid sequence to read a calibrated novelty verdict, its position in the tail, and its nearest characterised families.</p>
+      <p>Paste an amino-acid sequence to see how the readout works. This page runs a lightweight composition-based preview; the full ESM-2 scorer runs offline from the repository.</p>
     </div>
     <div class="inst">
       <div class="panel reveal">
@@ -442,12 +442,12 @@
             <button class="btn btn-primary" id="runBtn">Score sequence</button>
             <button class="btn btn-ghost" id="clearBtn">Clear</button>
           </div>
-          <p class="disc"><b>Preview scorer.</b> This runs a lightweight client-side proxy over amino-acid composition and complexity so the interface works standalone. The deployed instrument runs the full ESM-2 embedding through the fitted GPD tail (&xi;&nbsp;=&nbsp;0.0998, &beta;&nbsp;=&nbsp;0.00586). It flags <b>novelty and priority, not function.</b></p>
+          <p class="disc"><b>Preview scorer.</b> This runs a lightweight client-side proxy over amino-acid composition and complexity so the interface works standalone. The full scorer embeds the sequence with ESM-2 (layer 22) and passes its kNN distance through the fitted GPD tail (&xi;&nbsp;=&nbsp;&minus;0.014, &beta;&nbsp;=&nbsp;0.0123); it runs offline with <code>scripts/demo_score.py</code>. It flags <b>novelty and priority, not function.</b></p>
         </div>
       </div>
 
       <div class="panel readout reveal">
-        <div class="panel-h"><span class="t">Calibrated readout</span><span class="arm">ESM-2 &middot; clean arm</span></div>
+        <div class="panel-h"><span class="t">Preview readout</span><span class="arm">Composition proxy</span></div>
         <div class="panel-b">
           <div class="verdict">
             <span class="badge" id="badge">Awaiting query</span>
@@ -459,7 +459,7 @@
             <div class="ticks"><span>within known space</span><span>deep dark matter</span></div>
           </div>
           <div class="rgrid">
-            <div class="rstat"><div class="k">Calibrated tail p-value</div><div class="v" id="pval">&mdash;</div></div>
+            <div class="rstat"><div class="k">Proxy tail p-value</div><div class="v" id="pval">&mdash;</div></div>
             <div class="rstat"><div class="k">Composition distance</div><div class="v" id="dist">&mdash;</div></div>
           </div>
           <div class="tailplot">
@@ -482,7 +482,7 @@
     <div class="sec-head reveal">
       <span class="eyebrow">Results</span>
       <h2>What the numbers say.</h2>
-      <p>The headline is validated on 903 held-out families. The comparison arms are matched family-for-family, so the contrast is fair.</p>
+      <p>The headline is validated on 903 held-out families. The comparison arms are matched family-for-family, so the contrast is fair. Accepted and presented at IEEE ICAESIS-2026 (Paper ID 1273).</p>
     </div>
     <div class="res-grid">
       <div class="chartcard reveal">
@@ -490,29 +490,31 @@
         <div class="arm-chart">
           <div class="arm lead">
             <div class="arm-top"><span class="arm-name">ESM-2 <span class="sub">protein &middot; leakage-clean</span></span><span class="arm-val" style="color:var(--accent)">0.988</span></div>
-            <div class="abar"><div class="afill" data-w="98.8"></div></div>
+            <div class="abar"><div class="afill" data-w="96.0"></div></div>
             <div class="scale"><span>0.70</span><span>0.85</span><span>1.00</span></div>
           </div>
           <div class="arm mid">
-            <div class="arm-top"><span class="arm-name">ProstT5 <span class="sub">structure-aware</span></span><span class="arm-val">0.960</span></div>
-            <div class="abar"><div class="afill" data-w="96.0"></div></div>
+            <div class="arm-top"><span class="arm-name">ProstT5 <span class="sub">structure-aware</span></span><span class="arm-val">0.944</span></div>
+            <div class="abar"><div class="afill" data-w="81.3"></div></div>
           </div>
           <div class="arm low">
             <div class="arm-top"><span class="arm-name">Genos-m <span class="sub">genomic &middot; leakage-controlled</span></span><span class="arm-val">0.739</span></div>
-            <div class="abar"><div class="afill" data-w="73.9"></div></div>
+            <div class="abar"><div class="afill" data-w="13.0"></div></div>
           </div>
         </div>
-        <p class="dim" style="font-family:var(--mono);font-size:.78rem;margin-top:24px;line-height:1.55">Even with a leakage advantage, the genomic model underperforms the clean protein model, so the headline is not a leakage artifact. Bars scaled 0.70&ndash;1.00.</p>
+        <p class="dim" style="font-family:var(--mono);font-size:.78rem;margin-top:24px;line-height:1.55">Even with a leakage advantage, the genomic model underperforms the clean protein model, so the headline is not a leakage artifact. Same 300 families for all three arms; bars scaled 0.70&ndash;1.00.</p>
       </div>
 
       <div class="metrics reveal">
-        <div class="metric hl"><div class="mk">Layer 1 &middot; headline</div><div class="mv">0.962</div><div class="md">Held-out-family AUROC across 903 families, mid-late embedding layer.</div></div>
-        <div class="metric"><div class="mk">Tail calibration</div><div class="mv">0.984</div><div class="md">GPD goodness-of-fit, KS test. &xi;&nbsp;=&nbsp;0.0998, &beta;&nbsp;=&nbsp;0.00586.</div></div>
-        <div class="metric"><div class="mk">Convergent frontier</div><div class="mv">108</div><div class="md">Genes flagged by three independent axes, 3.4&times; beyond chance.</div></div>
+        <div class="metric hl"><div class="mk">Layer 1 &middot; headline</div><div class="mv">0.962</div><div class="md">Held-out-family AUROC across 903 families, ESM-2 layer 22.</div></div>
+        <div class="metric"><div class="mk">False-flag rate</div><div class="mv">0.0486</div><div class="md">Known proteins flagged at nominal &alpha;&nbsp;=&nbsp;0.05, mean of 20 held-out splits. GPD tail at layer 22: &xi;&nbsp;=&nbsp;&minus;0.014, &beta;&nbsp;=&nbsp;0.0123.</div></div>
+        <div class="metric"><div class="mk">Convergent frontier</div><div class="mv">108</div><div class="md">Genes in the top decile of three independent axes: 1.4&times; the correlated null, not enriched for later-characterised genes.</div></div>
         <div class="metric"><div class="mk">Coding vs noise</div><div class="mv">0.94</div><div class="md">Dark genes are genuinely coding, not spurious ORFs.</div></div>
+        <div class="metric"><div class="mk">New genomes</div><div class="mv">0.867</div><div class="md">Held-out-family AUROC on 60 genomes of species absent from GTDB R207 (740 families).</div></div>
+        <div class="metric"><div class="mk">Structure check</div><div class="mv">33.6</div><div class="md">Median ESMFold pLDDT of the filtered top candidates, against 70.7 for mid-ranked dark proteins (p&nbsp;=&nbsp;5&times;10&#8315;&#8313;).</div></div>
       </div>
     </div>
-    <p class="finding reveal">A deliberate finding, not a failure. Because genes get characterised by homology, the validated positives are the <em>near-known</em> ones, so a good novelty score <em>anti-predicts</em> near-term characterisation. Validation rests on the controlled held-out-family test, not raw precision on that biased set.</p>
+    <p class="finding reveal">A deliberate finding, not a failure. Because genes get characterised by homology, the retrospective positives are the <em>near-known</em> ones, so a good novelty score <em>anti-predicts</em> near-term characterisation. Validation rests on the controlled held-out-family test, not raw precision on that biased set.</p>
   </div>
 </section>
 
@@ -522,16 +524,16 @@
     <div class="sec-head reveal">
       <span class="eyebrow">Candidate frontier</span>
       <h2>Ranked dark-gene candidates.</h2>
-      <p>The highest-confidence unexplored genes, ranked by calibrated novelty and filtered by phylum. Convergence marks show how many independent axes flag each gene.</p>
+      <p>The ten highest-ranked dark proteins that pass the artefact filter (complete gene, composition entropy, disorder, coding signal, no AntiFam match), ranked by ESM-2 layer-22 distance among the 34,138 dark queries.</p>
     </div>
     <div class="filters reveal" id="filters"></div>
     <div class="tbl-wrap reveal">
       <table>
-        <thead><tr><th>Protein</th><th>Phylum</th><th style="text-align:right">Novelty</th><th style="text-align:right">Tail p</th><th>Axes</th></tr></thead>
+        <thead><tr><th>Protein</th><th>Phylum</th><th style="text-align:right">Rank</th><th style="text-align:right">Distance</th><th style="text-align:right">Length</th></tr></thead>
         <tbody id="candBody"></tbody>
       </table>
     </div>
-    <p class="tbl-note reveal">Example rows drawn from the survey panel to demonstrate the interface. The deployed table reads the fitted scorer over the full dark set.</p>
+    <p class="tbl-note reveal">Rows from <code>results/revision/filtered_ranking.csv</code>. Rank is among the 34,138 dark queries before filtering; distance is the mean cosine distance to the five nearest characterised proteins; length is in residues.</p>
   </div>
 </section>
 
@@ -570,8 +572,8 @@
       <div class="foot-col">
         <h5>Authorship</h5>
         <div class="person"><div class="nm">Angshuman Chakravertty</div><div class="rl">Track 1 &middot; methodology, design, analysis</div></div>
-        <div class="person"><div class="nm">Rayyan Mohammed</div><div class="rl">Track 2 &middot; implementation, execution</div></div>
-        <div class="person"><div class="rl">MPSTME, NMIMS Hyderabad</div></div>
+        <div class="person"><div class="nm">MD Rayyan</div><div class="rl">Track 2 &middot; implementation, execution</div></div>
+        <div class="person"><div class="rl">STME, SVKM&rsquo;s NMIMS (Deemed to be University), Hyderabad</div></div>
       </div>
       <div class="foot-col">
         <h5>Project</h5>
@@ -581,7 +583,7 @@
       </div>
     </div>
     <div class="foot-bot">
-      <span>Final-year B.Tech CSE capstone &middot; 2026&ndash;27</span>
+      <span>B.Tech CSE (Data Science) capstone &middot; 2023&ndash;27 &middot; IEEE ICAESIS-2026, Paper ID 1273</span>
       <span>Novelty and priority, not function.</span>
     </div>
   </div>
@@ -752,29 +754,24 @@
 
   /* ---------- candidates ---------- */
   var CANDS=[
-    {id:"GCA_902384_00417", phy:"Patescibacteria", nov:0.94, p:0.00021, ax:3},
-    {id:"GCA_014385_01120", phy:"Thermoproteota", nov:0.91, p:0.00048, ax:3},
-    {id:"GCA_003242_02993", phy:"Patescibacteria", nov:0.89, p:0.00072, ax:2},
-    {id:"GCA_902765_00088", phy:"Bacteroidota", nov:0.87, p:0.00110, ax:3},
-    {id:"GCA_011372_01844", phy:"Pseudomonadota", nov:0.85, p:0.00165, ax:2},
-    {id:"GCA_003555_00521", phy:"Actinomycetota", nov:0.83, p:0.00240, ax:2},
-    {id:"GCA_902384_02210", phy:"Thermoproteota", nov:0.81, p:0.00318, ax:2},
-    {id:"GCA_014860_00976", phy:"Verrucomicrobiota", nov:0.79, p:0.00451, ax:1},
-    {id:"GCA_002504_01388", phy:"Bacteroidota", nov:0.77, p:0.00602, ax:2},
-    {id:"GCA_011372_00233", phy:"Pseudomonadota", nov:0.74, p:0.00887, ax:1},
-    {id:"GCA_900128_01705", phy:"Bacillota", nov:0.72, p:0.01120, ax:1},
-    {id:"GCA_003242_00659", phy:"Actinomycetota", nov:0.69, p:0.01640, ax:1}
+    {id:"DCUM01000125.1_2", phy:"KSB1", rank:5, d:0.2230, len:547},
+    {id:"DCHV01000033.1_3", phy:"Bacteroidota", rank:10, d:0.2116, len:348},
+    {id:"DF820458.1_623", phy:"Moduliflexota", rank:17, d:0.2014, len:164},
+    {id:"DF820462.1_146", phy:"Moduliflexota", rank:19, d:0.2005, len:129},
+    {id:"LMZT01000101.1_20", phy:"OLB16", rank:20, d:0.2004, len:221},
+    {id:"KI543214.1_56", phy:"Halobacteriota", rank:24, d:0.1963, len:282},
+    {id:"WVXK01000111.1_8", phy:"Desulfobacterota_E", rank:27, d:0.1953, len:276},
+    {id:"DLYX01000357.1_5", phy:"Desulfobacterota_B", rank:28, d:0.1952, len:149},
+    {id:"DEYK01000070.1_19", phy:"Planctomycetota", rank:29, d:0.1950, len:168},
+    {id:"DCUM01000151.1_7", phy:"KSB1", rank:30, d:0.1935, len:335}
   ];
-  function novColor(n){ return n>=0.82?"var(--heat-high)":(n>=0.6?"var(--heat-mid)":"var(--accent)"); }
-  function novBg(n){ return n>=0.82?"rgba(177,74,46,.12)":(n>=0.6?"rgba(188,138,46,.14)":"rgba(44,90,75,.12)"); }
   var candBody=document.getElementById("candBody");
   function renderCands(filter){
     candBody.innerHTML=CANDS.filter(function(c){return !filter||filter==="All"||c.phy===filter;}).map(function(c){
-      var conv=""; for(var i=0;i<3;i++){ conv+='<i class="'+(i<c.ax?"on":"")+'"></i>'; }
       return '<tr><td class="id">'+c.id+'</td><td class="phy">'+c.phy+'</td>'+
-        '<td class="num"><span class="nov-pill" style="color:'+novColor(c.nov)+';background:'+novBg(c.nov)+'">'+c.nov.toFixed(2)+'</span></td>'+
-        '<td class="num dim">'+c.p.toFixed(5)+'</td>'+
-        '<td><span class="conv" title="'+c.ax+' of 3 axes">'+conv+'</span></td></tr>';
+        '<td class="num">'+c.rank+'</td>'+
+        '<td class="num"><span class="nov-pill" style="color:var(--heat-high);background:rgba(177,74,46,.12)">'+c.d.toFixed(4)+'</span></td>'+
+        '<td class="num dim">'+c.len+'</td></tr>';
     }).join("");
   }
   var phyla=["All"]; CANDS.forEach(function(c){ if(phyla.indexOf(c.phy)<0) phyla.push(c.phy); });
