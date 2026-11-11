@@ -1,0 +1,61 @@
+{
+  "e_value_cutoff": 0.001,
+  "filtered_top": {
+    "n": 30,
+    "ranks": [
+      17,
+      112
+    ],
+    "length_median": 146.0,
+    "plddt_median": 33.63202838749849,
+    "plddt_iqr": [
+      31.283018704001787,
+      35.530670166015625
+    ],
+    "plddt_range": [
+      28.545454545454547,
+      59.89292907714844
+    ],
+    "confident_share": 0.0,
+    "afdb_hit_share": 0.03333333333333333,
+    "pdb_hit_share": 0.0,
+    "any_afdb_alignment_share": 0.4666666666666667
+  },
+  "mid_ranked": {
+    "n": 30,
+    "ranks": [
+      15143,
+      19827
+    ],
+    "length_median": 159.5,
+    "plddt_median": 70.71728897094727,
+    "plddt_iqr": [
+      50.73249597002747,
+      84.29627227783203
+    ],
+    "plddt_range": [
+      32.83964920043945,
+      96.23897058823529
+    ],
+    "confident_share": 0.5333333333333333,
+    "afdb_hit_share": 0.7,
+    "pdb_hit_share": 0.06666666666666667,
+    "any_afdb_alignment_share": 1.0
+  },
+  "tests": {
+    "plddt_mannwhitney_p": 4.9979539605688955e-09,
+    "length_mannwhitney_p": 0.1832177525786437,
+    "confident_fisher_p": 1.9440445652776148e-06,
+    "afdb_hit_fisher_p": 6.147503375736076e-08,
+    "pdb_hit_fisher_p": 0.4915254237288137
+  },
+  "filtered_top_hits": [
+    {
+      "pid": "NZ_RXLO01000006.1_211",
+      "rank": 110,
+      "length": 124,
+      "plddt": 59.89292907714844,
+      "afdb50_best_e": 3.738e-10
+    }
+  ]
+}

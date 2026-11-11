@@ -1,0 +1,536 @@
+{
+  "metapredict_version": "3.1.01",
+  "cutoff": 0.5,
+  "structure_sets": {
+    "filtered_top": {
+      "n": 30,
+      "disordered_share_median": 0.05948766603415555,
+      "mostly_disordered_share": 0.13333333333333333,
+      "mean_score_median": 0.2016461044657932
+    },
+    "mid_ranked": {
+      "n": 30,
+      "disordered_share_median": 0.034589947089947046,
+      "mostly_disordered_share": 0.06666666666666667,
+      "mean_score_median": 0.1314025192222822
+    },
+    "mannwhitney_p": 0.38580744442270376,
+    "mostly_disordered_fisher_p": 0.6707485199902685,
+    "spearman_disorder_plddt_all60": -0.22590435042888984,
+    "filtered_top_low_plddt_not_disordered": 20,
+    "per_protein": [
+      {
+        "pid": "DF820458.1_623",
+        "set": "filtered_top",
+        "plddt": 37.7134,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0846,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DF820462.1_146",
+        "set": "filtered_top",
+        "plddt": 33.8062,
+        "metapredict_disordered_share": 0.5504,
+        "metapredict_mean": 0.5096,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "LMZT01000101.1_20",
+        "set": "filtered_top",
+        "plddt": 29.1267,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1416,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "KI543214.1_56",
+        "set": "filtered_top",
+        "plddt": 31.5248,
+        "metapredict_disordered_share": 0.3014,
+        "metapredict_mean": 0.3834,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "WVXK01000111.1_8",
+        "set": "filtered_top",
+        "plddt": 28.5455,
+        "metapredict_disordered_share": 0.2945,
+        "metapredict_mean": 0.3222,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DLYX01000357.1_5",
+        "set": "filtered_top",
+        "plddt": 36.5302,
+        "metapredict_disordered_share": 1.0,
+        "metapredict_mean": 0.8235,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DEYK01000070.1_19",
+        "set": "filtered_top",
+        "plddt": 31.631,
+        "metapredict_disordered_share": 0.119,
+        "metapredict_mean": 0.2391,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "PLDF01000151.1_65",
+        "set": "filtered_top",
+        "plddt": 33.2275,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1852,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "KI543185.1_2",
+        "set": "filtered_top",
+        "plddt": 29.6898,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1103,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_FKIP01001010.1_5",
+        "set": "filtered_top",
+        "plddt": 29.3876,
+        "metapredict_disordered_share": 0.0465,
+        "metapredict_mean": 0.194,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "LIUI01000071.1_17",
+        "set": "filtered_top",
+        "plddt": 33.4579,
+        "metapredict_disordered_share": 0.3564,
+        "metapredict_mean": 0.4628,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "PMZC01000394.1_3",
+        "set": "filtered_top",
+        "plddt": 35.7333,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0713,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DF820456.1_950",
+        "set": "filtered_top",
+        "plddt": 34.852,
+        "metapredict_disordered_share": 0.3394,
+        "metapredict_mean": 0.4649,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "QZKU01000067.1_10",
+        "set": "filtered_top",
+        "plddt": 34.4137,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1025,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DDGC01000028.1_108",
+        "set": "filtered_top",
+        "plddt": 34.5846,
+        "metapredict_disordered_share": 0.1453,
+        "metapredict_mean": 0.2185,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "KI543199.1_28",
+        "set": "filtered_top",
+        "plddt": 31.2024,
+        "metapredict_disordered_share": 0.0821,
+        "metapredict_mean": 0.1354,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DF820455.1_247",
+        "set": "filtered_top",
+        "plddt": 35.5743,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.048,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DDWC01000237.1_7",
+        "set": "filtered_top",
+        "plddt": 33.3646,
+        "metapredict_disordered_share": 0.7113,
+        "metapredict_mean": 0.5784,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "KI543197.1_139",
+        "set": "filtered_top",
+        "plddt": 30.0285,
+        "metapredict_disordered_share": 0.0706,
+        "metapredict_mean": 0.1487,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "PUNC01000155.1_3",
+        "set": "filtered_top",
+        "plddt": 35.3999,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1234,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "MGQK01000032.1_13",
+        "set": "filtered_top",
+        "plddt": 29.6437,
+        "metapredict_disordered_share": 0.1983,
+        "metapredict_mean": 0.2636,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_BNCD01000003.1_115",
+        "set": "filtered_top",
+        "plddt": 29.2812,
+        "metapredict_disordered_share": 0.363,
+        "metapredict_mean": 0.3575,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "PFND01000062.1_16",
+        "set": "filtered_top",
+        "plddt": 34.7906,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0936,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "MFAF01000117.1_9",
+        "set": "filtered_top",
+        "plddt": 33.1705,
+        "metapredict_disordered_share": 1.0,
+        "metapredict_mean": 0.8522,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DCHV01000032.1_42",
+        "set": "filtered_top",
+        "plddt": 37.4664,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0713,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DCHV01000087.1_16",
+        "set": "filtered_top",
+        "plddt": 31.9737,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0815,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DCHV01000085.1_1",
+        "set": "filtered_top",
+        "plddt": 35.3065,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.2093,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_JABFHO010000001.1_1986",
+        "set": "filtered_top",
+        "plddt": 45.483,
+        "metapredict_disordered_share": 0.4214,
+        "metapredict_mean": 0.4435,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_RXLO01000006.1_211",
+        "set": "filtered_top",
+        "plddt": 59.8929,
+        "metapredict_disordered_share": 0.0484,
+        "metapredict_mean": 0.3232,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_RZMY01000003.1_437",
+        "set": "filtered_top",
+        "plddt": 46.0024,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1877,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JACTNB010000036.1_89",
+        "set": "mid_ranked",
+        "plddt": 66.0131,
+        "metapredict_disordered_share": 0.6275,
+        "metapredict_mean": 0.589,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAGCDY010000113.1_4",
+        "set": "mid_ranked",
+        "plddt": 49.0756,
+        "metapredict_disordered_share": 0.0798,
+        "metapredict_mean": 0.1392,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAFUYQ010000017.1_56",
+        "set": "mid_ranked",
+        "plddt": 41.1752,
+        "metapredict_disordered_share": 0.1966,
+        "metapredict_mean": 0.3096,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_PTQW01000003.1_179",
+        "set": "mid_ranked",
+        "plddt": 96.239,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0443,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "CADBLV010000138.1_5",
+        "set": "mid_ranked",
+        "plddt": 80.786,
+        "metapredict_disordered_share": 0.0535,
+        "metapredict_mean": 0.122,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_FRCD01000003.1_103",
+        "set": "mid_ranked",
+        "plddt": 50.0892,
+        "metapredict_disordered_share": 0.1465,
+        "metapredict_mean": 0.2066,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "SBHG01000018.1_3",
+        "set": "mid_ranked",
+        "plddt": 85.5467,
+        "metapredict_disordered_share": 0.1267,
+        "metapredict_mean": 0.1807,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "CACKFQ010000015.1_11",
+        "set": "mid_ranked",
+        "plddt": 87.1545,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0506,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NZ_LMKQ01000001.1_2704",
+        "set": "mid_ranked",
+        "plddt": 77.3525,
+        "metapredict_disordered_share": 0.0656,
+        "metapredict_mean": 0.1088,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "WAQR01000278.1_21",
+        "set": "mid_ranked",
+        "plddt": 68.7816,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1479,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JACRJN010000144.1_41",
+        "set": "mid_ranked",
+        "plddt": 73.2169,
+        "metapredict_disordered_share": 0.037,
+        "metapredict_mean": 0.1276,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAGYNK010000052.1_12",
+        "set": "mid_ranked",
+        "plddt": 53.2774,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.1079,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAFGBE010000087.1_3",
+        "set": "mid_ranked",
+        "plddt": 82.0363,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.2434,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "QZKU01000094.1_7",
+        "set": "mid_ranked",
+        "plddt": 52.6625,
+        "metapredict_disordered_share": 0.7398,
+        "metapredict_mean": 0.6781,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAHJSD010000044.1_1",
+        "set": "mid_ranked",
+        "plddt": 43.0897,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0735,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "PMZC01000285.1_6",
+        "set": "mid_ranked",
+        "plddt": 80.504,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0532,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "MGPE01000005.1_153",
+        "set": "mid_ranked",
+        "plddt": 33.0308,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.054,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "NC_011661.1_346",
+        "set": "mid_ranked",
+        "plddt": 90.0777,
+        "metapredict_disordered_share": 0.0068,
+        "metapredict_mean": 0.1187,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "CAIVGN010000008.1_37",
+        "set": "mid_ranked",
+        "plddt": 43.9352,
+        "metapredict_disordered_share": 0.0741,
+        "metapredict_mean": 0.1166,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "LIUI01000131.1_4",
+        "set": "mid_ranked",
+        "plddt": 86.8936,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0295,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DHZH01000001.1_425",
+        "set": "mid_ranked",
+        "plddt": 91.6075,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0873,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "QJVW01000029.1_2",
+        "set": "mid_ranked",
+        "plddt": 32.8396,
+        "metapredict_disordered_share": 0.1102,
+        "metapredict_mean": 0.1558,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAEOSL010000002.1_84",
+        "set": "mid_ranked",
+        "plddt": 59.8139,
+        "metapredict_disordered_share": 0.0085,
+        "metapredict_mean": 0.1897,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JAHJDO010000151.1_5",
+        "set": "mid_ranked",
+        "plddt": 84.3116,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0703,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "JACPAV010000005.1_111",
+        "set": "mid_ranked",
+        "plddt": 84.2503,
+        "metapredict_disordered_share": 0.0321,
+        "metapredict_mean": 0.1522,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DIWJ01000074.1_70",
+        "set": "mid_ranked",
+        "plddt": 87.0239,
+        "metapredict_disordered_share": 0.1805,
+        "metapredict_mean": 0.2765,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "CAJUJZ010000111.1_1",
+        "set": "mid_ranked",
+        "plddt": 71.0312,
+        "metapredict_disordered_share": 0.0,
+        "metapredict_mean": 0.0746,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "DFGE01000022.1_69",
+        "set": "mid_ranked",
+        "plddt": 45.9224,
+        "metapredict_disordered_share": 0.0615,
+        "metapredict_mean": 0.1352,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "CACGSI010000007.1_27",
+        "set": "mid_ranked",
+        "plddt": 64.6457,
+        "metapredict_disordered_share": 0.1845,
+        "metapredict_mean": 0.4005,
+        "metapredict_version": "3.1.01"
+      },
+      {
+        "pid": "CAISUK010000294.1_3",
+        "set": "mid_ranked",
+        "plddt": 70.4033,
+        "metapredict_disordered_share": 0.2945,
+        "metapredict_mean": 0.3312,
+        "metapredict_version": "3.1.01"
+      }
+    ]
+  },
+  "ranking": {
+    "top1pct": {
+      "n": 341,
+      "disordered_share_median": 0.4537037037037037,
+      "mostly_disordered_share": 0.4809384164222874,
+      "mean_score_median": 0.4960690909601522
+    },
+    "rest_sample": {
+      "n": 3000,
+      "disordered_share_median": 0.0665616829542115,
+      "mostly_disordered_share": 0.124,
+      "mean_score_median": 0.1732484384814011
+    },
+    "mannwhitney_p": 4.4271188204633915e-39,
+    "mostly_disordered_fisher_p": 4.781318998355804e-50
+  },
+  "ranking_after_filter": {
+    "top1pct": {
+      "n": 97,
+      "disordered_share_median": 0.0705882352941176,
+      "mostly_disordered_share": 0.13402061855670103,
+      "mean_score_median": 0.2093394956543666
+    },
+    "rest_sample": {
+      "n": 1445,
+      "disordered_share_median": 0.0518518518518518,
+      "mostly_disordered_share": 0.03460207612456748,
+      "mean_score_median": 0.1398050362301199
+    },
+    "mannwhitney_p": 0.018724668556510015,
+    "mostly_disordered_fisher_p": 8.205442291416064e-05
+  }
+}

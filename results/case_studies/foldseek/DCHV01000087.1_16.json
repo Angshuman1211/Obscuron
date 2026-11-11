@@ -1,0 +1,123 @@
+{
+ "ticket": "jiE0ra4DNdJslnJF3dyw-i8MWVySkv4Be4voeA",
+ "afdb50": {
+  "n_hits": 483,
+  "top": [
+   {
+    "target": "AF-A0A559K5T3-F1-model_v6 Uncharacterized protein",
+    "prob": 0.747,
+    "eval": 0.3379,
+    "score": 59,
+    "seqId": 12.3,
+    "alnLength": 97,
+    "qStartPos": 1,
+    "qEndPos": 96,
+    "taxName": "Paenibacillus cremeus"
+   },
+   {
+    "target": "AF-A0AAD9PV42-F1-model_v6 Uncharacterized protein",
+    "prob": 0.72,
+    "eval": 0.536,
+    "score": 58,
+    "seqId": 15.7,
+    "alnLength": 70,
+    "qStartPos": 10,
+    "qEndPos": 72,
+    "taxName": "Acropora cervicornis"
+   },
+   {
+    "target": "AF-J3LVC1-F1-model_v6 Uncharacterized protein",
+    "prob": 0.505,
+    "eval": 0.8501,
+    "score": 51,
+    "seqId": 15.2,
+    "alnLength": 72,
+    "qStartPos": 1,
+    "qEndPos": 72,
+    "taxName": "Oryza brachyantha"
+   },
+   {
+    "target": "AF-A0A9P6MYP1-F1-model_v6 Uncharacterized protein",
+    "prob": 0.301,
+    "eval": 0.8501,
+    "score": 44,
+    "seqId": 16.8,
+    "alnLength": 77,
+    "qStartPos": 1,
+    "qEndPos": 70,
+    "taxName": "Entomortierella chlamydospora"
+   },
+   {
+    "target": "AF-A0A5B7DXR3-F1-model_v6 Uncharacterized protein",
+    "prob": 0.353,
+    "eval": 1.182,
+    "score": 46,
+    "seqId": 18.5,
+    "alnLength": 70,
+    "qStartPos": 6,
+    "qEndPos": 70,
+    "taxName": "Portunus trituberculatus"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 23,
+  "top": [
+   {
+    "target": "5v8w-assembly1.cif.gz_A Crystal structure of human Integrator IntS9-IntS11 CTD complex",
+    "prob": 0.214,
+    "eval": 0.8947,
+    "score": 40,
+    "seqId": 15.1,
+    "alnLength": 66,
+    "qStartPos": 21,
+    "qEndPos": 84,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "5v8w-assembly4.cif.gz_G Crystal structure of human Integrator IntS9-IntS11 CTD complex",
+    "prob": 0.098,
+    "eval": 1.729,
+    "score": 31,
+    "seqId": 15.7,
+    "alnLength": 70,
+    "qStartPos": 16,
+    "qEndPos": 83,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "5oqm-assembly1.cif.gz_a STRUCTURE OF YEAST TRANSCRIPTION PRE-INITIATION COMPLEX WITH TFIIH AND CORE MEDIATOR",
+    "prob": 0.051,
+    "eval": 1.847,
+    "score": 24,
+    "seqId": 13.2,
+    "alnLength": 106,
+    "qStartPos": 7,
+    "qEndPos": 97,
+    "taxName": "Saccharomyces cerevisiae S288C"
+   },
+   {
+    "target": "2ykq-assembly1.cif.gz_C Structure of the human LINE-1 ORF1p trimer",
+    "prob": 0.051,
+    "eval": 2.567,
+    "score": 24,
+    "seqId": 15.3,
+    "alnLength": 91,
+    "qStartPos": 8,
+    "qEndPos": 94,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "2ykp-assembly1.cif.gz_C Structure of the human LINE-1 ORF1p trimer",
+    "prob": 0.04,
+    "eval": 2.929,
+    "score": 22,
+    "seqId": 13.3,
+    "alnLength": 90,
+    "qStartPos": 8,
+    "qEndPos": 94,
+    "taxName": "Homo sapiens"
+   }
+  ]
+ }
+}

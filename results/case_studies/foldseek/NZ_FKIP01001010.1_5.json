@@ -1,0 +1,23 @@
+{
+ "ticket": "DmjnWJcQy8qUGcmIoih--fGnQTzZjavaYTKewQ",
+ "afdb50": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "AF-A0AAD9SVP3-F1-model_v6 Protein phosphatase 4 core regulatory subunit R2",
+    "prob": 0.034,
+    "eval": 9.107,
+    "score": 21,
+    "seqId": 11.9,
+    "alnLength": 109,
+    "qStartPos": 15,
+    "qEndPos": 123,
+    "taxName": "Diplocarpon rosae"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

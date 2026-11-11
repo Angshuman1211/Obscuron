@@ -1,0 +1,123 @@
+{
+ "ticket": "qCAoI3tvjQTKFS4En2FRe6lsl8XmIbz_TeS1bQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A2D4IUY4-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 0.988,
+    "eval": 0.009773,
+    "score": 82,
+    "seqId": 13,
+    "alnLength": 92,
+    "qStartPos": 29,
+    "qEndPos": 120,
+    "taxName": "Micrurus lemniscatus lemniscatus"
+   },
+   {
+    "target": "AF-A0AAX6M9S5-F1-model_v6 Endosomal/vacuolar adapter protein YPT35",
+    "prob": 0.795,
+    "eval": 0.02067,
+    "score": 61,
+    "seqId": 17.8,
+    "alnLength": 129,
+    "qStartPos": 1,
+    "qEndPos": 120,
+    "taxName": "Daldinia eschscholtzii"
+   },
+   {
+    "target": "AF-A0A067E3Q2-F1-model_v6 non-specific serine/threonine protein kinase",
+    "prob": 0.912,
+    "eval": 0.02341,
+    "score": 68,
+    "seqId": 16.9,
+    "alnLength": 124,
+    "qStartPos": 13,
+    "qEndPos": 131,
+    "taxName": "Citrus sinensis"
+   },
+   {
+    "target": "AF-A0AAW8W9C8-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 0.02492,
+    "score": 104,
+    "seqId": 19.2,
+    "alnLength": 52,
+    "qStartPos": 51,
+    "qEndPos": 102,
+    "taxName": "Levilactobacillus namurensis"
+   },
+   {
+    "target": "AF-R5TLP8-F1-model_v6 Tyr recombinase domain-containing protein",
+    "prob": 0.994,
+    "eval": 0.03005,
+    "score": 87,
+    "seqId": 17.9,
+    "alnLength": 67,
+    "qStartPos": 53,
+    "qEndPos": 118,
+    "taxName": "Mediterraneibacter gnavus CAG:126"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 589,
+  "top": [
+   {
+    "target": "8fmw-assembly1.cif.gz_W The structure of a hibernating ribosome in the Lyme disease pathogen",
+    "prob": 0.505,
+    "eval": 0.1865,
+    "score": 51,
+    "seqId": 16.2,
+    "alnLength": 74,
+    "qStartPos": 52,
+    "qEndPos": 118,
+    "taxName": "Borreliella burgdorferi B31"
+   },
+   {
+    "target": "3klf-assembly3.cif.gz_I Crystal structure of wild-type HIV-1 Reverse Transcriptase crosslinked to a DSDNA with a bound excision product, AZTPPPPA",
+    "prob": 0.116,
+    "eval": 0.1985,
+    "score": 33,
+    "seqId": 13.8,
+    "alnLength": 65,
+    "qStartPos": 57,
+    "qEndPos": 113,
+    "taxName": "Human immunodeficiency virus type 1 BH10"
+   },
+   {
+    "target": "4az1-assembly1.cif.gz_B Crystal structure of the Trypanosoma cruzi protein tyrosine phosphatase TcPTP1, a potential therapeutic target for Chagas' disease",
+    "prob": 0.473,
+    "eval": 0.2249,
+    "score": 50,
+    "seqId": 8.9,
+    "alnLength": 56,
+    "qStartPos": 67,
+    "qEndPos": 113,
+    "taxName": "Trypanosoma cruzi"
+   },
+   {
+    "target": "6ozq-assembly1.cif.gz_B Crystal structure of Mus musculus (Mm) Endonuclease V (K155M) in complex with a 23mer RNA oligo containing an inosine after a 100 min soak in 10 mM Mn2+ and K+",
+    "prob": 0.179,
+    "eval": 0.2394,
+    "score": 38,
+    "seqId": 15.9,
+    "alnLength": 88,
+    "qStartPos": 53,
+    "qEndPos": 123,
+    "taxName": "Mus musculus"
+   },
+   {
+    "target": "2l73-assembly1.cif.gz_A Structure of the NOXO1b PX domain",
+    "prob": 0.537,
+    "eval": 0.2548,
+    "score": 52,
+    "seqId": 15.6,
+    "alnLength": 64,
+    "qStartPos": 58,
+    "qEndPos": 120,
+    "taxName": "Homo sapiens"
+   }
+  ]
+ }
+}

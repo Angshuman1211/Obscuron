@@ -1,0 +1,101 @@
+{
+ "ticket": "mU1aYUCGxDQJcfh4CmrANCR6158cEazzjdo4Mg",
+ "afdb50": {
+  "n_hits": 111,
+  "top": [
+   {
+    "target": "AF-A0A6A7RXS6-F1-model_v6 Phage resistance protein (Fragment)",
+    "prob": 1,
+    "eval": 2.785e-10,
+    "score": 258,
+    "seqId": 39.5,
+    "alnLength": 278,
+    "qStartPos": 22,
+    "qEndPos": 292,
+    "taxName": "Candidatus Accumulibacter phosphatis"
+   },
+   {
+    "target": "AF-A0A954BY26-F1-model_v6 Phage resistance protein (Fragment)",
+    "prob": 1,
+    "eval": 7.114e-10,
+    "score": 256,
+    "seqId": 37.9,
+    "alnLength": 277,
+    "qStartPos": 23,
+    "qEndPos": 292,
+    "taxName": "Planctomycetota bacterium"
+   },
+   {
+    "target": "AF-A0A962DMW6-F1-model_v6 BREX system P-loop protein BrxC (Fragment)",
+    "prob": 1,
+    "eval": 2.368e-08,
+    "score": 221,
+    "seqId": 38.9,
+    "alnLength": 272,
+    "qStartPos": 23,
+    "qEndPos": 291,
+    "taxName": "Lysobacterales bacterium"
+   },
+   {
+    "target": "AF-A0A933KE73-F1-model_v6 Phage resistance protein",
+    "prob": 1,
+    "eval": 4.076e-08,
+    "score": 217,
+    "seqId": 32.3,
+    "alnLength": 278,
+    "qStartPos": 22,
+    "qEndPos": 292,
+    "taxName": "Candidatus Wallbacteria bacterium"
+   },
+   {
+    "target": "AF-A0A528LTR2-F1-model_v6 Phage resistance protein",
+    "prob": 1,
+    "eval": 4.726e-08,
+    "score": 215,
+    "seqId": 29.9,
+    "alnLength": 274,
+    "qStartPos": 23,
+    "qEndPos": 292,
+    "taxName": "Mesorhizobium sp."
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 3,
+  "top": [
+   {
+    "target": "6n4n-assembly1.cif.gz_F Crystal structure of the designed protein DNCR2/danoprevir/NS3a complex",
+    "prob": 0.126,
+    "eval": 5.909,
+    "score": 34,
+    "seqId": 21.2,
+    "alnLength": 146,
+    "qStartPos": 69,
+    "qEndPos": 202,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "6n4n-assembly2.cif.gz_C Crystal structure of the designed protein DNCR2/danoprevir/NS3a complex",
+    "prob": 0.082,
+    "eval": 6.852,
+    "score": 29,
+    "seqId": 17.4,
+    "alnLength": 201,
+    "qStartPos": 10,
+    "qEndPos": 202,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "8f6r-assembly1.cif.gz_A CryoEM structure of designed modular protein oligomer C6-79",
+    "prob": 0.063,
+    "eval": 7.945,
+    "score": 26,
+    "seqId": 17.9,
+    "alnLength": 239,
+    "qStartPos": 11,
+    "qEndPos": 202,
+    "taxName": "synthetic construct"
+   }
+  ]
+ }
+}

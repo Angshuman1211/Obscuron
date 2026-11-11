@@ -1,0 +1,67 @@
+{
+ "ticket": "Fkr48Ij1i16WMH1ihuWp-SouAKoVTUa8Jxva0A",
+ "afdb50": {
+  "n_hits": 349,
+  "top": [
+   {
+    "target": "AF-A0A512RPK4-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 3.738e-10,
+    "score": 309,
+    "seqId": 66.6,
+    "alnLength": 123,
+    "qStartPos": 2,
+    "qEndPos": 124,
+    "taxName": "Chitinophaga cymbidii"
+   },
+   {
+    "target": "AF-A0A1W2A898-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 7.408e-08,
+    "score": 259,
+    "seqId": 52.1,
+    "alnLength": 117,
+    "qStartPos": 2,
+    "qEndPos": 118,
+    "taxName": "Pedobacter africanus"
+   },
+   {
+    "target": "AF-A0A519U2C2-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 3.974e-06,
+    "score": 207,
+    "seqId": 39.8,
+    "alnLength": 123,
+    "qStartPos": 2,
+    "qEndPos": 121,
+    "taxName": "Pedobacter sp."
+   },
+   {
+    "target": "AF-A0A3M9N529-F1-model_v6 Orphan protein",
+    "prob": 1,
+    "eval": 6.144e-06,
+    "score": 198,
+    "seqId": 40.5,
+    "alnLength": 116,
+    "qStartPos": 2,
+    "qEndPos": 117,
+    "taxName": "Hanamia caeni"
+   },
+   {
+    "target": "AF-A0A285ZT22-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 9.498e-06,
+    "score": 189,
+    "seqId": 41.2,
+    "alnLength": 126,
+    "qStartPos": 2,
+    "qEndPos": 124,
+    "taxName": "Pedobacter xixiisoli"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

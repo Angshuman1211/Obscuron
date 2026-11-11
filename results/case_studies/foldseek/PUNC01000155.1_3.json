@@ -1,0 +1,123 @@
+{
+ "ticket": "n4bV6kt4cFrkYEU82Q6b9mG1VuWU7ax7wnaRWA",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A7S0I997-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 0.855,
+    "eval": 0.1424,
+    "score": 64,
+    "seqId": 8.1,
+    "alnLength": 135,
+    "qStartPos": 12,
+    "qEndPos": 136,
+    "taxName": "Micromonas pusilla"
+   },
+   {
+    "target": "AF-A0A5S3V7X5-F1-model_v6 DP-EP family protein",
+    "prob": 0.996,
+    "eval": 0.1505,
+    "score": 90,
+    "seqId": 6.6,
+    "alnLength": 120,
+    "qStartPos": 21,
+    "qEndPos": 138,
+    "taxName": "Pseudoalteromonas aurantia"
+   },
+   {
+    "target": "AF-A0A1M6BUR3-F1-model_v6 Uncharacterized protein",
+    "prob": 0.872,
+    "eval": 0.1505,
+    "score": 65,
+    "seqId": 8.2,
+    "alnLength": 121,
+    "qStartPos": 19,
+    "qEndPos": 136,
+    "taxName": "Geosporobacter subterraneus DSM 17957"
+   },
+   {
+    "target": "AF-A0A2G9UQY3-F1-model_v6 Reprolysin family zinc metalloprotease",
+    "prob": 0.991,
+    "eval": 0.1682,
+    "score": 84,
+    "seqId": 10.6,
+    "alnLength": 122,
+    "qStartPos": 19,
+    "qEndPos": 137,
+    "taxName": "Teladorsagia circumcincta"
+   },
+   {
+    "target": "AF-A0A2H1YI69-F1-model_v6 Lipoprotein",
+    "prob": 0.72,
+    "eval": 0.2099,
+    "score": 58,
+    "seqId": 9.9,
+    "alnLength": 161,
+    "qStartPos": 2,
+    "qEndPos": 138,
+    "taxName": "Tenacibaculum piscium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 88,
+  "top": [
+   {
+    "target": "1yr2-assembly1.cif.gz_A Structural and Mechanistic Analysis of Two Prolyl Endopeptidases: Role of Inter-Domain Dynamics in Catalysis and Specificity",
+    "prob": 0.15,
+    "eval": 1.028,
+    "score": 36,
+    "seqId": 11.3,
+    "alnLength": 123,
+    "qStartPos": 18,
+    "qEndPos": 138,
+    "taxName": "Novosphingobium capsulatum"
+   },
+   {
+    "target": "7zjz-assembly1.cif.gz_A catalytically non active S532A mutant of oligopeptidase B from S. proteomaculans",
+    "prob": 0.116,
+    "eval": 1.148,
+    "score": 33,
+    "seqId": 8.1,
+    "alnLength": 123,
+    "qStartPos": 19,
+    "qEndPos": 138,
+    "taxName": "Serratia proteamaculans"
+   },
+   {
+    "target": "5bvs-assembly2.cif.gz_B Linoleate-bound pFABP4",
+    "prob": 0.214,
+    "eval": 1.214,
+    "score": 40,
+    "seqId": 7,
+    "alnLength": 142,
+    "qStartPos": 2,
+    "qEndPos": 138,
+    "taxName": "Pygoscelis papua"
+   },
+   {
+    "target": "7q2p-assembly1.cif.gz_BBB Beta-lactoglobulin mutant FAW (I56F/L39A/M107W) in complex with desipramine (FAW-DSM#2)",
+    "prob": 0.15,
+    "eval": 1.433,
+    "score": 36,
+    "seqId": 10.9,
+    "alnLength": 119,
+    "qStartPos": 10,
+    "qEndPos": 125,
+    "taxName": "Bos taurus"
+   },
+   {
+    "target": "2c1w-assembly1.cif.gz_A The structure of XendoU: a splicing independent snoRNA processing endoribonuclease",
+    "prob": 0.106,
+    "eval": 1.891,
+    "score": 32,
+    "seqId": 13.7,
+    "alnLength": 102,
+    "qStartPos": 46,
+    "qEndPos": 137,
+    "taxName": "Xenopus laevis"
+   }
+  ]
+ }
+}

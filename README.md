@@ -4,11 +4,10 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%3E%3D2.4-ee4c2c)](pyproject.toml)
-[![Status](https://img.shields.io/badge/status-technical%20work%20closed%20%C2%B7%20manuscript%20pending%20submission-brightgreen)](docs/problems_and_decisions.md)
-[![Website](https://img.shields.io/badge/website-live-2C5A4B)](http://obscuron-site-067620369122.s3-website-us-east-1.amazonaws.com)
+[![Status](https://img.shields.io/badge/status-accepted%20%26%20presented%20%C2%B7%20IEEE%20ICAESIS%202026-brightgreen)](#publication)
+[![Website](https://img.shields.io/badge/website-live-2C5A4B)](https://obscuron-labs.vercel.app/)
 
-**Live project page:** http://obscuron-site-067620369122.s3-website-us-east-1.amazonaws.com
-(source: [`web/index.html`](web/index.html); hosted on S3 static website hosting, HTTP only — CloudFront/HTTPS is pending AWS account verification)
+**Live project page:** https://obscuron-labs.vercel.app/
 
 ---
 
@@ -18,7 +17,11 @@ Most sequenced microbial genes have no functional annotation, because annotation
 
 ---
 
-> **Status: the technical work of this 4-phase capstone is closed on both tracks — the benchmark + go/no-go gate, the Layer-1 EVT scorer, the Layer-3 immune self/non-self layer, and the Phase-4 extension covering all five blueprint layers (Layer 2 ProstT5 at full scale, Layer 4 multi-signal convergence with five axes, Layer 5 coding-structure discrimination with a true-intergenic control), plus the full-scale Genos-m comparison and a leakage-tightened re-test of the Genos-m axis. Track 1 declined to re-freeze Layer 3's detector count, so its frozen default stands (P3-D8). Only manuscript proofreading and submission remain. This is research code from a final-year B.Tech capstone (MPSTME, NMIMS Hyderabad) targeting ACM-BCB 2027, not a packaged library.**
+> **Status: the paper was accepted and presented at IEEE ICAESIS-2026 (Paper ID 1273, Mohan Babu University, Tirupati, 29–31 October 2026). The technical work of this 4-phase capstone is closed on both tracks: the benchmark + go/no-go gate, the Layer-1 EVT scorer, the Layer-3 immune self/non-self layer, and the Phase-4 extension covering all five blueprint layers (Layer 2 ProstT5 at full scale, Layer 4 multi-signal convergence with five axes, Layer 5 coding-structure discrimination with a true-intergenic control), plus the full-scale Genos-m comparison, a leakage-tightened re-test of the Genos-m axis, and the October 2026 revision analyses (baselines, an independent test set, structure case studies). Track 1 declined to re-freeze Layer 3's detector count, so its frozen default stands (P3-D8). A journal extension is in preparation. This is research code from a final-year B.Tech capstone (STME, SVKM's NMIMS Hyderabad), not a packaged library.**
+
+## Publication
+
+A. Chakravertty, MD Rayyan, N. Vurukonda and D. Dey, "Calibrated Novelty Detection for Microbial Dark Matter via Leakage-Controlled Retrospective Validation," in *Proc. IEEE Int. Conf. Advanced Engineering for Sustainable and Integrated Systems (ICAESIS-2026)*, Mohan Babu University, Tirupati, India, Oct. 2026. Paper ID 1273; accepted and presented.
 
 ---
 
@@ -237,6 +240,26 @@ Structure-aware embedding is a strong Pfam-family separator, just below the pure
 
 > **Honest scope:** reported at the matched 300-family scale, not the full 903-family panel that the ESM-2 headline uses. ProstT5 was also embedded for all 34,138 dark queries to serve as Layer 4's 5th axis. Details: [`docs/problems_and_decisions.md` § P4-D6, P4-D10](docs/problems_and_decisions.md).
 
+### 8. October 2026 revision analyses: baselines, new genomes, structure
+
+**Baselines** (withheld-family AUROC, 903 families, layer 22; retrospective AUROC on the 34,138 dark queries; `results/baselines/`, `results/revision/`):
+
+| Method | Withheld family (mean / median) | Retrospective |
+|---|---|---|
+| kNN, mean of 5 (headline) | 0.962 / 0.985 | 0.470 |
+| Density-normalised kNN | 0.942 / 0.968 | 0.549 |
+| kNN, nearest neighbour | 0.977 / 0.991 | 0.478 |
+| phmmer best hit | 0.969 / 0.976 | 0.381 |
+| phmmer + kNN, rank average | 0.984 / 0.995 | n/a |
+| Mahalanobis distance | 0.565 / 0.588 | 0.565 |
+| Protein length | n/a | 0.618 |
+
+Sequence search matches the embedding where it has a hit, but 46.9% of dark queries have no phmmer hit at all; on remote known proteins (best hit below 30 bits) the embedding leads (0.875 / 0.911 against 0.780). Split-conformal and GPD p-values are equally calibrated at α = 0.001 to 0.2.
+
+**Independent test set** (60 GTDB R232 genomes of species absent from R207, 178,954 proteins, 574 positives; `results/independent/evaluation.json`): withheld-family AUROC 0.867 (median 0.900, 740 families). Calibration transfers only conditionally: at α = 0.05 the distance score flags 0.005 / 0.100 / 0.324 of proteins from families with ≥5 / 1–4 / 0 reference members; the density-normalised score gives 0.038 / 0.016 / 0.109. Genome-disjoint and phylum-disjoint calibration splits match random splits.
+
+**Structure case studies** (ESMFold + Foldseek; `results/revision/structure_comparison.json`): the 30 highest-ranked dark proteins that pass an artefact filter fold at median pLDDT 33.6 against 70.7 for 30 random mid-ranked dark proteins (Mann–Whitney p = 5e-9), with 1/30 against 21/30 AlphaFold DB hits. ESM-independent disorder predictors do not explain the gap; alignment depth does (median 0.5 against 56.5 UniRef relatives, p = 0.001). ESMFold shares ESM-2, so this is not a fully independent check.
+
 ---
 
 ## Honest limitations
@@ -273,7 +296,7 @@ Obscuron/
 ├── results/                  # committed derived artifacts: CSVs, JSON summaries, figures
 ├── benchmark_release/         # standalone benchmark package: README, checksummed manifest, genome panel, protein labels
 ├── paper_draft/               # manuscript drafts (gitignored — work in progress)
-├── web/                       # project landing page (index.html), deployed to S3 — see Live project page above
+├── web/                       # project landing page (index.html); the live site is at obscuron-labs.vercel.app
 ├── data/                      # gitignored — snapshots, sequences, embeddings (built locally)
 ├── figures/                   # gitignored — scratch evaluation output
 ├── pyproject.toml             # uv-managed dependencies (Python 3.11+)
@@ -347,7 +370,7 @@ uv run python scripts/package_benchmark_release.py     # standalone benchmark re
 
 ## Data & cost hygiene
 
-The pipeline itself doesn't run live infrastructure, so its operational risk is cloud storage cost, not uptime. **The standing rule (P1-D4): stream public data through the pipeline and persist only derived artifacts — embeddings, labels, manifests — never warehouse the raw GTDB/Pfam downloads.** (The one exception is the project's own static site — see [Live project page](#obscuron) above — a low-cost, low-risk S3-hosted page, not a data-processing dependency.)
+The pipeline itself doesn't run live infrastructure, so its operational risk is cloud storage cost, not uptime. **The standing rule (P1-D4): stream public data through the pipeline and persist only derived artifacts — embeddings, labels, manifests — never warehouse the raw GTDB/Pfam downloads.** (The project page is a static site hosted on Vercel, see [Live project page](#obscuron) above; it is not a data-processing dependency.)
 
 > Born from a real bill: an earlier iteration staged the full GTDB R207 protein FASTA set on S3 and racked up roughly $12 over 3 months for ~166GB of duplicated, freely re-downloadable data. If any S3 staging is used for a one-off run, apply a 30–60 day lifecycle expiry:
 > ```bash
@@ -366,7 +389,7 @@ The Genos-m comparison used a rented cloud GPU (AWS A10G): the 300-family matche
 | 1 — Benchmark + go/no-go gate | 1–3 | ✅ Complete | ✅ Complete |
 | 2 — Layer 1 EVT scorer | 4–6 | ✅ Complete | ✅ Complete |
 | 3 — Layer 3 immune layer | 7–9 | ✅ Complete | ✅ Complete |
-| 4 — Extension + manuscript | 10–12 | ✅ Extension complete (Layers 2, 4, 5 built; robustness + full Genos-m comparison; lit-search re-run) · Layer 3 re-freeze declined (P3-D8) · 🔄 manuscript submission | ✅ Figures, README, citations, ProstT5 full scale, intergenic control, benchmark release, Genos-m leakage re-test, project page |
+| 4 — Extension + manuscript | 10–12 | ✅ Extension complete (Layers 2, 4, 5 built; robustness + full Genos-m comparison; lit-search re-run) · Layer 3 re-freeze declined (P3-D8) · ✅ paper accepted and presented at IEEE ICAESIS-2026 | ✅ Figures, README, citations, ProstT5 full scale, intergenic control, benchmark release, Genos-m leakage re-test, project page |
 
 ---
 

@@ -1,0 +1,123 @@
+{
+ "ticket": "_JXdgOdPOTaqz-dJF4u_Wq7ZkBjtJR-o7aXN2Q",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A4R9JXC5-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 4.895e-06,
+    "score": 133,
+    "seqId": 13.8,
+    "alnLength": 252,
+    "qStartPos": 2,
+    "qEndPos": 190,
+    "taxName": "Leptospira ognonensis"
+   },
+   {
+    "target": "AF-A0A960Y0D9-F1-model_v6 DUF5683 domain-containing protein",
+    "prob": 1,
+    "eval": 5.905e-06,
+    "score": 138,
+    "seqId": 17.2,
+    "alnLength": 197,
+    "qStartPos": 1,
+    "qEndPos": 184,
+    "taxName": "Leptospiraceae bacterium"
+   },
+   {
+    "target": "AF-A0A7Y5BH97-F1-model_v6 DUF5683 domain-containing protein",
+    "prob": 1,
+    "eval": 9.739e-06,
+    "score": 144,
+    "seqId": 21.2,
+    "alnLength": 155,
+    "qStartPos": 1,
+    "qEndPos": 149,
+    "taxName": "Leptospiraceae bacterium"
+   },
+   {
+    "target": "AF-A0A960VVZ0-F1-model_v6 DUF4140 domain-containing protein",
+    "prob": 1,
+    "eval": 1.71e-05,
+    "score": 142,
+    "seqId": 20.9,
+    "alnLength": 162,
+    "qStartPos": 9,
+    "qEndPos": 169,
+    "taxName": "Leptospiraceae bacterium"
+   },
+   {
+    "target": "AF-N1U1W2-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 2.063e-05,
+    "score": 172,
+    "seqId": 23.9,
+    "alnLength": 121,
+    "qStartPos": 2,
+    "qEndPos": 121,
+    "taxName": "Leptospira weilii str. Ecochallenge"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 490,
+  "top": [
+   {
+    "target": "4noy-assembly1.cif.gz_A Crystal structure of Listeria monocytogenes Hfq F43W",
+    "prob": 1,
+    "eval": 0.001678,
+    "score": 161,
+    "seqId": 20.4,
+    "alnLength": 44,
+    "qStartPos": 23,
+    "qEndPos": 66,
+    "taxName": "Listeria monocytogenes"
+   },
+   {
+    "target": "4noy-assembly1.cif.gz_D-2 Crystal structure of Listeria monocytogenes Hfq F43W",
+    "prob": 1,
+    "eval": 0.002294,
+    "score": 157,
+    "seqId": 20.4,
+    "alnLength": 44,
+    "qStartPos": 23,
+    "qEndPos": 66,
+    "taxName": "Listeria monocytogenes"
+   },
+   {
+    "target": "3qsu-assembly1.cif.gz_A Structure of Staphylococcus aureus Hfq in complex with A7 RNA",
+    "prob": 1,
+    "eval": 0.004029,
+    "score": 140,
+    "seqId": 16,
+    "alnLength": 50,
+    "qStartPos": 17,
+    "qEndPos": 66,
+    "taxName": "Staphylococcus aureus subsp. aureus ECT-R 2"
+   },
+   {
+    "target": "4nl3-assembly1.cif.gz_D Crystal Structure of Listeria monocytogenes Hfq in complex with U6 RNA",
+    "prob": 1,
+    "eval": 0.005174,
+    "score": 147,
+    "seqId": 20.4,
+    "alnLength": 44,
+    "qStartPos": 23,
+    "qEndPos": 66,
+    "taxName": "Listeria monocytogenes"
+   },
+   {
+    "target": "7uwy-assembly1.cif.gz_A NMR solution structure of the De novo designed small beta-barrel protein 29_bp_sh3",
+    "prob": 1,
+    "eval": 0.005508,
+    "score": 142,
+    "seqId": 21.2,
+    "alnLength": 47,
+    "qStartPos": 23,
+    "qEndPos": 69,
+    "taxName": "synthetic construct"
+   }
+  ]
+ }
+}

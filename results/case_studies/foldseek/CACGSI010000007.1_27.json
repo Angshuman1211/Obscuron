@@ -1,0 +1,123 @@
+{
+ "ticket": "omjaeHxGl2W2_PbF4TjelSNwIZQhBQT4cxL54w",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A7W1P9S2-F1-model_v6 Polysaccharide biosynthesis protein (Fragment)",
+    "prob": 0.996,
+    "eval": 0.08228,
+    "score": 89,
+    "seqId": 18.9,
+    "alnLength": 58,
+    "qStartPos": 51,
+    "qEndPos": 103,
+    "taxName": "Acidobacteriota bacterium"
+   },
+   {
+    "target": "AF-A0A0F9V2R3-F1-model_v6 Uncharacterized protein",
+    "prob": 0.996,
+    "eval": 0.123,
+    "score": 89,
+    "seqId": 23.5,
+    "alnLength": 51,
+    "qStartPos": 48,
+    "qEndPos": 97,
+    "taxName": "marine sediment metagenome"
+   },
+   {
+    "target": "AF-A0A931SCD2-F1-model_v6 Prepilin peptidase",
+    "prob": 0.996,
+    "eval": 0.1315,
+    "score": 90,
+    "seqId": 17.3,
+    "alnLength": 92,
+    "qStartPos": 1,
+    "qEndPos": 90,
+    "taxName": "Deltaproteobacteria bacterium"
+   },
+   {
+    "target": "AF-A0A9E3BSH6-F1-model_v6 DUF983 domain-containing protein",
+    "prob": 0.887,
+    "eval": 0.1504,
+    "score": 66,
+    "seqId": 20,
+    "alnLength": 85,
+    "qStartPos": 29,
+    "qEndPos": 102,
+    "taxName": "Gemmatimonadota bacterium"
+   },
+   {
+    "target": "AF-A0A953RW67-F1-model_v6 Uncharacterized protein",
+    "prob": 0.961,
+    "eval": 0.1719,
+    "score": 74,
+    "seqId": 15.8,
+    "alnLength": 82,
+    "qStartPos": 30,
+    "qEndPos": 101,
+    "taxName": "Terriglobia bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 88,
+  "top": [
+   {
+    "target": "1pft-assembly1.cif.gz_A N-TERMINAL DOMAIN OF TFIIB, NMR",
+    "prob": 0.505,
+    "eval": 0.623,
+    "score": 51,
+    "seqId": 18.8,
+    "alnLength": 53,
+    "qStartPos": 51,
+    "qEndPos": 103,
+    "taxName": "Pyrococcus furiosus"
+   },
+   {
+    "target": "6o9l-assembly1.cif.gz_U Human holo-PIC in the closed state",
+    "prob": 0.179,
+    "eval": 1.217,
+    "score": 38,
+    "seqId": 17.5,
+    "alnLength": 40,
+    "qStartPos": 51,
+    "qEndPos": 88,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6hls-assembly1.cif.gz_I Yeast apo RNA polymerase I*",
+    "prob": 0.138,
+    "eval": 1.702,
+    "score": 35,
+    "seqId": 21.5,
+    "alnLength": 51,
+    "qStartPos": 42,
+    "qEndPos": 89,
+    "taxName": "Saccharomyces cerevisiae S288C"
+   },
+   {
+    "target": "3k1f-assembly1.cif.gz_I Crystal structure of RNA Polymerase II in complex with TFIIB",
+    "prob": 0.326,
+    "eval": 1.946,
+    "score": 45,
+    "seqId": 23.8,
+    "alnLength": 42,
+    "qStartPos": 51,
+    "qEndPos": 92,
+    "taxName": "Saccharomyces cerevisiae"
+   },
+   {
+    "target": "5fyw-assembly1.cif.gz_I Transcription initiation complex structures elucidate DNA opening (OC)",
+    "prob": 0.214,
+    "eval": 2.225,
+    "score": 40,
+    "seqId": 20.8,
+    "alnLength": 48,
+    "qStartPos": 51,
+    "qEndPos": 92,
+    "taxName": "Saccharomyces cerevisiae"
+   }
+  ]
+ }
+}

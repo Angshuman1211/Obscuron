@@ -1,0 +1,123 @@
+{
+ "ticket": "4Vfxt-djwzApR3SW4r1T2RWObo_MAD4E8DxeDw",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A4Q1S9R8-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 0.0001452,
+    "score": 158,
+    "seqId": 17.3,
+    "alnLength": 161,
+    "qStartPos": 41,
+    "qEndPos": 189,
+    "taxName": "Silvibacterium dinghuense"
+   },
+   {
+    "target": "AF-A0A2V9R610-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 0.0005408,
+    "score": 148,
+    "seqId": 20.3,
+    "alnLength": 157,
+    "qStartPos": 36,
+    "qEndPos": 188,
+    "taxName": "Acidobacteriota bacterium"
+   },
+   {
+    "target": "AF-W4R163-F1-model_v6 SnoaL-like domain-containing protein",
+    "prob": 1,
+    "eval": 0.00366,
+    "score": 105,
+    "seqId": 22.2,
+    "alnLength": 144,
+    "qStartPos": 63,
+    "qEndPos": 185,
+    "taxName": "Halalkalibacter akibai JCM 9157"
+   },
+   {
+    "target": "AF-A0A8J3MEK7-F1-model_v6 DUF4878 domain-containing protein",
+    "prob": 1,
+    "eval": 0.004649,
+    "score": 120,
+    "seqId": 14.3,
+    "alnLength": 146,
+    "qStartPos": 42,
+    "qEndPos": 180,
+    "taxName": "Catellatospora sp. TT07R-123"
+   },
+   {
+    "target": "AF-A0A0F9ZKH7-F1-model_v6 DUF4878 domain-containing protein",
+    "prob": 1,
+    "eval": 0.007498,
+    "score": 125,
+    "seqId": 13.1,
+    "alnLength": 144,
+    "qStartPos": 41,
+    "qEndPos": 180,
+    "taxName": "candidate division WS6 bacterium GW2011_GWC1_33_20"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 110,
+  "top": [
+   {
+    "target": "8f3f-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) T485M variant apo form from Enterococcus faecium",
+    "prob": 0.949,
+    "eval": 0.05382,
+    "score": 72,
+    "seqId": 15.3,
+    "alnLength": 104,
+    "qStartPos": 89,
+    "qEndPos": 180,
+    "taxName": "Enterococcus faecium"
+   },
+   {
+    "target": "8f3v-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) PAPAPAP variant apo form from Enterococcus faecium",
+    "prob": 0.887,
+    "eval": 0.09216,
+    "score": 66,
+    "seqId": 15,
+    "alnLength": 113,
+    "qStartPos": 83,
+    "qEndPos": 180,
+    "taxName": "Enterococcus faecium"
+   },
+   {
+    "target": "6g0k-assembly1.cif.gz_C Crystal structure of Enterococcus faecium D63r Penicillin-Binding protein 5 (PBP5fm)",
+    "prob": 0.9,
+    "eval": 0.1039,
+    "score": 67,
+    "seqId": 12.5,
+    "alnLength": 112,
+    "qStartPos": 83,
+    "qEndPos": 180,
+    "taxName": "Enterococcus faecium"
+   },
+   {
+    "target": "8f3p-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) R464A variant penicillin bound form from Enterococcus faecium",
+    "prob": 0.933,
+    "eval": 0.117,
+    "score": 70,
+    "seqId": 14.1,
+    "alnLength": 113,
+    "qStartPos": 83,
+    "qEndPos": 180,
+    "taxName": "Enterococcus faecium"
+   },
+   {
+    "target": "8f3q-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) Y460A variant apo form from Enterococcus faecium",
+    "prob": 0.912,
+    "eval": 0.117,
+    "score": 68,
+    "seqId": 14.5,
+    "alnLength": 110,
+    "qStartPos": 83,
+    "qEndPos": 180,
+    "taxName": "Enterococcus faecium"
+   }
+  ]
+ }
+}

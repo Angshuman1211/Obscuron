@@ -1,0 +1,23 @@
+{
+ "ticket": "cwiaV7FdwjDjhZuK-3jJQzXq1nlEQImmh8x_fg",
+ "afdb50": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "AF-A0A7R9ZMW7-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 0.164,
+    "eval": 0.8624,
+    "score": 37,
+    "seqId": 19.7,
+    "alnLength": 91,
+    "qStartPos": 86,
+    "qEndPos": 174,
+    "taxName": "Craspedostauros australis"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

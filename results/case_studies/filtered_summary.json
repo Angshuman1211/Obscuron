@@ -1,0 +1,274 @@
+{
+  "DF820458.1_623": {
+    "rank_layer22": 17,
+    "distance_layer22": 0.2014317318917437,
+    "phylum": "Moduliflexota",
+    "length": 164,
+    "mean_plddt": 37.71341463414634,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "n4UpnBmZoPqrYc-d5pi6JU9FnmkGQs44tvXujg",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 1,
+        "top": [
+          {
+            "target": "6rxu-assembly1.cif.gz_UJ Cryo-EM structure of the 90S pre-ribosome (Kre33-Noc4) from Chaetomium thermophilum, state B1",
+            "prob": 0.04,
+            "eval": 5.67,
+            "score": 22,
+            "seqId": 12.3,
+            "alnLength": 97,
+            "qStartPos": 20,
+            "qEndPos": 114,
+            "taxName": "Thermochaetoides thermophila"
+          }
+        ]
+      }
+    }
+  },
+  "DF820462.1_146": {
+    "rank_layer22": 19,
+    "distance_layer22": 0.200486663861132,
+    "phylum": "Moduliflexota",
+    "length": 129,
+    "mean_plddt": 33.8062015503876,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "9-5_idVa2kQ6I-nKYg2-9WEVRjSft5V0rGQmjA",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "LMZT01000101.1_20": {
+    "rank_layer22": 20,
+    "distance_layer22": 0.2004029419367573,
+    "phylum": "OLB16",
+    "length": 221,
+    "mean_plddt": 29.126696832579185,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "bH-wMDVEDHePd-bIH98JnnVLBekSqgLYleyq2g",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "KI543214.1_56": {
+    "rank_layer22": 24,
+    "distance_layer22": 0.1963130765507966,
+    "phylum": "Halobacteriota",
+    "length": 282,
+    "mean_plddt": 31.524822695035464,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "5Xbb7OCjKPk_Z6jZ12XkDMIgMtdy-trc8Qi3Rw",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "WVXK01000111.1_8": {
+    "rank_layer22": 27,
+    "distance_layer22": 0.1952842607422412,
+    "phylum": "Desulfobacterota_E",
+    "length": 276,
+    "mean_plddt": 28.545454545454547,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "IgfHICDy054IOXqhUA4C1Gie9DD68CEi-3bX-w",
+      "afdb50": {
+        "n_hits": 0,
+        "top": []
+      },
+      "pdb100": {
+        "n_hits": 3,
+        "top": [
+          {
+            "target": "4hzk-assembly2.cif.gz_B Crystal structure of free CRM1 (crystal form 2)",
+            "prob": 0.106,
+            "eval": 2.415,
+            "score": 32,
+            "seqId": 11.7,
+            "alnLength": 153,
+            "qStartPos": 96,
+            "qEndPos": 245,
+            "taxName": "Thermochaetoides thermophila DSM 1495"
+          },
+          {
+            "target": "4hzk-assembly1.cif.gz_A Crystal structure of free CRM1 (crystal form 2)",
+            "prob": 0.057,
+            "eval": 6.836,
+            "score": 25,
+            "seqId": 11.6,
+            "alnLength": 155,
+            "qStartPos": 94,
+            "qEndPos": 245,
+            "taxName": "Thermochaetoides thermophila DSM 1495"
+          },
+          {
+            "target": "5dhf-assembly1.cif.gz_C Crystal Structure of hRio2 NES Peptide in complex with CRM1-Ran-RanBP1",
+            "prob": 0.045,
+            "eval": 8.615,
+            "score": 23,
+            "seqId": 9.8,
+            "alnLength": 153,
+            "qStartPos": 96,
+            "qEndPos": 245,
+            "taxName": "Saccharomyces cerevisiae S288C"
+          }
+        ]
+      }
+    }
+  },
+  "DLYX01000357.1_5": {
+    "rank_layer22": 28,
+    "distance_layer22": 0.1951797867310921,
+    "phylum": "Desulfobacterota_B",
+    "length": 149,
+    "mean_plddt": 36.530201342281885,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "JK_JNfhGamU3WkzKj3L16w1OmVXGF9JhuAR_YA",
+      "afdb50": {
+        "n_hits": 471,
+        "top": [
+          {
+            "target": "AF-A0A2E5J067-F1-model_v6 Transglutaminase-like domain-containing protein",
+            "prob": 0.817,
+            "eval": 0.02194,
+            "score": 62,
+            "seqId": 12,
+            "alnLength": 141,
+            "qStartPos": 24,
+            "qEndPos": 149,
+            "taxName": "Candidatus Magasanikiibacteriota bacterium"
+          },
+          {
+            "target": "AF-A0A3N0CTD4-F1-model_v6 Uncharacterized protein",
+            "prob": 0.601,
+            "eval": 0.04638,
+            "score": 54,
+            "seqId": 25.8,
+            "alnLength": 89,
+            "qStartPos": 66,
+            "qEndPos": 147,
+            "taxName": "Nocardioides marmoriginsengisoli"
+          },
+          {
+            "target": "AF-A0A7Y1XW44-F1-model_v6 Uncharacterized protein",
+            "prob": 0.663,
+            "eval": 0.169,
+            "score": 56,
+            "seqId": 18,
+            "alnLength": 94,
+            "qStartPos": 45,
+            "qEndPos": 137,
+            "taxName": "Acidimicrobiales bacterium"
+          },
+          {
+            "target": "AF-A0A7I8ETX5-F1-model_v6 Uncharacterized protein",
+            "prob": 0.692,
+            "eval": 0.181,
+            "score": 57,
+            "seqId": 15,
+            "alnLength": 73,
+            "qStartPos": 76,
+            "qEndPos": 148,
+            "taxName": "Ktedonobacteria bacterium brp13"
+          },
+          {
+            "target": "AF-A0AAW1YN98-F1-model_v6 Uncharacterized protein",
+            "prob": 0.663,
+            "eval": 0.2073,
+            "score": 56,
+            "seqId": 20,
+            "alnLength": 60,
+            "qStartPos": 76,
+            "qEndPos": 132,
+            "taxName": "Rubus argutus"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 31,
+        "top": [
+          {
+            "target": "2be3-assembly1.cif.gz_B Structure of a GTP Pyrophosphokinase Family Protein from Streptococcus pneumoniae",
+            "prob": 0.254,
+            "eval": 0.9048,
+            "score": 42,
+            "seqId": 17.3,
+            "alnLength": 46,
+            "qStartPos": 78,
+            "qEndPos": 123,
+            "taxName": "Streptococcus pneumoniae TIGR4"
+          },
+          {
+            "target": "2mdp-assembly1.cif.gz_A The bacteriophage T7 encoded inhibitor (gp1.2) of E. coli dGTP triphosphohydrolase",
+            "prob": 0.051,
+            "eval": 1.67,
+            "score": 24,
+            "seqId": 19.6,
+            "alnLength": 66,
+            "qStartPos": 76,
+            "qEndPos": 140,
+            "taxName": "Escherichia phage T7"
+          },
+          {
+            "target": "7mca-assembly1.cif.gz_E Structure of the S. cerevisiae origin recognition complex bound to the replication initiator Cdc6 and the ARS1 origin DNA.",
+            "prob": 0.02,
+            "eval": 1.913,
+            "score": 18,
+            "seqId": 21.7,
+            "alnLength": 46,
+            "qStartPos": 66,
+            "qEndPos": 111,
+            "taxName": "Saccharomyces cerevisiae"
+          },
+          {
+            "target": "8env-assembly1.cif.gz_R In situ cryo-EM structure of Pseudomonas phage E217 tail baseplate in C6 map",
+            "prob": 0.051,
+            "eval": 2.512,
+            "score": 24,
+            "seqId": 15,
+            "alnLength": 80,
+            "qStartPos": 46,
+            "qEndPos": 123,
+            "taxName": "Pseudomonas phage vB_PaeM_E217"
+          },
+          {
+            "target": "6swd-assembly1.cif.gz_F IC2 body model of cryo-EM structure of a full archaeal ribosomal translation initiation complex devoid of aIF1 in P. abyssi",
+            "prob": 0.02,
+            "eval": 2.878,
+            "score": 18,
+            "seqId": 23.4,
+            "alnLength": 47,
+            "qStartPos": 77,
+            "qEndPos": 122,
+            "taxName": "Pyrococcus abyssi GE5"
+          }
+        ]
+      }
+    }
+  }
+}

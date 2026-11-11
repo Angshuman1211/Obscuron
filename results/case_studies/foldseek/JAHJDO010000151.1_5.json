@@ -1,0 +1,123 @@
+{
+ "ticket": "HYJBjub0C12xfbJg6OhRkpko6Aj8tcw7lFCR4Q",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A943RSM1-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 3.447e-06,
+    "score": 216,
+    "seqId": 15.8,
+    "alnLength": 139,
+    "qStartPos": 9,
+    "qEndPos": 129,
+    "taxName": "Clostridiales bacterium"
+   },
+   {
+    "target": "AF-A0A920CGY5-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 4.759e-06,
+    "score": 205,
+    "seqId": 22.7,
+    "alnLength": 145,
+    "qStartPos": 9,
+    "qEndPos": 131,
+    "taxName": "Paenibacillus antibioticophila"
+   },
+   {
+    "target": "AF-A0A5D8QDX1-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 6.57e-06,
+    "score": 202,
+    "seqId": 20.4,
+    "alnLength": 142,
+    "qStartPos": 9,
+    "qEndPos": 131,
+    "taxName": "Calorimonas adulescens"
+   },
+   {
+    "target": "AF-A0A132U8G8-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 7.972e-06,
+    "score": 193,
+    "seqId": 20.1,
+    "alnLength": 144,
+    "qStartPos": 10,
+    "qEndPos": 130,
+    "taxName": "Paenibacillus riograndensis"
+   },
+   {
+    "target": "AF-A0A1M6LSM7-F1-model_v6 IrrE N-terminal-like domain-containing protein",
+    "prob": 1,
+    "eval": 7.972e-06,
+    "score": 180,
+    "seqId": 23.7,
+    "alnLength": 143,
+    "qStartPos": 9,
+    "qEndPos": 130,
+    "taxName": "Clostridium amylolyticum"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 40,
+  "top": [
+   {
+    "target": "4jix-assembly1.cif.gz_B Crystal structure of the metallopeptidase zymogen of Methanocaldococcus jannaschii jannalysin",
+    "prob": 0.505,
+    "eval": 0.09283,
+    "score": 51,
+    "seqId": 17.9,
+    "alnLength": 117,
+    "qStartPos": 5,
+    "qEndPos": 121,
+    "taxName": "Methanocaldococcus jannaschii DSM 2661"
+   },
+   {
+    "target": "6zxj-assembly1.cif.gz_H Fully-loaded anthrax lethal toxin in its heptameric pre-pore state, in which the third lethal factor is masked out (PA7LF3-masked)",
+    "prob": 0.233,
+    "eval": 0.1555,
+    "score": 41,
+    "seqId": 8.3,
+    "alnLength": 144,
+    "qStartPos": 25,
+    "qEndPos": 134,
+    "taxName": "Bacillus anthracis"
+   },
+   {
+    "target": "1tvi-assembly1.cif.gz_A Solution structure of TM1509 from Thermotoga maritima: VT1, a NESGC target protein",
+    "prob": 0.326,
+    "eval": 0.229,
+    "score": 45,
+    "seqId": 11.7,
+    "alnLength": 145,
+    "qStartPos": 4,
+    "qEndPos": 129,
+    "taxName": "Thermotoga maritima"
+   },
+   {
+    "target": "4pkr-assembly1.cif.gz_A Anthrax toxin lethal factor with bound small molecule inhibitor 10",
+    "prob": 0.196,
+    "eval": 0.6024,
+    "score": 39,
+    "seqId": 14,
+    "alnLength": 142,
+    "qStartPos": 25,
+    "qEndPos": 134,
+    "taxName": "Bacillus anthracis"
+   },
+   {
+    "target": "3cmn-assembly1.cif.gz_A Crystal structure of a putative hydrolase with a novel fold from Chloroflexus aurantiacus",
+    "prob": 0.473,
+    "eval": 0.6853,
+    "score": 50,
+    "seqId": 21.8,
+    "alnLength": 55,
+    "qStartPos": 51,
+    "qEndPos": 101,
+    "taxName": "Chloroflexus aurantiacus J-10-fl"
+   }
+  ]
+ }
+}

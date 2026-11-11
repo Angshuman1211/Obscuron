@@ -1,0 +1,123 @@
+{
+ "ticket": "_CfRg3Xlsrj333hGHW1gJ1iigVd1NIei6ZSjkg",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A178IHD5-F1-model_v6 Prepilin type IV endopeptidase peptidase domain-containing protein",
+    "prob": 1,
+    "eval": 6.363e-09,
+    "score": 482,
+    "seqId": 59,
+    "alnLength": 105,
+    "qStartPos": 1,
+    "qEndPos": 105,
+    "taxName": "Termitidicoccus mucosus"
+   },
+   {
+    "target": "AF-A0A1G3NXN3-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 9.175e-09,
+    "score": 449,
+    "seqId": 58.2,
+    "alnLength": 103,
+    "qStartPos": 1,
+    "qEndPos": 103,
+    "taxName": "Spirochaetes bacterium GWF1_31_7"
+   },
+   {
+    "target": "AF-D3AKU2-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 2.344e-07,
+    "score": 385,
+    "seqId": 48.5,
+    "alnLength": 103,
+    "qStartPos": 4,
+    "qEndPos": 105,
+    "taxName": "Hungatella hathewayi DSM 13479"
+   },
+   {
+    "target": "AF-A0AAP9MGU8-F1-model_v6 Permease",
+    "prob": 1,
+    "eval": 1.013e-06,
+    "score": 362,
+    "seqId": 46.1,
+    "alnLength": 104,
+    "qStartPos": 1,
+    "qEndPos": 104,
+    "taxName": "[Clostridium] innocuum"
+   },
+   {
+    "target": "AF-A0A7L5EHP2-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 2.106e-06,
+    "score": 363,
+    "seqId": 42.7,
+    "alnLength": 103,
+    "qStartPos": 3,
+    "qEndPos": 103,
+    "taxName": "Parabacteroides distasonis"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 98,
+  "top": [
+   {
+    "target": "6xby-assembly1.cif.gz_g Cryo-EM structure of V-ATPase from bovine brain, state 2",
+    "prob": 0.126,
+    "eval": 2.384,
+    "score": 34,
+    "seqId": 17,
+    "alnLength": 129,
+    "qStartPos": 1,
+    "qEndPos": 103,
+    "taxName": "Bos taurus"
+   },
+   {
+    "target": "5t4o-assembly1.cif.gz_M Autoinhibited E. coli ATP synthase state 1",
+    "prob": 0.138,
+    "eval": 2.647,
+    "score": 35,
+    "seqId": 9.8,
+    "alnLength": 71,
+    "qStartPos": 40,
+    "qEndPos": 103,
+    "taxName": "Escherichia coli"
+   },
+   {
+    "target": "6oqv-assembly1.cif.gz_S E. coli ATP Synthase State 2b",
+    "prob": 0.179,
+    "eval": 2.789,
+    "score": 38,
+    "seqId": 10.9,
+    "alnLength": 64,
+    "qStartPos": 40,
+    "qEndPos": 103,
+    "taxName": "Escherichia coli"
+   },
+   {
+    "target": "7uzg-assembly1.cif.gz_j Rat Kidney V-ATPase lacking subunit H, with SidK and NCOA7B, State 1",
+    "prob": 0.098,
+    "eval": 3.096,
+    "score": 31,
+    "seqId": 16.1,
+    "alnLength": 130,
+    "qStartPos": 3,
+    "qEndPos": 103,
+    "taxName": "Rattus norvegicus"
+   },
+   {
+    "target": "6n2d-assembly1.cif.gz_c2 Bacillus PS3 ATP synthase membrane region",
+    "prob": 0.196,
+    "eval": 3.262,
+    "score": 39,
+    "seqId": 14.9,
+    "alnLength": 67,
+    "qStartPos": 41,
+    "qEndPos": 104,
+    "taxName": "Bacillus sp. PS3"
+   }
+  ]
+ }
+}

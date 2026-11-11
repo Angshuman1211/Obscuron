@@ -1,0 +1,23 @@
+{
+ "ticket": "-0C5-66l7gw_lt_hCFgDyFgsyepXNUcedblC4g",
+ "afdb50": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "AF-A0A9P6GJ41-F1-model_v6 Uncharacterized protein",
+    "prob": 0.045,
+    "eval": 8.739,
+    "score": 23,
+    "seqId": 9.7,
+    "alnLength": 82,
+    "qStartPos": 24,
+    "qEndPos": 105,
+    "taxName": "Paraphaeosphaeria minitans"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

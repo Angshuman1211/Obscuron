@@ -1,0 +1,123 @@
+{
+ "ticket": "Y54X_MA0fVeIx8vyHAYSpSS8XH7JUe5htSSzwQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A9X2KCK2-F1-model_v6 Metallopeptidase family protein",
+    "prob": 1,
+    "eval": 4.036e-17,
+    "score": 581,
+    "seqId": 95.9,
+    "alnLength": 122,
+    "qStartPos": 1,
+    "qEndPos": 122,
+    "taxName": "Agromyces terreus"
+   },
+   {
+    "target": "AF-A0A917PCL0-F1-model_v6 Metallopeptidase family protein",
+    "prob": 1,
+    "eval": 8.032e-17,
+    "score": 592,
+    "seqId": 84.7,
+    "alnLength": 118,
+    "qStartPos": 5,
+    "qEndPos": 122,
+    "taxName": "Agromyces bauzanensis"
+   },
+   {
+    "target": "AF-A0A4Q2MB49-F1-model_v6 Metallopeptidase family protein",
+    "prob": 1,
+    "eval": 4.507e-13,
+    "score": 482,
+    "seqId": 60.9,
+    "alnLength": 123,
+    "qStartPos": 1,
+    "qEndPos": 122,
+    "taxName": "Agromyces atrinae"
+   },
+   {
+    "target": "AF-A0A251YBF5-F1-model_v6 Metallopeptidase family protein",
+    "prob": 1,
+    "eval": 2.023e-12,
+    "score": 508,
+    "seqId": 57.4,
+    "alnLength": 108,
+    "qStartPos": 13,
+    "qEndPos": 119,
+    "taxName": "Clavibacter michiganensis"
+   },
+   {
+    "target": "AF-A0A7Y9SHH4-F1-model_v6 Metallopeptidase family protein",
+    "prob": 1,
+    "eval": 5.503e-12,
+    "score": 444,
+    "seqId": 56,
+    "alnLength": 123,
+    "qStartPos": 1,
+    "qEndPos": 122,
+    "taxName": "Leifsonia sp. AK011"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 28,
+  "top": [
+   {
+    "target": "3e11-assembly2.cif.gz_B Crystal structure of a predicted zincin-like metalloprotease (acel_2062) from acidothermus cellulolyticus 11b at 1.80 A resolution",
+    "prob": 0.984,
+    "eval": 0.02636,
+    "score": 80,
+    "seqId": 15.9,
+    "alnLength": 119,
+    "qStartPos": 13,
+    "qEndPos": 116,
+    "taxName": "Acidothermus cellulolyticus 11B"
+   },
+   {
+    "target": "4qhi-assembly1.cif.gz_B Crystal structure of Methanocaldococcus jannaschii selecase mutant R36W",
+    "prob": 0.72,
+    "eval": 0.07634,
+    "score": 58,
+    "seqId": 7.4,
+    "alnLength": 108,
+    "qStartPos": 18,
+    "qEndPos": 119,
+    "taxName": "Methanocaldococcus jannaschii DSM 2661"
+   },
+   {
+    "target": "2ejq-assembly2.cif.gz_B Conserved hypothetical protein (TTHA0227) from Thermo thermophilus HB8",
+    "prob": 0.277,
+    "eval": 0.3883,
+    "score": 43,
+    "seqId": 10,
+    "alnLength": 110,
+    "qStartPos": 20,
+    "qEndPos": 102,
+    "taxName": "Thermus thermophilus"
+   },
+   {
+    "target": "8i8b-assembly1.cif.gz_I Outer shell and inner layer structures of Autographa californica multiple nucleopolyhedrovirus (AcMNPV)",
+    "prob": 0.214,
+    "eval": 0.7726,
+    "score": 40,
+    "seqId": 15.6,
+    "alnLength": 134,
+    "qStartPos": 5,
+    "qEndPos": 121,
+    "taxName": "Autographa californica multiple nucleopolyhedrovirus"
+   },
+   {
+    "target": "2ejq-assembly1.cif.gz_A Conserved hypothetical protein (TTHA0227) from Thermo thermophilus HB8",
+    "prob": 0.411,
+    "eval": 1.742,
+    "score": 48,
+    "seqId": 10.2,
+    "alnLength": 107,
+    "qStartPos": 17,
+    "qEndPos": 108,
+    "taxName": "Thermus thermophilus"
+   }
+  ]
+ }
+}

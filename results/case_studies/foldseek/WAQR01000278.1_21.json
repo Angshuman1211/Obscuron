@@ -1,0 +1,67 @@
+{
+ "ticket": "XbJAlIfR0Ki00nmm3CDRfR9YKJhQ-H53DqJRFw",
+ "afdb50": {
+  "n_hits": 220,
+  "top": [
+   {
+    "target": "AF-A0A937VFJ7-F1-model_v6 DUF2384 domain-containing protein",
+    "prob": 1,
+    "eval": 6.08e-05,
+    "score": 227,
+    "seqId": 36.8,
+    "alnLength": 76,
+    "qStartPos": 94,
+    "qEndPos": 169,
+    "taxName": "Chloroflexota bacterium"
+   },
+   {
+    "target": "AF-A0A7C6JRB9-F1-model_v6 DUF2384 domain-containing protein",
+    "prob": 1,
+    "eval": 6.996e-05,
+    "score": 223,
+    "seqId": 35.4,
+    "alnLength": 79,
+    "qStartPos": 95,
+    "qEndPos": 173,
+    "taxName": "Bacillota bacterium"
+   },
+   {
+    "target": "AF-A0A9E2V607-F1-model_v6 SEC-C domain-containing protein",
+    "prob": 1,
+    "eval": 9.26e-05,
+    "score": 222,
+    "seqId": 32.8,
+    "alnLength": 76,
+    "qStartPos": 94,
+    "qEndPos": 169,
+    "taxName": "Actinomycetota bacterium"
+   },
+   {
+    "target": "AF-A0A3M1EAQ7-F1-model_v6 DUF2384 domain-containing protein (Fragment)",
+    "prob": 1,
+    "eval": 0.000141,
+    "score": 214,
+    "seqId": 36.9,
+    "alnLength": 73,
+    "qStartPos": 97,
+    "qEndPos": 169,
+    "taxName": "Chloroflexota bacterium"
+   },
+   {
+    "target": "AF-A0A832FV33-F1-model_v6 DUF2384 domain-containing protein",
+    "prob": 1,
+    "eval": 0.000141,
+    "score": 207,
+    "seqId": 40,
+    "alnLength": 70,
+    "qStartPos": 100,
+    "qEndPos": 169,
+    "taxName": "Planctomycetales bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "ticket": "TR4X34JtSfOWqjAZ0qawLD3oJjIFA02ongDbIw",
+ "afdb50": {
+  "n_hits": 312,
+  "top": [
+   {
+    "target": "AF-A0A7C6FT21-F1-model_v6 Restriction alleviation protein, Lar family",
+    "prob": 0.997,
+    "eval": 0.01728,
+    "score": 91,
+    "seqId": 20.7,
+    "alnLength": 106,
+    "qStartPos": 94,
+    "qEndPos": 193,
+    "taxName": "Papillibacter sp."
+   },
+   {
+    "target": "AF-A0A926DAZ9-F1-model_v6 Uncharacterized protein",
+    "prob": 0.998,
+    "eval": 0.03955,
+    "score": 94,
+    "seqId": 30.5,
+    "alnLength": 72,
+    "qStartPos": 130,
+    "qEndPos": 195,
+    "taxName": "Yeguia hominis"
+   },
+   {
+    "target": "AF-A0A316QG36-F1-model_v6 Uncharacterized protein",
+    "prob": 0.772,
+    "eval": 0.05316,
+    "score": 60,
+    "seqId": 18.6,
+    "alnLength": 193,
+    "qStartPos": 1,
+    "qEndPos": 189,
+    "taxName": "Selenomonadales bacterium"
+   },
+   {
+    "target": "AF-A0A1V5H3D9-F1-model_v6 Uncharacterized protein",
+    "prob": 0.537,
+    "eval": 0.2785,
+    "score": 52,
+    "seqId": 14,
+    "alnLength": 135,
+    "qStartPos": 74,
+    "qEndPos": 195,
+    "taxName": "Lentisphaerae bacterium ADurb.BinA184"
+   },
+   {
+    "target": "AF-A0A7C5NLD5-F1-model_v6 Uncharacterized protein",
+    "prob": 0.473,
+    "eval": 0.3971,
+    "score": 50,
+    "seqId": 14.8,
+    "alnLength": 121,
+    "qStartPos": 76,
+    "qEndPos": 190,
+    "taxName": "Lentisphaerota bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 13,
+  "top": [
+   {
+    "target": "5om5-assembly1.cif.gz_A Crystal structure of Alpha1-antichymotrypsin variant DBS-I-allo1: an allosterically triggered drug-binding serpin for doxycycline",
+    "prob": 0.069,
+    "eval": 2.04,
+    "score": 27,
+    "seqId": 12.1,
+    "alnLength": 66,
+    "qStartPos": 76,
+    "qEndPos": 141,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "3fen-assembly2.cif.gz_B Crystal structure of the R132K:R111L:A32E mutant of cellular retinoic acid-binding protein II at 1.56 angstrom resolution",
+    "prob": 0.045,
+    "eval": 2.436,
+    "score": 23,
+    "seqId": 16.3,
+    "alnLength": 49,
+    "qStartPos": 74,
+    "qEndPos": 109,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6sek-assembly1.cif.gz_B Crystal Structure of Ancestral Flavin-containing monooxygenase (FMO) 5",
+    "prob": 0.029,
+    "eval": 5.577,
+    "score": 20,
+    "seqId": 12.6,
+    "alnLength": 63,
+    "qStartPos": 51,
+    "qEndPos": 108,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "4oyc-assembly1.cif.gz_A Crystal structure of the PrgK periplasmic domain 2",
+    "prob": 0.02,
+    "eval": 5.916,
+    "score": 18,
+    "seqId": 9.8,
+    "alnLength": 71,
+    "qStartPos": 45,
+    "qEndPos": 115,
+    "taxName": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+   },
+   {
+    "target": "6wam-assembly5.cif.gz_E Structure of Acinetobacter baumannii Cap4 SAVED/CARF-domain containing receptor",
+    "prob": 0.029,
+    "eval": 6.659,
+    "score": 20,
+    "seqId": 18.8,
+    "alnLength": 85,
+    "qStartPos": 68,
+    "qEndPos": 151,
+    "taxName": "Acinetobacter baumannii"
+   }
+  ]
+ }
+}

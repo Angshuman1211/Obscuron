@@ -1,0 +1,123 @@
+{
+ "ticket": "ZCTw9pq5PMWHPHKv7YIItepQ37TZn31pSBe8yw",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A1V5DVZ7-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 8.674e-14,
+    "score": 688,
+    "seqId": 78.1,
+    "alnLength": 133,
+    "qStartPos": 1,
+    "qEndPos": 133,
+    "taxName": "Syntrophaceae bacterium PtaU1.Bin231"
+   },
+   {
+    "target": "AF-A0A972P503-F1-model_v6 Sel1 repeat family protein",
+    "prob": 1,
+    "eval": 2.103e-08,
+    "score": 426,
+    "seqId": 46.7,
+    "alnLength": 124,
+    "qStartPos": 1,
+    "qEndPos": 124,
+    "taxName": "Syntrophaceae bacterium"
+   },
+   {
+    "target": "AF-A0A7X9PRK0-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 1,
+    "eval": 4.028e-08,
+    "score": 437,
+    "seqId": 48.6,
+    "alnLength": 109,
+    "qStartPos": 5,
+    "qEndPos": 113,
+    "taxName": "Deltaproteobacteria bacterium"
+   },
+   {
+    "target": "AF-A0A2N2KEK8-F1-model_v6 Uncharacterized protein",
+    "prob": 1,
+    "eval": 4.234e-08,
+    "score": 446,
+    "seqId": 40,
+    "alnLength": 125,
+    "qStartPos": 1,
+    "qEndPos": 125,
+    "taxName": "Deltaproteobacteria bacterium HGW-Deltaproteobacteria-10"
+   },
+   {
+    "target": "AF-A0A349A3C3-F1-model_v6 Sel1 repeat family protein",
+    "prob": 1,
+    "eval": 7.339e-08,
+    "score": 410,
+    "seqId": 37.2,
+    "alnLength": 129,
+    "qStartPos": 1,
+    "qEndPos": 129,
+    "taxName": "Syntrophus sp. (in: bacteria)"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 368,
+  "top": [
+   {
+    "target": "2nc9-assembly1.cif.gz_A Apo solution structure of Hop TPR2A",
+    "prob": 0.984,
+    "eval": 0.03428,
+    "score": 80,
+    "seqId": 18,
+    "alnLength": 122,
+    "qStartPos": 23,
+    "qEndPos": 125,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "1na0-assembly1.cif.gz_A Design of Stable alpha-Helical Arrays from an Idealized TPR Motif",
+    "prob": 0.992,
+    "eval": 0.03788,
+    "score": 85,
+    "seqId": 20.5,
+    "alnLength": 117,
+    "qStartPos": 23,
+    "qEndPos": 125,
+    "taxName": "unidentified"
+   },
+   {
+    "target": "8bu0-assembly1.cif.gz_A Crystal structure of an 8 repeat consensus TPR superhelix with calcium",
+    "prob": 0.99,
+    "eval": 0.04187,
+    "score": 83,
+    "seqId": 21.9,
+    "alnLength": 114,
+    "qStartPos": 10,
+    "qEndPos": 114,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "5hgv-assembly1.cif.gz_A Structure of an O-GlcNAc transferase point mutant, D554N in complex with peptide",
+    "prob": 0.981,
+    "eval": 0.05114,
+    "score": 79,
+    "seqId": 16.2,
+    "alnLength": 117,
+    "qStartPos": 23,
+    "qEndPos": 126,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "4cgv-assembly3.cif.gz_C First TPR of Spaghetti (RPAP3) bound to HSP90 peptide SRMEEVD",
+    "prob": 0.992,
+    "eval": 0.06246,
+    "score": 85,
+    "seqId": 16.9,
+    "alnLength": 124,
+    "qStartPos": 16,
+    "qEndPos": 124,
+    "taxName": "Homo sapiens"
+   }
+  ]
+ }
+}

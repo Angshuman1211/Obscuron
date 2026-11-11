@@ -91,3 +91,6 @@ Run NVIDIA Nemotron 3 Ultra FREE in Your Terminal.docx
 
 # Local-only documents (blueprint, interim reports, review decks): all kept in private_docs/
 private_docs/
+
+# Coursera "Managing Projects with AI" coursework deliverables, kept out of the repo
+pm_capstone/

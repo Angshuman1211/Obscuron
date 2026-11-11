@@ -1,0 +1,123 @@
+{
+ "ticket": "WSO-aFn8glpgFwGnsxOzy5upm_dbM3N-5mFAhQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A0L6VB25-F1-model_v6 Uncharacterized protein",
+    "prob": 0.967,
+    "eval": 0.006512,
+    "score": 75,
+    "seqId": 10.1,
+    "alnLength": 237,
+    "qStartPos": 24,
+    "qEndPos": 234,
+    "taxName": "Puccinia sorghi"
+   },
+   {
+    "target": "AF-A0A2K9DQI7-F1-model_v6 LPXTG cell wall anchor domain-containing protein",
+    "prob": 0.984,
+    "eval": 0.0069,
+    "score": 80,
+    "seqId": 13.6,
+    "alnLength": 198,
+    "qStartPos": 57,
+    "qEndPos": 228,
+    "taxName": "Microbacterium hominis"
+   },
+   {
+    "target": "AF-A0A0Q3FHA0-F1-model_v6 BTB domain-containing protein",
+    "prob": 0.887,
+    "eval": 0.01645,
+    "score": 66,
+    "seqId": 10.7,
+    "alnLength": 168,
+    "qStartPos": 87,
+    "qEndPos": 225,
+    "taxName": "Brachypodium distachyon"
+   },
+   {
+    "target": "AF-A0A811R3T1-F1-model_v6 MATH domain-containing protein",
+    "prob": 0.961,
+    "eval": 0.01743,
+    "score": 74,
+    "seqId": 10.6,
+    "alnLength": 243,
+    "qStartPos": 32,
+    "qEndPos": 224,
+    "taxName": "Miscanthus lutarioriparius"
+   },
+   {
+    "target": "AF-A0A9P9JMS8-F1-model_v6 Uncharacterized protein",
+    "prob": 0.772,
+    "eval": 0.01957,
+    "score": 60,
+    "seqId": 15.6,
+    "alnLength": 198,
+    "qStartPos": 30,
+    "qEndPos": 203,
+    "taxName": "Dactylonectria macrodidyma"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 106,
+  "top": [
+   {
+    "target": "5a3m-assembly3.cif.gz_C Structure of Cea1A in complex with Chitobiose",
+    "prob": 0.72,
+    "eval": 0.01468,
+    "score": 58,
+    "seqId": 18.9,
+    "alnLength": 116,
+    "qStartPos": 93,
+    "qEndPos": 201,
+    "taxName": "Komagataella pastoris DSMZ 70382"
+   },
+   {
+    "target": "6i6x-assembly2.cif.gz_B New Irreversible a-l-Iduronidase Inhibitors and Activity-Based Probes",
+    "prob": 0.663,
+    "eval": 0.07872,
+    "score": 56,
+    "seqId": 14.2,
+    "alnLength": 119,
+    "qStartPos": 96,
+    "qEndPos": 201,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "5tzn-assembly2.cif.gz_G Structure of the viral immunoevasin m12 (Smith) bound to the natural killer cell receptor NKR-P1B (B6)",
+    "prob": 0.537,
+    "eval": 0.07872,
+    "score": 52,
+    "seqId": 11.1,
+    "alnLength": 143,
+    "qStartPos": 93,
+    "qEndPos": 206,
+    "taxName": "Murid betaherpesvirus 1"
+   },
+   {
+    "target": "4obr-assembly1.cif.gz_A Crystal structure of human alpha-L-iduronidase complex with alpha-L-iduronic acid",
+    "prob": 0.601,
+    "eval": 0.08341,
+    "score": 54,
+    "seqId": 14.4,
+    "alnLength": 125,
+    "qStartPos": 96,
+    "qEndPos": 201,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "2vzr-assembly1.cif.gz_A C-terminal CBM35 from Amycolatopsis orientalis exo-chitosanase CsxA in complex with glucuronic acid",
+    "prob": 0.353,
+    "eval": 0.1251,
+    "score": 46,
+    "seqId": 16,
+    "alnLength": 106,
+    "qStartPos": 100,
+    "qEndPos": 201,
+    "taxName": "Amycolatopsis orientalis"
+   }
+  ]
+ }
+}

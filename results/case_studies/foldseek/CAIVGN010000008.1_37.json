@@ -1,0 +1,123 @@
+{
+ "ticket": "SXXLkbnhGAHM24enVQPxlzuAo_dp7adz_UEMPw",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A7W6BH92-F1-model_v6 Uncharacterized protein",
+    "prob": 0.981,
+    "eval": 0.182,
+    "score": 79,
+    "seqId": 12.5,
+    "alnLength": 72,
+    "qStartPos": 32,
+    "qEndPos": 100,
+    "taxName": "Rhizobium fabae"
+   },
+   {
+    "target": "AF-A0A679JRQ8-F1-model_v6 Uncharacterized protein",
+    "prob": 0.961,
+    "eval": 0.182,
+    "score": 74,
+    "seqId": 12.8,
+    "alnLength": 70,
+    "qStartPos": 32,
+    "qEndPos": 100,
+    "taxName": "Hyphomicrobium sp. ghe19"
+   },
+   {
+    "target": "AF-A0A514Z5W8-F1-model_v6 Uncharacterized protein",
+    "prob": 0.601,
+    "eval": 0.2181,
+    "score": 54,
+    "seqId": 15,
+    "alnLength": 93,
+    "qStartPos": 28,
+    "qEndPos": 111,
+    "taxName": "Lactococcus protaetiae"
+   },
+   {
+    "target": "AF-A0A8J2A4R2-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 0.569,
+    "eval": 0.2777,
+    "score": 53,
+    "seqId": 10.4,
+    "alnLength": 134,
+    "qStartPos": 29,
+    "qEndPos": 149,
+    "taxName": "Amoebophrya sp. A120"
+   },
+   {
+    "target": "AF-A0A3P8KN75-F1-model_v6 Uncharacterized protein",
+    "prob": 0.353,
+    "eval": 0.3329,
+    "score": 46,
+    "seqId": 11.7,
+    "alnLength": 94,
+    "qStartPos": 16,
+    "qEndPos": 100,
+    "taxName": "Mycoplasmopsis caviae"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 230,
+  "top": [
+   {
+    "target": "7qoo-assembly1.cif.gz_O Structure of the human inner kinetochore CCAN complex",
+    "prob": 0.116,
+    "eval": 0.891,
+    "score": 33,
+    "seqId": 14.7,
+    "alnLength": 95,
+    "qStartPos": 17,
+    "qEndPos": 103,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "6m9y-assembly1.cif.gz_C X-ray Structure of Branchiostoma floridae fluorescent protein lanFP6A",
+    "prob": 0.15,
+    "eval": 1.068,
+    "score": 36,
+    "seqId": 14,
+    "alnLength": 71,
+    "qStartPos": 30,
+    "qEndPos": 100,
+    "taxName": "Branchiostoma floridae"
+   },
+   {
+    "target": "2g5z-assembly1.cif.gz_A Structure of S65G Y66S GFP variant after spontaneous peptide hydrolysis and decarboxylation",
+    "prob": 0.196,
+    "eval": 1.205,
+    "score": 39,
+    "seqId": 10.1,
+    "alnLength": 69,
+    "qStartPos": 29,
+    "qEndPos": 97,
+    "taxName": "Aequorea victoria"
+   },
+   {
+    "target": "6zj8-assembly2.cif.gz_B Structure of the PAS domain from Bordetella pertussis BvgS",
+    "prob": 0.116,
+    "eval": 1.28,
+    "score": 33,
+    "seqId": 14,
+    "alnLength": 50,
+    "qStartPos": 13,
+    "qEndPos": 51,
+    "taxName": "Bordetella pertussis Tohama I"
+   },
+   {
+    "target": "6zu5-assembly1.cif.gz_LFF Structure of the Paranosema locustae ribosome in complex with Lso2",
+    "prob": 0.063,
+    "eval": 1.28,
+    "score": 26,
+    "seqId": 14.9,
+    "alnLength": 87,
+    "qStartPos": 15,
+    "qEndPos": 93,
+    "taxName": "Paranosema locustae"
+   }
+  ]
+ }
+}

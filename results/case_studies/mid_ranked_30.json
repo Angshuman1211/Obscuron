@@ -1,0 +1,3742 @@
+{
+  "JACTNB010000036.1_89": {
+    "rank_layer22": 16356,
+    "distance_layer22": 0.027400057234133,
+    "phylum": "Planctomycetota",
+    "length": 153,
+    "mean_plddt": 66.01307189542483,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "1S1_Fw-jpJOieGOFg-5jhpbtSCtar5rcNGwA1g",
+      "afdb50": {
+        "n_hits": 643,
+        "top": [
+          {
+            "target": "AF-A0A954ED22-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 8.781e-12,
+            "score": 288,
+            "seqId": 64.2,
+            "alnLength": 165,
+            "qStartPos": 1,
+            "qEndPos": 153,
+            "taxName": "Planctomycetaceae bacterium"
+          },
+          {
+            "target": "AF-A0A517SB50-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 7.313e-09,
+            "score": 282,
+            "seqId": 49.6,
+            "alnLength": 125,
+            "qStartPos": 1,
+            "qEndPos": 125,
+            "taxName": "Caulifigura coniformis"
+          },
+          {
+            "target": "AF-A0A1P8WFJ6-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 1.999e-08,
+            "score": 222,
+            "seqId": 43.4,
+            "alnLength": 161,
+            "qStartPos": 1,
+            "qEndPos": 153,
+            "taxName": "Fuerstiella marisgermanici"
+          },
+          {
+            "target": "AF-A0A954LQQ5-F1-model_v6 TIGR02300 family protein",
+            "prob": 1,
+            "eval": 2.57e-08,
+            "score": 217,
+            "seqId": 43.5,
+            "alnLength": 156,
+            "qStartPos": 10,
+            "qEndPos": 153,
+            "taxName": "Planctomycetaceae bacterium"
+          },
+          {
+            "target": "AF-A0A142WS21-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 3.104e-08,
+            "score": 243,
+            "seqId": 43.4,
+            "alnLength": 122,
+            "qStartPos": 1,
+            "qEndPos": 122,
+            "taxName": "Planctomyces sp. SH-PL14"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 42,
+        "top": [
+          {
+            "target": "1k25-assembly2.cif.gz_B PBP2x from a Highly Penicillin-resistant Streptococcus pneumoniae Clinical Isolate",
+            "prob": 0.09,
+            "eval": 1.921,
+            "score": 30,
+            "seqId": 11.5,
+            "alnLength": 52,
+            "qStartPos": 53,
+            "qEndPos": 101,
+            "taxName": "Streptococcus pneumoniae"
+          },
+          {
+            "target": "1ywl-assembly1.cif.gz_A Solution NMR structure of the protein EF2693 from E. faecalis: Northeast Structural Genomics Consortium target EFR36",
+            "prob": 0.09,
+            "eval": 2.045,
+            "score": 30,
+            "seqId": 11.1,
+            "alnLength": 72,
+            "qStartPos": 51,
+            "qEndPos": 111,
+            "taxName": "Enterococcus faecalis"
+          },
+          {
+            "target": "8e8m-assembly1.cif.gz_D Mycobacterium tuberculosis RNAP paused elongation complex",
+            "prob": 0.138,
+            "eval": 2.8,
+            "score": 35,
+            "seqId": 20.3,
+            "alnLength": 54,
+            "qStartPos": 53,
+            "qEndPos": 103,
+            "taxName": "Mycobacterium tuberculosis"
+          },
+          {
+            "target": "7b70-assembly1.cif.gz_E TRAPPCore plus C8 (355-596) and C11 (1-718) from MiniTRAPPIII",
+            "prob": 0.106,
+            "eval": 2.8,
+            "score": 32,
+            "seqId": 19.5,
+            "alnLength": 41,
+            "qStartPos": 53,
+            "qEndPos": 88,
+            "taxName": "Drosophila melanogaster"
+          },
+          {
+            "target": "3isy-assembly1.cif.gz_A Crystal structure of an intracellular proteinase inhibitor (ipi, bsu11130) from bacillus subtilis at 2.61 A resolution",
+            "prob": 0.051,
+            "eval": 3.175,
+            "score": 24,
+            "seqId": 14.2,
+            "alnLength": 49,
+            "qStartPos": 54,
+            "qEndPos": 102,
+            "taxName": "Bacillus subtilis"
+          }
+        ]
+      }
+    }
+  },
+  "JAGCDY010000113.1_4": {
+    "rank_layer22": 19678,
+    "distance_layer22": 0.0229152816445898,
+    "phylum": "UBA3054",
+    "length": 238,
+    "mean_plddt": 49.07563025210084,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "ivhN6qEM2Z77qdhJskgdX2A0EMpR1WAvZcqGxA",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A9E4BFX8-F1-model_v6 DUF1794 domain-containing protein",
+            "prob": 1,
+            "eval": 0.0001459,
+            "score": 108,
+            "seqId": 12.1,
+            "alnLength": 230,
+            "qStartPos": 16,
+            "qEndPos": 213,
+            "taxName": "Candidatus Latescibacterota bacterium"
+          },
+          {
+            "target": "AF-A0A943FGD7-F1-model_v6 DUF5640 domain-containing protein",
+            "prob": 1,
+            "eval": 0.0002388,
+            "score": 196,
+            "seqId": 11.3,
+            "alnLength": 115,
+            "qStartPos": 1,
+            "qEndPos": 113,
+            "taxName": "Dorea sp."
+          },
+          {
+            "target": "AF-A0A2E6TXM4-F1-model_v6 Lipocalin-like domain-containing protein",
+            "prob": 1,
+            "eval": 0.0003316,
+            "score": 181,
+            "seqId": 17.1,
+            "alnLength": 111,
+            "qStartPos": 15,
+            "qEndPos": 113,
+            "taxName": "Verrucomicrobiales bacterium"
+          },
+          {
+            "target": "AF-A0A1V1ZDI6-F1-model_v6 Lipocalin-like domain-containing protein",
+            "prob": 1,
+            "eval": 0.0004359,
+            "score": 183,
+            "seqId": 15.5,
+            "alnLength": 103,
+            "qStartPos": 14,
+            "qEndPos": 114,
+            "taxName": "Mangrovimonas sp. DI 80"
+          },
+          {
+            "target": "AF-A0A4P5QSW8-F1-model_v6 Organic solvent tolerance-like N-terminal domain-containing protein",
+            "prob": 1,
+            "eval": 0.0004359,
+            "score": 174,
+            "seqId": 15.2,
+            "alnLength": 118,
+            "qStartPos": 7,
+            "qEndPos": 116,
+            "taxName": "Verrucomicrobiota bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 412,
+        "top": [
+          {
+            "target": "8ah9-assembly1.cif.gz_A De novo retro-aldolase RAbetaB-16.1",
+            "prob": 1,
+            "eval": 0.002835,
+            "score": 100,
+            "seqId": 12.5,
+            "alnLength": 112,
+            "qStartPos": 22,
+            "qEndPos": 113,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "3ebk-assembly3.cif.gz_A Crystal structure of major allergens, Bla g 4 from cockroaches",
+            "prob": 1,
+            "eval": 0.003529,
+            "score": 117,
+            "seqId": 12.9,
+            "alnLength": 116,
+            "qStartPos": 16,
+            "qEndPos": 113,
+            "taxName": "Blattella germanica"
+          },
+          {
+            "target": "4n7c-assembly1.cif.gz_A Structural re-examination of native Bla g 4",
+            "prob": 1,
+            "eval": 0.003727,
+            "score": 102,
+            "seqId": 14.8,
+            "alnLength": 128,
+            "qStartPos": 16,
+            "qEndPos": 125,
+            "taxName": "Blattella germanica"
+          },
+          {
+            "target": "5jk2-assembly8.cif.gz_H Crystal structure of Treponema pallidum Tp0751 (Pallilysin)",
+            "prob": 1,
+            "eval": 0.00464,
+            "score": 109,
+            "seqId": 11.7,
+            "alnLength": 119,
+            "qStartPos": 5,
+            "qEndPos": 113,
+            "taxName": "Treponema pallidum subsp. pallidum str. Nichols"
+          },
+          {
+            "target": "6czi-assembly2.cif.gz_B Structure of a redesigned beta barrel, mFAP1, bound to DFHBI",
+            "prob": 1,
+            "eval": 0.006805,
+            "score": 102,
+            "seqId": 15.5,
+            "alnLength": 109,
+            "qStartPos": 22,
+            "qEndPos": 112,
+            "taxName": "synthetic construct"
+          }
+        ]
+      }
+    }
+  },
+  "JAFUYQ010000017.1_56": {
+    "rank_layer22": 15926,
+    "distance_layer22": 0.0280717682168274,
+    "phylum": "Synergistota",
+    "length": 234,
+    "mean_plddt": 41.175213675213676,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "WSO-aFn8glpgFwGnsxOzy5upm_dbM3N-5mFAhQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A0L6VB25-F1-model_v6 Uncharacterized protein",
+            "prob": 0.967,
+            "eval": 0.006512,
+            "score": 75,
+            "seqId": 10.1,
+            "alnLength": 237,
+            "qStartPos": 24,
+            "qEndPos": 234,
+            "taxName": "Puccinia sorghi"
+          },
+          {
+            "target": "AF-A0A2K9DQI7-F1-model_v6 LPXTG cell wall anchor domain-containing protein",
+            "prob": 0.984,
+            "eval": 0.0069,
+            "score": 80,
+            "seqId": 13.6,
+            "alnLength": 198,
+            "qStartPos": 57,
+            "qEndPos": 228,
+            "taxName": "Microbacterium hominis"
+          },
+          {
+            "target": "AF-A0A0Q3FHA0-F1-model_v6 BTB domain-containing protein",
+            "prob": 0.887,
+            "eval": 0.01645,
+            "score": 66,
+            "seqId": 10.7,
+            "alnLength": 168,
+            "qStartPos": 87,
+            "qEndPos": 225,
+            "taxName": "Brachypodium distachyon"
+          },
+          {
+            "target": "AF-A0A811R3T1-F1-model_v6 MATH domain-containing protein",
+            "prob": 0.961,
+            "eval": 0.01743,
+            "score": 74,
+            "seqId": 10.6,
+            "alnLength": 243,
+            "qStartPos": 32,
+            "qEndPos": 224,
+            "taxName": "Miscanthus lutarioriparius"
+          },
+          {
+            "target": "AF-A0A9P9JMS8-F1-model_v6 Uncharacterized protein",
+            "prob": 0.772,
+            "eval": 0.01957,
+            "score": 60,
+            "seqId": 15.6,
+            "alnLength": 198,
+            "qStartPos": 30,
+            "qEndPos": 203,
+            "taxName": "Dactylonectria macrodidyma"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 106,
+        "top": [
+          {
+            "target": "5a3m-assembly3.cif.gz_C Structure of Cea1A in complex with Chitobiose",
+            "prob": 0.72,
+            "eval": 0.01468,
+            "score": 58,
+            "seqId": 18.9,
+            "alnLength": 116,
+            "qStartPos": 93,
+            "qEndPos": 201,
+            "taxName": "Komagataella pastoris DSMZ 70382"
+          },
+          {
+            "target": "6i6x-assembly2.cif.gz_B New Irreversible a-l-Iduronidase Inhibitors and Activity-Based Probes",
+            "prob": 0.663,
+            "eval": 0.07872,
+            "score": 56,
+            "seqId": 14.2,
+            "alnLength": 119,
+            "qStartPos": 96,
+            "qEndPos": 201,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "5tzn-assembly2.cif.gz_G Structure of the viral immunoevasin m12 (Smith) bound to the natural killer cell receptor NKR-P1B (B6)",
+            "prob": 0.537,
+            "eval": 0.07872,
+            "score": 52,
+            "seqId": 11.1,
+            "alnLength": 143,
+            "qStartPos": 93,
+            "qEndPos": 206,
+            "taxName": "Murid betaherpesvirus 1"
+          },
+          {
+            "target": "4obr-assembly1.cif.gz_A Crystal structure of human alpha-L-iduronidase complex with alpha-L-iduronic acid",
+            "prob": 0.601,
+            "eval": 0.08341,
+            "score": 54,
+            "seqId": 14.4,
+            "alnLength": 125,
+            "qStartPos": 96,
+            "qEndPos": 201,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "2vzr-assembly1.cif.gz_A C-terminal CBM35 from Amycolatopsis orientalis exo-chitosanase CsxA in complex with glucuronic acid",
+            "prob": 0.353,
+            "eval": 0.1251,
+            "score": 46,
+            "seqId": 16,
+            "alnLength": 106,
+            "qStartPos": 100,
+            "qEndPos": 201,
+            "taxName": "Amycolatopsis orientalis"
+          }
+        ]
+      }
+    }
+  },
+  "NZ_PTQW01000003.1_179": {
+    "rank_layer22": 15618,
+    "distance_layer22": 0.0285775711461446,
+    "phylum": "Spirochaetota",
+    "length": 272,
+    "mean_plddt": 96.23897058823529,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "b0mV108JkVPU2NWjGxFI9A1yLigE4n0Gy4a06Q",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A7T7XL14-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 2.619e-17,
+            "score": 935,
+            "seqId": 41.5,
+            "alnLength": 272,
+            "qStartPos": 1,
+            "qEndPos": 272,
+            "taxName": "Breznakiella homolactica"
+          },
+          {
+            "target": "AF-A0A3B9GFH7-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 3.194e-13,
+            "score": 711,
+            "seqId": 33.4,
+            "alnLength": 275,
+            "qStartPos": 1,
+            "qEndPos": 272,
+            "taxName": "Spirochaetaceae bacterium"
+          },
+          {
+            "target": "AF-A0A6C1QPP2-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 4e-13,
+            "score": 695,
+            "seqId": 32.8,
+            "alnLength": 271,
+            "qStartPos": 1,
+            "qEndPos": 271,
+            "taxName": "Spirochaetaceae bacterium"
+          },
+          {
+            "target": "AF-A0AAE3JHV1-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 1.767e-12,
+            "score": 677,
+            "seqId": 30.2,
+            "alnLength": 271,
+            "qStartPos": 1,
+            "qEndPos": 271,
+            "taxName": "Teretinema zuelzerae"
+          },
+          {
+            "target": "AF-A0A949JW97-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 2.516e-11,
+            "score": 601,
+            "seqId": 29.6,
+            "alnLength": 266,
+            "qStartPos": 1,
+            "qEndPos": 266,
+            "taxName": "Spirochaetales bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 464,
+        "top": [
+          {
+            "target": "6c95-assembly1.cif.gz_A The Human NatA (Naa10/Naa15) amino-terminal acetyltransferase complex bound to HYPK",
+            "prob": 1,
+            "eval": 0.01329,
+            "score": 123,
+            "seqId": 15.9,
+            "alnLength": 188,
+            "qStartPos": 64,
+            "qEndPos": 231,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6c9m-assembly2.cif.gz_C The Human NatA (Naa10/Naa15) amino-terminal acetyltransferase complex",
+            "prob": 1,
+            "eval": 0.0139,
+            "score": 121,
+            "seqId": 15.7,
+            "alnLength": 216,
+            "qStartPos": 64,
+            "qEndPos": 271,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6voa-assembly1.cif.gz_F Cryo-EM structure of the BBSome-ARL6 complex",
+            "prob": 1,
+            "eval": 0.01821,
+            "score": 117,
+            "seqId": 12.6,
+            "alnLength": 198,
+            "qStartPos": 74,
+            "qEndPos": 270,
+            "taxName": "Bos taurus"
+          },
+          {
+            "target": "8qca-assembly1.cif.gz_B CryoEM structure of a S. Cerevisiae Ski2387 complex in the closed state bound to RNA",
+            "prob": 0.999,
+            "eval": 0.01821,
+            "score": 98,
+            "seqId": 14.6,
+            "alnLength": 259,
+            "qStartPos": 67,
+            "qEndPos": 266,
+            "taxName": "Saccharomyces cerevisiae"
+          },
+          {
+            "target": "5a31-assembly1.cif.gz_F Structure of the human APC-Cdh1-Hsl1-UbcH10 complex.",
+            "prob": 1,
+            "eval": 0.02281,
+            "score": 121,
+            "seqId": 12.7,
+            "alnLength": 212,
+            "qStartPos": 66,
+            "qEndPos": 270,
+            "taxName": "Homo sapiens"
+          }
+        ]
+      }
+    }
+  },
+  "CADBLV010000138.1_5": {
+    "rank_layer22": 15418,
+    "distance_layer22": 0.0288807094252317,
+    "phylum": "Firmicutes_A",
+    "length": 299,
+    "mean_plddt": 80.78595317725753,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "kna7RMfmknibe_gMrqmzZu6BOPYG-3rk8-5l5A",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A9D5RC43-F1-model_v6 Copper amine oxidase-like N-terminal domain-containing protein",
+            "prob": 1,
+            "eval": 1.891e-13,
+            "score": 350,
+            "seqId": 27.1,
+            "alnLength": 258,
+            "qStartPos": 1,
+            "qEndPos": 224,
+            "taxName": "Clostridiales bacterium"
+          },
+          {
+            "target": "AF-A0A239QNK8-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 6.539e-12,
+            "score": 299,
+            "seqId": 21.1,
+            "alnLength": 288,
+            "qStartPos": 1,
+            "qEndPos": 228,
+            "taxName": "Clostridiales bacterium"
+          },
+          {
+            "target": "AF-A0A3M1H3L0-F1-model_v6 Lipocalin-like domain-containing protein",
+            "prob": 1,
+            "eval": 9.076e-11,
+            "score": 237,
+            "seqId": 15.3,
+            "alnLength": 273,
+            "qStartPos": 16,
+            "qEndPos": 274,
+            "taxName": "Planctomycetota bacterium"
+          },
+          {
+            "target": "AF-A0A939Y8U5-F1-model_v6 Lipocalin family protein",
+            "prob": 1,
+            "eval": 4.305e-10,
+            "score": 234,
+            "seqId": 15.8,
+            "alnLength": 291,
+            "qStartPos": 1,
+            "qEndPos": 252,
+            "taxName": "Lachnospiraceae bacterium"
+          },
+          {
+            "target": "AF-A0A1G6A9S9-F1-model_v6 Lipocalin-like domain-containing protein",
+            "prob": 1,
+            "eval": 1.834e-09,
+            "score": 221,
+            "seqId": 15.5,
+            "alnLength": 277,
+            "qStartPos": 16,
+            "qEndPos": 252,
+            "taxName": "Ruminococcaceae bacterium FB2012"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 261,
+        "top": [
+          {
+            "target": "2z4h-assembly1.cif.gz_A Crystal structure of the Cpx pathway activator NlpE from Escherichia coli",
+            "prob": 0.967,
+            "eval": 0.001498,
+            "score": 75,
+            "seqId": 15,
+            "alnLength": 213,
+            "qStartPos": 40,
+            "qEndPos": 227,
+            "taxName": "Escherichia coli"
+          },
+          {
+            "target": "4gzv-assembly2.cif.gz_H Crystal structure of a lipocalin family protein (BACOVA_00364) from Bacteroides ovatus ATCC 8483 at 1.95 A resolution",
+            "prob": 0.999,
+            "eval": 0.006383,
+            "score": 97,
+            "seqId": 12.6,
+            "alnLength": 150,
+            "qStartPos": 159,
+            "qEndPos": 277,
+            "taxName": "Bacteroides ovatus ATCC 8483"
+          },
+          {
+            "target": "4n7c-assembly1.cif.gz_A Structural re-examination of native Bla g 4",
+            "prob": 0.994,
+            "eval": 0.008808,
+            "score": 87,
+            "seqId": 12.5,
+            "alnLength": 175,
+            "qStartPos": 155,
+            "qEndPos": 299,
+            "taxName": "Blattella germanica"
+          },
+          {
+            "target": "4gzv-assembly1.cif.gz_C Crystal structure of a lipocalin family protein (BACOVA_00364) from Bacteroides ovatus ATCC 8483 at 1.95 A resolution",
+            "prob": 0.998,
+            "eval": 0.009807,
+            "score": 93,
+            "seqId": 13,
+            "alnLength": 153,
+            "qStartPos": 159,
+            "qEndPos": 277,
+            "taxName": "Bacteroides ovatus ATCC 8483"
+          },
+          {
+            "target": "4qrl-assembly1.cif.gz_A Crystal structure of a lipocalin-like protein (BACUNI_01346) from Bacteroides uniformis ATCC 8492 at 1.79 A resolution",
+            "prob": 1,
+            "eval": 0.01216,
+            "score": 104,
+            "seqId": 10.4,
+            "alnLength": 124,
+            "qStartPos": 161,
+            "qEndPos": 254,
+            "taxName": "Bacteroides uniformis ATCC 8492"
+          }
+        ]
+      }
+    }
+  },
+  "NZ_FRCD01000003.1_103": {
+    "rank_layer22": 16722,
+    "distance_layer22": 0.026864754709143,
+    "phylum": "Bacteroidota",
+    "length": 157,
+    "mean_plddt": 50.08917197452231,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "kKMBFRijJSEloYi5rJkEsRm5iKRuFP_GPJlw1Q",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A841NKB2-F1-model_v6 Lipoprotein",
+            "prob": 1,
+            "eval": 1.99e-11,
+            "score": 310,
+            "seqId": 75.7,
+            "alnLength": 157,
+            "qStartPos": 1,
+            "qEndPos": 157,
+            "taxName": "Chryseobacterium shigense"
+          },
+          {
+            "target": "AF-A0A086AZG8-F1-model_v6 Lipoprotein",
+            "prob": 1,
+            "eval": 3.262e-11,
+            "score": 317,
+            "seqId": 84.5,
+            "alnLength": 142,
+            "qStartPos": 16,
+            "qEndPos": 157,
+            "taxName": "Chryseobacterium sp. JM1"
+          },
+          {
+            "target": "AF-A0A0G3M2P6-F1-model_v6 Lipoprotein",
+            "prob": 1,
+            "eval": 9.339e-08,
+            "score": 240,
+            "seqId": 44.3,
+            "alnLength": 158,
+            "qStartPos": 10,
+            "qEndPos": 157,
+            "taxName": "Chryseobacterium gallinarum"
+          },
+          {
+            "target": "AF-A0AA95FF91-F1-model_v6 Lipoprotein",
+            "prob": 1,
+            "eval": 2.957e-07,
+            "score": 230,
+            "seqId": 49.3,
+            "alnLength": 146,
+            "qStartPos": 13,
+            "qEndPos": 157,
+            "taxName": "Chryseobacterium sp."
+          },
+          {
+            "target": "AF-A0A936KWW4-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 8.442e-05,
+            "score": 168,
+            "seqId": 23.4,
+            "alnLength": 158,
+            "qStartPos": 18,
+            "qEndPos": 154,
+            "taxName": "Bacteroidales bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 172,
+        "top": [
+          {
+            "target": "8d9y-assembly4.cif.gz_H Crystal structure of Taipan alpha-neurotoxin in complex with Centi-3FTX-D09 antibody",
+            "prob": 0.106,
+            "eval": 0.9186,
+            "score": 32,
+            "seqId": 7.7,
+            "alnLength": 142,
+            "qStartPos": 33,
+            "qEndPos": 156,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "1fne-assembly1.cif.gz_B HISTOCOMPATIBILITY ANTIGEN",
+            "prob": 0.214,
+            "eval": 1.083,
+            "score": 40,
+            "seqId": 6.1,
+            "alnLength": 131,
+            "qStartPos": 31,
+            "qEndPos": 152,
+            "taxName": "Mus musculus"
+          },
+          {
+            "target": "1ldp-assembly1.cif.gz_H CRYSTAL STRUCTURE OF MURINE MHC CLASS I H-2LD WITH A MIXTURE OF BOUND PEPTIDES",
+            "prob": 0.164,
+            "eval": 1.425,
+            "score": 37,
+            "seqId": 4.2,
+            "alnLength": 117,
+            "qStartPos": 38,
+            "qEndPos": 150,
+            "taxName": "Mus musculus"
+          },
+          {
+            "target": "7zqj-assembly1.cif.gz_A MHC class I from a wild bird in complex with a nonameric peptide P3",
+            "prob": 0.106,
+            "eval": 2.093,
+            "score": 32,
+            "seqId": 7,
+            "alnLength": 127,
+            "qStartPos": 38,
+            "qEndPos": 157,
+            "taxName": "Acrocephalus arundinaceus"
+          },
+          {
+            "target": "6dfx-assembly2.cif.gz_E human diabetogenic TCR T1D3 in complex with DQ8-p8E9E peptide",
+            "prob": 0.069,
+            "eval": 2.093,
+            "score": 27,
+            "seqId": 8.2,
+            "alnLength": 207,
+            "qStartPos": 22,
+            "qEndPos": 152,
+            "taxName": "Homo sapiens"
+          }
+        ]
+      }
+    }
+  },
+  "SBHG01000018.1_3": {
+    "rank_layer22": 16972,
+    "distance_layer22": 0.0265105450938542,
+    "phylum": "Proteobacteria",
+    "length": 150,
+    "mean_plddt": 85.54666666666665,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "-O6RPx-J-c_xVS8-speWAQmZOReeb7XwtYTvZQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A4R6WRP7-F1-model_v6 Hpt domain-containing protein",
+            "prob": 1,
+            "eval": 1.233e-06,
+            "score": 324,
+            "seqId": 23.8,
+            "alnLength": 151,
+            "qStartPos": 1,
+            "qEndPos": 149,
+            "taxName": "Dongia mobilis"
+          },
+          {
+            "target": "AF-A0A935Y7C2-F1-model_v6 HPt domain-containing protein",
+            "prob": 1,
+            "eval": 1.457e-06,
+            "score": 321,
+            "seqId": 30.7,
+            "alnLength": 140,
+            "qStartPos": 21,
+            "qEndPos": 149,
+            "taxName": "Rhodospirillaceae bacterium"
+          },
+          {
+            "target": "AF-A0A7Y8MPX1-F1-model_v6 Hpt domain-containing protein",
+            "prob": 1,
+            "eval": 1.541e-06,
+            "score": 287,
+            "seqId": 28.8,
+            "alnLength": 149,
+            "qStartPos": 1,
+            "qEndPos": 147,
+            "taxName": "Alphaproteobacteria bacterium"
+          },
+          {
+            "target": "AF-A0A2Z4ULP4-F1-model_v6 Hpt domain protein",
+            "prob": 1,
+            "eval": 1.723e-06,
+            "score": 295,
+            "seqId": 22.6,
+            "alnLength": 146,
+            "qStartPos": 6,
+            "qEndPos": 150,
+            "taxName": "Rhodobiaceae bacterium"
+          },
+          {
+            "target": "AF-A0A2E6GIE5-F1-model_v6 HPt domain-containing protein",
+            "prob": 1,
+            "eval": 2.407e-06,
+            "score": 286,
+            "seqId": 20.7,
+            "alnLength": 159,
+            "qStartPos": 7,
+            "qEndPos": 150,
+            "taxName": "Rhodospirillaceae bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 110,
+        "top": [
+          {
+            "target": "1i5n-assembly3.cif.gz_C Crystal structure of the P1 domain of CheA from Salmonella typhimurium",
+            "prob": 1,
+            "eval": 0.005866,
+            "score": 142,
+            "seqId": 18.4,
+            "alnLength": 125,
+            "qStartPos": 32,
+            "qEndPos": 150,
+            "taxName": "Salmonella enterica subsp. enterica serovar Typhimurium"
+          },
+          {
+            "target": "8c5v-assembly1.cif.gz_D Chemotaxis core signalling unit from E protein lysed E. coli cells",
+            "prob": 1,
+            "eval": 0.006934,
+            "score": 142,
+            "seqId": 19.6,
+            "alnLength": 122,
+            "qStartPos": 31,
+            "qEndPos": 145,
+            "taxName": "Escherichia coli"
+          },
+          {
+            "target": "8c5v-assembly1.cif.gz_C Chemotaxis core signalling unit from E protein lysed E. coli cells",
+            "prob": 1,
+            "eval": 0.01083,
+            "score": 137,
+            "seqId": 17.6,
+            "alnLength": 125,
+            "qStartPos": 31,
+            "qEndPos": 149,
+            "taxName": "Escherichia coli"
+          },
+          {
+            "target": "1i5n-assembly2.cif.gz_B Crystal structure of the P1 domain of CheA from Salmonella typhimurium",
+            "prob": 1,
+            "eval": 0.01354,
+            "score": 127,
+            "seqId": 16.1,
+            "alnLength": 124,
+            "qStartPos": 32,
+            "qEndPos": 149,
+            "taxName": "Salmonella enterica subsp. enterica serovar Typhimurium"
+          },
+          {
+            "target": "2lp4-assembly1.cif.gz_A Solution structure of P1-CheY/P2 complex in bacterial chemotaxis",
+            "prob": 1,
+            "eval": 0.01601,
+            "score": 131,
+            "seqId": 17.6,
+            "alnLength": 125,
+            "qStartPos": 31,
+            "qEndPos": 149,
+            "taxName": "Escherichia coli K-12"
+          }
+        ]
+      }
+    }
+  },
+  "CACKFQ010000015.1_11": {
+    "rank_layer22": 18699,
+    "distance_layer22": 0.0241517886914494,
+    "phylum": "Actinobacteriota",
+    "length": 123,
+    "mean_plddt": 87.15447154471546,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "ZvnD52LT4kSKn75DxZG79EAtqdQkxpTTgT_zMQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A946PLK1-F1-model_v6 DoxX-like family protein",
+            "prob": 1,
+            "eval": 3.446e-11,
+            "score": 551,
+            "seqId": 63.9,
+            "alnLength": 122,
+            "qStartPos": 1,
+            "qEndPos": 122,
+            "taxName": "Actinomycetota bacterium"
+          },
+          {
+            "target": "AF-A0A353E2K5-F1-model_v6 DoxX family membrane protein",
+            "prob": 1,
+            "eval": 3.4e-07,
+            "score": 366,
+            "seqId": 36.2,
+            "alnLength": 124,
+            "qStartPos": 1,
+            "qEndPos": 123,
+            "taxName": "Verrucomicrobiales bacterium"
+          },
+          {
+            "target": "AF-A0A2E3JQU7-F1-model_v6 Methylamine utilisation protein MauE domain-containing protein",
+            "prob": 1,
+            "eval": 5.164e-07,
+            "score": 371,
+            "seqId": 37.5,
+            "alnLength": 120,
+            "qStartPos": 1,
+            "qEndPos": 119,
+            "taxName": "Actinomycetota bacterium"
+          },
+          {
+            "target": "AF-A0A519DPF9-F1-model_v6 DoxX family protein",
+            "prob": 1,
+            "eval": 1.255e-06,
+            "score": 359,
+            "seqId": 34.7,
+            "alnLength": 118,
+            "qStartPos": 3,
+            "qEndPos": 119,
+            "taxName": "Methanobacteriota archaeon"
+          },
+          {
+            "target": "AF-A0A2E3DWV7-F1-model_v6 DoxX family protein",
+            "prob": 1,
+            "eval": 2.35e-06,
+            "score": 339,
+            "seqId": 36.3,
+            "alnLength": 121,
+            "qStartPos": 3,
+            "qEndPos": 122,
+            "taxName": "Chloroflexota bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 11,
+        "top": [
+          {
+            "target": "6wvg-assembly1.cif.gz_A human CD53",
+            "prob": 0.196,
+            "eval": 2.791,
+            "score": 39,
+            "seqId": 16.3,
+            "alnLength": 98,
+            "qStartPos": 1,
+            "qEndPos": 86,
+            "taxName": "Aequorea victoria"
+          },
+          {
+            "target": "6wvg-assembly2.cif.gz_B human CD53",
+            "prob": 0.164,
+            "eval": 3.44,
+            "score": 37,
+            "seqId": 16.3,
+            "alnLength": 98,
+            "qStartPos": 1,
+            "qEndPos": 86,
+            "taxName": "Aequorea victoria"
+          },
+          {
+            "target": "6c3p-assembly1.cif.gz_H Cryo-EM structure of human KATP bound to ATP and ADP in propeller form",
+            "prob": 0.106,
+            "eval": 3.624,
+            "score": 32,
+            "seqId": 12.1,
+            "alnLength": 123,
+            "qStartPos": 2,
+            "qEndPos": 120,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6wk3-assembly1.cif.gz_B Engineered carbene transferase RmaNOD Q52V, putative nitric oxide dioxygenase from Rhodothermus marinus",
+            "prob": 0.063,
+            "eval": 5.8,
+            "score": 26,
+            "seqId": 12.1,
+            "alnLength": 140,
+            "qStartPos": 1,
+            "qEndPos": 118,
+            "taxName": "Rhodothermus marinus DSM 4252"
+          },
+          {
+            "target": "6pza-assembly1.cif.gz_C Cryo-EM structure of the pancreatic beta-cell SUR1 bound to ATP and glibenclamide",
+            "prob": 0.098,
+            "eval": 7.149,
+            "score": 31,
+            "seqId": 11.4,
+            "alnLength": 122,
+            "qStartPos": 4,
+            "qEndPos": 118,
+            "taxName": "Cricetus cricetus"
+          }
+        ]
+      }
+    }
+  },
+  "NZ_LMKQ01000001.1_2704": {
+    "rank_layer22": 17743,
+    "distance_layer22": 0.0253756699827379,
+    "phylum": "Actinobacteriota",
+    "length": 122,
+    "mean_plddt": 77.35245901639345,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "Y54X_MA0fVeIx8vyHAYSpSS8XH7JUe5htSSzwQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A9X2KCK2-F1-model_v6 Metallopeptidase family protein",
+            "prob": 1,
+            "eval": 4.036e-17,
+            "score": 581,
+            "seqId": 95.9,
+            "alnLength": 122,
+            "qStartPos": 1,
+            "qEndPos": 122,
+            "taxName": "Agromyces terreus"
+          },
+          {
+            "target": "AF-A0A917PCL0-F1-model_v6 Metallopeptidase family protein",
+            "prob": 1,
+            "eval": 8.032e-17,
+            "score": 592,
+            "seqId": 84.7,
+            "alnLength": 118,
+            "qStartPos": 5,
+            "qEndPos": 122,
+            "taxName": "Agromyces bauzanensis"
+          },
+          {
+            "target": "AF-A0A4Q2MB49-F1-model_v6 Metallopeptidase family protein",
+            "prob": 1,
+            "eval": 4.507e-13,
+            "score": 482,
+            "seqId": 60.9,
+            "alnLength": 123,
+            "qStartPos": 1,
+            "qEndPos": 122,
+            "taxName": "Agromyces atrinae"
+          },
+          {
+            "target": "AF-A0A251YBF5-F1-model_v6 Metallopeptidase family protein",
+            "prob": 1,
+            "eval": 2.023e-12,
+            "score": 508,
+            "seqId": 57.4,
+            "alnLength": 108,
+            "qStartPos": 13,
+            "qEndPos": 119,
+            "taxName": "Clavibacter michiganensis"
+          },
+          {
+            "target": "AF-A0A7Y9SHH4-F1-model_v6 Metallopeptidase family protein",
+            "prob": 1,
+            "eval": 5.503e-12,
+            "score": 444,
+            "seqId": 56,
+            "alnLength": 123,
+            "qStartPos": 1,
+            "qEndPos": 122,
+            "taxName": "Leifsonia sp. AK011"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 28,
+        "top": [
+          {
+            "target": "3e11-assembly2.cif.gz_B Crystal structure of a predicted zincin-like metalloprotease (acel_2062) from acidothermus cellulolyticus 11b at 1.80 A resolution",
+            "prob": 0.984,
+            "eval": 0.02636,
+            "score": 80,
+            "seqId": 15.9,
+            "alnLength": 119,
+            "qStartPos": 13,
+            "qEndPos": 116,
+            "taxName": "Acidothermus cellulolyticus 11B"
+          },
+          {
+            "target": "4qhi-assembly1.cif.gz_B Crystal structure of Methanocaldococcus jannaschii selecase mutant R36W",
+            "prob": 0.72,
+            "eval": 0.07634,
+            "score": 58,
+            "seqId": 7.4,
+            "alnLength": 108,
+            "qStartPos": 18,
+            "qEndPos": 119,
+            "taxName": "Methanocaldococcus jannaschii DSM 2661"
+          },
+          {
+            "target": "2ejq-assembly2.cif.gz_B Conserved hypothetical protein (TTHA0227) from Thermo thermophilus HB8",
+            "prob": 0.277,
+            "eval": 0.3883,
+            "score": 43,
+            "seqId": 10,
+            "alnLength": 110,
+            "qStartPos": 20,
+            "qEndPos": 102,
+            "taxName": "Thermus thermophilus"
+          },
+          {
+            "target": "8i8b-assembly1.cif.gz_I Outer shell and inner layer structures of Autographa californica multiple nucleopolyhedrovirus (AcMNPV)",
+            "prob": 0.214,
+            "eval": 0.7726,
+            "score": 40,
+            "seqId": 15.6,
+            "alnLength": 134,
+            "qStartPos": 5,
+            "qEndPos": 121,
+            "taxName": "Autographa californica multiple nucleopolyhedrovirus"
+          },
+          {
+            "target": "2ejq-assembly1.cif.gz_A Conserved hypothetical protein (TTHA0227) from Thermo thermophilus HB8",
+            "prob": 0.411,
+            "eval": 1.742,
+            "score": 48,
+            "seqId": 10.2,
+            "alnLength": 107,
+            "qStartPos": 17,
+            "qEndPos": 108,
+            "taxName": "Thermus thermophilus"
+          }
+        ]
+      }
+    }
+  },
+  "WAQR01000278.1_21": {
+    "rank_layer22": 18767,
+    "distance_layer22": 0.0240679792545826,
+    "phylum": "Hydrothermarchaeota",
+    "length": 174,
+    "mean_plddt": 68.78160919540231,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "XbJAlIfR0Ki00nmm3CDRfR9YKJhQ-H53DqJRFw",
+      "afdb50": {
+        "n_hits": 220,
+        "top": [
+          {
+            "target": "AF-A0A937VFJ7-F1-model_v6 DUF2384 domain-containing protein",
+            "prob": 1,
+            "eval": 6.08e-05,
+            "score": 227,
+            "seqId": 36.8,
+            "alnLength": 76,
+            "qStartPos": 94,
+            "qEndPos": 169,
+            "taxName": "Chloroflexota bacterium"
+          },
+          {
+            "target": "AF-A0A7C6JRB9-F1-model_v6 DUF2384 domain-containing protein",
+            "prob": 1,
+            "eval": 6.996e-05,
+            "score": 223,
+            "seqId": 35.4,
+            "alnLength": 79,
+            "qStartPos": 95,
+            "qEndPos": 173,
+            "taxName": "Bacillota bacterium"
+          },
+          {
+            "target": "AF-A0A9E2V607-F1-model_v6 SEC-C domain-containing protein",
+            "prob": 1,
+            "eval": 9.26e-05,
+            "score": 222,
+            "seqId": 32.8,
+            "alnLength": 76,
+            "qStartPos": 94,
+            "qEndPos": 169,
+            "taxName": "Actinomycetota bacterium"
+          },
+          {
+            "target": "AF-A0A3M1EAQ7-F1-model_v6 DUF2384 domain-containing protein (Fragment)",
+            "prob": 1,
+            "eval": 0.000141,
+            "score": 214,
+            "seqId": 36.9,
+            "alnLength": 73,
+            "qStartPos": 97,
+            "qEndPos": 169,
+            "taxName": "Chloroflexota bacterium"
+          },
+          {
+            "target": "AF-A0A832FV33-F1-model_v6 DUF2384 domain-containing protein",
+            "prob": 1,
+            "eval": 0.000141,
+            "score": 207,
+            "seqId": 40,
+            "alnLength": 70,
+            "qStartPos": 100,
+            "qEndPos": 169,
+            "taxName": "Planctomycetales bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "JACRJN010000144.1_41": {
+    "rank_layer22": 17332,
+    "distance_layer22": 0.0260278842261415,
+    "phylum": "SZUA-182",
+    "length": 189,
+    "mean_plddt": 73.21693121693121,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "4Vfxt-djwzApR3SW4r1T2RWObo_MAD4E8DxeDw",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A4Q1S9R8-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 0.0001452,
+            "score": 158,
+            "seqId": 17.3,
+            "alnLength": 161,
+            "qStartPos": 41,
+            "qEndPos": 189,
+            "taxName": "Silvibacterium dinghuense"
+          },
+          {
+            "target": "AF-A0A2V9R610-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 0.0005408,
+            "score": 148,
+            "seqId": 20.3,
+            "alnLength": 157,
+            "qStartPos": 36,
+            "qEndPos": 188,
+            "taxName": "Acidobacteriota bacterium"
+          },
+          {
+            "target": "AF-W4R163-F1-model_v6 SnoaL-like domain-containing protein",
+            "prob": 1,
+            "eval": 0.00366,
+            "score": 105,
+            "seqId": 22.2,
+            "alnLength": 144,
+            "qStartPos": 63,
+            "qEndPos": 185,
+            "taxName": "Halalkalibacter akibai JCM 9157"
+          },
+          {
+            "target": "AF-A0A8J3MEK7-F1-model_v6 DUF4878 domain-containing protein",
+            "prob": 1,
+            "eval": 0.004649,
+            "score": 120,
+            "seqId": 14.3,
+            "alnLength": 146,
+            "qStartPos": 42,
+            "qEndPos": 180,
+            "taxName": "Catellatospora sp. TT07R-123"
+          },
+          {
+            "target": "AF-A0A0F9ZKH7-F1-model_v6 DUF4878 domain-containing protein",
+            "prob": 1,
+            "eval": 0.007498,
+            "score": 125,
+            "seqId": 13.1,
+            "alnLength": 144,
+            "qStartPos": 41,
+            "qEndPos": 180,
+            "taxName": "candidate division WS6 bacterium GW2011_GWC1_33_20"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 110,
+        "top": [
+          {
+            "target": "8f3f-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) T485M variant apo form from Enterococcus faecium",
+            "prob": 0.949,
+            "eval": 0.05382,
+            "score": 72,
+            "seqId": 15.3,
+            "alnLength": 104,
+            "qStartPos": 89,
+            "qEndPos": 180,
+            "taxName": "Enterococcus faecium"
+          },
+          {
+            "target": "8f3v-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) PAPAPAP variant apo form from Enterococcus faecium",
+            "prob": 0.887,
+            "eval": 0.09216,
+            "score": 66,
+            "seqId": 15,
+            "alnLength": 113,
+            "qStartPos": 83,
+            "qEndPos": 180,
+            "taxName": "Enterococcus faecium"
+          },
+          {
+            "target": "6g0k-assembly1.cif.gz_C Crystal structure of Enterococcus faecium D63r Penicillin-Binding protein 5 (PBP5fm)",
+            "prob": 0.9,
+            "eval": 0.1039,
+            "score": 67,
+            "seqId": 12.5,
+            "alnLength": 112,
+            "qStartPos": 83,
+            "qEndPos": 180,
+            "taxName": "Enterococcus faecium"
+          },
+          {
+            "target": "8f3p-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) R464A variant penicillin bound form from Enterococcus faecium",
+            "prob": 0.933,
+            "eval": 0.117,
+            "score": 70,
+            "seqId": 14.1,
+            "alnLength": 113,
+            "qStartPos": 83,
+            "qEndPos": 180,
+            "taxName": "Enterococcus faecium"
+          },
+          {
+            "target": "8f3q-assembly1.cif.gz_A Crystal structure of Penicillin Binding Protein 5 (PBP5) Y460A variant apo form from Enterococcus faecium",
+            "prob": 0.912,
+            "eval": 0.117,
+            "score": 68,
+            "seqId": 14.5,
+            "alnLength": 110,
+            "qStartPos": 83,
+            "qEndPos": 180,
+            "taxName": "Enterococcus faecium"
+          }
+        ]
+      }
+    }
+  },
+  "JAGYNK010000052.1_12": {
+    "rank_layer22": 18094,
+    "distance_layer22": 0.0249042740012911,
+    "phylum": "Patescibacteria",
+    "length": 155,
+    "mean_plddt": 53.27741935483872,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "GWDVG96lMgI_jRZCRzbtKbKk0Ekb0ITJt_I7kg",
+      "afdb50": {
+        "n_hits": 10,
+        "top": [
+          {
+            "target": "AF-A0A8H5JJA2-F1-model_v6 Fungal specific transcription factor factor domain-containing protein",
+            "prob": 0.301,
+            "eval": 4.796,
+            "score": 44,
+            "seqId": 10.8,
+            "alnLength": 138,
+            "qStartPos": 26,
+            "qEndPos": 146,
+            "taxName": "Fusarium napiforme"
+          },
+          {
+            "target": "AF-A0A914VW84-F1-model_v6 Uncharacterized protein",
+            "prob": 0.473,
+            "eval": 6.227,
+            "score": 50,
+            "seqId": 16.2,
+            "alnLength": 111,
+            "qStartPos": 26,
+            "qEndPos": 134,
+            "taxName": "Plectus sambesii"
+          },
+          {
+            "target": "AF-X1CMH8-F1-model_v6 Uncharacterized protein (Fragment)",
+            "prob": 0.233,
+            "eval": 7.674,
+            "score": 41,
+            "seqId": 17.2,
+            "alnLength": 116,
+            "qStartPos": 25,
+            "qEndPos": 134,
+            "taxName": "marine sediment metagenome"
+          },
+          {
+            "target": "AF-A0A2E1ZXV7-F1-model_v6 PD-(D/E)XK endonuclease-like domain-containing protein",
+            "prob": 0.164,
+            "eval": 7.674,
+            "score": 37,
+            "seqId": 13.3,
+            "alnLength": 127,
+            "qStartPos": 24,
+            "qEndPos": 149,
+            "taxName": "Chloroflexota bacterium"
+          },
+          {
+            "target": "AF-A0A356KIV1-F1-model_v6 Bacterial type II secretion system protein E domain-containing protein",
+            "prob": 0.254,
+            "eval": 8.086,
+            "score": 42,
+            "seqId": 18.5,
+            "alnLength": 108,
+            "qStartPos": 24,
+            "qEndPos": 123,
+            "taxName": "Planctomycetota bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "JAFGBE010000087.1_3": {
+    "rank_layer22": 18893,
+    "distance_layer22": 0.0239189350612972,
+    "phylum": "UBA6266",
+    "length": 193,
+    "mean_plddt": 82.0362694300518,
+    "fold_seconds": null,
+    "foldseek": {
+      "ticket": "_JXdgOdPOTaqz-dJF4u_Wq7ZkBjtJR-o7aXN2Q",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A4R9JXC5-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 4.895e-06,
+            "score": 133,
+            "seqId": 13.8,
+            "alnLength": 252,
+            "qStartPos": 2,
+            "qEndPos": 190,
+            "taxName": "Leptospira ognonensis"
+          },
+          {
+            "target": "AF-A0A960Y0D9-F1-model_v6 DUF5683 domain-containing protein",
+            "prob": 1,
+            "eval": 5.905e-06,
+            "score": 138,
+            "seqId": 17.2,
+            "alnLength": 197,
+            "qStartPos": 1,
+            "qEndPos": 184,
+            "taxName": "Leptospiraceae bacterium"
+          },
+          {
+            "target": "AF-A0A7Y5BH97-F1-model_v6 DUF5683 domain-containing protein",
+            "prob": 1,
+            "eval": 9.739e-06,
+            "score": 144,
+            "seqId": 21.2,
+            "alnLength": 155,
+            "qStartPos": 1,
+            "qEndPos": 149,
+            "taxName": "Leptospiraceae bacterium"
+          },
+          {
+            "target": "AF-A0A960VVZ0-F1-model_v6 DUF4140 domain-containing protein",
+            "prob": 1,
+            "eval": 1.71e-05,
+            "score": 142,
+            "seqId": 20.9,
+            "alnLength": 162,
+            "qStartPos": 9,
+            "qEndPos": 169,
+            "taxName": "Leptospiraceae bacterium"
+          },
+          {
+            "target": "AF-N1U1W2-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 2.063e-05,
+            "score": 172,
+            "seqId": 23.9,
+            "alnLength": 121,
+            "qStartPos": 2,
+            "qEndPos": 121,
+            "taxName": "Leptospira weilii str. Ecochallenge"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 490,
+        "top": [
+          {
+            "target": "4noy-assembly1.cif.gz_A Crystal structure of Listeria monocytogenes Hfq F43W",
+            "prob": 1,
+            "eval": 0.001678,
+            "score": 161,
+            "seqId": 20.4,
+            "alnLength": 44,
+            "qStartPos": 23,
+            "qEndPos": 66,
+            "taxName": "Listeria monocytogenes"
+          },
+          {
+            "target": "4noy-assembly1.cif.gz_D-2 Crystal structure of Listeria monocytogenes Hfq F43W",
+            "prob": 1,
+            "eval": 0.002294,
+            "score": 157,
+            "seqId": 20.4,
+            "alnLength": 44,
+            "qStartPos": 23,
+            "qEndPos": 66,
+            "taxName": "Listeria monocytogenes"
+          },
+          {
+            "target": "3qsu-assembly1.cif.gz_A Structure of Staphylococcus aureus Hfq in complex with A7 RNA",
+            "prob": 1,
+            "eval": 0.004029,
+            "score": 140,
+            "seqId": 16,
+            "alnLength": 50,
+            "qStartPos": 17,
+            "qEndPos": 66,
+            "taxName": "Staphylococcus aureus subsp. aureus ECT-R 2"
+          },
+          {
+            "target": "4nl3-assembly1.cif.gz_D Crystal Structure of Listeria monocytogenes Hfq in complex with U6 RNA",
+            "prob": 1,
+            "eval": 0.005174,
+            "score": 147,
+            "seqId": 20.4,
+            "alnLength": 44,
+            "qStartPos": 23,
+            "qEndPos": 66,
+            "taxName": "Listeria monocytogenes"
+          },
+          {
+            "target": "7uwy-assembly1.cif.gz_A NMR solution structure of the De novo designed small beta-barrel protein 29_bp_sh3",
+            "prob": 1,
+            "eval": 0.005508,
+            "score": 142,
+            "seqId": 21.2,
+            "alnLength": 47,
+            "qStartPos": 23,
+            "qEndPos": 69,
+            "taxName": "synthetic construct"
+          }
+        ]
+      }
+    }
+  },
+  "QZKU01000094.1_7": {
+    "rank_layer22": 18620,
+    "distance_layer22": 0.0242614493631678,
+    "phylum": "Abyssubacteria",
+    "length": 123,
+    "mean_plddt": 52.66246795654297,
+    "fold_seconds": 100.3,
+    "foldseek": {
+      "ticket": "vyJAoxeOgYuuXw370ewdScpVs9e7nb44_HHLKw",
+      "afdb50": {
+        "n_hits": 5,
+        "top": [
+          {
+            "target": "AF-A0AAD3Y926-F1-model_v6 Uncharacterized protein",
+            "prob": 0.164,
+            "eval": 1.899,
+            "score": 37,
+            "seqId": 22.5,
+            "alnLength": 111,
+            "qStartPos": 12,
+            "qEndPos": 118,
+            "taxName": "Cutaneotrichosporon spelunceum"
+          },
+          {
+            "target": "AF-A0A699SEU7-F1-model_v6 Uncharacterized protein (Fragment)",
+            "prob": 0.09,
+            "eval": 7.908,
+            "score": 30,
+            "seqId": 12.5,
+            "alnLength": 136,
+            "qStartPos": 8,
+            "qEndPos": 123,
+            "taxName": "Tanacetum cinerariifolium"
+          },
+          {
+            "target": "AF-A0A9R1JMK3-F1-model_v6 LOB domain-containing protein",
+            "prob": 0.098,
+            "eval": 8.561,
+            "score": 31,
+            "seqId": 16.3,
+            "alnLength": 110,
+            "qStartPos": 23,
+            "qEndPos": 123,
+            "taxName": "Triticum aestivum"
+          },
+          {
+            "target": "AF-A0A9P6ENF5-F1-model_v6 Uncharacterized protein",
+            "prob": 0.098,
+            "eval": 8.561,
+            "score": 31,
+            "seqId": 17.9,
+            "alnLength": 117,
+            "qStartPos": 8,
+            "qEndPos": 121,
+            "taxName": "Crepidotus variabilis"
+          },
+          {
+            "target": "AF-A0A967UJK2-F1-model_v6 Uncharacterized protein",
+            "prob": 0.082,
+            "eval": 9.267,
+            "score": 29,
+            "seqId": 21.2,
+            "alnLength": 108,
+            "qStartPos": 27,
+            "qEndPos": 123,
+            "taxName": "Desulfuromonadales bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 0,
+        "top": []
+      }
+    }
+  },
+  "JAHJSD010000044.1_1": {
+    "rank_layer22": 19827,
+    "distance_layer22": 0.0227303753116433,
+    "phylum": "Patescibacteria",
+    "length": 129,
+    "mean_plddt": 43.0897216796875,
+    "fold_seconds": 106.7,
+    "foldseek": {
+      "ticket": "z-k2TDXgzlqwLR9kRwsmFp9_E0sqQRY01JEBzg",
+      "afdb50": {
+        "n_hits": 6,
+        "top": [
+          {
+            "target": "AF-A0A831YD79-F1-model_v6 Trigger factor (Fragment)",
+            "prob": 0.179,
+            "eval": 4.025,
+            "score": 38,
+            "seqId": 15,
+            "alnLength": 126,
+            "qStartPos": 2,
+            "qEndPos": 111,
+            "taxName": "Sulfurihydrogenibium azorense"
+          },
+          {
+            "target": "AF-A0A960TTZ5-F1-model_v6 Trigger factor C-terminal domain-containing protein (Fragment)",
+            "prob": 0.179,
+            "eval": 5.906,
+            "score": 38,
+            "seqId": 14.5,
+            "alnLength": 124,
+            "qStartPos": 3,
+            "qEndPos": 111,
+            "taxName": "bacterium"
+          },
+          {
+            "target": "AF-A0A7X8TL61-F1-model_v6 Uncharacterized protein",
+            "prob": 0.138,
+            "eval": 6.589,
+            "score": 35,
+            "seqId": 13.6,
+            "alnLength": 125,
+            "qStartPos": 2,
+            "qEndPos": 109,
+            "taxName": "Nesterenkonia sedimenti"
+          },
+          {
+            "target": "AF-A0A226NDI2-F1-model_v6 Sulfotransferase",
+            "prob": 0.106,
+            "eval": 7.766,
+            "score": 32,
+            "seqId": 17.2,
+            "alnLength": 116,
+            "qStartPos": 14,
+            "qEndPos": 129,
+            "taxName": "Callipepla squamata"
+          },
+          {
+            "target": "AF-A0AAV0AI95-F1-model_v6 Expressed protein",
+            "prob": 0.179,
+            "eval": 8.203,
+            "score": 38,
+            "seqId": 14.7,
+            "alnLength": 129,
+            "qStartPos": 3,
+            "qEndPos": 114,
+            "taxName": "Phakopsora pachyrhizi"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 10,
+        "top": [
+          {
+            "target": "6yns-assembly5.cif.gz_I CaM-P458 complex (crystal form 2)",
+            "prob": 0.116,
+            "eval": 1.223,
+            "score": 33,
+            "seqId": 19.5,
+            "alnLength": 87,
+            "qStartPos": 23,
+            "qEndPos": 105,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "1j7o-assembly1.cif.gz_A Solution structure of Calcium-calmodulin N-terminal domain",
+            "prob": 0.15,
+            "eval": 2.937,
+            "score": 36,
+            "seqId": 20.3,
+            "alnLength": 64,
+            "qStartPos": 15,
+            "qEndPos": 67,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "3ffl-assembly2.cif.gz_D Crystal Structure of the N-terminal Domain of Anaphase-Promoting Complex Subunit 7",
+            "prob": 0.069,
+            "eval": 3.863,
+            "score": 27,
+            "seqId": 13.8,
+            "alnLength": 137,
+            "qStartPos": 1,
+            "qEndPos": 129,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "3nuf-assembly3.cif.gz_B Crystal structure of a PRD-containing transcription regulator (LSEI_2718) from Lactobacillus casei ATCC 334 at 1.38 A resolution",
+            "prob": 0.09,
+            "eval": 4.08,
+            "score": 30,
+            "seqId": 12.6,
+            "alnLength": 103,
+            "qStartPos": 4,
+            "qEndPos": 83,
+            "taxName": "Lacticaseibacillus paracasei ATCC 334"
+          },
+          {
+            "target": "4qlo-assembly1.cif.gz_A Crystal Structure of homoserine o-acetyltransferase from Staphylococcus aureus",
+            "prob": 0.04,
+            "eval": 6.68,
+            "score": 22,
+            "seqId": 15.5,
+            "alnLength": 58,
+            "qStartPos": 56,
+            "qEndPos": 110,
+            "taxName": "Staphylococcus aureus subsp. aureus USA300_TCH1516"
+          }
+        ]
+      }
+    }
+  },
+  "PMZC01000285.1_6": {
+    "rank_layer22": 15143,
+    "distance_layer22": 0.0293756657142253,
+    "phylum": "FEN-1099",
+    "length": 228,
+    "mean_plddt": 80.50395202636719,
+    "fold_seconds": 293.1,
+    "foldseek": {
+      "ticket": "SnTve02eg-yV8_BiQ4qGOnxExw55mpLpskfwsA",
+      "afdb50": {
+        "n_hits": 35,
+        "top": [
+          {
+            "target": "AF-A0A539EC61-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 7.496e-16,
+            "score": 541,
+            "seqId": 57.7,
+            "alnLength": 227,
+            "qStartPos": 2,
+            "qEndPos": 228,
+            "taxName": "bacterium"
+          },
+          {
+            "target": "AF-A0A6H9LM93-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 7.722e-15,
+            "score": 501,
+            "seqId": 57,
+            "alnLength": 226,
+            "qStartPos": 3,
+            "qEndPos": 228,
+            "taxName": "Calditrichota bacterium"
+          },
+          {
+            "target": "AF-A0A954T665-F1-model_v6 Thaumarchaeosortase",
+            "prob": 1,
+            "eval": 8.844e-14,
+            "score": 463,
+            "seqId": 49.3,
+            "alnLength": 235,
+            "qStartPos": 3,
+            "qEndPos": 228,
+            "taxName": "Planctomycetaceae bacterium"
+          },
+          {
+            "target": "AF-A0A935QAJ8-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 3.901e-13,
+            "score": 466,
+            "seqId": 43.4,
+            "alnLength": 237,
+            "qStartPos": 3,
+            "qEndPos": 228,
+            "taxName": "bacterium"
+          },
+          {
+            "target": "AF-A0A7V6TG27-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 8.639e-13,
+            "score": 440,
+            "seqId": 43.1,
+            "alnLength": 232,
+            "qStartPos": 3,
+            "qEndPos": 226,
+            "taxName": "Candidatus Cloacimonadota bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 17,
+        "top": [
+          {
+            "target": "3k6b-assembly1.cif.gz_A X-ray crystal structure of the E2 domain of APL-1 from C. elegans, in complex with sucrose octasulfate (SOS)",
+            "prob": 0.301,
+            "eval": 1.458,
+            "score": 44,
+            "seqId": 9.1,
+            "alnLength": 186,
+            "qStartPos": 42,
+            "qEndPos": 222,
+            "taxName": "Caenorhabditis elegans"
+          },
+          {
+            "target": "8e12-assembly1.cif.gz_C Homotrimeric variant of tcTRP9, BGL14",
+            "prob": 0.326,
+            "eval": 2.904,
+            "score": 45,
+            "seqId": 15,
+            "alnLength": 106,
+            "qStartPos": 115,
+            "qEndPos": 220,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "6cnn-assembly1.cif.gz_A Cryo-EM structure of the human SK4/calmodulin channel complex in the Ca2+ bound state I",
+            "prob": 0.164,
+            "eval": 3.405,
+            "score": 37,
+            "seqId": 12,
+            "alnLength": 158,
+            "qStartPos": 56,
+            "qEndPos": 205,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6s1k-assembly1.cif.gz_I E. coli Core Signaling Unit, carrying QQQQ receptor mutation",
+            "prob": 0.116,
+            "eval": 3.405,
+            "score": 33,
+            "seqId": 12.6,
+            "alnLength": 119,
+            "qStartPos": 104,
+            "qEndPos": 220,
+            "taxName": "Escherichia coli str. K-12 substr. MG1655star"
+          },
+          {
+            "target": "7fiy-assembly1.cif.gz_R Cryo-EM structure of the tirzepatide-bound human GIPR-Gs complex",
+            "prob": 0.106,
+            "eval": 3.785,
+            "score": 32,
+            "seqId": 12.6,
+            "alnLength": 158,
+            "qStartPos": 69,
+            "qEndPos": 213,
+            "taxName": "Homo sapiens"
+          }
+        ]
+      }
+    }
+  },
+  "MGPE01000005.1_153": {
+    "rank_layer22": 17635,
+    "distance_layer22": 0.025529680357264,
+    "phylum": "Bdellovibrionota_E",
+    "length": 258,
+    "mean_plddt": 33.03084945678711,
+    "fold_seconds": 469.3,
+    "foldseek": {
+      "ticket": "OaPuLIdJ6qZtbyeDka6T5d_QEebm_-csGvCSvQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0AAV9XL45-F1-model_v6 Uncharacterized protein",
+            "prob": 0.984,
+            "eval": 0.005069,
+            "score": 80,
+            "seqId": 10.3,
+            "alnLength": 193,
+            "qStartPos": 27,
+            "qEndPos": 219,
+            "taxName": "Orbilia ellipsospora"
+          },
+          {
+            "target": "AF-A0A1Y1LDK0-F1-model_v6 Titin (Fragment)",
+            "prob": 0.975,
+            "eval": 0.007425,
+            "score": 77,
+            "seqId": 11.7,
+            "alnLength": 204,
+            "qStartPos": 40,
+            "qEndPos": 218,
+            "taxName": "Photinus pyralis"
+          },
+          {
+            "target": "AF-A0AAV8YTT9-F1-model_v6 Titin",
+            "prob": 0.949,
+            "eval": 0.01593,
+            "score": 72,
+            "seqId": 15.5,
+            "alnLength": 161,
+            "qStartPos": 44,
+            "qEndPos": 185,
+            "taxName": "Aromia moschata"
+          },
+          {
+            "target": "AF-A0A7S2UJJ3-F1-model_v6 MLF1-interacting protein (Fragment)",
+            "prob": 0.933,
+            "eval": 0.01776,
+            "score": 70,
+            "seqId": 8,
+            "alnLength": 199,
+            "qStartPos": 22,
+            "qEndPos": 213,
+            "taxName": "Attheya septentrionalis"
+          },
+          {
+            "target": "AF-A0A8X6WJ73-F1-model_v6 Uncharacterized protein",
+            "prob": 0.912,
+            "eval": 0.02748,
+            "score": 68,
+            "seqId": 9.5,
+            "alnLength": 168,
+            "qStartPos": 41,
+            "qEndPos": 195,
+            "taxName": "Trichonephila clavipes"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 205,
+        "top": [
+          {
+            "target": "3d2l-assembly1.cif.gz_A Crystal structure of SAM-dependent methyltransferase (ZP_00538691.1) from EXIGUOBACTERIUM SP. 255-15 at 1.90 A resolution",
+            "prob": 0.196,
+            "eval": 0.4219,
+            "score": 39,
+            "seqId": 8.1,
+            "alnLength": 110,
+            "qStartPos": 34,
+            "qEndPos": 142,
+            "taxName": "Exiguobacterium sibiricum 255-15"
+          },
+          {
+            "target": "4x55-assembly1.cif.gz_A Structure of the class D Beta-Lactamase OXA-225 K82D in Acyl-Enzyme Complex with Ceftazidime",
+            "prob": 0.411,
+            "eval": 0.5247,
+            "score": 48,
+            "seqId": 13.2,
+            "alnLength": 68,
+            "qStartPos": 52,
+            "qEndPos": 117,
+            "taxName": "Acinetobacter baumannii"
+          },
+          {
+            "target": "8gxs-assembly1.cif.gz_p PIC-Mediator in complex with +1 nucleosome (T40N) in H-binding state",
+            "prob": 0.233,
+            "eval": 0.5247,
+            "score": 41,
+            "seqId": 9.6,
+            "alnLength": 156,
+            "qStartPos": 45,
+            "qEndPos": 195,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "4rlw-assembly1.cif.gz_A Crystal Structure of (3R)-hydroxyacyl-ACP dehydratase HadAB hetero-dimer from Mycobacterium tuberculosis complexed with Butein",
+            "prob": 0.196,
+            "eval": 0.7686,
+            "score": 39,
+            "seqId": 13.4,
+            "alnLength": 82,
+            "qStartPos": 26,
+            "qEndPos": 99,
+            "taxName": "Mycobacterium tuberculosis H37Rv"
+          },
+          {
+            "target": "4rlj-assembly1.cif.gz_A Crystal Structure of (3R)-hydroxyacyl-ACP dehydratase HadAB hetero-dimer from Mycobacterium tuberculosis",
+            "prob": 0.196,
+            "eval": 0.8117,
+            "score": 39,
+            "seqId": 13.4,
+            "alnLength": 82,
+            "qStartPos": 26,
+            "qEndPos": 99,
+            "taxName": "Mycobacterium tuberculosis H37Rv"
+          }
+        ]
+      }
+    }
+  },
+  "NC_011661.1_346": {
+    "rank_layer22": 17260,
+    "distance_layer22": 0.0261164671540013,
+    "phylum": "Dictyoglomota",
+    "length": 146,
+    "mean_plddt": 90.07766723632812,
+    "fold_seconds": 105.5,
+    "foldseek": {
+      "ticket": "6NyF-KgYruWOED8XzuzEvQxEEsUE8FUEen5KcA",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-B8DZ33-F1-model_v6 HNH endonuclease",
+            "prob": 1,
+            "eval": 9.121e-26,
+            "score": 1018,
+            "seqId": 100,
+            "alnLength": 146,
+            "qStartPos": 1,
+            "qEndPos": 146,
+            "taxName": "Dictyoglomus turgidum DSM 6724"
+          },
+          {
+            "target": "AF-A0A4Q5NWT9-F1-model_v6 HNH endonuclease",
+            "prob": 1,
+            "eval": 3.867e-18,
+            "score": 720,
+            "seqId": 45,
+            "alnLength": 142,
+            "qStartPos": 3,
+            "qEndPos": 144,
+            "taxName": "bacterium"
+          },
+          {
+            "target": "AF-A0A8T4LRJ6-F1-model_v6 HNH endonuclease",
+            "prob": 1,
+            "eval": 1.368e-17,
+            "score": 696,
+            "seqId": 47.8,
+            "alnLength": 142,
+            "qStartPos": 1,
+            "qEndPos": 142,
+            "taxName": "Candidatus Micrarchaeota archaeon"
+          },
+          {
+            "target": "AF-A0A7I8EMM9-F1-model_v6 HNH nuclease domain-containing protein",
+            "prob": 1,
+            "eval": 2.741e-17,
+            "score": 690,
+            "seqId": 47.1,
+            "alnLength": 140,
+            "qStartPos": 3,
+            "qEndPos": 142,
+            "taxName": "Ktedonobacteria bacterium brp13"
+          },
+          {
+            "target": "AF-X1AVS4-F1-model_v6 HNH endonuclease",
+            "prob": 1,
+            "eval": 6.638e-17,
+            "score": 663,
+            "seqId": 48.2,
+            "alnLength": 143,
+            "qStartPos": 1,
+            "qEndPos": 142,
+            "taxName": "marine sediment metagenome"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 14,
+        "top": [
+          {
+            "target": "5x42-assembly1.cif.gz_A Structure of DotL(590-659)-DotN derived from Legionella pneumophila",
+            "prob": 0.984,
+            "eval": 0.05121,
+            "score": 80,
+            "seqId": 18.5,
+            "alnLength": 81,
+            "qStartPos": 7,
+            "qEndPos": 85,
+            "taxName": "Legionella pneumophila"
+          },
+          {
+            "target": "7ovb-assembly1.cif.gz_C L. pneumophila Type IV Coupling Complex (T4CC) with density for DotY N-terminal and middle domains",
+            "prob": 0.887,
+            "eval": 0.07968,
+            "score": 66,
+            "seqId": 18,
+            "alnLength": 83,
+            "qStartPos": 8,
+            "qEndPos": 85,
+            "taxName": "Legionella pneumophila subsp. pneumophila str. Philadelphia 1"
+          },
+          {
+            "target": "5x1h-assembly4.cif.gz_I Structure of Legionella pneumophila DotN",
+            "prob": 0.692,
+            "eval": 0.2646,
+            "score": 57,
+            "seqId": 20.9,
+            "alnLength": 81,
+            "qStartPos": 7,
+            "qEndPos": 85,
+            "taxName": "Legionella pneumophila subsp. pneumophila str. Philadelphia 1"
+          },
+          {
+            "target": "8ova-assembly1.cif.gz_AR CRYO-EM STRUCTURE OF TRYPANOSOMA BRUCEI PROCYCLIC FORM 80S RIBOSOME : PARENTAL STRAIN",
+            "prob": 0.126,
+            "eval": 0.9363,
+            "score": 34,
+            "seqId": 10.6,
+            "alnLength": 66,
+            "qStartPos": 44,
+            "qEndPos": 100,
+            "taxName": "Trypanosoma brucei brucei"
+          },
+          {
+            "target": "5xxu-assembly1.cif.gz_V Small subunit of Toxoplasma gondii ribosome",
+            "prob": 0.09,
+            "eval": 1.368,
+            "score": 30,
+            "seqId": 12.5,
+            "alnLength": 64,
+            "qStartPos": 44,
+            "qEndPos": 100,
+            "taxName": "Toxoplasma gondii"
+          }
+        ]
+      }
+    }
+  },
+  "CAIVGN010000008.1_37": {
+    "rank_layer22": 18477,
+    "distance_layer22": 0.0244423979284377,
+    "phylum": "Myxococcota",
+    "length": 162,
+    "mean_plddt": 43.93520736694336,
+    "fold_seconds": 143.7,
+    "foldseek": {
+      "ticket": "SXXLkbnhGAHM24enVQPxlzuAo_dp7adz_UEMPw",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A7W6BH92-F1-model_v6 Uncharacterized protein",
+            "prob": 0.981,
+            "eval": 0.182,
+            "score": 79,
+            "seqId": 12.5,
+            "alnLength": 72,
+            "qStartPos": 32,
+            "qEndPos": 100,
+            "taxName": "Rhizobium fabae"
+          },
+          {
+            "target": "AF-A0A679JRQ8-F1-model_v6 Uncharacterized protein",
+            "prob": 0.961,
+            "eval": 0.182,
+            "score": 74,
+            "seqId": 12.8,
+            "alnLength": 70,
+            "qStartPos": 32,
+            "qEndPos": 100,
+            "taxName": "Hyphomicrobium sp. ghe19"
+          },
+          {
+            "target": "AF-A0A514Z5W8-F1-model_v6 Uncharacterized protein",
+            "prob": 0.601,
+            "eval": 0.2181,
+            "score": 54,
+            "seqId": 15,
+            "alnLength": 93,
+            "qStartPos": 28,
+            "qEndPos": 111,
+            "taxName": "Lactococcus protaetiae"
+          },
+          {
+            "target": "AF-A0A8J2A4R2-F1-model_v6 Uncharacterized protein (Fragment)",
+            "prob": 0.569,
+            "eval": 0.2777,
+            "score": 53,
+            "seqId": 10.4,
+            "alnLength": 134,
+            "qStartPos": 29,
+            "qEndPos": 149,
+            "taxName": "Amoebophrya sp. A120"
+          },
+          {
+            "target": "AF-A0A3P8KN75-F1-model_v6 Uncharacterized protein",
+            "prob": 0.353,
+            "eval": 0.3329,
+            "score": 46,
+            "seqId": 11.7,
+            "alnLength": 94,
+            "qStartPos": 16,
+            "qEndPos": 100,
+            "taxName": "Mycoplasmopsis caviae"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 230,
+        "top": [
+          {
+            "target": "7qoo-assembly1.cif.gz_O Structure of the human inner kinetochore CCAN complex",
+            "prob": 0.116,
+            "eval": 0.891,
+            "score": 33,
+            "seqId": 14.7,
+            "alnLength": 95,
+            "qStartPos": 17,
+            "qEndPos": 103,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6m9y-assembly1.cif.gz_C X-ray Structure of Branchiostoma floridae fluorescent protein lanFP6A",
+            "prob": 0.15,
+            "eval": 1.068,
+            "score": 36,
+            "seqId": 14,
+            "alnLength": 71,
+            "qStartPos": 30,
+            "qEndPos": 100,
+            "taxName": "Branchiostoma floridae"
+          },
+          {
+            "target": "2g5z-assembly1.cif.gz_A Structure of S65G Y66S GFP variant after spontaneous peptide hydrolysis and decarboxylation",
+            "prob": 0.196,
+            "eval": 1.205,
+            "score": 39,
+            "seqId": 10.1,
+            "alnLength": 69,
+            "qStartPos": 29,
+            "qEndPos": 97,
+            "taxName": "Aequorea victoria"
+          },
+          {
+            "target": "6zj8-assembly2.cif.gz_B Structure of the PAS domain from Bordetella pertussis BvgS",
+            "prob": 0.116,
+            "eval": 1.28,
+            "score": 33,
+            "seqId": 14,
+            "alnLength": 50,
+            "qStartPos": 13,
+            "qEndPos": 51,
+            "taxName": "Bordetella pertussis Tohama I"
+          },
+          {
+            "target": "6zu5-assembly1.cif.gz_LFF Structure of the Paranosema locustae ribosome in complex with Lso2",
+            "prob": 0.063,
+            "eval": 1.28,
+            "score": 26,
+            "seqId": 14.9,
+            "alnLength": 87,
+            "qStartPos": 15,
+            "qEndPos": 93,
+            "taxName": "Paranosema locustae"
+          }
+        ]
+      }
+    }
+  },
+  "LIUI01000131.1_4": {
+    "rank_layer22": 16698,
+    "distance_layer22": 0.0268958711127511,
+    "phylum": "Fibrobacterota",
+    "length": 105,
+    "mean_plddt": 86.89363098144531,
+    "fold_seconds": 55.9,
+    "foldseek": {
+      "ticket": "_CfRg3Xlsrj333hGHW1gJ1iigVd1NIei6ZSjkg",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A178IHD5-F1-model_v6 Prepilin type IV endopeptidase peptidase domain-containing protein",
+            "prob": 1,
+            "eval": 6.363e-09,
+            "score": 482,
+            "seqId": 59,
+            "alnLength": 105,
+            "qStartPos": 1,
+            "qEndPos": 105,
+            "taxName": "Termitidicoccus mucosus"
+          },
+          {
+            "target": "AF-A0A1G3NXN3-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 9.175e-09,
+            "score": 449,
+            "seqId": 58.2,
+            "alnLength": 103,
+            "qStartPos": 1,
+            "qEndPos": 103,
+            "taxName": "Spirochaetes bacterium GWF1_31_7"
+          },
+          {
+            "target": "AF-D3AKU2-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 2.344e-07,
+            "score": 385,
+            "seqId": 48.5,
+            "alnLength": 103,
+            "qStartPos": 4,
+            "qEndPos": 105,
+            "taxName": "Hungatella hathewayi DSM 13479"
+          },
+          {
+            "target": "AF-A0AAP9MGU8-F1-model_v6 Permease",
+            "prob": 1,
+            "eval": 1.013e-06,
+            "score": 362,
+            "seqId": 46.1,
+            "alnLength": 104,
+            "qStartPos": 1,
+            "qEndPos": 104,
+            "taxName": "[Clostridium] innocuum"
+          },
+          {
+            "target": "AF-A0A7L5EHP2-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 2.106e-06,
+            "score": 363,
+            "seqId": 42.7,
+            "alnLength": 103,
+            "qStartPos": 3,
+            "qEndPos": 103,
+            "taxName": "Parabacteroides distasonis"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 98,
+        "top": [
+          {
+            "target": "6xby-assembly1.cif.gz_g Cryo-EM structure of V-ATPase from bovine brain, state 2",
+            "prob": 0.126,
+            "eval": 2.384,
+            "score": 34,
+            "seqId": 17,
+            "alnLength": 129,
+            "qStartPos": 1,
+            "qEndPos": 103,
+            "taxName": "Bos taurus"
+          },
+          {
+            "target": "5t4o-assembly1.cif.gz_M Autoinhibited E. coli ATP synthase state 1",
+            "prob": 0.138,
+            "eval": 2.647,
+            "score": 35,
+            "seqId": 9.8,
+            "alnLength": 71,
+            "qStartPos": 40,
+            "qEndPos": 103,
+            "taxName": "Escherichia coli"
+          },
+          {
+            "target": "6oqv-assembly1.cif.gz_S E. coli ATP Synthase State 2b",
+            "prob": 0.179,
+            "eval": 2.789,
+            "score": 38,
+            "seqId": 10.9,
+            "alnLength": 64,
+            "qStartPos": 40,
+            "qEndPos": 103,
+            "taxName": "Escherichia coli"
+          },
+          {
+            "target": "7uzg-assembly1.cif.gz_j Rat Kidney V-ATPase lacking subunit H, with SidK and NCOA7B, State 1",
+            "prob": 0.098,
+            "eval": 3.096,
+            "score": 31,
+            "seqId": 16.1,
+            "alnLength": 130,
+            "qStartPos": 3,
+            "qEndPos": 103,
+            "taxName": "Rattus norvegicus"
+          },
+          {
+            "target": "6n2d-assembly1.cif.gz_c2 Bacillus PS3 ATP synthase membrane region",
+            "prob": 0.196,
+            "eval": 3.262,
+            "score": 39,
+            "seqId": 14.9,
+            "alnLength": 67,
+            "qStartPos": 41,
+            "qEndPos": 104,
+            "taxName": "Bacillus sp. PS3"
+          }
+        ]
+      }
+    }
+  },
+  "DHZH01000001.1_425": {
+    "rank_layer22": 17943,
+    "distance_layer22": 0.0251211990736591,
+    "phylum": "Proteobacteria",
+    "length": 194,
+    "mean_plddt": 91.60746002197266,
+    "fold_seconds": 207.9,
+    "foldseek": {
+      "ticket": "BwA5_a5gpnKZDvzdhJzhGa-ZGVHS4WKeBYK7wQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A3D3LTB1-F1-model_v6 EamA domain-containing protein",
+            "prob": 1,
+            "eval": 1.367e-11,
+            "score": 591,
+            "seqId": 39.7,
+            "alnLength": 191,
+            "qStartPos": 5,
+            "qEndPos": 194,
+            "taxName": "Bacteroidota bacterium"
+          },
+          {
+            "target": "AF-A0A1W1UDE1-F1-model_v6 DUF308 domain-containing protein",
+            "prob": 1,
+            "eval": 2.317e-11,
+            "score": 580,
+            "seqId": 42.2,
+            "alnLength": 187,
+            "qStartPos": 2,
+            "qEndPos": 188,
+            "taxName": "Hymenobacter roseosalivarius DSM 11622"
+          },
+          {
+            "target": "AF-A0A0G1FFS1-F1-model_v6 DUF308 domain-containing protein",
+            "prob": 1,
+            "eval": 3.568e-11,
+            "score": 561,
+            "seqId": 44.9,
+            "alnLength": 178,
+            "qStartPos": 11,
+            "qEndPos": 185,
+            "taxName": "Parcubacteria group bacterium GW2011_GWE1_43_8"
+          },
+          {
+            "target": "AF-A0A502HH03-F1-model_v6 DUF308 domain-containing protein",
+            "prob": 1,
+            "eval": 6.658e-11,
+            "score": 562,
+            "seqId": 40.5,
+            "alnLength": 180,
+            "qStartPos": 11,
+            "qEndPos": 190,
+            "taxName": "Hymenobacter nivis"
+          },
+          {
+            "target": "AF-A0A7Y5N4Q0-F1-model_v6 Zf-HC2 domain-containing protein",
+            "prob": 1,
+            "eval": 6.658e-11,
+            "score": 531,
+            "seqId": 41.1,
+            "alnLength": 197,
+            "qStartPos": 2,
+            "qEndPos": 194,
+            "taxName": "bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 56,
+        "top": [
+          {
+            "target": "8p3u-assembly1.cif.gz_H Homomeric GluA1 in tandem with TARP gamma-3, desensitized conformation 2",
+            "prob": 0.632,
+            "eval": 0.658,
+            "score": 55,
+            "seqId": 10.8,
+            "alnLength": 129,
+            "qStartPos": 72,
+            "qEndPos": 194,
+            "taxName": "Rattus norvegicus"
+          },
+          {
+            "target": "8piv-assembly1.cif.gz_H Homomeric GluA2 flip R/G-unedited Q/R-edited F231A mutant in tandem with TARP gamma-2, desensitized conformation 1",
+            "prob": 0.817,
+            "eval": 0.966,
+            "score": 62,
+            "seqId": 7.6,
+            "alnLength": 104,
+            "qStartPos": 98,
+            "qEndPos": 194,
+            "taxName": "Rattus norvegicus"
+          },
+          {
+            "target": "8p3u-assembly1.cif.gz_F Homomeric GluA1 in tandem with TARP gamma-3, desensitized conformation 2",
+            "prob": 0.505,
+            "eval": 1.063,
+            "score": 51,
+            "seqId": 11,
+            "alnLength": 118,
+            "qStartPos": 83,
+            "qEndPos": 192,
+            "taxName": "Rattus norvegicus"
+          },
+          {
+            "target": "8p3y-assembly1.cif.gz_H Homomeric GluA2 flip R/G-edited Q/R-edited F231A mutant in tandem with TARP gamma-2, desensitized conformation 3",
+            "prob": 0.837,
+            "eval": 1.17,
+            "score": 63,
+            "seqId": 6.7,
+            "alnLength": 103,
+            "qStartPos": 98,
+            "qEndPos": 194,
+            "taxName": "Rattus norvegicus"
+          },
+          {
+            "target": "8p3s-assembly1.cif.gz_F Homomeric GluA2 flip R/G-unedited Q/R-edited F231A mutant in tandem with TARP gamma-2, desensitized conformation 2",
+            "prob": 0.795,
+            "eval": 1.17,
+            "score": 61,
+            "seqId": 7.7,
+            "alnLength": 103,
+            "qStartPos": 99,
+            "qEndPos": 194,
+            "taxName": "Rattus norvegicus"
+          }
+        ]
+      }
+    }
+  },
+  "QJVW01000029.1_2": {
+    "rank_layer22": 16803,
+    "distance_layer22": 0.0267379996617094,
+    "phylum": "Eisenbacteria",
+    "length": 236,
+    "mean_plddt": 32.83964920043945,
+    "fold_seconds": 310.5,
+    "foldseek": {
+      "ticket": "S8ON4UyXjKejhzOo-YLDDqUisxXhVsdf3aNt3A",
+      "afdb50": {
+        "n_hits": 26,
+        "top": [
+          {
+            "target": "AF-A0AAV5L571-F1-model_v6 Uncharacterized protein",
+            "prob": 0.138,
+            "eval": 1.535,
+            "score": 35,
+            "seqId": 13.3,
+            "alnLength": 142,
+            "qStartPos": 83,
+            "qEndPos": 220,
+            "taxName": "Rubroshorea leprosula"
+          },
+          {
+            "target": "AF-A0AA95HW77-F1-model_v6 DUF4221 family protein",
+            "prob": 0.411,
+            "eval": 2.255,
+            "score": 48,
+            "seqId": 17.7,
+            "alnLength": 45,
+            "qStartPos": 180,
+            "qEndPos": 222,
+            "taxName": "Phocaeicola dorei"
+          },
+          {
+            "target": "AF-A0A8C9FWG7-F1-model_v6 Uncharacterized protein",
+            "prob": 0.277,
+            "eval": 4.014,
+            "score": 43,
+            "seqId": 18.1,
+            "alnLength": 55,
+            "qStartPos": 171,
+            "qEndPos": 224,
+            "taxName": "Pavo cristatus"
+          },
+          {
+            "target": "AF-A0A946LJ37-F1-model_v6 Uncharacterized protein",
+            "prob": 0.301,
+            "eval": 4.279,
+            "score": 44,
+            "seqId": 15.3,
+            "alnLength": 52,
+            "qStartPos": 176,
+            "qEndPos": 226,
+            "taxName": "Anaerolineae bacterium"
+          },
+          {
+            "target": "AF-A0A443S7S6-F1-model_v6 Type III intermediate filament-like protein (Fragment)",
+            "prob": 0.233,
+            "eval": 4.562,
+            "score": 41,
+            "seqId": 16,
+            "alnLength": 50,
+            "qStartPos": 180,
+            "qEndPos": 225,
+            "taxName": "Leptotrombidium deliense"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 47,
+        "top": [
+          {
+            "target": "3q54-assembly1.cif.gz_A Crystal structure of Escherichia coli BamB",
+            "prob": 0.196,
+            "eval": 1.745,
+            "score": 39,
+            "seqId": 17.9,
+            "alnLength": 39,
+            "qStartPos": 174,
+            "qEndPos": 211,
+            "taxName": "Escherichia coli DH1"
+          },
+          {
+            "target": "6qk7-assembly1.cif.gz_A Elongator catalytic subcomplex Elp123 lobe",
+            "prob": 0.214,
+            "eval": 2.404,
+            "score": 40,
+            "seqId": 25.7,
+            "alnLength": 35,
+            "qStartPos": 178,
+            "qEndPos": 212,
+            "taxName": "Saccharomyces cerevisiae S288C"
+          },
+          {
+            "target": "7eq5-assembly1.cif.gz_A Plant growth-promoting factor YxaL mutant from Bacillus velezensis - T175W/W215G",
+            "prob": 0.138,
+            "eval": 2.914,
+            "score": 35,
+            "seqId": 24.2,
+            "alnLength": 33,
+            "qStartPos": 185,
+            "qEndPos": 216,
+            "taxName": "Bacillus velezensis FZB42"
+          },
+          {
+            "target": "7owg-assembly1.cif.gz_Y-2 human DEPTOR in a complex with mutant human mTORC1 A1459P",
+            "prob": 0.138,
+            "eval": 2.914,
+            "score": 35,
+            "seqId": 7.6,
+            "alnLength": 26,
+            "qStartPos": 187,
+            "qEndPos": 212,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "3q7o-assembly1.cif.gz_A The crystal structure of BamB from the BAM complex in spacegroup P213",
+            "prob": 0.098,
+            "eval": 3.312,
+            "score": 31,
+            "seqId": 21.4,
+            "alnLength": 42,
+            "qStartPos": 172,
+            "qEndPos": 212,
+            "taxName": "Escherichia coli"
+          }
+        ]
+      }
+    }
+  },
+  "JAEOSL010000002.1_84": {
+    "rank_layer22": 15711,
+    "distance_layer22": 0.0284325039418161,
+    "phylum": "Asgardarchaeota",
+    "length": 117,
+    "mean_plddt": 59.81394577026367,
+    "fold_seconds": 62.7,
+    "foldseek": {
+      "ticket": "usHlxgVQc8QlEMUmSPg81wkMxZK6zZj0bnDNEQ",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A524FN74-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 2.421e-14,
+            "score": 467,
+            "seqId": 86.6,
+            "alnLength": 105,
+            "qStartPos": 1,
+            "qEndPos": 105,
+            "taxName": "Candidatus Thorarchaeota archaeon"
+          },
+          {
+            "target": "AF-A0A8T4EGE7-F1-model_v6 Thioredoxin domain-containing protein",
+            "prob": 1,
+            "eval": 5.255e-05,
+            "score": 177,
+            "seqId": 29.7,
+            "alnLength": 111,
+            "qStartPos": 1,
+            "qEndPos": 104,
+            "taxName": "Candidatus Thorarchaeota archaeon"
+          },
+          {
+            "target": "AF-A0A494YVW1-F1-model_v6 Spore coat protein GerQ",
+            "prob": 1,
+            "eval": 0.005174,
+            "score": 123,
+            "seqId": 10.7,
+            "alnLength": 102,
+            "qStartPos": 3,
+            "qEndPos": 101,
+            "taxName": "Ureibacillus endophyticus"
+          },
+          {
+            "target": "AF-A0A432LD10-F1-model_v6 Spore coat protein GerQ",
+            "prob": 1,
+            "eval": 0.006998,
+            "score": 110,
+            "seqId": 12.8,
+            "alnLength": 101,
+            "qStartPos": 1,
+            "qEndPos": 100,
+            "taxName": "Lysinibacillus antri"
+          },
+          {
+            "target": "AF-A0A398BBB8-F1-model_v6 Spore coat protein GerQ",
+            "prob": 1,
+            "eval": 0.008388,
+            "score": 111,
+            "seqId": 19.1,
+            "alnLength": 99,
+            "qStartPos": 11,
+            "qEndPos": 101,
+            "taxName": "Peribacillus asahii"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 463,
+        "top": [
+          {
+            "target": "6gwk-assembly1.cif.gz_C The crystal structure of Hfq from Caulobacter crescentus",
+            "prob": 0.999,
+            "eval": 0.02112,
+            "score": 99,
+            "seqId": 12.3,
+            "alnLength": 81,
+            "qStartPos": 17,
+            "qEndPos": 97,
+            "taxName": "Caulobacter vibrioides CB15"
+          },
+          {
+            "target": "7ur7-assembly1.cif.gz_A 17_bp_sh3, a small beta-barrel de novo designed protein",
+            "prob": 0.999,
+            "eval": 0.02857,
+            "score": 99,
+            "seqId": 16,
+            "alnLength": 75,
+            "qStartPos": 12,
+            "qEndPos": 86,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "7ogm-assembly1.cif.gz_D A cooperative PNPase-Hfq-RNA carrier complex facilitates bacterial riboregulation. PNPase-3'ETS(leuZ)-Hfq",
+            "prob": 0.998,
+            "eval": 0.03035,
+            "score": 95,
+            "seqId": 12.5,
+            "alnLength": 80,
+            "qStartPos": 18,
+            "qEndPos": 97,
+            "taxName": "Escherichia coli"
+          },
+          {
+            "target": "4noy-assembly1.cif.gz_A Crystal structure of Listeria monocytogenes Hfq F43W",
+            "prob": 0.997,
+            "eval": 0.03864,
+            "score": 91,
+            "seqId": 10.1,
+            "alnLength": 89,
+            "qStartPos": 11,
+            "qEndPos": 95,
+            "taxName": "Listeria monocytogenes"
+          },
+          {
+            "target": "3hfo-assembly1.cif.gz_B Crystal Structure of an Hfq protein from Synechocystis sp.",
+            "prob": 1,
+            "eval": 0.0492,
+            "score": 100,
+            "seqId": 16.1,
+            "alnLength": 68,
+            "qStartPos": 17,
+            "qEndPos": 84,
+            "taxName": "Synechocystis sp. PCC 6803"
+          }
+        ]
+      }
+    }
+  },
+  "JAHJDO010000151.1_5": {
+    "rank_layer22": 19663,
+    "distance_layer22": 0.0229299812207545,
+    "phylum": "JAHJDO01",
+    "length": 134,
+    "mean_plddt": 84.31159210205078,
+    "fold_seconds": 86.1,
+    "foldseek": {
+      "ticket": "HYJBjub0C12xfbJg6OhRkpko6Aj8tcw7lFCR4Q",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A943RSM1-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 3.447e-06,
+            "score": 216,
+            "seqId": 15.8,
+            "alnLength": 139,
+            "qStartPos": 9,
+            "qEndPos": 129,
+            "taxName": "Clostridiales bacterium"
+          },
+          {
+            "target": "AF-A0A920CGY5-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 4.759e-06,
+            "score": 205,
+            "seqId": 22.7,
+            "alnLength": 145,
+            "qStartPos": 9,
+            "qEndPos": 131,
+            "taxName": "Paenibacillus antibioticophila"
+          },
+          {
+            "target": "AF-A0A5D8QDX1-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 6.57e-06,
+            "score": 202,
+            "seqId": 20.4,
+            "alnLength": 142,
+            "qStartPos": 9,
+            "qEndPos": 131,
+            "taxName": "Calorimonas adulescens"
+          },
+          {
+            "target": "AF-A0A132U8G8-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 7.972e-06,
+            "score": 193,
+            "seqId": 20.1,
+            "alnLength": 144,
+            "qStartPos": 10,
+            "qEndPos": 130,
+            "taxName": "Paenibacillus riograndensis"
+          },
+          {
+            "target": "AF-A0A1M6LSM7-F1-model_v6 IrrE N-terminal-like domain-containing protein",
+            "prob": 1,
+            "eval": 7.972e-06,
+            "score": 180,
+            "seqId": 23.7,
+            "alnLength": 143,
+            "qStartPos": 9,
+            "qEndPos": 130,
+            "taxName": "Clostridium amylolyticum"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 40,
+        "top": [
+          {
+            "target": "4jix-assembly1.cif.gz_B Crystal structure of the metallopeptidase zymogen of Methanocaldococcus jannaschii jannalysin",
+            "prob": 0.505,
+            "eval": 0.09283,
+            "score": 51,
+            "seqId": 17.9,
+            "alnLength": 117,
+            "qStartPos": 5,
+            "qEndPos": 121,
+            "taxName": "Methanocaldococcus jannaschii DSM 2661"
+          },
+          {
+            "target": "6zxj-assembly1.cif.gz_H Fully-loaded anthrax lethal toxin in its heptameric pre-pore state, in which the third lethal factor is masked out (PA7LF3-masked)",
+            "prob": 0.233,
+            "eval": 0.1555,
+            "score": 41,
+            "seqId": 8.3,
+            "alnLength": 144,
+            "qStartPos": 25,
+            "qEndPos": 134,
+            "taxName": "Bacillus anthracis"
+          },
+          {
+            "target": "1tvi-assembly1.cif.gz_A Solution structure of TM1509 from Thermotoga maritima: VT1, a NESGC target protein",
+            "prob": 0.326,
+            "eval": 0.229,
+            "score": 45,
+            "seqId": 11.7,
+            "alnLength": 145,
+            "qStartPos": 4,
+            "qEndPos": 129,
+            "taxName": "Thermotoga maritima"
+          },
+          {
+            "target": "4pkr-assembly1.cif.gz_A Anthrax toxin lethal factor with bound small molecule inhibitor 10",
+            "prob": 0.196,
+            "eval": 0.6024,
+            "score": 39,
+            "seqId": 14,
+            "alnLength": 142,
+            "qStartPos": 25,
+            "qEndPos": 134,
+            "taxName": "Bacillus anthracis"
+          },
+          {
+            "target": "3cmn-assembly1.cif.gz_A Crystal structure of a putative hydrolase with a novel fold from Chloroflexus aurantiacus",
+            "prob": 0.473,
+            "eval": 0.6853,
+            "score": 50,
+            "seqId": 21.8,
+            "alnLength": 55,
+            "qStartPos": 51,
+            "qEndPos": 101,
+            "taxName": "Chloroflexus aurantiacus J-10-fl"
+          }
+        ]
+      }
+    }
+  },
+  "JACPAV010000005.1_111": {
+    "rank_layer22": 15443,
+    "distance_layer22": 0.0288447077960288,
+    "phylum": "JACPQY01",
+    "length": 280,
+    "mean_plddt": 84.25031280517578,
+    "fold_seconds": 483.3,
+    "foldseek": {
+      "ticket": "ePCRuAFnZ9vbYDh3PuslqOx6gehKdTEtqlTvfw",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A8A4TS98-F1-model_v6 Hpr(Ser) kinase/phosphatase",
+            "prob": 1,
+            "eval": 1.2e-19,
+            "score": 667,
+            "seqId": 20.7,
+            "alnLength": 285,
+            "qStartPos": 1,
+            "qEndPos": 269,
+            "taxName": "Sulfidibacter corallicola"
+          },
+          {
+            "target": "AF-A0A7H0LKZ1-F1-model_v6 Serine kinase",
+            "prob": 1,
+            "eval": 2.409e-19,
+            "score": 632,
+            "seqId": 24,
+            "alnLength": 279,
+            "qStartPos": 1,
+            "qEndPos": 272,
+            "taxName": "Sphingomonas alpina"
+          },
+          {
+            "target": "AF-A0A931U2C7-F1-model_v6 Serine kinase",
+            "prob": 1,
+            "eval": 2.553e-19,
+            "score": 698,
+            "seqId": 21.2,
+            "alnLength": 287,
+            "qStartPos": 1,
+            "qEndPos": 276,
+            "taxName": "Chloroflexota bacterium"
+          },
+          {
+            "target": "AF-A0A7C4FZN2-F1-model_v6 HPr kinase/phosphorylase C-terminal domain-containing protein",
+            "prob": 1,
+            "eval": 2.867e-19,
+            "score": 653,
+            "seqId": 26.6,
+            "alnLength": 270,
+            "qStartPos": 20,
+            "qEndPos": 279,
+            "taxName": "Bryobacteraceae bacterium"
+          },
+          {
+            "target": "AF-A0A950KXT0-F1-model_v6 Serine kinase",
+            "prob": 1,
+            "eval": 2.867e-19,
+            "score": 649,
+            "seqId": 21.8,
+            "alnLength": 284,
+            "qStartPos": 1,
+            "qEndPos": 272,
+            "taxName": "Deltaproteobacteria bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 103,
+        "top": [
+          {
+            "target": "6asn-assembly1.cif.gz_A E. coli phosphoenolpyruvate carboxykinase K212I F216V mutant bound to methanesulfonate",
+            "prob": 1,
+            "eval": 5.317e-06,
+            "score": 157,
+            "seqId": 12.4,
+            "alnLength": 281,
+            "qStartPos": 37,
+            "qEndPos": 265,
+            "taxName": "Escherichia coli K-12"
+          },
+          {
+            "target": "1ylh-assembly1.cif.gz_A Crystal Structure of Phosphoenolpyruvate Carboxykinase from Actinobaccilus succinogenes in Complex with Manganese and Pyruvate",
+            "prob": 1,
+            "eval": 6.708e-06,
+            "score": 152,
+            "seqId": 13.4,
+            "alnLength": 245,
+            "qStartPos": 69,
+            "qEndPos": 265,
+            "taxName": "Actinobacillus succinogenes"
+          },
+          {
+            "target": "1oen-assembly1.cif.gz_A PHOSPHOENOLPYRUVATE CARBOXYKINASE",
+            "prob": 1,
+            "eval": 8.462e-06,
+            "score": 149,
+            "seqId": 14.6,
+            "alnLength": 287,
+            "qStartPos": 37,
+            "qEndPos": 270,
+            "taxName": "Escherichia coli K-12"
+          },
+          {
+            "target": "1kkl-assembly1.cif.gz_C L.casei HprK/P in complex with B.subtilis HPr",
+            "prob": 1,
+            "eval": 1.007e-05,
+            "score": 154,
+            "seqId": 15.5,
+            "alnLength": 200,
+            "qStartPos": 78,
+            "qEndPos": 274,
+            "taxName": "Lacticaseibacillus casei"
+          },
+          {
+            "target": "2pc9-assembly3.cif.gz_C Crystal Structure Of ATP-Dependent Phosphoenolpyruvate Carboxykinase From Thermus thermophilus HB8",
+            "prob": 1,
+            "eval": 1.427e-05,
+            "score": 149,
+            "seqId": 15.8,
+            "alnLength": 297,
+            "qStartPos": 31,
+            "qEndPos": 270,
+            "taxName": "Thermus thermophilus HB8"
+          }
+        ]
+      }
+    }
+  },
+  "DIWJ01000074.1_70": {
+    "rank_layer22": 17438,
+    "distance_layer22": 0.0258515270346108,
+    "phylum": "Desulfobacterota",
+    "length": 133,
+    "mean_plddt": 87.02386474609375,
+    "fold_seconds": 92.7,
+    "foldseek": {
+      "ticket": "ZCTw9pq5PMWHPHKv7YIItepQ37TZn31pSBe8yw",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A1V5DVZ7-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 8.674e-14,
+            "score": 688,
+            "seqId": 78.1,
+            "alnLength": 133,
+            "qStartPos": 1,
+            "qEndPos": 133,
+            "taxName": "Syntrophaceae bacterium PtaU1.Bin231"
+          },
+          {
+            "target": "AF-A0A972P503-F1-model_v6 Sel1 repeat family protein",
+            "prob": 1,
+            "eval": 2.103e-08,
+            "score": 426,
+            "seqId": 46.7,
+            "alnLength": 124,
+            "qStartPos": 1,
+            "qEndPos": 124,
+            "taxName": "Syntrophaceae bacterium"
+          },
+          {
+            "target": "AF-A0A7X9PRK0-F1-model_v6 Uncharacterized protein (Fragment)",
+            "prob": 1,
+            "eval": 4.028e-08,
+            "score": 437,
+            "seqId": 48.6,
+            "alnLength": 109,
+            "qStartPos": 5,
+            "qEndPos": 113,
+            "taxName": "Deltaproteobacteria bacterium"
+          },
+          {
+            "target": "AF-A0A2N2KEK8-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 4.234e-08,
+            "score": 446,
+            "seqId": 40,
+            "alnLength": 125,
+            "qStartPos": 1,
+            "qEndPos": 125,
+            "taxName": "Deltaproteobacteria bacterium HGW-Deltaproteobacteria-10"
+          },
+          {
+            "target": "AF-A0A349A3C3-F1-model_v6 Sel1 repeat family protein",
+            "prob": 1,
+            "eval": 7.339e-08,
+            "score": 410,
+            "seqId": 37.2,
+            "alnLength": 129,
+            "qStartPos": 1,
+            "qEndPos": 129,
+            "taxName": "Syntrophus sp. (in: bacteria)"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 368,
+        "top": [
+          {
+            "target": "2nc9-assembly1.cif.gz_A Apo solution structure of Hop TPR2A",
+            "prob": 0.984,
+            "eval": 0.03428,
+            "score": 80,
+            "seqId": 18,
+            "alnLength": 122,
+            "qStartPos": 23,
+            "qEndPos": 125,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "1na0-assembly1.cif.gz_A Design of Stable alpha-Helical Arrays from an Idealized TPR Motif",
+            "prob": 0.992,
+            "eval": 0.03788,
+            "score": 85,
+            "seqId": 20.5,
+            "alnLength": 117,
+            "qStartPos": 23,
+            "qEndPos": 125,
+            "taxName": "unidentified"
+          },
+          {
+            "target": "8bu0-assembly1.cif.gz_A Crystal structure of an 8 repeat consensus TPR superhelix with calcium",
+            "prob": 0.99,
+            "eval": 0.04187,
+            "score": 83,
+            "seqId": 21.9,
+            "alnLength": 114,
+            "qStartPos": 10,
+            "qEndPos": 114,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "5hgv-assembly1.cif.gz_A Structure of an O-GlcNAc transferase point mutant, D554N in complex with peptide",
+            "prob": 0.981,
+            "eval": 0.05114,
+            "score": 79,
+            "seqId": 16.2,
+            "alnLength": 117,
+            "qStartPos": 23,
+            "qEndPos": 126,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "4cgv-assembly3.cif.gz_C First TPR of Spaghetti (RPAP3) bound to HSP90 peptide SRMEEVD",
+            "prob": 0.992,
+            "eval": 0.06246,
+            "score": 85,
+            "seqId": 16.9,
+            "alnLength": 124,
+            "qStartPos": 16,
+            "qEndPos": 124,
+            "taxName": "Homo sapiens"
+          }
+        ]
+      }
+    }
+  },
+  "CAJUJZ010000111.1_1": {
+    "rank_layer22": 18087,
+    "distance_layer22": 0.0249136386331178,
+    "phylum": "Deferribacterota",
+    "length": 147,
+    "mean_plddt": 71.03124237060547,
+    "fold_seconds": 127.5,
+    "foldseek": {
+      "ticket": "y2s5-l9i5tir7x6ZpGoUK7geKY7XYR9p0jVlhA",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A6L5YUI1-F1-model_v6 Glycosyltransferase family 4 protein",
+            "prob": 1,
+            "eval": 3.726e-16,
+            "score": 527,
+            "seqId": 56.4,
+            "alnLength": 147,
+            "qStartPos": 2,
+            "qEndPos": 146,
+            "taxName": "Roseburia porci"
+          },
+          {
+            "target": "AF-A0AAE3EHD0-F1-model_v6 Glycosyltransferase",
+            "prob": 1,
+            "eval": 4.718e-10,
+            "score": 375,
+            "seqId": 38.5,
+            "alnLength": 127,
+            "qStartPos": 2,
+            "qEndPos": 128,
+            "taxName": "Teretinema zuelzerae"
+          },
+          {
+            "target": "AF-A0AAE9PQ26-F1-model_v6 Uncharacterized protein",
+            "prob": 1,
+            "eval": 9.043e-10,
+            "score": 337,
+            "seqId": 59.8,
+            "alnLength": 107,
+            "qStartPos": 22,
+            "qEndPos": 128,
+            "taxName": "Paenibacillus polymyxa"
+          },
+          {
+            "target": "AF-A0A840SC49-F1-model_v6 Glycosyltransferase family 1 protein",
+            "prob": 1,
+            "eval": 5.105e-08,
+            "score": 287,
+            "seqId": 21.6,
+            "alnLength": 134,
+            "qStartPos": 2,
+            "qEndPos": 128,
+            "taxName": "Treponema rectale"
+          },
+          {
+            "target": "AF-A0A089HVF7-F1-model_v6 Glycosyl transferase family 1 domain-containing protein",
+            "prob": 1,
+            "eval": 6.622e-08,
+            "score": 261,
+            "seqId": 56.4,
+            "alnLength": 124,
+            "qStartPos": 22,
+            "qEndPos": 140,
+            "taxName": "Paenibacillus durus"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 789,
+        "top": [
+          {
+            "target": "5ahw-assembly2.cif.gz_D Crystal structure of universal stress protein MSMEG_3811 in complex with cAMP",
+            "prob": 0.996,
+            "eval": 0.0005054,
+            "score": 89,
+            "seqId": 16.1,
+            "alnLength": 142,
+            "qStartPos": 2,
+            "qEndPos": 127,
+            "taxName": "Mycolicibacterium smegmatis MC2 155"
+          },
+          {
+            "target": "5ahw-assembly1.cif.gz_B Crystal structure of universal stress protein MSMEG_3811 in complex with cAMP",
+            "prob": 0.986,
+            "eval": 0.001981,
+            "score": 81,
+            "seqId": 16.6,
+            "alnLength": 138,
+            "qStartPos": 2,
+            "qEndPos": 124,
+            "taxName": "Mycolicibacterium smegmatis MC2 155"
+          },
+          {
+            "target": "3idf-assembly1.cif.gz_B The Crystal Structure of a USP-like protein from Wolinella succinogenes to 2.0A",
+            "prob": 0.998,
+            "eval": 0.002114,
+            "score": 95,
+            "seqId": 11.4,
+            "alnLength": 149,
+            "qStartPos": 3,
+            "qEndPos": 125,
+            "taxName": "Wolinella succinogenes"
+          },
+          {
+            "target": "3ot5-assembly6.cif.gz_B-3 2.2 Angstrom Resolution Crystal Structure of putative UDP-N-acetylglucosamine 2-epimerase from Listeria monocytogenes",
+            "prob": 0.998,
+            "eval": 0.002257,
+            "score": 95,
+            "seqId": 15.3,
+            "alnLength": 111,
+            "qStartPos": 1,
+            "qEndPos": 106,
+            "taxName": "Listeria monocytogenes EGD-e"
+          },
+          {
+            "target": "2z09-assembly1.cif.gz_A Crystal structure of uncharacterized conserved protein from Thermus thermophilus HB8",
+            "prob": 0.975,
+            "eval": 0.002257,
+            "score": 77,
+            "seqId": 12.1,
+            "alnLength": 140,
+            "qStartPos": 1,
+            "qEndPos": 125,
+            "taxName": "Thermus thermophilus"
+          }
+        ]
+      }
+    }
+  },
+  "DFGE01000022.1_69": {
+    "rank_layer22": 19253,
+    "distance_layer22": 0.0234660343768795,
+    "phylum": "Firmicutes_A",
+    "length": 195,
+    "mean_plddt": 45.92239761352539,
+    "fold_seconds": 219.3,
+    "foldseek": {
+      "ticket": "TR4X34JtSfOWqjAZ0qawLD3oJjIFA02ongDbIw",
+      "afdb50": {
+        "n_hits": 312,
+        "top": [
+          {
+            "target": "AF-A0A7C6FT21-F1-model_v6 Restriction alleviation protein, Lar family",
+            "prob": 0.997,
+            "eval": 0.01728,
+            "score": 91,
+            "seqId": 20.7,
+            "alnLength": 106,
+            "qStartPos": 94,
+            "qEndPos": 193,
+            "taxName": "Papillibacter sp."
+          },
+          {
+            "target": "AF-A0A926DAZ9-F1-model_v6 Uncharacterized protein",
+            "prob": 0.998,
+            "eval": 0.03955,
+            "score": 94,
+            "seqId": 30.5,
+            "alnLength": 72,
+            "qStartPos": 130,
+            "qEndPos": 195,
+            "taxName": "Yeguia hominis"
+          },
+          {
+            "target": "AF-A0A316QG36-F1-model_v6 Uncharacterized protein",
+            "prob": 0.772,
+            "eval": 0.05316,
+            "score": 60,
+            "seqId": 18.6,
+            "alnLength": 193,
+            "qStartPos": 1,
+            "qEndPos": 189,
+            "taxName": "Selenomonadales bacterium"
+          },
+          {
+            "target": "AF-A0A1V5H3D9-F1-model_v6 Uncharacterized protein",
+            "prob": 0.537,
+            "eval": 0.2785,
+            "score": 52,
+            "seqId": 14,
+            "alnLength": 135,
+            "qStartPos": 74,
+            "qEndPos": 195,
+            "taxName": "Lentisphaerae bacterium ADurb.BinA184"
+          },
+          {
+            "target": "AF-A0A7C5NLD5-F1-model_v6 Uncharacterized protein",
+            "prob": 0.473,
+            "eval": 0.3971,
+            "score": 50,
+            "seqId": 14.8,
+            "alnLength": 121,
+            "qStartPos": 76,
+            "qEndPos": 190,
+            "taxName": "Lentisphaerota bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 13,
+        "top": [
+          {
+            "target": "5om5-assembly1.cif.gz_A Crystal structure of Alpha1-antichymotrypsin variant DBS-I-allo1: an allosterically triggered drug-binding serpin for doxycycline",
+            "prob": 0.069,
+            "eval": 2.04,
+            "score": 27,
+            "seqId": 12.1,
+            "alnLength": 66,
+            "qStartPos": 76,
+            "qEndPos": 141,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "3fen-assembly2.cif.gz_B Crystal structure of the R132K:R111L:A32E mutant of cellular retinoic acid-binding protein II at 1.56 angstrom resolution",
+            "prob": 0.045,
+            "eval": 2.436,
+            "score": 23,
+            "seqId": 16.3,
+            "alnLength": 49,
+            "qStartPos": 74,
+            "qEndPos": 109,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6sek-assembly1.cif.gz_B Crystal Structure of Ancestral Flavin-containing monooxygenase (FMO) 5",
+            "prob": 0.029,
+            "eval": 5.577,
+            "score": 20,
+            "seqId": 12.6,
+            "alnLength": 63,
+            "qStartPos": 51,
+            "qEndPos": 108,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "4oyc-assembly1.cif.gz_A Crystal structure of the PrgK periplasmic domain 2",
+            "prob": 0.02,
+            "eval": 5.916,
+            "score": 18,
+            "seqId": 9.8,
+            "alnLength": 71,
+            "qStartPos": 45,
+            "qEndPos": 115,
+            "taxName": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+          },
+          {
+            "target": "6wam-assembly5.cif.gz_E Structure of Acinetobacter baumannii Cap4 SAVED/CARF-domain containing receptor",
+            "prob": 0.029,
+            "eval": 6.659,
+            "score": 20,
+            "seqId": 18.8,
+            "alnLength": 85,
+            "qStartPos": 68,
+            "qEndPos": 151,
+            "taxName": "Acinetobacter baumannii"
+          }
+        ]
+      }
+    }
+  },
+  "CACGSI010000007.1_27": {
+    "rank_layer22": 18928,
+    "distance_layer22": 0.0238639132720892,
+    "phylum": "SAR324",
+    "length": 103,
+    "mean_plddt": 64.6457290649414,
+    "fold_seconds": 44.5,
+    "foldseek": {
+      "ticket": "omjaeHxGl2W2_PbF4TjelSNwIZQhBQT4cxL54w",
+      "afdb50": {
+        "n_hits": 1000,
+        "top": [
+          {
+            "target": "AF-A0A7W1P9S2-F1-model_v6 Polysaccharide biosynthesis protein (Fragment)",
+            "prob": 0.996,
+            "eval": 0.08228,
+            "score": 89,
+            "seqId": 18.9,
+            "alnLength": 58,
+            "qStartPos": 51,
+            "qEndPos": 103,
+            "taxName": "Acidobacteriota bacterium"
+          },
+          {
+            "target": "AF-A0A0F9V2R3-F1-model_v6 Uncharacterized protein",
+            "prob": 0.996,
+            "eval": 0.123,
+            "score": 89,
+            "seqId": 23.5,
+            "alnLength": 51,
+            "qStartPos": 48,
+            "qEndPos": 97,
+            "taxName": "marine sediment metagenome"
+          },
+          {
+            "target": "AF-A0A931SCD2-F1-model_v6 Prepilin peptidase",
+            "prob": 0.996,
+            "eval": 0.1315,
+            "score": 90,
+            "seqId": 17.3,
+            "alnLength": 92,
+            "qStartPos": 1,
+            "qEndPos": 90,
+            "taxName": "Deltaproteobacteria bacterium"
+          },
+          {
+            "target": "AF-A0A9E3BSH6-F1-model_v6 DUF983 domain-containing protein",
+            "prob": 0.887,
+            "eval": 0.1504,
+            "score": 66,
+            "seqId": 20,
+            "alnLength": 85,
+            "qStartPos": 29,
+            "qEndPos": 102,
+            "taxName": "Gemmatimonadota bacterium"
+          },
+          {
+            "target": "AF-A0A953RW67-F1-model_v6 Uncharacterized protein",
+            "prob": 0.961,
+            "eval": 0.1719,
+            "score": 74,
+            "seqId": 15.8,
+            "alnLength": 82,
+            "qStartPos": 30,
+            "qEndPos": 101,
+            "taxName": "Terriglobia bacterium"
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 88,
+        "top": [
+          {
+            "target": "1pft-assembly1.cif.gz_A N-TERMINAL DOMAIN OF TFIIB, NMR",
+            "prob": 0.505,
+            "eval": 0.623,
+            "score": 51,
+            "seqId": 18.8,
+            "alnLength": 53,
+            "qStartPos": 51,
+            "qEndPos": 103,
+            "taxName": "Pyrococcus furiosus"
+          },
+          {
+            "target": "6o9l-assembly1.cif.gz_U Human holo-PIC in the closed state",
+            "prob": 0.179,
+            "eval": 1.217,
+            "score": 38,
+            "seqId": 17.5,
+            "alnLength": 40,
+            "qStartPos": 51,
+            "qEndPos": 88,
+            "taxName": "Homo sapiens"
+          },
+          {
+            "target": "6hls-assembly1.cif.gz_I Yeast apo RNA polymerase I*",
+            "prob": 0.138,
+            "eval": 1.702,
+            "score": 35,
+            "seqId": 21.5,
+            "alnLength": 51,
+            "qStartPos": 42,
+            "qEndPos": 89,
+            "taxName": "Saccharomyces cerevisiae S288C"
+          },
+          {
+            "target": "3k1f-assembly1.cif.gz_I Crystal structure of RNA Polymerase II in complex with TFIIB",
+            "prob": 0.326,
+            "eval": 1.946,
+            "score": 45,
+            "seqId": 23.8,
+            "alnLength": 42,
+            "qStartPos": 51,
+            "qEndPos": 92,
+            "taxName": "Saccharomyces cerevisiae"
+          },
+          {
+            "target": "5fyw-assembly1.cif.gz_I Transcription initiation complex structures elucidate DNA opening (OC)",
+            "prob": 0.214,
+            "eval": 2.225,
+            "score": 40,
+            "seqId": 20.8,
+            "alnLength": 48,
+            "qStartPos": 51,
+            "qEndPos": 92,
+            "taxName": "Saccharomyces cerevisiae"
+          }
+        ]
+      }
+    }
+  },
+  "CAISUK010000294.1_3": {
+    "rank_layer22": 17223,
+    "distance_layer22": 0.0261688916139003,
+    "phylum": "Proteobacteria",
+    "length": 292,
+    "mean_plddt": 70.40333557128906,
+    "fold_seconds": 562.4,
+    "foldseek": {
+      "ticket": "mU1aYUCGxDQJcfh4CmrANCR6158cEazzjdo4Mg",
+      "afdb50": {
+        "n_hits": 111,
+        "top": [
+          {
+            "target": "AF-A0A6A7RXS6-F1-model_v6 Phage resistance protein (Fragment)",
+            "prob": 1,
+            "eval": 2.785e-10,
+            "score": 258,
+            "seqId": 39.5,
+            "alnLength": 278,
+            "qStartPos": 22,
+            "qEndPos": 292,
+            "taxName": "Candidatus Accumulibacter phosphatis"
+          },
+          {
+            "target": "AF-A0A954BY26-F1-model_v6 Phage resistance protein (Fragment)",
+            "prob": 1,
+            "eval": 7.114e-10,
+            "score": 256,
+            "seqId": 37.9,
+            "alnLength": 277,
+            "qStartPos": 23,
+            "qEndPos": 292,
+            "taxName": "Planctomycetota bacterium"
+          },
+          {
+            "target": "AF-A0A962DMW6-F1-model_v6 BREX system P-loop protein BrxC (Fragment)",
+            "prob": 1,
+            "eval": 2.368e-08,
+            "score": 221,
+            "seqId": 38.9,
+            "alnLength": 272,
+            "qStartPos": 23,
+            "qEndPos": 291,
+            "taxName": "Lysobacterales bacterium"
+          },
+          {
+            "target": "AF-A0A933KE73-F1-model_v6 Phage resistance protein",
+            "prob": 1,
+            "eval": 4.076e-08,
+            "score": 217,
+            "seqId": 32.3,
+            "alnLength": 278,
+            "qStartPos": 22,
+            "qEndPos": 292,
+            "taxName": "Candidatus Wallbacteria bacterium"
+          },
+          {
+            "target": "AF-A0A528LTR2-F1-model_v6 Phage resistance protein",
+            "prob": 1,
+            "eval": 4.726e-08,
+            "score": 215,
+            "seqId": 29.9,
+            "alnLength": 274,
+            "qStartPos": 23,
+            "qEndPos": 292,
+            "taxName": "Mesorhizobium sp."
+          }
+        ]
+      },
+      "pdb100": {
+        "n_hits": 3,
+        "top": [
+          {
+            "target": "6n4n-assembly1.cif.gz_F Crystal structure of the designed protein DNCR2/danoprevir/NS3a complex",
+            "prob": 0.126,
+            "eval": 5.909,
+            "score": 34,
+            "seqId": 21.2,
+            "alnLength": 146,
+            "qStartPos": 69,
+            "qEndPos": 202,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "6n4n-assembly2.cif.gz_C Crystal structure of the designed protein DNCR2/danoprevir/NS3a complex",
+            "prob": 0.082,
+            "eval": 6.852,
+            "score": 29,
+            "seqId": 17.4,
+            "alnLength": 201,
+            "qStartPos": 10,
+            "qEndPos": 202,
+            "taxName": "synthetic construct"
+          },
+          {
+            "target": "8f6r-assembly1.cif.gz_A CryoEM structure of designed modular protein oligomer C6-79",
+            "prob": 0.063,
+            "eval": 7.945,
+            "score": 26,
+            "seqId": 17.9,
+            "alnLength": 239,
+            "qStartPos": 11,
+            "qEndPos": 202,
+            "taxName": "synthetic construct"
+          }
+        ]
+      }
+    }
+  }
+}

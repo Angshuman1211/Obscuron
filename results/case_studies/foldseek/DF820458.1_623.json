@@ -1,0 +1,23 @@
+{
+ "ticket": "n4UpnBmZoPqrYc-d5pi6JU9FnmkGQs44tvXujg",
+ "afdb50": {
+  "n_hits": 0,
+  "top": []
+ },
+ "pdb100": {
+  "n_hits": 1,
+  "top": [
+   {
+    "target": "6rxu-assembly1.cif.gz_UJ Cryo-EM structure of the 90S pre-ribosome (Kre33-Noc4) from Chaetomium thermophilum, state B1",
+    "prob": 0.04,
+    "eval": 5.67,
+    "score": 22,
+    "seqId": 12.3,
+    "alnLength": 97,
+    "qStartPos": 20,
+    "qEndPos": 114,
+    "taxName": "Thermochaetoides thermophila"
+   }
+  ]
+ }
+}

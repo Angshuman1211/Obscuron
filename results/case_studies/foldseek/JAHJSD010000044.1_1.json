@@ -1,0 +1,123 @@
+{
+ "ticket": "z-k2TDXgzlqwLR9kRwsmFp9_E0sqQRY01JEBzg",
+ "afdb50": {
+  "n_hits": 6,
+  "top": [
+   {
+    "target": "AF-A0A831YD79-F1-model_v6 Trigger factor (Fragment)",
+    "prob": 0.179,
+    "eval": 4.025,
+    "score": 38,
+    "seqId": 15,
+    "alnLength": 126,
+    "qStartPos": 2,
+    "qEndPos": 111,
+    "taxName": "Sulfurihydrogenibium azorense"
+   },
+   {
+    "target": "AF-A0A960TTZ5-F1-model_v6 Trigger factor C-terminal domain-containing protein (Fragment)",
+    "prob": 0.179,
+    "eval": 5.906,
+    "score": 38,
+    "seqId": 14.5,
+    "alnLength": 124,
+    "qStartPos": 3,
+    "qEndPos": 111,
+    "taxName": "bacterium"
+   },
+   {
+    "target": "AF-A0A7X8TL61-F1-model_v6 Uncharacterized protein",
+    "prob": 0.138,
+    "eval": 6.589,
+    "score": 35,
+    "seqId": 13.6,
+    "alnLength": 125,
+    "qStartPos": 2,
+    "qEndPos": 109,
+    "taxName": "Nesterenkonia sedimenti"
+   },
+   {
+    "target": "AF-A0A226NDI2-F1-model_v6 Sulfotransferase",
+    "prob": 0.106,
+    "eval": 7.766,
+    "score": 32,
+    "seqId": 17.2,
+    "alnLength": 116,
+    "qStartPos": 14,
+    "qEndPos": 129,
+    "taxName": "Callipepla squamata"
+   },
+   {
+    "target": "AF-A0AAV0AI95-F1-model_v6 Expressed protein",
+    "prob": 0.179,
+    "eval": 8.203,
+    "score": 38,
+    "seqId": 14.7,
+    "alnLength": 129,
+    "qStartPos": 3,
+    "qEndPos": 114,
+    "taxName": "Phakopsora pachyrhizi"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 10,
+  "top": [
+   {
+    "target": "6yns-assembly5.cif.gz_I CaM-P458 complex (crystal form 2)",
+    "prob": 0.116,
+    "eval": 1.223,
+    "score": 33,
+    "seqId": 19.5,
+    "alnLength": 87,
+    "qStartPos": 23,
+    "qEndPos": 105,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "1j7o-assembly1.cif.gz_A Solution structure of Calcium-calmodulin N-terminal domain",
+    "prob": 0.15,
+    "eval": 2.937,
+    "score": 36,
+    "seqId": 20.3,
+    "alnLength": 64,
+    "qStartPos": 15,
+    "qEndPos": 67,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "3ffl-assembly2.cif.gz_D Crystal Structure of the N-terminal Domain of Anaphase-Promoting Complex Subunit 7",
+    "prob": 0.069,
+    "eval": 3.863,
+    "score": 27,
+    "seqId": 13.8,
+    "alnLength": 137,
+    "qStartPos": 1,
+    "qEndPos": 129,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "3nuf-assembly3.cif.gz_B Crystal structure of a PRD-containing transcription regulator (LSEI_2718) from Lactobacillus casei ATCC 334 at 1.38 A resolution",
+    "prob": 0.09,
+    "eval": 4.08,
+    "score": 30,
+    "seqId": 12.6,
+    "alnLength": 103,
+    "qStartPos": 4,
+    "qEndPos": 83,
+    "taxName": "Lacticaseibacillus paracasei ATCC 334"
+   },
+   {
+    "target": "4qlo-assembly1.cif.gz_A Crystal Structure of homoserine o-acetyltransferase from Staphylococcus aureus",
+    "prob": 0.04,
+    "eval": 6.68,
+    "score": 22,
+    "seqId": 15.5,
+    "alnLength": 58,
+    "qStartPos": 56,
+    "qEndPos": 110,
+    "taxName": "Staphylococcus aureus subsp. aureus USA300_TCH1516"
+   }
+  ]
+ }
+}

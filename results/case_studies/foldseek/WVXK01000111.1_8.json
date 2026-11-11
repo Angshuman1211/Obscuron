@@ -1,0 +1,45 @@
+{
+ "ticket": "IgfHICDy054IOXqhUA4C1Gie9DD68CEi-3bX-w",
+ "afdb50": {
+  "n_hits": 0,
+  "top": []
+ },
+ "pdb100": {
+  "n_hits": 3,
+  "top": [
+   {
+    "target": "4hzk-assembly2.cif.gz_B Crystal structure of free CRM1 (crystal form 2)",
+    "prob": 0.106,
+    "eval": 2.415,
+    "score": 32,
+    "seqId": 11.7,
+    "alnLength": 153,
+    "qStartPos": 96,
+    "qEndPos": 245,
+    "taxName": "Thermochaetoides thermophila DSM 1495"
+   },
+   {
+    "target": "4hzk-assembly1.cif.gz_A Crystal structure of free CRM1 (crystal form 2)",
+    "prob": 0.057,
+    "eval": 6.836,
+    "score": 25,
+    "seqId": 11.6,
+    "alnLength": 155,
+    "qStartPos": 94,
+    "qEndPos": 245,
+    "taxName": "Thermochaetoides thermophila DSM 1495"
+   },
+   {
+    "target": "5dhf-assembly1.cif.gz_C Crystal Structure of hRio2 NES Peptide in complex with CRM1-Ran-RanBP1",
+    "prob": 0.045,
+    "eval": 8.615,
+    "score": 23,
+    "seqId": 9.8,
+    "alnLength": 153,
+    "qStartPos": 96,
+    "qEndPos": 245,
+    "taxName": "Saccharomyces cerevisiae S288C"
+   }
+  ]
+ }
+}

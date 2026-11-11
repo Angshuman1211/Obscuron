@@ -1,0 +1,67 @@
+{
+ "ticket": "GWDVG96lMgI_jRZCRzbtKbKk0Ekb0ITJt_I7kg",
+ "afdb50": {
+  "n_hits": 10,
+  "top": [
+   {
+    "target": "AF-A0A8H5JJA2-F1-model_v6 Fungal specific transcription factor factor domain-containing protein",
+    "prob": 0.301,
+    "eval": 4.796,
+    "score": 44,
+    "seqId": 10.8,
+    "alnLength": 138,
+    "qStartPos": 26,
+    "qEndPos": 146,
+    "taxName": "Fusarium napiforme"
+   },
+   {
+    "target": "AF-A0A914VW84-F1-model_v6 Uncharacterized protein",
+    "prob": 0.473,
+    "eval": 6.227,
+    "score": 50,
+    "seqId": 16.2,
+    "alnLength": 111,
+    "qStartPos": 26,
+    "qEndPos": 134,
+    "taxName": "Plectus sambesii"
+   },
+   {
+    "target": "AF-X1CMH8-F1-model_v6 Uncharacterized protein (Fragment)",
+    "prob": 0.233,
+    "eval": 7.674,
+    "score": 41,
+    "seqId": 17.2,
+    "alnLength": 116,
+    "qStartPos": 25,
+    "qEndPos": 134,
+    "taxName": "marine sediment metagenome"
+   },
+   {
+    "target": "AF-A0A2E1ZXV7-F1-model_v6 PD-(D/E)XK endonuclease-like domain-containing protein",
+    "prob": 0.164,
+    "eval": 7.674,
+    "score": 37,
+    "seqId": 13.3,
+    "alnLength": 127,
+    "qStartPos": 24,
+    "qEndPos": 149,
+    "taxName": "Chloroflexota bacterium"
+   },
+   {
+    "target": "AF-A0A356KIV1-F1-model_v6 Bacterial type II secretion system protein E domain-containing protein",
+    "prob": 0.254,
+    "eval": 8.086,
+    "score": 42,
+    "seqId": 18.5,
+    "alnLength": 108,
+    "qStartPos": 24,
+    "qEndPos": 123,
+    "taxName": "Planctomycetota bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 0,
+  "top": []
+ }
+}

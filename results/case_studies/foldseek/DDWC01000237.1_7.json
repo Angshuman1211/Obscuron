@@ -1,0 +1,68 @@
+{
+ "ticket": "fUgeMWbs2ittN4DE7G18jQy_Qd2dMjmYBpCEZw",
+ "afdb50": {
+  "n_hits": 2,
+  "top": [
+   {
+    "target": "AF-A0A939A638-F1-model_v6 Uncharacterized protein",
+    "prob": 0.138,
+    "eval": 8.586,
+    "score": 35,
+    "seqId": 20,
+    "alnLength": 80,
+    "qStartPos": 54,
+    "qEndPos": 130,
+    "taxName": "Deltaproteobacteria bacterium"
+   },
+   {
+    "target": "AF-A0A950CXQ9-F1-model_v6 UPF0235 protein JO270_16820",
+    "prob": 0.411,
+    "eval": 9.746,
+    "score": 48,
+    "seqId": 17.1,
+    "alnLength": 35,
+    "qStartPos": 95,
+    "qEndPos": 129,
+    "taxName": "Acidobacteriaceae bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 3,
+  "top": [
+   {
+    "target": "3gbf-assembly1.cif.gz_A-2 Phpd with cadmium complexed with hydroethylphosphonate (HEP)",
+    "prob": 0.082,
+    "eval": 7.416,
+    "score": 29,
+    "seqId": 25,
+    "alnLength": 28,
+    "qStartPos": 96,
+    "qEndPos": 123,
+    "taxName": "Streptomyces viridochromogenes"
+   },
+   {
+    "target": "3g7d-assembly1.cif.gz_A-2 Native PhpD with Cadmium Atoms",
+    "prob": 0.063,
+    "eval": 7.416,
+    "score": 26,
+    "seqId": 25,
+    "alnLength": 28,
+    "qStartPos": 96,
+    "qEndPos": 123,
+    "taxName": "Streptomyces viridochromogenes"
+   },
+   {
+    "target": "3rzz-assembly1.cif.gz_A-2 Structure of Hydroxyethylphoshphonate Dioxygenase Y98F Mutant",
+    "prob": 0.057,
+    "eval": 7.901,
+    "score": 25,
+    "seqId": 25.7,
+    "alnLength": 35,
+    "qStartPos": 98,
+    "qEndPos": 123,
+    "taxName": "Streptomyces viridochromogenes"
+   }
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "ticket": "6NyF-KgYruWOED8XzuzEvQxEEsUE8FUEen5KcA",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-B8DZ33-F1-model_v6 HNH endonuclease",
+    "prob": 1,
+    "eval": 9.121e-26,
+    "score": 1018,
+    "seqId": 100,
+    "alnLength": 146,
+    "qStartPos": 1,
+    "qEndPos": 146,
+    "taxName": "Dictyoglomus turgidum DSM 6724"
+   },
+   {
+    "target": "AF-A0A4Q5NWT9-F1-model_v6 HNH endonuclease",
+    "prob": 1,
+    "eval": 3.867e-18,
+    "score": 720,
+    "seqId": 45,
+    "alnLength": 142,
+    "qStartPos": 3,
+    "qEndPos": 144,
+    "taxName": "bacterium"
+   },
+   {
+    "target": "AF-A0A8T4LRJ6-F1-model_v6 HNH endonuclease",
+    "prob": 1,
+    "eval": 1.368e-17,
+    "score": 696,
+    "seqId": 47.8,
+    "alnLength": 142,
+    "qStartPos": 1,
+    "qEndPos": 142,
+    "taxName": "Candidatus Micrarchaeota archaeon"
+   },
+   {
+    "target": "AF-A0A7I8EMM9-F1-model_v6 HNH nuclease domain-containing protein",
+    "prob": 1,
+    "eval": 2.741e-17,
+    "score": 690,
+    "seqId": 47.1,
+    "alnLength": 140,
+    "qStartPos": 3,
+    "qEndPos": 142,
+    "taxName": "Ktedonobacteria bacterium brp13"
+   },
+   {
+    "target": "AF-X1AVS4-F1-model_v6 HNH endonuclease",
+    "prob": 1,
+    "eval": 6.638e-17,
+    "score": 663,
+    "seqId": 48.2,
+    "alnLength": 143,
+    "qStartPos": 1,
+    "qEndPos": 142,
+    "taxName": "marine sediment metagenome"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 14,
+  "top": [
+   {
+    "target": "5x42-assembly1.cif.gz_A Structure of DotL(590-659)-DotN derived from Legionella pneumophila",
+    "prob": 0.984,
+    "eval": 0.05121,
+    "score": 80,
+    "seqId": 18.5,
+    "alnLength": 81,
+    "qStartPos": 7,
+    "qEndPos": 85,
+    "taxName": "Legionella pneumophila"
+   },
+   {
+    "target": "7ovb-assembly1.cif.gz_C L. pneumophila Type IV Coupling Complex (T4CC) with density for DotY N-terminal and middle domains",
+    "prob": 0.887,
+    "eval": 0.07968,
+    "score": 66,
+    "seqId": 18,
+    "alnLength": 83,
+    "qStartPos": 8,
+    "qEndPos": 85,
+    "taxName": "Legionella pneumophila subsp. pneumophila str. Philadelphia 1"
+   },
+   {
+    "target": "5x1h-assembly4.cif.gz_I Structure of Legionella pneumophila DotN",
+    "prob": 0.692,
+    "eval": 0.2646,
+    "score": 57,
+    "seqId": 20.9,
+    "alnLength": 81,
+    "qStartPos": 7,
+    "qEndPos": 85,
+    "taxName": "Legionella pneumophila subsp. pneumophila str. Philadelphia 1"
+   },
+   {
+    "target": "8ova-assembly1.cif.gz_AR CRYO-EM STRUCTURE OF TRYPANOSOMA BRUCEI PROCYCLIC FORM 80S RIBOSOME : PARENTAL STRAIN",
+    "prob": 0.126,
+    "eval": 0.9363,
+    "score": 34,
+    "seqId": 10.6,
+    "alnLength": 66,
+    "qStartPos": 44,
+    "qEndPos": 100,
+    "taxName": "Trypanosoma brucei brucei"
+   },
+   {
+    "target": "5xxu-assembly1.cif.gz_V Small subunit of Toxoplasma gondii ribosome",
+    "prob": 0.09,
+    "eval": 1.368,
+    "score": 30,
+    "seqId": 12.5,
+    "alnLength": 64,
+    "qStartPos": 44,
+    "qEndPos": 100,
+    "taxName": "Toxoplasma gondii"
+   }
+  ]
+ }
+}

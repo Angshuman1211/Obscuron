@@ -1,0 +1,123 @@
+{
+ "ticket": "ivhN6qEM2Z77qdhJskgdX2A0EMpR1WAvZcqGxA",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0A9E4BFX8-F1-model_v6 DUF1794 domain-containing protein",
+    "prob": 1,
+    "eval": 0.0001459,
+    "score": 108,
+    "seqId": 12.1,
+    "alnLength": 230,
+    "qStartPos": 16,
+    "qEndPos": 213,
+    "taxName": "Candidatus Latescibacterota bacterium"
+   },
+   {
+    "target": "AF-A0A943FGD7-F1-model_v6 DUF5640 domain-containing protein",
+    "prob": 1,
+    "eval": 0.0002388,
+    "score": 196,
+    "seqId": 11.3,
+    "alnLength": 115,
+    "qStartPos": 1,
+    "qEndPos": 113,
+    "taxName": "Dorea sp."
+   },
+   {
+    "target": "AF-A0A2E6TXM4-F1-model_v6 Lipocalin-like domain-containing protein",
+    "prob": 1,
+    "eval": 0.0003316,
+    "score": 181,
+    "seqId": 17.1,
+    "alnLength": 111,
+    "qStartPos": 15,
+    "qEndPos": 113,
+    "taxName": "Verrucomicrobiales bacterium"
+   },
+   {
+    "target": "AF-A0A1V1ZDI6-F1-model_v6 Lipocalin-like domain-containing protein",
+    "prob": 1,
+    "eval": 0.0004359,
+    "score": 183,
+    "seqId": 15.5,
+    "alnLength": 103,
+    "qStartPos": 14,
+    "qEndPos": 114,
+    "taxName": "Mangrovimonas sp. DI 80"
+   },
+   {
+    "target": "AF-A0A4P5QSW8-F1-model_v6 Organic solvent tolerance-like N-terminal domain-containing protein",
+    "prob": 1,
+    "eval": 0.0004359,
+    "score": 174,
+    "seqId": 15.2,
+    "alnLength": 118,
+    "qStartPos": 7,
+    "qEndPos": 116,
+    "taxName": "Verrucomicrobiota bacterium"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 412,
+  "top": [
+   {
+    "target": "8ah9-assembly1.cif.gz_A De novo retro-aldolase RAbetaB-16.1",
+    "prob": 1,
+    "eval": 0.002835,
+    "score": 100,
+    "seqId": 12.5,
+    "alnLength": 112,
+    "qStartPos": 22,
+    "qEndPos": 113,
+    "taxName": "synthetic construct"
+   },
+   {
+    "target": "3ebk-assembly3.cif.gz_A Crystal structure of major allergens, Bla g 4 from cockroaches",
+    "prob": 1,
+    "eval": 0.003529,
+    "score": 117,
+    "seqId": 12.9,
+    "alnLength": 116,
+    "qStartPos": 16,
+    "qEndPos": 113,
+    "taxName": "Blattella germanica"
+   },
+   {
+    "target": "4n7c-assembly1.cif.gz_A Structural re-examination of native Bla g 4",
+    "prob": 1,
+    "eval": 0.003727,
+    "score": 102,
+    "seqId": 14.8,
+    "alnLength": 128,
+    "qStartPos": 16,
+    "qEndPos": 125,
+    "taxName": "Blattella germanica"
+   },
+   {
+    "target": "5jk2-assembly8.cif.gz_H Crystal structure of Treponema pallidum Tp0751 (Pallilysin)",
+    "prob": 1,
+    "eval": 0.00464,
+    "score": 109,
+    "seqId": 11.7,
+    "alnLength": 119,
+    "qStartPos": 5,
+    "qEndPos": 113,
+    "taxName": "Treponema pallidum subsp. pallidum str. Nichols"
+   },
+   {
+    "target": "6czi-assembly2.cif.gz_B Structure of a redesigned beta barrel, mFAP1, bound to DFHBI",
+    "prob": 1,
+    "eval": 0.006805,
+    "score": 102,
+    "seqId": 15.5,
+    "alnLength": 109,
+    "qStartPos": 22,
+    "qEndPos": 112,
+    "taxName": "synthetic construct"
+   }
+  ]
+ }
+}

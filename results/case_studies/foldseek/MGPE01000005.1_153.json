@@ -1,0 +1,123 @@
+{
+ "ticket": "OaPuLIdJ6qZtbyeDka6T5d_QEebm_-csGvCSvQ",
+ "afdb50": {
+  "n_hits": 1000,
+  "top": [
+   {
+    "target": "AF-A0AAV9XL45-F1-model_v6 Uncharacterized protein",
+    "prob": 0.984,
+    "eval": 0.005069,
+    "score": 80,
+    "seqId": 10.3,
+    "alnLength": 193,
+    "qStartPos": 27,
+    "qEndPos": 219,
+    "taxName": "Orbilia ellipsospora"
+   },
+   {
+    "target": "AF-A0A1Y1LDK0-F1-model_v6 Titin (Fragment)",
+    "prob": 0.975,
+    "eval": 0.007425,
+    "score": 77,
+    "seqId": 11.7,
+    "alnLength": 204,
+    "qStartPos": 40,
+    "qEndPos": 218,
+    "taxName": "Photinus pyralis"
+   },
+   {
+    "target": "AF-A0AAV8YTT9-F1-model_v6 Titin",
+    "prob": 0.949,
+    "eval": 0.01593,
+    "score": 72,
+    "seqId": 15.5,
+    "alnLength": 161,
+    "qStartPos": 44,
+    "qEndPos": 185,
+    "taxName": "Aromia moschata"
+   },
+   {
+    "target": "AF-A0A7S2UJJ3-F1-model_v6 MLF1-interacting protein (Fragment)",
+    "prob": 0.933,
+    "eval": 0.01776,
+    "score": 70,
+    "seqId": 8,
+    "alnLength": 199,
+    "qStartPos": 22,
+    "qEndPos": 213,
+    "taxName": "Attheya septentrionalis"
+   },
+   {
+    "target": "AF-A0A8X6WJ73-F1-model_v6 Uncharacterized protein",
+    "prob": 0.912,
+    "eval": 0.02748,
+    "score": 68,
+    "seqId": 9.5,
+    "alnLength": 168,
+    "qStartPos": 41,
+    "qEndPos": 195,
+    "taxName": "Trichonephila clavipes"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 205,
+  "top": [
+   {
+    "target": "3d2l-assembly1.cif.gz_A Crystal structure of SAM-dependent methyltransferase (ZP_00538691.1) from EXIGUOBACTERIUM SP. 255-15 at 1.90 A resolution",
+    "prob": 0.196,
+    "eval": 0.4219,
+    "score": 39,
+    "seqId": 8.1,
+    "alnLength": 110,
+    "qStartPos": 34,
+    "qEndPos": 142,
+    "taxName": "Exiguobacterium sibiricum 255-15"
+   },
+   {
+    "target": "4x55-assembly1.cif.gz_A Structure of the class D Beta-Lactamase OXA-225 K82D in Acyl-Enzyme Complex with Ceftazidime",
+    "prob": 0.411,
+    "eval": 0.5247,
+    "score": 48,
+    "seqId": 13.2,
+    "alnLength": 68,
+    "qStartPos": 52,
+    "qEndPos": 117,
+    "taxName": "Acinetobacter baumannii"
+   },
+   {
+    "target": "8gxs-assembly1.cif.gz_p PIC-Mediator in complex with +1 nucleosome (T40N) in H-binding state",
+    "prob": 0.233,
+    "eval": 0.5247,
+    "score": 41,
+    "seqId": 9.6,
+    "alnLength": 156,
+    "qStartPos": 45,
+    "qEndPos": 195,
+    "taxName": "Homo sapiens"
+   },
+   {
+    "target": "4rlw-assembly1.cif.gz_A Crystal Structure of (3R)-hydroxyacyl-ACP dehydratase HadAB hetero-dimer from Mycobacterium tuberculosis complexed with Butein",
+    "prob": 0.196,
+    "eval": 0.7686,
+    "score": 39,
+    "seqId": 13.4,
+    "alnLength": 82,
+    "qStartPos": 26,
+    "qEndPos": 99,
+    "taxName": "Mycobacterium tuberculosis H37Rv"
+   },
+   {
+    "target": "4rlj-assembly1.cif.gz_A Crystal Structure of (3R)-hydroxyacyl-ACP dehydratase HadAB hetero-dimer from Mycobacterium tuberculosis",
+    "prob": 0.196,
+    "eval": 0.8117,
+    "score": 39,
+    "seqId": 13.4,
+    "alnLength": 82,
+    "qStartPos": 26,
+    "qEndPos": 99,
+    "taxName": "Mycobacterium tuberculosis H37Rv"
+   }
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "ticket": "JK_JNfhGamU3WkzKj3L16w1OmVXGF9JhuAR_YA",
+ "afdb50": {
+  "n_hits": 471,
+  "top": [
+   {
+    "target": "AF-A0A2E5J067-F1-model_v6 Transglutaminase-like domain-containing protein",
+    "prob": 0.817,
+    "eval": 0.02194,
+    "score": 62,
+    "seqId": 12,
+    "alnLength": 141,
+    "qStartPos": 24,
+    "qEndPos": 149,
+    "taxName": "Candidatus Magasanikiibacteriota bacterium"
+   },
+   {
+    "target": "AF-A0A3N0CTD4-F1-model_v6 Uncharacterized protein",
+    "prob": 0.601,
+    "eval": 0.04638,
+    "score": 54,
+    "seqId": 25.8,
+    "alnLength": 89,
+    "qStartPos": 66,
+    "qEndPos": 147,
+    "taxName": "Nocardioides marmoriginsengisoli"
+   },
+   {
+    "target": "AF-A0A7Y1XW44-F1-model_v6 Uncharacterized protein",
+    "prob": 0.663,
+    "eval": 0.169,
+    "score": 56,
+    "seqId": 18,
+    "alnLength": 94,
+    "qStartPos": 45,
+    "qEndPos": 137,
+    "taxName": "Acidimicrobiales bacterium"
+   },
+   {
+    "target": "AF-A0A7I8ETX5-F1-model_v6 Uncharacterized protein",
+    "prob": 0.692,
+    "eval": 0.181,
+    "score": 57,
+    "seqId": 15,
+    "alnLength": 73,
+    "qStartPos": 76,
+    "qEndPos": 148,
+    "taxName": "Ktedonobacteria bacterium brp13"
+   },
+   {
+    "target": "AF-A0AAW1YN98-F1-model_v6 Uncharacterized protein",
+    "prob": 0.663,
+    "eval": 0.2073,
+    "score": 56,
+    "seqId": 20,
+    "alnLength": 60,
+    "qStartPos": 76,
+    "qEndPos": 132,
+    "taxName": "Rubus argutus"
+   }
+  ]
+ },
+ "pdb100": {
+  "n_hits": 31,
+  "top": [
+   {
+    "target": "2be3-assembly1.cif.gz_B Structure of a GTP Pyrophosphokinase Family Protein from Streptococcus pneumoniae",
+    "prob": 0.254,
+    "eval": 0.9048,
+    "score": 42,
+    "seqId": 17.3,
+    "alnLength": 46,
+    "qStartPos": 78,
+    "qEndPos": 123,
+    "taxName": "Streptococcus pneumoniae TIGR4"
+   },
+   {
+    "target": "2mdp-assembly1.cif.gz_A The bacteriophage T7 encoded inhibitor (gp1.2) of E. coli dGTP triphosphohydrolase",
+    "prob": 0.051,
+    "eval": 1.67,
+    "score": 24,
+    "seqId": 19.6,
+    "alnLength": 66,
+    "qStartPos": 76,
+    "qEndPos": 140,
+    "taxName": "Escherichia phage T7"
+   },
+   {
+    "target": "7mca-assembly1.cif.gz_E Structure of the S. cerevisiae origin recognition complex bound to the replication initiator Cdc6 and the ARS1 origin DNA.",
+    "prob": 0.02,
+    "eval": 1.913,
+    "score": 18,
+    "seqId": 21.7,
+    "alnLength": 46,
+    "qStartPos": 66,
+    "qEndPos": 111,
+    "taxName": "Saccharomyces cerevisiae"
+   },
+   {
+    "target": "8env-assembly1.cif.gz_R In situ cryo-EM structure of Pseudomonas phage E217 tail baseplate in C6 map",
+    "prob": 0.051,
+    "eval": 2.512,
+    "score": 24,
+    "seqId": 15,
+    "alnLength": 80,
+    "qStartPos": 46,
+    "qEndPos": 123,
+    "taxName": "Pseudomonas phage vB_PaeM_E217"
+   },
+   {
+    "target": "6swd-assembly1.cif.gz_F IC2 body model of cryo-EM structure of a full archaeal ribosomal translation initiation complex devoid of aIF1 in P. abyssi",
+    "prob": 0.02,
+    "eval": 2.878,
+    "score": 18,
+    "seqId": 23.4,
+    "alnLength": 47,
+    "qStartPos": 77,
+    "qEndPos": 122,
+    "taxName": "Pyrococcus abyssi GE5"
+   }
+  ]
+ }
+}
